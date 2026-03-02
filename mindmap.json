@@ -1,0 +1,477 @@
+{
+  "id": "root",
+  "name": "TRIẾT HỌC MÁC-LÊNIN",
+  "level": 0,
+  "icon": "⚡",
+  "description": "Triết học Mác-Lênin là hệ thống quan điểm duy vật biện chứng về tự nhiên, xã hội và tư duy — thế giới quan và phương pháp luận khoa học, cách mạng của giai cấp công nhân và nhân dân lao động trong nhận thức và cải tạo thế giới.",
+  "vietnam_example": "Đảng Cộng sản Việt Nam lấy chủ nghĩa Mác-Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng, kim chỉ nam cho mọi hành động, dẫn dắt đất nước qua hai cuộc kháng chiến và công cuộc Đổi mới 1986 đến nay.",
+  "children": [
+    {
+      "id": "t1",
+      "name": "Triết học & Vai trò\ntrong Đời sống XH",
+      "shortName": "Chủ đề 1",
+      "level": 1,
+      "color": "#a855f7",
+      "icon": "🔮",
+      "description": "Triết học là hệ thống tri thức lý luận chung nhất của con người về thế giới, về vị trí, vai trò của con người trong thế giới đó. Vấn đề cơ bản của triết học là mối quan hệ giữa tư duy và tồn tại, giữa ý thức và vật chất.",
+      "vietnam_example": "Triết học Mác-Lênin giúp Hồ Chí Minh xây dựng đường lối cách mạng Việt Nam đúng đắn: vận dụng phép biện chứng để phân tích tình hình từng giai đoạn — từ chống Pháp, chống Mỹ đến xây dựng CNXH.",
+      "children": [
+        {
+          "id": "t1_1",
+          "name": "Khái niệm Triết học",
+          "level": 2,
+          "description": "Triết học ra đời khi loài người đạt trình độ tư duy trừu tượng nhất định. Hai chức năng cơ bản: thế giới quan và phương pháp luận. Triết học khác khoa học cụ thể ở tính tổng quát, tính khái quát cao nhất.",
+          "vietnam_example": "Tư tưởng Hồ Chí Minh vận dụng triết học Mác-Lênin để phân tích con đường giải phóng dân tộc — kết hợp độc lập dân tộc với CNXH, sáng tạo phù hợp điều kiện Việt Nam.",
+          "children": [
+            {
+              "id": "t1_1_1",
+              "name": "Thế giới quan",
+              "level": 3,
+              "description": "Thế giới quan là hệ thống quan điểm của con người về thế giới. Triết học Mác-Lênin mang thế giới quan duy vật biện chứng — khoa học nhất, cách mạng nhất.",
+              "vietnam_example": "Thế giới quan duy vật biện chứng giúp người Việt nhận thức đúng quy luật lịch sử, từ bỏ tư tưởng 'ỷ thiên' phong kiến để chủ động cách mạng."
+            },
+            {
+              "id": "t1_1_2",
+              "name": "Phương pháp luận",
+              "level": 3,
+              "description": "Phương pháp luận biện chứng duy vật là công cụ nhận thức và cải tạo thế giới hiệu quả nhất — xem xét sự vật trong mối liên hệ và trong sự vận động, phát triển.",
+              "vietnam_example": "Vận dụng phương pháp luận biện chứng, Đảng phân tích tình hình để hoạch định Đường lối Đổi mới 1986 — một quyết sách lịch sử thay đổi bộ mặt đất nước."
+            }
+          ]
+        },
+        {
+          "id": "t1_2",
+          "name": "Vấn đề cơ bản\ncủa Triết học",
+          "level": 2,
+          "description": "Vấn đề cơ bản gồm hai mặt: (1) Vật chất hay ý thức có trước, cái nào quyết định cái kia? (2) Con người có khả năng nhận thức thế giới không? Trả lời hai câu đó phân chia các trường phái triết học.",
+          "vietnam_example": "Nhận thức đúng vấn đề cơ bản của triết học giúp bác bỏ các quan điểm duy tâm, tôn giáo cực đoan vốn là trở lực của sự phát triển xã hội Việt Nam trong lịch sử.",
+          "children": [
+            {
+              "id": "t1_2_1",
+              "name": "Chủ nghĩa Duy vật",
+              "level": 3,
+              "description": "Chủ nghĩa duy vật khẳng định: vật chất có trước, ý thức có sau; vật chất quyết định ý thức. Có ba hình thức lịch sử: duy vật chất phác, duy vật siêu hình, duy vật biện chứng.",
+              "vietnam_example": "Quan điểm duy vật giúp Đảng ta lấy thực tiễn kinh tế-xã hội làm căn cứ cho mọi chủ trương, chính sách — tránh chủ quan, duy ý chí."
+            },
+            {
+              "id": "t1_2_2",
+              "name": "Chủ nghĩa Duy tâm",
+              "level": 3,
+              "description": "Chủ nghĩa duy tâm cho rằng ý thức, tinh thần có trước và quyết định vật chất. Duy tâm chủ quan (Berkeley) và duy tâm khách quan (Hegel). Đây là quan điểm triết học sai lầm.",
+              "vietnam_example": "Triết học Mác-Lênin bác bỏ tư tưởng 'thiên mệnh', 'ý trời' của tư tưởng phong kiến Việt Nam — vốn biện hộ cho sự bất bình đẳng xã hội và kìm hãm tiến bộ."
+            },
+            {
+              "id": "t1_2_3",
+              "name": "Thuyết Bất khả tri",
+              "level": 3,
+              "description": "Phủ nhận khả năng nhận thức thế giới của con người. Triết học Mác-Lênin bác bỏ: thực tiễn là tiêu chuẩn của chân lý, chứng minh con người hoàn toàn có thể nhận thức và cải tạo thế giới.",
+              "vietnam_example": "Thực tiễn cách mạng Việt Nam — từ Cách mạng tháng Tám 1945 đến đại thắng mùa xuân 1975 — là bằng chứng hùng hồn con người nhận thức và cải tạo được thế giới."
+            }
+          ]
+        },
+        {
+          "id": "t1_3",
+          "name": "Biện chứng\nvà Siêu hình",
+          "level": 2,
+          "description": "Biện chứng xem xét sự vật trong mối liên hệ, vận động, phát triển và mâu thuẫn. Siêu hình xem xét sự vật tĩnh tại, cô lập, không mâu thuẫn — là phương pháp phiến diện, hạn chế.",
+          "vietnam_example": "Vận dụng tư duy biện chứng, Việt Nam xây dựng nền kinh tế thị trường định hướng XHCN — kết hợp kinh tế thị trường với vai trò điều tiết của Nhà nước, không cực đoan theo kiểu tư bản hay kế hoạch thuần túy.",
+          "children": [
+            {
+              "id": "t1_3_1",
+              "name": "Biện chứng Cổ đại",
+              "level": 3,
+              "description": "Biện chứng cổ đại phương Đông (Lão Tử, Phật giáo) và phương Tây (Heraclitus) đã nhận thức tính vận động của thế giới nhưng còn mang tính tự phát, chưa có cơ sở khoa học vững chắc.",
+              "vietnam_example": "Tư tưởng biện chứng trong triết học Phật giáo Việt Nam (vô thường, duyên khởi, tương sinh) có điểm tương đồng với phép biện chứng duy vật — nền tảng để tiếp thu triết học Mác-Lênin."
+            },
+            {
+              "id": "t1_3_2",
+              "name": "Biện chứng Duy tâm Hegel",
+              "level": 3,
+              "description": "Hegel phát triển phép biện chứng trên lập trường duy tâm: 'Ý niệm tuyệt đối' tự phát triển theo tam đoạn thức (Chính đề - Phản đề - Hợp đề). Mác kế thừa hạt nhân hợp lý và lật ngược lên nền duy vật.",
+              "vietnam_example": "Hồ Chí Minh đã nghiên cứu triết học phương Tây, trong đó có Hegel, để tiếp thu logic biện chứng và vận dụng vào phân tích thực tiễn Việt Nam."
+            }
+          ]
+        },
+        {
+          "id": "t1_4",
+          "name": "Vai trò của Triết học",
+          "level": 2,
+          "description": "Triết học đóng vai trò nền tảng thế giới quan cho mọi hoạt động nhận thức và thực tiễn; cung cấp phương pháp luận chung cho nhận thức khoa học và hoạt động thực tiễn. Triết học Mác-Lênin là khoa học và cách mạng.",
+          "vietnam_example": "Triết học Mác-Lênin là nền tảng lý luận của Cương lĩnh, Điều lệ Đảng và đường lối xây dựng CNXH ở Việt Nam — chứng minh vai trò dẫn đường của triết học đúng đắn.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "name": "Chủ nghĩa Duy vật\nBiện chứng",
+      "shortName": "Chủ đề 2",
+      "level": 1,
+      "color": "#06b6d4",
+      "icon": "⚛️",
+      "description": "Chủ nghĩa duy vật biện chứng là nền tảng lý luận của triết học Mác-Lênin, nghiên cứu mối quan hệ biện chứng giữa vật chất và ý thức — hai phạm trù triết học cơ bản nhất.",
+      "vietnam_example": "Đổi mới tư duy từ 1986: Đảng xuất phát từ thực trạng nền kinh tế (vật chất) để thay đổi nhận thức và đường lối (ý thức) — đây là biểu hiện sinh động của nguyên tắc 'vật chất quyết định ý thức'.",
+      "children": [
+        {
+          "id": "t2_1",
+          "name": "Vật chất",
+          "level": 2,
+          "description": "Lênin định nghĩa: 'Vật chất là phạm trù triết học dùng để chỉ thực tại khách quan được đem lại cho con người trong cảm giác, được cảm giác chép lại, chụp lại, phản ánh, tồn tại không lệ thuộc vào cảm giác'. Vật chất tồn tại vĩnh viễn, vô tận.",
+          "vietnam_example": "Nhận thức đúng phạm trù vật chất giúp Đảng ta xây dựng chính sách dựa trên thực tiễn khách quan, tránh chủ quan duy ý chí — sai lầm của thời kỳ bao cấp 1975-1985.",
+          "children": [
+            {
+              "id": "t2_1_1",
+              "name": "Phương thức tồn tại\ncủa Vật chất",
+              "level": 3,
+              "description": "Vật chất tồn tại bằng cách vận động. Vận động là phương thức tồn tại của vật chất — không thể có vật chất không vận động và không thể có vận động ngoài vật chất. Không gian và thời gian là hình thức tồn tại.",
+              "vietnam_example": "Xã hội Việt Nam không ngừng vận động, phát triển từ chế độ phong kiến lên CNXH — biểu hiện của vận động vật chất trong lịch sử, không thể đứng yên hay đảo ngược."
+            },
+            {
+              "id": "t2_1_2",
+              "name": "Các hình thức vận động",
+              "level": 3,
+              "description": "5 hình thức vận động từ thấp đến cao: cơ học, vật lý, hóa học, sinh học, xã hội. Hình thức cao hơn bao gồm và vượt lên hình thức thấp hơn. Vận động xã hội là cao nhất.",
+              "vietnam_example": "Cách mạng xã hội Việt Nam là hình thức vận động xã hội — bao hàm cả vận động kinh tế, chính trị, văn hóa, tư tưởng, là sự vận động cao nhất và phức tạp nhất."
+            }
+          ]
+        },
+        {
+          "id": "t2_2",
+          "name": "Ý thức",
+          "level": 2,
+          "description": "Ý thức là sự phản ánh thế giới khách quan vào bộ não người thông qua hoạt động thực tiễn. Ý thức có nguồn gốc từ vật chất nhưng có tính độc lập tương đối và tác động trở lại vật chất.",
+          "vietnam_example": "Tư tưởng Hồ Chí Minh là ý thức phản ánh thực tiễn cách mạng Việt Nam — đồng thời tác động ngược lại hướng dẫn thực tiễn đó đến thắng lợi; minh chứng cho tính năng động của ý thức.",
+          "children": [
+            {
+              "id": "t2_2_1",
+              "name": "Nguồn gốc Ý thức",
+              "level": 3,
+              "description": "Ý thức có nguồn gốc tự nhiên (bộ não người — cơ quan vật chất đặc biệt) và nguồn gốc xã hội (lao động và ngôn ngữ). Lao động và ngôn ngữ là hai nhân tố quyết định sự hình thành ý thức người.",
+              "vietnam_example": "Ngôn ngữ Việt Nam phong phú, giàu hình ảnh phản ánh ý thức xã hội phát triển qua hàng nghìn năm lao động và đấu tranh — đi từ tiếng Nôm đến chữ Quốc ngữ hiện đại."
+            },
+            {
+              "id": "t2_2_2",
+              "name": "Bản chất Ý thức",
+              "level": 3,
+              "description": "Ý thức là hình ảnh chủ quan của thế giới khách quan; là sự phản ánh tích cực, sáng tạo thực tiễn; mang bản chất xã hội — không phải sản phẩm của cá nhân mà là của toàn bộ thực tiễn xã hội.",
+              "vietnam_example": "Nghệ thuật quân sự Việt Nam (chiến tranh nhân dân, du kích, đánh điểm diệt viện) là ý thức sáng tạo phản ánh và vượt lên trên thực tiễn — đánh bại những đội quân hùng mạnh nhất thế giới."
+            },
+            {
+              "id": "t2_2_3",
+              "name": "Tính độc lập tương đối\ncủa Ý thức",
+              "level": 3,
+              "description": "Ý thức có thể đi trước hoặc lạc hậu hơn sự phát triển của vật chất. Ý thức tiên tiến thúc đẩy sự phát triển; ý thức lạc hậu kìm hãm. Ý thức có thể tác động cải tạo thực tiễn.",
+              "vietnam_example": "Tư tưởng bảo thủ, giáo điều kìm hãm Đổi mới 1980-1985; tư tưởng tiến bộ, đổi mới của Đảng từ 1986 thúc đẩy phát triển kinh tế-xã hội Việt Nam vượt bậc."
+            }
+          ]
+        },
+        {
+          "id": "t2_3",
+          "name": "Quan hệ Vật chất\nvà Ý thức",
+          "level": 2,
+          "description": "Vật chất quyết định ý thức (nguồn gốc, nội dung, bản chất ý thức). Ý thức tác động trở lại vật chất: thúc đẩy hoặc kìm hãm sự phát triển. Hai nguyên tắc cơ bản: khách quan và năng động chủ quan.",
+          "vietnam_example": "Đường lối Đổi mới 1986 thể hiện nhận thức đúng đắn quan hệ vật chất-ý thức: xuất phát từ thực tiễn kinh tế (vật chất) để hoạch định chính sách (ý thức), đồng thời phát huy sáng tạo (tính năng động).",
+          "children": [
+            {
+              "id": "t2_3_1",
+              "name": "Nguyên tắc Khách quan",
+              "level": 3,
+              "description": "Phải xuất phát từ thực tế khách quan, tôn trọng quy luật khách quan. Tránh chủ quan duy ý chí — áp đặt ý muốn chủ quan lên thực tế, bất chấp quy luật khách quan.",
+              "vietnam_example": "Sai lầm trong tập thể hóa nông nghiệp (1958-1960) và cải tạo công thương nghiệp miền Nam (1975-1985) là biểu hiện của chủ quan duy ý chí, không tôn trọng thực tiễn Việt Nam."
+            },
+            {
+              "id": "t2_3_2",
+              "name": "Phát huy tính\nnăng động chủ quan",
+              "level": 3,
+              "description": "Cần phát huy tính năng động, sáng tạo của ý thức; tích cực học tập, tu dưỡng tư tưởng, đạo đức. Tư tưởng tiến bộ, khoa học là vũ khí cải tạo thực tiễn.",
+              "vietnam_example": "Tinh thần 'Mỗi người làm việc bằng hai vì miền Nam ruột thịt', phong trào thi đua Nguyễn Văn Trỗi — phát huy tối đa tính năng động tinh thần trong hoàn cảnh chiến tranh."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "name": "Phép Biện chứng\nDuy vật",
+      "shortName": "Chủ đề 3",
+      "level": 1,
+      "color": "#10b981",
+      "icon": "🔄",
+      "description": "Phép biện chứng duy vật là khoa học về mối liên hệ phổ biến và sự phát triển. Nội dung gồm: hai nguyên lý cơ bản, ba quy luật cơ bản và sáu cặp phạm trù — tạo thành hệ thống logic chặt chẽ.",
+      "vietnam_example": "Vận dụng phép biện chứng duy vật, Đảng ta hiểu sự phát triển của đất nước là quá trình biện chứng — kế thừa truyền thống và tiếp thu cái mới trong Đổi mới và hội nhập quốc tế.",
+      "children": [
+        {
+          "id": "t3_1",
+          "name": "Hai Nguyên lý\ncơ bản",
+          "level": 2,
+          "description": "Nguyên lý về mối liên hệ phổ biến và Nguyên lý về sự phát triển là hai nguyên lý nền tảng. Từ đó rút ra các quan điểm phương pháp luận: toàn diện, lịch sử-cụ thể, phát triển.",
+          "vietnam_example": "Hội nhập quốc tế (nguyên lý liên hệ) và CNH-HĐH đất nước (nguyên lý phát triển) là hai trụ cột của chiến lược phát triển Việt Nam trong thời kỳ Đổi mới.",
+          "children": [
+            {
+              "id": "t3_1_1",
+              "name": "Mối liên hệ\nphổ biến",
+              "level": 3,
+              "description": "Mọi sự vật, hiện tượng đều có liên hệ với nhau; liên hệ có tính khách quan, phổ biến và đa dạng. Quan điểm toàn diện: xem xét sự vật trong tất cả các mối liên hệ.",
+              "vietnam_example": "Việt Nam tham gia ASEAN, WTO, APEC, CPTPP... — thể hiện sự nhận thức mối liên hệ của nền kinh tế Việt Nam với kinh tế thế giới, tận dụng cơ hội toàn cầu hóa."
+            },
+            {
+              "id": "t3_1_2",
+              "name": "Sự phát triển",
+              "level": 3,
+              "description": "Phát triển là vận động từ thấp đến cao, từ đơn giản đến phức tạp, từ kém hoàn thiện đến hoàn thiện hơn. Phát triển có tính quanh co, không thẳng tắp; phải có quan điểm phát triển.",
+              "vietnam_example": "Việt Nam phát triển từ nước thuộc địa nửa phong kiến lên nước độc lập, xây dựng CNXH — một quá trình không thẳng tắp, có bước tiến và khó khăn, thể hiện quy luật phát triển biện chứng."
+            }
+          ]
+        },
+        {
+          "id": "t3_2",
+          "name": "Ba Quy luật\ncơ bản",
+          "level": 2,
+          "description": "Ba quy luật cơ bản: (1) Chuyển hóa từ những thay đổi về lượng thành những thay đổi về chất (Lượng-Chất); (2) Thống nhất và đấu tranh của các mặt đối lập (Mâu thuẫn); (3) Phủ định của phủ định.",
+          "vietnam_example": "Ba quy luật giải thích tiến trình cách mạng: tích lũy lực lượng 30 năm (lượng-chất), giải quyết mâu thuẫn dân tộc-đế quốc, phủ định chế độ thực dân để xây dựng độc lập, tự do.",
+          "children": [
+            {
+              "id": "t3_2_1",
+              "name": "Quy luật Lượng - Chất",
+              "level": 3,
+              "description": "Sự thay đổi dần về lượng sẽ dẫn đến sự thay đổi về chất tại điểm nút, thông qua bước nhảy vọt. Chất mới ra đời quy định lượng mới. Ý nghĩa: kiên nhẫn tích lũy, nắm bắt thời cơ.",
+              "vietnam_example": "Đổi mới 1986: tích lũy những đổi mới nhỏ từ 'khoán chui' (1980-1985) → bước nhảy chuyển sang kinh tế thị trường năm 1986 — điển hình của quy luật lượng-chất trong thực tiễn Việt Nam."
+            },
+            {
+              "id": "t3_2_2",
+              "name": "Quy luật Mâu thuẫn",
+              "level": 3,
+              "description": "Mọi sự vật đều chứa đựng mâu thuẫn — thống nhất của các mặt đối lập. Mâu thuẫn là nguồn gốc, động lực của sự vận động và phát triển. Giải quyết mâu thuẫn tạo ra bước phát triển mới.",
+              "vietnam_example": "Mâu thuẫn giữa LLSX mới (nhu cầu phát triển sản xuất) và QHSX cũ (kế hoạch hóa tập trung, bao cấp) là động lực nội tại dẫn đến Đổi mới 1986 ở Việt Nam."
+            },
+            {
+              "id": "t3_2_3",
+              "name": "Phủ định biện chứng",
+              "level": 3,
+              "description": "Phủ định biện chứng kế thừa những yếu tố tích cực của cái cũ và bổ sung những nhân tố mới. Phát triển theo đường xoáy ốc — có vẻ quay lại cái cũ nhưng ở trình độ cao hơn.",
+              "vietnam_example": "Kinh tế thị trường định hướng XHCN là phủ định biện chứng: phủ định kinh tế kế hoạch thủ cứng (cái tiêu cực) nhưng giữ vai trò điều tiết của Nhà nước (cái tinh hoa), bổ sung cơ chế thị trường."
+            }
+          ]
+        },
+        {
+          "id": "t3_3",
+          "name": "Sáu cặp\nPhạm trù",
+          "level": 2,
+          "description": "Phạm trù là những khái niệm rộng nhất phản ánh những mặt, những thuộc tính, những mối liên hệ chung nhất của thực tại. Sáu cặp: Cái riêng-cái chung, Tất nhiên-ngẫu nhiên, Nguyên nhân-kết quả, Bản chất-hiện tượng, Nội dung-hình thức, Khả năng-hiện thực.",
+          "vietnam_example": "Phân tích tình hình Việt Nam bằng các cặp phạm trù: bản chất thực dân (bóc lột) khác hiện tượng 'khai hóa văn minh'; nguyên nhân xâm lược → kết quả cách mạng giải phóng dân tộc.",
+          "children": [
+            {
+              "id": "t3_3_1",
+              "name": "Cái riêng & Cái chung",
+              "level": 3,
+              "description": "Cái chung tồn tại trong cái riêng, thông qua cái riêng. Cái riêng tồn tại trong mối liên hệ dẫn đến cái chung. Không có cái chung thuần túy tách rời cái riêng.",
+              "vietnam_example": "CNXH (cái chung) ở Việt Nam mang đặc sắc Việt Nam (cái riêng): kinh tế thị trường định hướng XHCN, Nhà nước pháp quyền XHCN của dân, do dân, vì dân — sáng tạo riêng của Việt Nam."
+            },
+            {
+              "id": "t3_3_2",
+              "name": "Nguyên nhân & Kết quả",
+              "level": 3,
+              "description": "Nguyên nhân là cái sinh ra kết quả; nguyên nhân có trước kết quả về mặt thời gian. Mối quan hệ nhân-quả mang tính khách quan, phổ biến. Kết quả có thể trở thành nguyên nhân của hiện tượng khác.",
+              "vietnam_example": "Chính sách bóc lột của thực dân Pháp (nguyên nhân) → phong trào yêu nước và các cuộc khởi nghĩa liên tiếp (hệ quả) → Cách mạng tháng Tám 1945 thắng lợi (kết quả cuối cùng)."
+            },
+            {
+              "id": "t3_3_3",
+              "name": "Khả năng & Hiện thực",
+              "level": 3,
+              "description": "Hiện thực là cái đang tồn tại hiện thực; khả năng là cái chưa có nhưng có điều kiện để trở thành hiện thực. Cần phân biệt khả năng thực và ảo. Phát huy nhân tố chủ quan để biến khả năng thành hiện thực.",
+              "vietnam_example": "Năm 1945, thắng lợi của Cách mạng là khả năng hiện thực; Đảng và Bác Hồ nắm thời cơ, phát huy nhân tố chủ quan (Tổng khởi nghĩa) để biến khả năng thành hiện thực vĩ đại."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t4",
+      "name": "Chủ nghĩa Duy vật\nLịch sử",
+      "shortName": "Chủ đề 4",
+      "level": 1,
+      "color": "#f59e0b",
+      "icon": "🏛️",
+      "description": "Chủ nghĩa duy vật lịch sử là phần lý luận triết học về xã hội — khoa học về quy luật chung nhất của sự phát triển xã hội. Là 'đỉnh cao của tư duy xã hội học khoa học' (Lênin).",
+      "vietnam_example": "Chủ nghĩa duy vật lịch sử giúp Đảng ta phân tích đúng thực trạng xã hội Việt Nam: xác định hình thái kinh tế-xã hội quá độ, nhận diện các giai cấp và mâu thuẫn, xây dựng con đường đi lên CNXH.",
+      "children": [
+        {
+          "id": "t4_1",
+          "name": "Sản xuất vật chất\nvà Hình thái KT-XH",
+          "level": 2,
+          "description": "Sản xuất vật chất là nền tảng của đời sống xã hội. Hình thái kinh tế-xã hội là khái niệm cơ bản của chủ nghĩa duy vật lịch sử, chỉ xã hội ở từng giai đoạn lịch sử nhất định với sự thống nhất của lực lượng sản xuất, quan hệ sản xuất và kiến trúc thượng tầng.",
+          "vietnam_example": "Việt Nam đang trong hình thái kinh tế-xã hội quá độ lên CNXH — xuất phát từ nền sản xuất nông nghiệp lạc hậu, đang CNH-HĐH để xây dựng LLSX hiện đại.",
+          "children": [
+            {
+              "id": "t4_1_1",
+              "name": "LLSX & QHSX",
+              "level": 3,
+              "description": "Lực lượng sản xuất (người lao động + tư liệu sản xuất) và quan hệ sản xuất (sở hữu, quản lý, phân phối) là hai mặt của phương thức sản xuất. Quy luật: QHSX phải phù hợp với trình độ LLSX.",
+              "vietnam_example": "Đổi mới 1986: QHSX kế hoạch hóa tập trung không còn phù hợp với LLSX đang phát triển → Đảng điều chỉnh QHSX (chuyển sang kinh tế thị trường) cho phù hợp, mở đường cho tăng trưởng kinh tế."
+            },
+            {
+              "id": "t4_1_2",
+              "name": "CSHT & KTTT",
+              "level": 3,
+              "description": "Cơ sở hạ tầng (tổng hợp các quan hệ sản xuất) quyết định kiến trúc thượng tầng (chính trị, pháp luật, nhà nước, tư tưởng). KTTT phản ánh và bảo vệ CSHT đã sinh ra nó, nhưng KTTT cũng tác động trở lại CSHT.",
+              "vietnam_example": "Kinh tế thị trường (CSHT mới) đòi hỏi Nhà nước pháp quyền, hệ thống pháp luật kinh doanh đầy đủ (KTTT mới) — xu hướng cải cách pháp luật và hành chính của Việt Nam sau Đổi mới."
+            }
+          ]
+        },
+        {
+          "id": "t4_2",
+          "name": "Giai cấp &\nĐấu tranh giai cấp",
+          "level": 2,
+          "description": "Giai cấp là những tập đoàn người khác nhau về quan hệ với tư liệu sản xuất. Đấu tranh giai cấp là động lực phát triển của xã hội có giai cấp — 'xe lửa của lịch sử' (Mác). Trong CNXH vẫn còn giai cấp nhưng đang dần tiêu vong.",
+          "vietnam_example": "Liên minh giai cấp công nhân, nông dân và đội ngũ trí thức là nền tảng chính trị của Nhà nước Việt Nam — thể hiện sự vận dụng lý luận giai cấp vào điều kiện cụ thể Việt Nam.",
+          "children": [
+            {
+              "id": "t4_2_1",
+              "name": "Nguồn gốc Giai cấp",
+              "level": 3,
+              "description": "Giai cấp xuất hiện khi xã hội có sở hữu tư nhân về tư liệu sản xuất và phân công lao động xã hội phát triển đến mức tạo ra thặng dư. Giai cấp sẽ tiêu vong khi xóa bỏ chế độ tư hữu.",
+              "vietnam_example": "Chế độ phong kiến Việt Nam tạo ra giai cấp địa chủ và nông dân — mâu thuẫn giai cấp là thành tố của phong trào yêu nước, đặc biệt qua các cuộc khởi nghĩa nông dân từ Tây Sơn đến sau này."
+            },
+            {
+              "id": "t4_2_2",
+              "name": "Sứ mệnh lịch sử\nGiai cấp công nhân",
+              "level": 3,
+              "description": "Giai cấp công nhân có sứ mệnh lịch sử: xóa bỏ chế độ áp bức bóc lột, xây dựng CNXH-CSCN. Đặc điểm: gắn với LLSX tiên tiến, có tổ chức kỷ luật cao, lợi ích phù hợp quy luật lịch sử.",
+              "vietnam_example": "Giai cấp công nhân Việt Nam ngày càng lớn mạnh (hơn 15 triệu người), đóng vai trò nòng cốt trong CNH-HĐH, đóng góp trên 60% ngân sách nhà nước từ khối sản xuất, kinh doanh."
+            }
+          ]
+        },
+        {
+          "id": "t4_3",
+          "name": "Nhà nước &\nCách mạng XH",
+          "level": 2,
+          "description": "Nhà nước là sản phẩm của xã hội có giai cấp, là công cụ quyền lực của giai cấp thống trị. Cách mạng xã hội là sự thay đổi căn bản, toàn diện từ hình thái KT-XH này sang hình thái KT-XH khác cao hơn.",
+          "vietnam_example": "Nhà nước CHXHCN Việt Nam là Nhà nước pháp quyền XHCN của nhân dân, do nhân dân, vì nhân dân — vừa mang bản chất giai cấp (giai cấp công nhân) vừa đại diện cho toàn thể nhân dân lao động.",
+          "children": [
+            {
+              "id": "t4_3_1",
+              "name": "Bản chất & Chức năng\nNhà nước",
+              "level": 3,
+              "description": "Nhà nước có hai chức năng: giai cấp (bảo vệ lợi ích giai cấp thống trị) và xã hội (quản lý xã hội, đảm bảo lợi ích chung). Nhà nước XHCN ưu tiên chức năng xã hội.",
+              "vietnam_example": "Nhà nước Việt Nam thực hiện đồng thời: chức năng kinh tế (điều tiết, định hướng), chức năng xã hội (giáo dục, y tế, an sinh) và chức năng đối ngoại (hội nhập, bảo vệ chủ quyền)."
+            }
+          ]
+        },
+        {
+          "id": "t4_4",
+          "name": "Ý thức xã hội",
+          "level": 2,
+          "description": "Ý thức xã hội bao gồm toàn bộ đời sống tinh thần của xã hội: tư tưởng, quan điểm, tâm lý, tình cảm xã hội. Tồn tại xã hội quyết định ý thức xã hội, nhưng ý thức xã hội có tính độc lập tương đối.",
+          "vietnam_example": "Văn hóa Việt Nam (ý thức xã hội) phản ánh lịch sử dựng nước và giữ nước ngàn năm, đồng thời định hình bản sắc dân tộc và thúc đẩy phát triển — 'văn hóa là sức mạnh nội sinh'.",
+          "children": [
+            {
+              "id": "t4_4_1",
+              "name": "Các hình thái\nÝ thức xã hội",
+              "level": 3,
+              "description": "Các hình thái YTXH: chính trị (ý thức hệ), pháp quyền, đạo đức, tôn giáo, nghệ thuật, triết học, khoa học. Mỗi hình thái có tính độc lập tương đối và tác động lẫn nhau.",
+              "vietnam_example": "Hệ tư tưởng Mác-Lênin và TTHCM (ý thức chính trị tiên tiến) + Truyền thống yêu nước (tâm lý xã hội) tạo nên nền tảng tinh thần vững chắc của xã hội Việt Nam."
+            }
+          ]
+        },
+        {
+          "id": "t4_5",
+          "name": "Vai trò Quần chúng\nvà Cá nhân lịch sử",
+          "level": 2,
+          "description": "Quần chúng nhân dân là chủ thể sáng tạo lịch sử — lực lượng quyết định sự phát triển lịch sử xã hội. Cá nhân kiệt xuất đóng vai trò quan trọng nhưng phải gắn liền với quần chúng.",
+          "vietnam_example": "'Dễ trăm lần không dân cũng chịu, khó vạn lần dân liệu cũng xong' (HCM) — Hồ Chí Minh là lãnh tụ vĩ đại nhưng luôn gắn bó với nhân dân, thể hiện mối quan hệ biện chứng lãnh tụ-quần chúng.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "name": "Triết học Mác-Lênin\nvề Con người",
+      "shortName": "Chủ đề 5",
+      "level": 1,
+      "color": "#ec4899",
+      "icon": "🌟",
+      "description": "Triết học Mác-Lênin về con người nghiên cứu bản chất của con người, mối quan hệ con người-lịch sử, vấn đề giải phóng con người và xây dựng con người mới XHCN — mục tiêu tối cao của chủ nghĩa Mác.",
+      "vietnam_example": "Xây dựng con người Việt Nam phát triển toàn diện là mục tiêu trung tâm của Chiến lược phát triển KT-XH 2021-2030: 'Phát triển con người toàn diện và xây dựng nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc'.",
+      "children": [
+        {
+          "id": "t5_1",
+          "name": "Bản chất Con người",
+          "level": 2,
+          "description": "Mác: 'Trong tính hiện thực của nó, bản chất con người là tổng hòa các quan hệ xã hội'. Con người là thực thể thống nhất tự nhiên-xã hội: có bản năng sinh học nhưng bị chi phối bởi điều kiện xã hội và văn hóa.",
+          "vietnam_example": "Bản sắc văn hóa người Việt (yêu nước, đoàn kết, cần cù, sáng tạo, nhân nghĩa) là sản phẩm của tổng hòa các quan hệ xã hội trong hàng nghìn năm lịch sử dựng nước và giữ nước.",
+          "children": [
+            {
+              "id": "t5_1_1",
+              "name": "Con người là\nthực thể xã hội",
+              "level": 3,
+              "description": "Con người là sản phẩm của lịch sử và của chính bản thân mình. Con người vừa là chủ thể vừa là sản phẩm của lịch sử — tạo ra lịch sử trong điều kiện lịch sử do các thế hệ trước để lại.",
+              "vietnam_example": "Con người Việt Nam được hình thành qua lịch sử đấu tranh dựng nước và giữ nước — mang phẩm chất yêu nước, không chịu khuất phục; đồng thời sáng tạo trong lao động và chiến đấu."
+            },
+            {
+              "id": "t5_1_2",
+              "name": "Lao động & Bản chất người",
+              "level": 3,
+              "description": "Lao động là hoạt động đặc trưng, bản chất của con người — tạo ra của cải vật chất, cải biến tự nhiên và cải biến chính bản thân con người. Lao động tạo ra con người và xã hội loài người.",
+              "vietnam_example": "Tinh thần lao động cần cù, sáng tạo của người Việt — từ thâm canh lúa nước ngàn năm đến đổi mới sáng tạo công nghệ hiện nay — là biểu hiện của bản chất lao động con người Việt Nam."
+            }
+          ]
+        },
+        {
+          "id": "t5_2",
+          "name": "Quan hệ Cá nhân\nvà Xã hội",
+          "level": 2,
+          "description": "Cá nhân và xã hội có mối quan hệ biện chứng. Cá nhân là tế bào của xã hội, xã hội tạo ra điều kiện để cá nhân phát triển; cá nhân đóng góp vào sự phát triển xã hội. Không tuyệt đối hóa cá nhân hay tập thể.",
+          "vietnam_example": "Văn hóa cộng đồng làng xã Việt Nam thể hiện mối quan hệ biện chứng cá nhân-xã hội: 'Bầu ơi thương lấy bí cùng' — tinh thần đoàn kết cộng đồng là nền tảng sức mạnh dân tộc.",
+          "children": [
+            {
+              "id": "t5_2_1",
+              "name": "Lợi ích Cá nhân\nvà Tập thể",
+              "level": 3,
+              "description": "Lợi ích cá nhân và lợi ích tập thể, xã hội thống nhất biện chứng. Trong CNXH, kết hợp lợi ích cá nhân và lợi ích tập thể — không hi sinh hoàn toàn cái này cho cái kia.",
+              "vietnam_example": "Khẩu hiệu 'Mình vì mọi người, mọi người vì mình'; phong trào thi đua XHCN — thể hiện hài hòa lợi ích cá nhân và tập thể. Chính sách kinh tế sau Đổi mới công nhận lợi ích chính đáng của người lao động."
+            }
+          ]
+        },
+        {
+          "id": "t5_3",
+          "name": "Giải phóng Con người",
+          "level": 2,
+          "description": "Mục tiêu tối cao của chủ nghĩa Mác là giải phóng con người khỏi mọi áp bức, bóc lột; tạo điều kiện cho mọi người phát triển tự do và toàn diện. Giải phóng xã hội là điều kiện để giải phóng cá nhân.",
+          "vietnam_example": "Cách mạng tháng Tám 1945 giải phóng nhân dân khỏi ách thực dân phong kiến; Đại thắng 1975 thống nhất đất nước; Đổi mới 1986 giải phóng sức sản xuất — ba bước giải phóng vĩ đại Con người Việt Nam.",
+          "children": [
+            {
+              "id": "t5_3_1",
+              "name": "Tha hóa & Giải tha hóa",
+              "level": 3,
+              "description": "Tha hóa (alienation) là tình trạng con người bị nô dịch bởi sản phẩm lao động của chính mình, bởi quan hệ xã hội và ý thức tôn giáo. Giải tha hóa thông qua cách mạng xã hội, xóa bỏ chế độ tư hữu.",
+              "vietnam_example": "Chế độ thực dân phong kiến tạo ra sự tha hóa con người Việt Nam — bị bóc lột, bị đày đọa, bị tước đoạt quyền làm người. Cách mạng dân tộc dân chủ nhân dân là con đường giải tha hóa đó."
+            }
+          ]
+        },
+        {
+          "id": "t5_4",
+          "name": "Xây dựng Con người\nViệt Nam mới",
+          "level": 2,
+          "description": "Xây dựng con người Việt Nam phát triển toàn diện về đức, trí, thể, mỹ, lao; có tinh thần yêu nước, ý thức làm chủ, trách nhiệm công dân — mục tiêu trung tâm của chiến lược phát triển.",
+          "vietnam_example": "Chiến lược 2021-2030: 'Phát triển con người toàn diện và xây dựng nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc để văn hóa thực sự trở thành sức mạnh nội sinh, động lực phát triển đất nước và bảo vệ Tổ quốc'.",
+          "children": [
+            {
+              "id": "t5_4_1",
+              "name": "Phẩm chất cần có",
+              "level": 3,
+              "description": "Con người mới XHCN cần có: lý tưởng XHCN, đạo đức cách mạng, trình độ văn hóa-kỹ thuật cao, sức khỏe tốt và thẩm mỹ lành mạnh. Phát triển toàn diện — Đức, Trí, Thể, Mỹ.",
+              "vietnam_example": "Mục tiêu giáo dục: học sinh có đủ phẩm chất (Đức-Trí-Thể-Mỹ) phục vụ CNH-HĐH. Phong trào 'Học tập và làm theo tấm gương đạo đức Hồ Chí Minh' xây dựng phẩm chất con người Việt Nam mới."
+            },
+            {
+              "id": "t5_4_2",
+              "name": "Vai trò Giáo dục",
+              "level": 3,
+              "description": "Giáo dục là phương thức chủ yếu để phát triển con người toàn diện. Mác coi giáo dục là điều kiện thiết yếu. Giáo dục toàn diện kết hợp học lý thuyết với thực tiễn lao động sản xuất.",
+              "vietnam_example": "Đề án đổi mới cơ bản và toàn diện GD-ĐT Việt Nam: chuyển từ dạy kiến thức sang phát triển năng lực, phẩm chất — vận dụng triết học Mác-Lênin về phát triển con người toàn diện."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
