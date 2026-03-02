@@ -361,6 +361,7 @@ document.addEventListener('DOMContentLoaded', async function () {
   }
 
   function zoomToNode(d) {
+    focusedNode = d;
     var vw = svgEl.parentElement.clientWidth, vh = svgEl.parentElement.clientHeight;
     var panelW = 370, usableW = vw - panelW - 60;
     var scale = Math.min(currentTransform.k * 1.5, 2.2);
@@ -413,7 +414,11 @@ document.addEventListener('DOMContentLoaded', async function () {
     gsap.to(breadcrumbEl, { y: -40, opacity: 0, duration: 0.3, onComplete: function () { breadcrumbEl.classList.add('bc-hidden'); } });
   }
   breadcrumbEl.addEventListener('click', resetBranchFocus);
-  svg.on('click', function (event) { if (event.target === svgEl && focusedNode) resetBranchFocus(); });
+  svg.on('click', function (event) {
+    if ((event.target === svgEl || event.target.tagName.toLowerCase() === 'svg') && focusedNode) {
+      resetBranchFocus();
+    }
+  });
 
   // ── Effects ───────────────────────────────────────────────────────
   function emitRings(cx, cy, color, depth, data) {
@@ -552,17 +557,33 @@ document.addEventListener('DOMContentLoaded', async function () {
   });
 
   document.addEventListener('click', function (e) {
-    // Close search results
+    // Close search results if clicked outside
     if (!e.target.closest('.search-box')) searchResults.classList.remove('visible');
 
-    // Close detail panel when clicking outside of it, and not clicking on a node or a branch button
+    // Determine what was clicked to handle panel close and zoom out
     var isClickInsidePanel = e.target.closest('#detail-panel');
     var isClickOnNode = e.target.closest('.node');
     var isClickOnBranchBtn = e.target.closest('.branch-btn');
     var isClickSearchItem = e.target.closest('.sr-item');
-    if (detailPanel.classList.contains('open') && !isClickInsidePanel && !isClickOnNode && !isClickOnBranchBtn && !isClickSearchItem) {
-      if (currentNodeId) stopStudyTimer(currentNodeId);
-      gsap.to(detailPanel, { x: '100%', duration: 0.4, ease: 'power2.in', onComplete: function () { detailPanel.classList.remove('open'); } });
+    var isClickOnControls = e.target.closest('.controls');
+    var isClickOnBreadcrumb = e.target.closest('#breadcrumb');
+    var isClickOnTopBar = e.target.closest('#topbar');
+    var isClickOnSidebar = e.target.closest('#sidebar');
+
+    var isClickOnAnyUIElement = isClickInsidePanel || isClickOnNode || isClickOnBranchBtn || isClickSearchItem || isClickOnControls || isClickOnBreadcrumb || isClickOnTopBar || isClickOnSidebar;
+
+    // 1. Zoom out if clicking strictly on the background (not any UI element)
+    if (!isClickOnAnyUIElement && focusedNode) {
+      resetBranchFocus();
+    }
+
+    // 2. Hide detail panel if clicking outside panel & not opening a new node
+    var isOpeningNode = isClickOnNode || isClickOnBranchBtn || isClickSearchItem;
+    if (!isClickInsidePanel && !isOpeningNode) {
+      if (detailPanel.classList.contains('open')) {
+        if (currentNodeId) stopStudyTimer(currentNodeId);
+        gsap.to(detailPanel, { x: '100%', duration: 0.4, ease: 'power2.in', onComplete: function () { detailPanel.classList.remove('open'); } });
+      }
     }
   });
 
