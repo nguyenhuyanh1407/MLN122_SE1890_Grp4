@@ -127,6 +127,7 @@ document.addEventListener('DOMContentLoaded', async function () {
   // ── Zoom ──────────────────────────────────────────────────────────
   var currentTransform = d3.zoomIdentity;
   var focusedNode = null;
+  var showAllNodes = false;
   var zoom = d3.zoom().scaleExtent([0.01, 3]).on('zoom', function (event) {
     currentTransform = event.transform;
     g.attr('transform', event.transform);
@@ -276,10 +277,23 @@ document.addEventListener('DOMContentLoaded', async function () {
       });
 
     // Entrance animation
-    gsap.set(g.selectAll('.link').nodes(), { opacity: 0 });
-    gsap.to(g.selectAll('.link').nodes(), { opacity: 1, duration: 0.8, stagger: 0.012, delay: 0.2 });
     gsap.set(g.selectAll('.node').nodes(), { opacity: 0, scale: 0, svgOrigin: '0 0' });
-    gsap.to(g.selectAll('.node').nodes(), { opacity: 1, scale: 1, duration: 0.5, ease: 'back.out(1.7)', stagger: 0.02, delay: 0.35 });
+    gsap.to(g.selectAll('.node').nodes(), {
+      opacity: function (i, el) {
+        var d = d3.select(el).datum();
+        if (showAllNodes) return 1;
+        return d.depth <= 1 ? 1 : 0.07;
+      },
+      scale: 1, duration: 0.5, ease: 'back.out(1.7)', stagger: 0.02, delay: 0.35
+    });
+    gsap.to(g.selectAll('.link').nodes(), {
+      opacity: function (i, el) {
+        var d = d3.select(el).datum();
+        if (showAllNodes) return 0.9;
+        return d.target.depth <= 1 ? 0.9 : 0.04;
+      },
+      duration: 0.8, stagger: 0.012, delay: 0.2
+    });
 
     initialView(root);
     lastRoot = root;
@@ -382,23 +396,45 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
 
     g.selectAll('.node').each(function (nd) {
+      if (showAllNodes) {
+        gsap.to(this, { opacity: 1, duration: 0.45 });
+        return;
+      }
       var isActive = activeSet.has(nd.data.id || nd.data.name) || nd.depth === 0;
       gsap.to(this, { opacity: isActive ? 1 : 0.07, duration: 0.45 });
     });
     g.selectAll('.link').each(function (ld) {
+      if (showAllNodes) {
+        gsap.to(this, { opacity: 0.9, duration: 0.45 });
+        return;
+      }
       var sActive = activeSet.has(ld.source.data.id || ld.source.data.name);
       var tActive = activeSet.has(ld.target.data.id || ld.target.data.name);
       gsap.to(this, { opacity: (sActive && tActive) ? 0.9 : 0.04, duration: 0.45 });
     });
   }
 
-  function restoreAll() {
-    g.selectAll('.node').each(function () { gsap.to(this, { opacity: 1, duration: 0.4 }); });
-    g.selectAll('.link').each(function () { gsap.to(this, { opacity: 1, duration: 0.4 }); });
+  function dimBranches() {
+    g.selectAll('.node').each(function (nd) {
+      if (showAllNodes) {
+        gsap.to(this, { opacity: 1, duration: 0.45 });
+        return;
+      }
+      var isActive = nd.depth <= 1;
+      gsap.to(this, { opacity: isActive ? 1 : 0.07, duration: 0.45 });
+    });
+    g.selectAll('.link').each(function (ld) {
+      if (showAllNodes) {
+        gsap.to(this, { opacity: 0.9, duration: 0.45 });
+        return;
+      }
+      var isActive = ld.target.depth <= 1;
+      gsap.to(this, { opacity: isActive ? 0.9 : 0.04, duration: 0.45 });
+    });
   }
 
   function resetBranchFocus() {
-    focusedNode = null; restoreAll(); hideBreadcrumb(); initialView(lastRoot);
+    focusedNode = null; dimBranches(); hideBreadcrumb(); initialView(lastRoot);
     document.querySelectorAll('.branch-btn').forEach(function (b) { b.classList.remove('active'); });
   }
 
@@ -488,7 +524,8 @@ document.addEventListener('DOMContentLoaded', async function () {
   function initialView(root) {
     if (root) lastRoot = root;
     var parent = svgEl.parentElement;
-    var scale = (Math.min(parent.clientWidth, parent.clientHeight) * 0.78) / (800 * 2);
+    // Better default zoom to match "Ảnh 2": level 1 branches at ~520px radius
+    var scale = (Math.min(parent.clientWidth, parent.clientHeight) * 0.92) / (520 * 2 + 400);
     svg.transition().duration(1000).call(zoom.transform, d3.zoomIdentity.translate(parent.clientWidth / 2, parent.clientHeight / 2).scale(scale));
   }
 
@@ -518,6 +555,25 @@ document.addEventListener('DOMContentLoaded', async function () {
   document.getElementById('zoom-in').addEventListener('click', function () { svg.transition().call(zoom.scaleBy, 1.5); });
   document.getElementById('zoom-out').addEventListener('click', function () { svg.transition().call(zoom.scaleBy, 0.5); });
   document.getElementById('reset-view').addEventListener('click', resetView);
+
+  document.getElementById('toggle-all').addEventListener('click', function () {
+    showAllNodes = !showAllNodes;
+    this.classList.toggle('active', showAllNodes);
+    var icon = this.querySelector('i');
+    if (showAllNodes) {
+      icon.classList.remove('bi-eye');
+      icon.classList.add('bi-eye-fill');
+    } else {
+      icon.classList.remove('bi-eye-fill');
+      icon.classList.add('bi-eye');
+    }
+
+    if (!focusedNode) {
+      dimBranches();
+    } else {
+      dimSiblings(focusedNode);
+    }
+  });
 
   // ── Search ────────────────────────────────────────────────────────
   var searchInput = document.getElementById('search-input');

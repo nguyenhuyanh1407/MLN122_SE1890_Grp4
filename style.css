@@ -185,6 +185,13 @@ header p {
     border-color: rgba(255, 255, 255, 0.2);
 }
 
+.controls button.active {
+    background: linear-gradient(135deg, var(--accent-purple), var(--accent-cyan));
+    color: white;
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.4);
+    border: none;
+}
+
 /* SVG Elements Styling */
 .node-circle {
     transition: r 0.3s ease;
