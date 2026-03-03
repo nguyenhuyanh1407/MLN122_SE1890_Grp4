@@ -13,30 +13,36 @@
       "level": 1,
       "color": "#a855f7",
       "icon": "📚",
-      "description": "Giới thiệu sự hình thành và các phương pháp luận cơ bản của Kinh tế chính trị Mác - Lênin.",
+      "description": "Giới thiệu sự hình thành và các phương pháp luận của Kinh tế chính trị Mác - Lênin, xác định đối tượng nghiên cứu là các quan hệ sản xuất gắn với lực lượng sản xuất.",
+      "vietnam_example": "Việc nghiên cứu Chương 1 giúp cán bộ, đảng viên và sinh viên Việt Nam hiểu rõ nền tảng tư duy kinh tế của Đảng trong quản lý đất nước.",
       "children": [
         {
           "id": "ch1_1",
           "name": "Sự hình thành và phát triển",
           "level": 2,
+          "description": "Quá trình tiến hóa của tư tưởng kinh tế từ cổ đại đến hệ thống khoa học của Mác, Ăng-ghen và Lênin.",
+          "vietnam_example": "Giáo trình này là kết quả của việc tiếp thu lý luận kinh tế Mác - Lênin chuẩn mực, được giảng dạy thống nhất trong hệ thống giáo dục quốc dân Việt Nam.",
           "children": [
             {
               "id": "ch1_1_1",
               "name": "Trước Mác",
               "level": 3,
-              "description": "Từ chủ nghĩa Trọng thương, Trọng nông đến Kinh tế chính trị tư bản cổ điển (A.Smith, D.Ricardo)."
+              "description": "Chủ nghĩa Trọng thương (coi trọng thương mại), Trọng nông (coi trọng nông nghiệp) và Kinh tế chính trị tư bản cổ điển (A.Smith, D.Ricardo) đặt nền móng cho lý luận giá trị.",
+              "vietnam_example": "Việt Nam hiện nay vẫn học tập các quy tắc thị trường từ kinh tế học cổ điển như 'Bàn tay vô hình' để điều tiết cung cầu."
             },
             {
               "id": "ch1_1_2",
               "name": "Của Mác & Ăng-ghen",
               "level": 3,
-              "description": "Xây dựng hệ thống lý luận khoa học, cách mạng, hòn đá tảng là học thuyết giá trị thặng dư."
+              "description": "Xây dựng hệ thống lý luận khoa học dựa trên duy vật biện chứng, phát hiện ra quy luật giá trị thặng dư - 'hòn đá tảng' vạch trần bản chất bóc lột của CNTB.",
+              "vietnam_example": "Lý luận về các hình thái kinh tế - xã hội của Mác là cơ sở để Việt Nam khẳng định con đường đi lên CNXH bỏ qua chế độ TBCN."
             },
             {
               "id": "ch1_1_3",
               "name": "Giai đoạn Lênin",
               "level": 3,
-              "description": "Bổ sung lý luận về chủ nghĩa tư bản độc quyền và thời kỳ quá độ lên CNXH."
+              "description": "V.I.Lênin phát triển lý luận về chủ nghĩa tư bản độc quyền (giai đoạn cao của CNTB) và các nguyên lý kinh tế trong thời kỳ quá độ lên CNXH (Chính sách kinh tế mới - NEP).",
+              "vietnam_example": "Chính sách NEP của Lênin là gợi ý quan trọng cho công cuộc Đổi mới tại Việt Nam, chấp nhận kinh tế nhiều thành phần."
             }
           ]
         },
@@ -44,18 +50,22 @@
           "id": "ch1_2",
           "name": "Đối tượng & Phương pháp",
           "level": 2,
+          "description": "Xác định rõ phạm vi nghiên cứu và các công cụ tư duy để khám phá bản chất kinh tế xã hội.",
+          "vietnam_example": "Phương pháp luận của Mác giúp Việt Nam phân tích đúng thực trạng các 'quan hệ lợi ích' trong nền kinh tế thị trường hiện nay.",
           "children": [
             {
               "id": "ch1_2_1",
               "name": "Đối tượng nghiên cứu",
               "level": 3,
-              "description": "Các quan hệ xã hội của sản xuất và trao đổi gắn với LLSX và KTTT."
+              "description": "Nghiên cứu quan hệ xã hội của sản xuất hàng hóa và trao đổi, xem xét các quan hệ này trong sự tác động qua lại với lực lượng sản xuất và kiến trúc thượng tầng.",
+              "vietnam_example": "Tại Việt Nam, đối tượng nghiên cứu còn bao gồm quan hệ giữa các thành phần kinh tế (Nhà nước, Tư nhân, FDI) dưới sự quản lý của Nhà nước XHCN."
             },
             {
               "id": "ch1_2_2",
               "name": "Trừu tượng hóa khoa học",
               "level": 3,
-              "description": "Gạt bỏ hiện tượng tạm thời để tìm ra quy luật kinh tế khách quan."
+              "description": "Phương pháp gạt bỏ các yếu tố ngẫu nhiên, tạm thời hoặc không bản chất để đi sâu vào các phạm trù kinh tế và quy luật kinh tế khách quan.",
+              "vietnam_example": "Khi nghiên cứu thị trường bất động sản Việt Nam, ta dùng phương pháp này để bỏ qua các cơn 'sốt đất' ảo và tìm ra quy luật cung cầu thực sự."
             }
           ]
         },
@@ -63,26 +73,36 @@
           "id": "ch1_3",
           "name": "Chức năng của môn học",
           "level": 2,
+          "description": "Những giá trị cốt lõi mà môn học mang lại cho người học và xã hội.",
+          "vietnam_example": "Học tập các chức năng này giúp sinh viên hình thành tư duy kinh tế sắc bén và bản lĩnh chính trị vững vàng.",
           "children": [
             {
               "id": "ch1_3_1",
               "name": "Chức năng nhận thức",
-              "level": 3
+              "level": 3,
+              "description": "Cung cấp hệ thống tri thức về sự vận động của các quan hệ sản xuất và các quy luật kinh tế khách quan của xã hội.",
+              "vietnam_example": "Giúp người dân hiểu vì sao giá xăng lại biến động dựa trên quy luật giá trị và quan hệ cung cầu toàn cầu."
             },
             {
               "id": "ch1_3_2",
               "name": "Chức năng thực tiễn",
-              "level": 3
+              "level": 3,
+              "description": "Là cơ sở lý luận để hình thành các chính sách kinh tế, quản lý sản xuất kinh doanh và định hướng hành động cá nhân.",
+              "vietnam_example": "Chính phủ Việt Nam dựa trên chức năng này để ban hành các gói hỗ trợ kinh tế sau đại dịch Covid-19."
             },
             {
               "id": "ch1_3_3",
               "name": "Chức năng tư tưởng",
-              "level": 3
+              "level": 3,
+              "description": "Góp phần xây dựng thế giới quan khoa học, niềm tin vào sự chiến thắng của các giá trị tiến bộ và định hướng XHCN.",
+              "vietnam_example": "Củng cố niềm tin của nhân dân vào mô hình 'Dân giàu, nước mạnh, dân chủ, công bằng, văn minh'."
             },
             {
               "id": "ch1_3_4",
               "name": "Chức năng phương pháp luận",
-              "level": 3
+              "level": 3,
+              "description": "Nền tảng lý luận để nghiên cứu các môn kinh tế chuyên ngành (Quản trị, Tài chính, Ngân hàng).",
+              "vietnam_example": "Sinh viên ngành Kế toán cần nắm vững lý luận giá trị để hiểu bản chất của các dòng chi phí và doanh thu."
             }
           ]
         }
@@ -95,30 +115,36 @@
       "level": 1,
       "color": "#06b6d4",
       "icon": "🛒",
-      "description": "Lý luận về sản xuất hàng hóa và các quy luật thị trường cơ bản.",
+      "description": "Lý luận của Mác về sản xuất hàng hóa, thuộc tính hàng hóa và các quy luật thị trường chi phối nền kinh tế.",
+      "vietnam_example": "Việc chuyển đổi sang nền kinh tế thị trường đã giúp Việt Nam thoát khỏi tình trạng khan hiếm hàng hóa thời bao cấp.",
       "children": [
         {
           "id": "ch2_1",
           "name": "Hàng hóa & Thuộc tính",
           "level": 2,
+          "description": "Phân tích hàng hóa như là tế bào kinh tế của xã hội sản xuất hàng hóa.",
+          "vietnam_example": "Một chiếc điện thoại VinFast là hàng hóa vì nó có cả giá trị sử dụng và giá trị trao đổi trên thị trường.",
           "children": [
             {
               "id": "ch2_1_1",
               "name": "Giá trị sử dụng",
               "level": 3,
-              "description": "Công dụng của vật phẩm thỏa mãn nhu cầu con người."
+              "description": "Công dụng của vật phẩm, thuộc tính tự nhiên của hàng hóa nhằm thỏa mãn một nhu cầu nào đó của con người.",
+              "vietnam_example": "Giá trị sử dụng của gạo là để ăn, của áo là để mặc. Mỗi loại hàng hóa có nhiều công dụng khác nhau."
             },
             {
               "id": "ch2_1_2",
               "name": "Giá trị hàng hóa",
               "level": 3,
-              "description": "Lao động xã hội của người sản xuất hàng hóa kết tinh trong hàng hóa."
+              "description": "Là lao động xã hội của người sản xuất hàng hóa kết tinh trong hàng hóa, biểu hiện qua trao đổi bằng một lượng tiền tương ứng (giá cả).",
+              "vietnam_example": "Giá một chiếc áo 500k phản ánh mức lao động xã hội cần thiết để sản xuất ra nó trong điều kiện trung bình."
             },
             {
               "id": "ch2_1_3",
               "name": "Lao động cụ thể & trừu tượng",
               "level": 3,
-              "description": "Tính hai mặt của lao động sản xuất hàng hóa."
+              "description": "Tính hai mặt của lao động sản xuất hàng hóa: Lao động cụ thể tạo ra giá trị sử dụng; Lao động trừu tượng tạo ra giá trị hàng hóa.",
+              "vietnam_example": "Người thợ may may áo (lao động cụ thể) đồng thời tiêu tốn sức lực, thần kinh (lao động trừu tượng)."
             }
           ]
         },
@@ -126,24 +152,29 @@
           "id": "ch2_2",
           "name": "Lượng giá trị hàng hóa",
           "level": 2,
+          "description": "Các yếu tố quyết định độ lớn của giá trị và cách thức thay đổi giá trị đó.",
+          "vietnam_example": "Cạnh tranh công nghệ tại Việt Nam thực chất là cuộc đua cắt giảm lượng giá trị cá biệt để thu lợi nhuận.",
           "children": [
             {
               "id": "ch2_2_1",
               "name": "Thời gian lao động xã hội cần thiết",
               "level": 3,
-              "description": "Thước đo lượng giá trị hàng hóa."
+              "description": "Thước đo lượng giá trị hàng hóa, được tính bằng thời gian sản xuất trong điều kiện kỹ thuật và cường độ lao động trung bình của xã hội.",
+              "vietnam_example": "Nếu đa số nông dân mất 10 giờ để sản xuất 1 tạ lúa, thì 10 giờ là tiêu chuẩn xã hội để định giá lúa."
             },
             {
               "id": "ch2_2_2",
               "name": "Năng suất lao động",
               "level": 3,
-              "description": "Tỉ lệ nghịch với lượng giá trị một đơn vị hàng hóa."
+              "description": "Năng lực sản xuất của người lao động. Tăng năng suất làm giảm lượng giá trị trong một đơn vị sản phẩm.",
+              "vietnam_example": "Việc áp dụng robot trong nhà máy VinFast giúp tăng năng suất, giảm giá thành sản xuất mỗi chiếc xe."
             },
             {
               "id": "ch2_2_3",
               "name": "Cường độ lao động",
               "level": 3,
-              "description": "Không làm thay đổi giá trị một đơn vị hàng hóa nhưng tăng tổng giá trị."
+              "description": "Mức độ khẩn chương, nặng nhọc của lao động. Tăng cường độ lao động làm tăng tổng số sản phẩm và tổng giá trị nhưng giá trị mỗi đơn vị không đổi.",
+              "vietnam_example": "Công nhân tăng ca vào dịp Tết giúp tăng sản lượng hàng hóa phục vụ thị trường nhưng đòi hỏi sức lực lớn hơn."
             }
           ]
         },
@@ -151,24 +182,29 @@
           "id": "ch2_3",
           "name": "Tiền tệ & Thị trường",
           "level": 2,
+          "description": "Phân tích sự ra đời của tiền tệ và các cơ chế vận hành của thị trường.",
+          "vietnam_example": "Ngân hàng Nhà nước Việt Nam quản lý tiền tệ để ổn định giá trị đồng VND và kiềm chế lạm phát.",
           "children": [
             {
               "id": "ch2_3_1",
               "name": "Nguồn gốc & Bản chất tiền",
               "level": 3,
-              "description": "Kết quả lâu dài của quá trình trao đổi hàng hoá."
+              "description": "Tiền là một loại hàng hóa đặc biệt, đóng vai trò vật ngang giá chung cho tất cả các loại hàng hóa khác.",
+              "vietnam_example": "Tiền giấy hoặc tiền điện tử (ví MoMo) hiện nay là những hình thái phát triển của vật ngang giá chung."
             },
             {
               "id": "ch2_3_2",
               "name": "5 chức năng của tiền",
               "level": 3,
-              "description": "Thước đo giá trị, lưu thông, cất trữ, thanh toán, tiền tệ thế giới."
+              "description": "Thước đo giá trị, Phương tiện lưu thông, Phương tiện cất trữ, Phương tiện thanh toán và Tiền tệ thế giới.",
+              "vietnam_example": "Người dân Việt Nam dùng tiền để niêm yết giá (thước đo), mua bán hằng ngày (lưu thông) và gửi tiết kiệm (cất trữ)."
             },
             {
               "id": "ch2_3_3",
               "name": "Quy luật giá trị",
               "level": 3,
-              "description": "Quy luật căn bản: Sản xuất và trao đổi dựa trên hao phí lao động xã hội cần thiết."
+              "description": "Quy luật kinh tế căn bản của sản xuất hàng hóa, yêu cầu việc sản xuất và trao đổi phải dựa trên hao phí lao động xã hội cần thiết.",
+              "vietnam_example": "Các doanh nghiệp thua lỗ thường do có mức hao phí lao động cá biệt cao hơn mức xã hội chấp nhận."
             }
           ]
         }
@@ -181,24 +217,29 @@
       "level": 1,
       "color": "#10b981",
       "icon": "💰",
-      "description": "Lý luận về nguồn gốc, bản chất làm giàu của các nhà tư bản.",
+      "description": "Lý luận về nguồn gốc, bản chất và các phương pháp sản xuất giá trị thặng dư - nguồn gốc làm giàu của tư bản.",
+      "vietnam_example": "Tại Việt Nam, việc hiểu về giá trị thặng dư giúp hài hòa lợi ích giữa chủ doanh nghiệp và người lao động.",
       "children": [
         {
           "id": "ch3_1",
           "name": "Sự chuyển hóa Tiền thành Tư bản",
           "level": 2,
+          "description": "Phân tích điều kiện để tiền có thể sinh lời và tạo ra giá trị thặng dư.",
+          "vietnam_example": "Một khoản tiền nằm yên trong két không phải tư bản; nó chỉ trở thành tư bản khi được đầu tư vào sản xuất kinh doanh.",
           "children": [
             {
               "id": "ch3_1_1",
               "name": "Công thức chung: T – H – T’",
               "level": 3,
-              "description": "Tiền chỉ trở thành tư bản khi vận động nhằm mục đích giá trị thặng dư."
+              "description": "Sự vận động của tiền với mục đích thu về lượng tiền lớn hơn (T' = T + m), trong đó m là giá trị thặng dư.",
+              "vietnam_example": "Doanh nhân bỏ vốn (T) mua nguyên liệu/máy móc (H) và bán sản phẩm để thu về số tiền lớn hơn ban đầu."
             },
             {
               "id": "ch3_1_2",
               "name": "Hàng hóa Sức lao động",
               "level": 3,
-              "description": "Hàng hóa đặc biệt có GTSD tạo ra giá trị mới lớn hơn giá trị bản thân nó."
+              "description": "Loại hàng hóa đặc biệt mà khi sử dụng, nó tạo ra giá trị mới lớn hơn giá trị bản thân nó. Đây là chìa khóa của sự tăng thêm giá trị.",
+              "vietnam_example": "Các khu công nghiệp tại Việt Nam thu hút hàng triệu lao động - những người bán sức lao động để tạo ra giá trị cho nền kinh tế."
             }
           ]
         },
@@ -206,24 +247,29 @@
           "id": "ch3_2",
           "name": "Sản xuất giá trị thặng dư (m)",
           "level": 2,
+          "description": "Hai phương pháp chính để các nhà tư bản gia tăng giá trị thặng dư thu được.",
+          "vietnam_example": "Sự phát triển công nghệ (Sản xuất m tương đối) đang dần thay thế việc làm thêm giờ (Sản xuất m tuyệt đối) tại VN.",
           "children": [
             {
               "id": "ch3_2_1",
               "name": "m tuyệt đối",
               "level": 3,
-              "description": "Kéo dài ngày lao động vượt quá thời gian lao động tất yếu."
+              "description": "Giá trị thặng dư thu được bằng cách kéo dài ngày lao động vượt quá thời gian lao động tất yếu trong khi năng suất lao động không đổi.",
+              "vietnam_example": "Việc yêu cầu công nhân làm thêm giờ (OT) từ 8 tiếng lên 12 tiếng là hình thức thu m tuyệt đối."
             },
             {
               "id": "ch3_2_2",
               "name": "m tương đối",
               "level": 3,
-              "description": "Rút ngắn thời gian tất yếu bằng cách tăng năng suất lao động xã hội."
+              "description": "Giá trị thặng dư thu được do rút ngắn thời gian lao động tất yếu bằng cách tăng năng suất lao động xã hội.",
+              "vietnam_example": "Ngành dệt may Việt Nam tự động hóa dây chuyền sản xuất để giảm thời gian làm việc cần thiết cho mỗi sản phẩm."
             },
             {
               "id": "ch3_2_3",
               "name": "m siêu ngạch",
               "level": 3,
-              "description": "Do tăng năng suất lao động cá biệt, là hình thức biến tướng của m tương đối."
+              "description": "Thu được do năng suất lao động cá biệt cao hơn năng suất lao động xã hội, là động lực trực tiếp để các doanh nghiệp cải tiến kỹ thuật.",
+              "vietnam_example": "Một công ty phần mềm Việt Nam dùng AI để code nhanh gấp 10 lần đối thủ sẽ thu được giá trị thặng dư siêu ngạch."
             }
           ]
         },
@@ -231,18 +277,22 @@
           "id": "ch3_3",
           "name": "Tích lũy tư bản",
           "level": 2,
+          "description": "Quá trình biến một phần giá trị thặng dư thành tư bản phụ thêm để mở rộng sản xuất.",
+          "vietnam_example": "Tập đoàn Hòa Phát dùng lợi nhuận từ thép để xây dựng thêm các nhà máy mới, đó là quá trình tích lũy tư bản.",
           "children": [
             {
               "id": "ch3_3_1",
               "name": "Bản chất tích lũy",
               "level": 3,
-              "description": "Biến một phần m thành tư bản phụ thêm."
+              "description": "Tích lũy là sự tái sản xuất ra tư bản với quy mô ngày càng mở rộng bằng cách sử dụng giá trị thặng dư.",
+              "vietnam_example": "Quy mô vốn của các doanh nghiệp Việt Nam tăng lên hằng năm nhờ giữ lại lợi nhuận để tái đầu tư."
             },
             {
               "id": "ch3_3_2",
               "name": "Cấu tạo hữu cơ tư bản (c/v)",
               "level": 3,
-              "description": "Quan hệ giữa tư bản bất biến (c) và tư bản khả biến (v) xét về kỹ thuật."
+              "description": "Quan hệ giữa tư bản bất biến (máy móc c) và tư bản khả biến (sức lao động v) xét về mặt kỹ thuật và giá trị.",
+              "vietnam_example": "Khi các nhà máy VN mua nhiều robot (c tăng) và giảm số lượng nhân công (v giảm), cấu tạo hữu cơ sẽ tăng lên."
             }
           ]
         }
@@ -255,37 +305,50 @@
       "level": 1,
       "color": "#f59e0b",
       "icon": "🏢",
-      "description": "Sự phát triển từ CNTB tự do cạnh tranh sang giai đoạn độc quyền.",
+      "description": "Phân tích sự vận động của CNTB từ giai đoạn tự do cạnh tranh sang giai đoạn độc quyền và vai trò của Nhà nước.",
+      "vietnam_example": "Việt Nam có Luật Cạnh tranh để ngăn chặn các hành vi độc quyền làm hại người tiêu dùng.",
       "children": [
         {
           "id": "ch4_1",
           "name": "5 đặc điểm của Độc quyền (Lênin)",
           "level": 2,
+          "description": "Các đặc trưng cốt lõi của chủ nghĩa đế quốc do V.I.Lênin tổng kết hằng trăm năm trước.",
+          "vietnam_example": "Sự trỗi dậy của các tập đoàn đa quốc gia toàn cầu minh chứng cho tính đúng đắn của 5 đặc điểm này.",
           "children": [
             {
               "id": "ch4_1_1",
-              "name": "Tập trung sản xuất & Tổ chức độc quyền",
-              "level": 3
+              "name": "Tập trung sản xuất",
+              "level": 3,
+              "description": "Sản xuất tập trung vào số ít các doanh nghiệp lớn, hình thành các tổ chức độc quyền (Cartel, Syndicate, Trust, Console).",
+              "vietnam_example": "Thị trường viễn thông Việt Nam chủ yếu nằm trong tay 'ông lớn' như Viettel, VNPT và MobiFone."
             },
             {
               "id": "ch4_1_2",
-              "name": "Tư bản tài chính & Tài phiệt",
-              "level": 3
+              "name": "Tư bản tài chính",
+              "level": 3,
+              "description": "Sự kết hợp giữa tư bản độc quyền ngân hàng và tư bản độc quyền công nghiệp, hình thành tầng lớp tài phiệt lãnh đạo kinh tế.",
+              "vietnam_example": "Các tập đoàn kinh tế tư nhân lớn ở Việt Nam thường có ngân hàng 'sân sau' để hỗ trợ nguồn vốn."
             },
             {
               "id": "ch4_1_3",
               "name": "Xuất khẩu tư bản",
-              "level": 3
+              "level": 3,
+              "description": "Mang vốn đầu tư ra nước ngoài thay vì xuất khẩu hàng hóa truyền thống nhằm thu lợi nhuận cao hơn.",
+              "vietnam_example": "Viettel đầu tư sang Lào, Campuchia, Châu Phi là ví dụ điển hình về xuất khẩu tư bản của Việt Nam."
             },
             {
               "id": "ch4_1_4",
               "name": "Phân chia TG về kinh tế",
-              "level": 3
+              "level": 3,
+              "description": "Sự hình thành các liên minh độc quyền quốc tế phân chia thị trường thế giới.",
+              "vietnam_example": "Các hiệp định thương mại hoặc các khối kinh tế đôi khi phản ánh sự thỏa hiệp giữa các cường quốc kinh tế."
             },
             {
               "id": "ch4_1_5",
               "name": "Phân chia TG về lãnh thổ",
-              "level": 3
+              "level": 3,
+              "description": "Quá trình tranh giành các vùng ảnh hưởng, khu vực địa chính trị giữa các cường quốc đế quốc.",
+              "vietnam_example": "Những xung đột địa chính trị hiện nay trên thế giới vẫn mang màu sắc của cuộc tranh giành 'không gian sinh tồn' kinh tế."
             }
           ]
         },
@@ -293,18 +356,22 @@
           "id": "ch4_2",
           "name": "Độc quyền Nhà nước",
           "level": 2,
+          "description": "Sự kết hợp mật thiết giữa sức mạnh các tổ chức độc quyền và sức mạnh của bộ máy Nhà nước tư sản.",
+          "vietnam_example": "Tại Việt Nam, các Tập đoàn kinh tế Nhà nước đóng vai trò nòng cốt nhưng vận hành theo cơ chế thị trường.",
           "children": [
             {
               "id": "ch4_2_1",
               "name": "Bản chất",
               "level": 3,
-              "description": "Sự kết hợp giữa tổ chức độc quyền tư nhân và sức mạnh kinh tế của Nhà nước."
+              "description": "Nhà nước tư sản trực tiếp can thiệp vào kinh tế để cứu nguy cho các tổ chức độc quyền và duy trì sự tồn tại của hệ thống TBCN.",
+              "vietnam_example": "Trong các cuộc khủng hoảng tài chính, Chính phủ các nước phương Tây thường 'bơm tiền' để cứu các ngân hàng lớn (Too big to fail)."
             },
             {
               "id": "ch4_2_2",
               "name": "Vai trò của Nhà nước",
               "level": 3,
-              "description": "Chủ sở hữu tư bản, người quản lý, điều tiết kinh tế vĩ mô."
+              "description": "Quản lý vĩ mô, điều tiết các quan hệ kinh tế và giảm thiểu các rủi ro từ thị trường tự do.",
+              "vietnam_example": "Ở Việt Nam, Nhà nước dùng các công cụ thuế, lãi suất để điều tiết thị trường bất động sản và chứng khoán."
             }
           ]
         }
@@ -317,32 +384,43 @@
       "level": 1,
       "color": "#ef4444",
       "icon": "🇻🇳",
-      "description": "Lý luận về mô hình kinh tế tại Việt Nam và quan hệ lợi ích.",
+      "description": "Lý luận về mô hình kinh tế đặc thù của Việt Nam và cách thức giải quyết các quan hệ lợi ích trong xã hội.",
+      "vietnam_example": "Đây là nội dung trọng tâm giải thích tại sao Việt Nam phát triển nhanh chóng nhưng vẫn giữ vững định hướng chính trị.",
       "children": [
         {
           "id": "ch5_1",
           "name": "Đặc trưng KTTT ở Việt Nam",
           "level": 2,
+          "description": "Nền kinh tế vận hành đầy đủ theo quy luật thị trường nhưng có sự dẫn dắt của Đảng và Nhà nước hướng tới mục tiêu nhân văn.",
+          "vietnam_example": "Việt Nam kiên quyết không hy sinh tiến bộ và công bằng xã hội để chạy theo tăng trưởng kinh tế đơn thuần.",
           "children": [
             {
               "id": "ch5_1_1",
-              "name": "Mục tiêu: Dân giàu, nước mạnh, xã hội công bằng",
-              "level": 3
+              "name": "Mục tiêu phát triển",
+              "level": 3,
+              "description": "Hướng tới sự phát triển bền vững, dân giàu, nước mạnh, xã hội công bằng và văn minh.",
+              "vietnam_example": "Các chương trình mục tiêu quốc gia về giảm nghèo bền vững là minh chứng cho mục tiêu này."
             },
             {
               "id": "ch5_1_2",
-              "name": "Đa dạng hình thức sở hữu (Nhà nước, Tư nhân, FDI)",
-              "level": 3
+              "name": "Đa dạng sở hữu",
+              "level": 3,
+              "description": "Nền kinh tế có nhiều thành phần (Nhà nước, tập thể, tư nhân, vốn đầu tư nước ngoài) cùng phát triển.",
+              "vietnam_example": "Việt Nam coi kinh tế tư nhân là một động lực quan trọng của nền kinh tế (Ví dụ: Sun Group, Vingroup)."
             },
             {
               "id": "ch5_1_3",
-              "name": "Cơ chế phân phối theo lao động & hiệu quả",
-              "level": 3
+              "name": "Cơ chế phân phối",
+              "level": 3,
+              "description": "Phân phối chủ yếu theo kết quả lao động, hiệu quả kinh tế và mức đóng góp nguồn lực khác.",
+              "vietnam_example": "Lương thưởng của nhân viên ngân hàng cao hơn lao động phổ thông phản ánh mức độ đóng góp tri thức và hiệu quả."
             },
             {
               "id": "ch5_1_4",
-              "name": "Sự lãnh đạo của Đảng Cộng sản",
-              "level": 3
+              "name": "Sự lãnh đạo của Đảng",
+              "level": 3,
+              "description": "Đảm bảo nền kinh tế đi đúng định hướng XHCN, bảo vệ quyền lợi của nhân dân lao động.",
+              "vietnam_example": "Nghị quyết đại hội Đảng XIII xác định các bước đột phá chiến lược về hạ tầng và thể chế kinh tế."
             }
           ]
         },
@@ -350,18 +428,22 @@
           "id": "ch5_2",
           "name": "Lợi ích kinh tế",
           "level": 2,
+          "description": "Động lực trực tiếp của các chủ thể kinh tế trong xã hội.",
+          "vietnam_example": "Các chính sách 'khoan thư sức dân' của Việt Nam thực chất là tôn trọng và bảo vệ lợi ích kinh tế chính đáng của người dân.",
           "children": [
             {
               "id": "ch5_2_1",
               "name": "Các loại lợi ích",
               "level": 3,
-              "description": "Lợi ích cá nhân, lợi ích nhóm, lợi ích xã hội."
+              "description": "Phân chia thành lợi ích cá nhân (người lao động), lợi ích nhóm (doanh nghiệp) và lợi ích toàn xã hội.",
+              "vietnam_example": "Công nhân muốn lương cao, doanh nghiệp muốn lợi nhuận, Nhà nước muốn thu thuế để xây bệnh viện."
             },
             {
               "id": "ch5_2_2",
               "name": "Sự thống nhất & Mâu thuẫn",
               "level": 3,
-              "description": "Lợi ích cá nhân là động lực, lợi ích xã hội nắn chỉnh định hướng."
+              "description": "Trong đó lợi ích cá nhân là động lực, nhưng phải hài hòa với lợi ích cộng đồng để phát triển bền vững.",
+              "vietnam_example": "Việc xử phạt các hành vi xả thải gây ô nhiễm môi trường là để bảo vệ lợi ích xã hội trước lợi ích nhóm sai trái."
             }
           ]
         },
@@ -369,21 +451,29 @@
           "id": "ch5_3",
           "name": "Thể chế kinh tế thị trường",
           "level": 2,
+          "description": "Hệ thống luật pháp, bộ máy quản lý và các loại thị trường cần thiết.",
+          "vietnam_example": "Việc VN gia nhập WTO, CPTPP đòi hỏi phải hoàn thiện thể chế kinh tế tương đương với chuẩn mực quốc tế.",
           "children": [
             {
               "id": "ch5_3_1",
-              "name": "Hệ thống luật pháp kinh tế",
-              "level": 3
+              "name": "Luật pháp kinh tế",
+              "level": 3,
+              "description": "Xây dựng khung pháp lý minh bạch cho các doanh nghiệp hoạt động bình đẳng.",
+              "vietnam_example": "Luật Doanh nghiệp 2020 tạo điều kiện thuận lợi nhất cho việc thành lập và giải thể công ty tại Việt Nam."
             },
             {
               "id": "ch5_3_2",
-              "name": "Thị trường các yếu tố sản xuất",
-              "level": 3
+              "name": "Hệ thống thị trường",
+              "level": 3,
+              "description": "Phát triển đồng bộ thị trường hàng hóa, thị trường vốn (chứng khoán), thị trường lao động và thị trường khoa học công nghệ.",
+              "vietnam_example": "Sàn chứng khoán HOSE giúp huy động vốn từ người dân để các công ty Việt Nam mở rộng sản xuất."
             },
             {
               "id": "ch5_3_3",
-              "name": "Vai trò quản lý của Nhà nước",
-              "level": 3
+              "name": "Vai trò Nhà nước",
+              "level": 3,
+              "description": "Kiến tạo môi trường kinh doanh, khắc phục các 'khuyết tật' của thị trường.",
+              "vietnam_example": "Nhà nước Việt Nam thực hiện bình ổn giá các mặt hàng thiết yếu như điện, nước để chăm lo đời sống người dân."
             }
           ]
         }
@@ -396,24 +486,29 @@
       "level": 1,
       "color": "#3b82f6",
       "icon": "🌐",
-      "description": "Phương thức rút ngắn khoảng cách phát triển của Việt Nam.",
+      "description": "Chiến lược đưa Việt Nam trở thành nước phát triển thông qua đổi mới công nghệ và mở rộng quan hệ quốc tế.",
+      "vietnam_example": "Mục tiêu đến năm 2045 Việt Nam trở thành nước phát triển có thu nhập cao.",
       "children": [
         {
           "id": "ch6_1",
           "name": "Công nghiệp hóa & Hiện đại hóa",
           "level": 2,
+          "description": "Quá trình chuyển đổi căn bản các hoạt động sản xuất từ lao động thủ công sang lao động bằng máy móc hiện đại.",
+          "vietnam_example": "Từ một nước thuần nông, Việt Nam đang tiến tới trở thành trung tâm sản xuất chip và thiết bị công nghệ cao.",
           "children": [
             {
               "id": "ch6_1_1",
               "name": "Tính tất yếu",
               "level": 3,
-              "description": "Xây dựng cơ sở vật chất - kỹ thuật cho CNXH."
+              "description": "Mọi quốc gia muốn thoát nghèo đều phải qua con đường công nghiệp hóa để xây dựng cơ sở vật chất kỹ thuật mạnh.",
+              "vietnam_example": "Cầu đường, cảng biển hiện đại là nền tảng tất yếu để hàng hóa Việt Nam vươn xa thế giới."
             },
             {
               "id": "ch6_1_2",
               "name": "Nội dung trong CMCN 4.0",
               "level": 3,
-              "description": "Kinh tế số, nông nghiệp thông minh, dịch vụ hiện đại."
+              "description": "Tập trung phát triển kinh tế số, ứng dụng dữ liệu lớn (Big Data) và trí tuệ nhân tạo (AI) vào mọi ngành kinh tế.",
+              "vietnam_example": "Ngân hàng số tại Việt Nam cho phép người dân chuyển tiền và vay vốn chỉ bằng điện thoại thông minh."
             }
           ]
         },
@@ -421,18 +516,22 @@
           "id": "ch6_2",
           "name": "Hội nhập kinh tế quốc tế",
           "level": 2,
+          "description": "Gắn kết nền kinh tế quốc gia với nền kinh tế thế giới thông qua các luồng dịch chuyển vốn và hàng hóa.",
+          "vietnam_example": "Việt Nam hiện là một trong những nền kinh tế có độ mở lớn nhất thế giới với hàng chục hiệp định tự do thương mại.",
           "children": [
             {
               "id": "ch6_2_1",
               "name": "Các hình thức hội nhập",
               "level": 3,
-              "description": "Ngoại thương, đầu tư (FDI), dịch vụ thu ngoại tệ."
+              "description": "Hợp tác thương mại (xuất nhập khẩu), Đầu tư (FDI, ODA), Dịch vụ thu ngoại tệ (du lịch, vận tải biển).",
+              "vietnam_example": "Việc các tập đoàn như Samsung đầu tư hàng tỷ USD vào Việt Nam là kết quả của hội nhập sâu rộng."
             },
             {
               "id": "ch6_2_2",
               "name": "Độc lập tự chủ kinh tế",
               "level": 3,
-              "description": "Hội nhập nhưng không để bị lệ thuộc vào một thị trường duy nhất."
+              "description": "Hội nhập nhưng không để bị lệ thuộc hoặc áp đặt bởi các thế lực nước ngoài, giữ vững an ninh kinh tế quốc gia.",
+              "vietnam_example": "Việt Nam phát triển các sản phẩm nội địa cốt lõi (Make in Vietnam) để tự chủ công năng và an ninh mạng."
             }
           ]
         }
