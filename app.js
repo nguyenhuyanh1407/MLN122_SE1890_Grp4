@@ -823,4 +823,80 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
   });
 
+  // ─────────────────────────────────────────────────────────────────
+  // ══ AI CHATBOT LOGIC ═════════════════════════════════════════════
+  // ─────────────────────────────────────────────────────────────────
+  const chatBtn = document.getElementById('ai-chatbot-btn');
+  const chatWindow = document.getElementById('ai-chat-window');
+  const closeChatBtn = document.getElementById('close-chat');
+  const chatInput = document.getElementById('chat-input');
+  const sendChatBtn = document.getElementById('send-chat');
+  const chatMessages = document.getElementById('chat-messages');
+
+  let chatHistory = [
+    { role: 'system', content: 'Bạn là một trợ lý ảo am hiểu về môn học Triết học Mác-Lênin. Hãy trả lời các câu hỏi của sinh viên một cách ngắn gọn, súc tích và chính xác.' }
+  ];
+
+  chatBtn.addEventListener('click', () => {
+    chatWindow.classList.toggle('chat-hidden');
+  });
+
+  closeChatBtn.addEventListener('click', () => {
+    chatWindow.classList.add('chat-hidden');
+  });
+
+  async function sendMessage() {
+    const text = chatInput.value.trim();
+    if (!text) return;
+
+    // Add user message to UI
+    appendMessage('user', text);
+    chatInput.value = '';
+
+    // Add to history
+    chatHistory.push({ role: 'user', content: text });
+
+    // Show typing...
+    const typingId = 'typing-' + Date.now();
+    appendMessage('system', '...', typingId);
+
+    try {
+      const response = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ messages: chatHistory })
+      });
+
+      const data = await response.json();
+
+      // Remove typing
+      document.getElementById(typingId).remove();
+
+      if (data.content) {
+        appendMessage('system', data.content);
+        chatHistory.push({ role: 'assistant', content: data.content });
+      } else {
+        appendMessage('system', 'Xin lỗi, có lỗi xảy ra. Bạn vui lòng thử lại sau.');
+      }
+    } catch (error) {
+      console.error('Chat error:', error);
+      document.getElementById(typingId).remove();
+      appendMessage('system', 'Không thể kết nối với server. Hãy chắc chắn backend đã được chạy.');
+    }
+  }
+
+  function appendMessage(role, text, id) {
+    const msg = document.createElement('div');
+    msg.className = 'message ' + role;
+    if (id) msg.id = id;
+    msg.textContent = text;
+    chatMessages.appendChild(msg);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+  }
+
+  sendChatBtn.addEventListener('click', sendMessage);
+  chatInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') sendMessage();
+  });
+
 });
