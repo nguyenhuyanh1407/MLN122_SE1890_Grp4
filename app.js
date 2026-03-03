@@ -625,17 +625,21 @@ document.addEventListener('DOMContentLoaded', async function () {
     var isClickOnBreadcrumb = e.target.closest('#breadcrumb');
     var isClickOnTopBar = e.target.closest('#topbar');
     var isClickOnSidebar = e.target.closest('#sidebar');
+    var isClickOnChatBtn = e.target.closest('#ai-chatbot-btn');
+    var isClickOnChatWindow = e.target.closest('#ai-chat-window');
 
-    var isClickOnAnyUIElement = isClickInsidePanel || isClickOnNode || isClickOnBranchBtn || isClickSearchItem || isClickOnControls || isClickOnBreadcrumb || isClickOnTopBar || isClickOnSidebar;
+    var isClickOnAnyUIElement = isClickInsidePanel || isClickOnNode || isClickOnBranchBtn || isClickSearchItem || isClickOnControls || isClickOnBreadcrumb || isClickOnTopBar || isClickOnSidebar || isClickOnChatBtn || isClickOnChatWindow;
 
     // 1. Zoom out if clicking strictly on the background (not any UI element)
     if (!isClickOnAnyUIElement && focusedNode) {
       resetBranchFocus();
     }
 
-    // 2. Hide detail panel if clicking outside panel & not opening a new node
+    // 2. Hide detail panel if clicking outside panel & not opening a new node & not interacting with chat
     var isOpeningNode = isClickOnNode || isClickOnBranchBtn || isClickSearchItem;
-    if (!isClickInsidePanel && !isOpeningNode) {
+    var isInteractingWithChat = isClickOnChatBtn || isClickOnChatWindow;
+
+    if (!isClickInsidePanel && !isOpeningNode && !isInteractingWithChat) {
       if (detailPanel.classList.contains('open')) {
         if (currentNodeId) stopStudyTimer(currentNodeId);
         gsap.to(detailPanel, { x: '100%', duration: 0.4, ease: 'power2.in', onComplete: function () { detailPanel.classList.remove('open'); } });
