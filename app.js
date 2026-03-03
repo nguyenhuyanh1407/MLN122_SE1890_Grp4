@@ -838,7 +838,10 @@ document.addEventListener('DOMContentLoaded', async function () {
   const chatMessages = document.getElementById('chat-messages');
 
   let chatHistory = [
-    { role: 'system', content: 'Bạn là một trợ lý ảo am hiểu về môn học Triết học Mác-Lênin. Hãy trả lời các câu hỏi của sinh viên một cách ngắn gọn, súc tích và chính xác.' }
+    {
+      role: 'system',
+      content: 'Bạn là một trợ lý ảo am hiểu về môn học Triết học Mác-Lênin và Lịch sử. Bạn CHỈ được phép trả lời các câu hỏi liên quan đến Triết học và Lịch sử. Đối với bất kỳ câu hỏi nào ngoài hai lĩnh vực này, hãy lịch sự từ chối và giải thích rằng bạn tập trung hỗ trợ sinh viên học tập hai bộ môn này.'
+    }
   ];
 
   chatBtn.addEventListener('click', () => {
