@@ -34,7 +34,8 @@ app.post('/api/chat', async (req, res) => {
             });
             return res.json(response.data.choices[0].message);
         } else if (provider === 'gemini') {
-            const response = await axios.post(`https://generativelanguage.googleapis.com/v1beta/models/${model || 'gemini-pro'}:generateContent?key=${apiKey}`, {
+            console.log(`Calling Gemini API with model: ${model || 'gemini-1.5-flash'}`);
+            const response = await axios.post(`https://generativelanguage.googleapis.com/v1/models/${model || 'gemini-1.5-flash'}:generateContent?key=${apiKey}`, {
                 contents: messages.map(m => ({
                     role: m.role === 'assistant' ? 'model' : 'user',
                     parts: [{ text: m.content }]
