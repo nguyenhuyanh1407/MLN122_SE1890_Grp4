@@ -1,102 +1,184 @@
 [
-  {"id":1,"question":"Vấn đề cơ bản của triết học là gì?","options":["Mối quan hệ giữa tư duy và tồn tại","Mối quan hệ giữa con người và tự nhiên","Mối quan hệ giữa giai cấp và nhà nước","Mối quan hệ giữa kinh tế và chính trị"],"answer":0,"explain":"Vấn đề cơ bản của triết học là mối quan hệ giữa tư duy và tồn tại (ý thức và vật chất), gồm 2 mặt: cái nào có trước và khả năng nhận thức thế giới."},
-  {"id":2,"question":"Triết học Mác-Lênin ra đời vào khoảng thời gian nào?","options":["Thế kỷ XVII","Thế kỷ XVIII","Những năm 40 của thế kỷ XIX","Đầu thế kỷ XX"],"answer":2,"explain":"Triết học Mác-Lênin ra đời vào những năm 40 của thế kỷ XIX, với Tuyên ngôn Đảng Cộng sản (1848) là mốc quan trọng."},
-  {"id":3,"question":"Chủ nghĩa duy vật biện chứng khẳng định điều gì?","options":["Ý thức có trước, vật chất có sau","Vật chất có trước, ý thức có sau, vật chất quyết định ý thức","Vật chất và ý thức tồn tại song song, không cái nào quyết định cái nào","Ý thức và vật chất là một"],"answer":1,"explain":"Chủ nghĩa duy vật biện chứng khẳng định: vật chất có trước, ý thức có sau; vật chất quyết định ý thức, nhưng ý thức có tính độc lập tương đối và tác động trở lại vật chất."},
-  {"id":4,"question":"Theo triết học Mác-Lênin, 'vật chất' được định nghĩa như thế nào?","options":["Là những vật thể hữu hình mà con người có thể nhìn thấy","Là phạm trù triết học dùng để chỉ thực tại khách quan, tồn tại độc lập với ý thức","Là tổng hợp các nguyên tử và phân tử trong vũ trụ","Là tất cả những gì có thể cân, đo, đong, đếm được"],"answer":1,"explain":"Định nghĩa vật chất của Lênin: Vật chất là phạm trù triết học dùng để chỉ thực tại khách quan được đem lại cho con người trong cảm giác, được cảm giác của chúng ta chép lại, chụp lại, phản ánh, và tồn tại không lệ thuộc vào cảm giác."},
-  {"id":5,"question":"Nguồn gốc của ý thức theo triết học Mác-Lênin?","options":["Do Thượng đế ban tặng","Từ vật chất có tổ chức cao — não người — và thực tiễn xã hội","Xuất hiện ngay khi con người được sinh ra","Từ môi trường tự nhiên xung quanh"],"answer":1,"explain":"Ý thức có nguồn gốc từ tự nhiên (não người - vật chất có tổ chức cao nhất) và nguồn gốc xã hội (lao động, ngôn ngữ, thực tiễn xã hội)."},
-  {"id":6,"question":"Phép biện chứng duy vật có mấy quy luật cơ bản?","options":["2 quy luật","3 quy luật","4 quy luật","5 quy luật"],"answer":1,"explain":"Phép biện chứng duy vật có 3 quy luật cơ bản: (1) Quy luật thống nhất và đấu tranh của các mặt đối lập; (2) Quy luật lượng – chất; (3) Quy luật phủ định của phủ định."},
-  {"id":7,"question":"Quy luật lượng – chất nói về điều gì?","options":["Mọi sự vật đều có lượng và chất riêng biệt, không liên quan nhau","Sự thay đổi về lượng đến điểm nút sẽ dẫn đến sự thay đổi về chất (bước nhảy)","Chất quyết định lượng trong mọi trường hợp","Lượng luôn thay đổi còn chất thì bất biến"],"answer":1,"explain":"Quy luật lượng – chất: Sự thay đổi về lượng đến một giới hạn nhất định (điểm nút) tất yếu dẫn đến sự thay đổi về chất (bước nhảy), tạo ra sự vật mới."},
-  {"id":8,"question":"Quy luật phủ định của phủ định phản ánh điều gì?","options":["Mọi cái cũ đều bị phủ định hoàn toàn","Sự phát triển đi theo đường thẳng tiến lên","Sự phát triển có tính kế thừa, xoáy ốc — phủ định biện chứng giữ lại cái tích cực","Phủ định là sự tiêu diệt hoàn toàn"],"answer":2,"explain":"Quy luật phủ định của phủ định: sự phát triển có tính kế thừa (phủ định biện chứng), hình thức xoáy ốc — sau hai lần phủ định dường như quay lại cái ban đầu nhưng ở trình độ cao hơn."},
-  {"id":9,"question":"'Mâu thuẫn biện chứng' trong triết học Mác-Lênin là gì?","options":["Sự xung đột giữa hai quốc gia","Sự thống nhất và đấu tranh giữa các mặt đối lập trong bản thân sự vật","Sự không nhất quán trong lời nói","Xung đột lợi ích giữa các giai cấp"],"answer":1,"explain":"Mâu thuẫn biện chứng là sự thống nhất và đấu tranh giữa các mặt đối lập — đây là nguồn gốc, động lực của sự vận động và phát triển."},
-  {"id":10,"question":"Thực tiễn trong triết học Mác-Lênin được hiểu là gì?","options":["Mọi hoạt động của con người","Hoạt động vật chất có mục đích, mang tính lịch sử – xã hội của con người nhằm cải tạo tự nhiên và xã hội","Chỉ là hoạt động sản xuất kinh tế","Kinh nghiệm sống hàng ngày"],"answer":1,"explain":"Thực tiễn là hoạt động vật chất có mục đích, mang tính lịch sử – xã hội của con người nhằm cải biến thế giới khách quan. Gồm: sản xuất vật chất, chính trị – xã hội, thực nghiệm khoa học."},
-  {"id":11,"question":"Vai trò của thực tiễn với nhận thức là gì?","options":["Thực tiễn chỉ kiểm tra nhận thức","Thực tiễn là cơ sở, động lực, mục đích của nhận thức và là tiêu chuẩn của chân lý","Nhận thức quan trọng hơn thực tiễn","Thực tiễn cản trở nhận thức lý luận"],"answer":1,"explain":"Thực tiễn có 4 vai trò: cơ sở của nhận thức, động lực của nhận thức, mục đích của nhận thức, và tiêu chuẩn để kiểm tra chân lý."},
-  {"id":12,"question":"Chân lý theo triết học Mác-Lênin là gì?","options":["Điều mà đa số mọi người tin là đúng","Tri thức phản ánh đúng đắn thực tại khách quan, được thực tiễn kiểm nghiệm","Điều được ghi trong sách giáo khoa","Sự nhất trí của các nhà khoa học"],"answer":1,"explain":"Chân lý là những tri thức phản ánh đúng đắn, trung thực thực tại khách quan và được thực tiễn kiểm nghiệm. Chân lý có tính khách quan, cụ thể và tương đối – tuyệt đối."},
-  {"id":13,"question":"Hình thái kinh tế – xã hội trong CNDVLS gồm mấy yếu tố cơ bản?","options":["2 yếu tố","3 yếu tố","4 yếu tố","5 yếu tố"],"answer":1,"explain":"Hình thái kinh tế – xã hội gồm 3 yếu tố cơ bản: (1) Lực lượng sản xuất; (2) Quan hệ sản xuất (cơ sở hạ tầng); (3) Kiến trúc thượng tầng."},
-  {"id":14,"question":"Quy luật quan hệ sản xuất phù hợp với lực lượng sản xuất nói lên điều gì?","options":["Quan hệ sản xuất quyết định lực lượng sản xuất","Lực lượng sản xuất quyết định quan hệ sản xuất; QHSX phải phù hợp với trình độ LLSX","Hai yếu tố này không liên quan nhau","LLSX và QHSX luôn mâu thuẫn với nhau"],"answer":1,"explain":"Lực lượng sản xuất (yếu tố động) quyết định quan hệ sản xuất. Khi LLSX phát triển đến mức độ nhất định, QHSX cũ trở nên lỗi thời, cần thay thế bằng QHSX mới phù hợp hơn."},
-  {"id":15,"question":"Giai cấp theo triết học Mác-Lênin là gì?","options":["Nhóm người có cùng nghề nghiệp","Những tập đoàn người khác nhau về địa vị trong hệ thống sản xuất xã hội nhất định","Những người có cùng thu nhập","Những người có cùng dân tộc"],"answer":1,"explain":"Giai cấp là những tập đoàn người khác nhau về địa vị trong một hệ thống sản xuất xã hội nhất định, về quan hệ đối với tư liệu sản xuất, về vai trò trong tổ chức lao động xã hội và về cách thức hưởng thụ phần của cải xã hội."},
-  {"id":16,"question":"Nhà nước theo quan điểm Mác-Lênin là gì?","options":["Tổ chức đại diện cho lợi ích của toàn xã hội","Công cụ bạo lực của giai cấp thống trị để duy trì quyền lực","Cơ quan quản lý hành chính thuần túy","Tổ chức xã hội dân sự"],"answer":1,"explain":"Nhà nước là sản phẩm và biểu hiện của những mâu thuẫn giai cấp không thể điều hòa được — là bộ máy của giai cấp thống trị dùng để trấn áp giai cấp bị trị."},
-  {"id":17,"question":"Cách mạng xã hội chủ nghĩa khác cách mạng tư sản ở điểm nào?","options":["Không có gì khác biệt","CMXHCN do giai cấp công nhân lãnh đạo, nhằm xóa bỏ chế độ người bóc lột người, xây dựng CNXH","CMTS tiến bộ hơn CMXHCN","CMXHCN chỉ diễn ra ở các nước nghèo"],"answer":1,"explain":"CMXHCN do giai cấp vô sản lãnh đạo, thực hiện xóa bỏ chế độ tư hữu tư nhân về tư liệu sản xuất, xóa bỏ chế độ người bóc lột người, xây dựng CNXH và CNCS."},
-  {"id":18,"question":"Con người theo triết học Mác-Lênin là thực thể gì?","options":["Chỉ là thực thể tự nhiên sinh học","Chỉ là thực thể xã hội","Thực thể thống nhất của tự nhiên – xã hội – lịch sử","Là sản phẩm thuần túy của môi trường"],"answer":2,"explain":"Con người là thực thể thống nhất của mặt tự nhiên – xã hội – lịch sử: vừa là sản phẩm của tự nhiên, vừa là chủ thể cải tạo tự nhiên và xã hội."},
-  {"id":19,"question":"Bản chất con người theo Mác là gì?","options":["Bản chất bẩm sinh, do gen quyết định","Tổng hòa các quan hệ xã hội","Linh hồn bất diệt","Bản năng sinh tồn"],"answer":1,"explain":"Trong 'Luận cương về Feuerbach', Mác viết: 'Bản chất con người không phải là cái trừu tượng cố hữu của cá nhân riêng lẻ. Trong tính hiện thực của nó, bản chất con người là tổng hòa những quan hệ xã hội'."},
-  {"id":20,"question":"Hai chức năng cơ bản của triết học là gì?","options":["Giải thích và dự báo","Thế giới quan và phương pháp luận","Phân tích và tổng hợp","Mô tả và đánh giá"],"answer":1,"explain":"Hai chức năng cơ bản của triết học: (1) Chức năng thế giới quan — cung cấp hệ thống quan điểm về thế giới; (2) Chức năng phương pháp luận — cung cấp phương pháp luận chung nhất để nhận thức và cải tạo thế giới."},
-  {"id":21,"question":"Phương thức sản xuất gồm mấy yếu tố?","options":["1 yếu tố","2 yếu tố: lực lượng sản xuất và quan hệ sản xuất","3 yếu tố","4 yếu tố"],"answer":1,"explain":"Phương thức sản xuất = Lực lượng sản xuất + Quan hệ sản xuất. Đây là cái quyết định tính chất của một hình thái kinh tế – xã hội."},
-  {"id":22,"question":"Lực lượng sản xuất gồm những yếu tố nào?","options":["Chỉ là công cụ lao động","Người lao động và tư liệu sản xuất (trong đó công cụ lao động là quan trọng nhất)","Chỉ là vốn tài chính","Đất đai và tài nguyên thiên nhiên"],"answer":1,"explain":"LLSX gồm: người lao động (với kinh nghiệm, kỹ năng, trí tuệ) và tư liệu sản xuất (trong đó công cụ lao động là quan trọng nhất, thể hiện trình độ của LLSX)."},
-  {"id":23,"question":"'Bước nhảy' trong quy luật lượng – chất là gì?","options":["Sự thay đổi chậm chạp dần dần","Sự chuyển hóa từ lượng thành chất, tạo ra sự vật mới về chất","Sự thay đổi ngẫu nhiên không có quy luật","Sự mất đi của sự vật cũ"],"answer":1,"explain":"Bước nhảy là sự chuyển hóa về chất do sự thay đổi về lượng gây ra, khi lượng đã tích lũy đến giới hạn (điểm nút). Bước nhảy tạo ra sự vật mới về chất."},
-  {"id":24,"question":"Kiến trúc thượng tầng gồm những gì?","options":["Chỉ là nhà nước và pháp luật","Toàn bộ đời sống tinh thần của xã hội: chính trị, pháp luật, đạo đức, tôn giáo, nghệ thuật... và các thiết chế tương ứng","Chỉ là văn hóa và nghệ thuật","Tất cả cơ sở vật chất của xã hội"],"answer":1,"explain":"Kiến trúc thượng tầng là toàn bộ những quan điểm tư tưởng, thiết chế chính trị – xã hội tương ứng được hình thành trên cơ sở hạ tầng và phản ánh cơ sở hạ tầng."},
-  {"id":25,"question":"Theo triết học Mác-Lênin, tồn tại xã hội quyết định điều gì?","options":["Ý thức xã hội quyết định tồn tại xã hội","Tồn tại xã hội quyết định ý thức xã hội","Hai yếu tố bình đẳng, không cái nào quyết định cái nào","Địa lý tự nhiên quyết định tồn tại xã hội"],"answer":1,"explain":"Tồn tại xã hội (đời sống vật chất) quyết định ý thức xã hội. Khi tồn tại xã hội thay đổi thì ý thức xã hội sẽ thay đổi theo (tuy có tính độc lập tương đối)."},
-  {"id":26,"question":"Quy luật nào là 'hạt nhân' của phép biện chứng duy vật?","options":["Quy luật lượng – chất","Quy luật phủ định của phủ định","Quy luật thống nhất và đấu tranh của các mặt đối lập","Quy luật nhân – quả"],"answer":2,"explain":"Lênin nhận định quy luật thống nhất và đấu tranh của các mặt đối lập là 'hạt nhân' của phép biện chứng, vì nó chỉ ra nguồn gốc và động lực của sự vận động, phát triển."},
-  {"id":27,"question":"Đâu là đặc trưng của nhận thức cảm tính?","options":["Trừu tượng, khái quát, sâu sắc","Phản ánh trực tiếp thông qua giác quan, bề ngoài, cụ thể","Phản ánh bản chất và quy luật","Phán đoán và suy lý"],"answer":1,"explain":"Nhận thức cảm tính (cảm giác, tri giác, biểu tượng) phản ánh trực tiếp thế giới qua giác quan, cho hình ảnh cụ thể bề ngoài của sự vật, chưa phản ánh được bản chất."},
-  {"id":28,"question":"Phủ định biện chứng khác phủ định siêu hình ở điểm nào?","options":["Không có gì khác nhau","Phủ định biện chứng kế thừa những yếu tố tích cực của cái cũ; phủ định siêu hình phủ định sạch trơn","Phủ định biện chứng chậm hơn","Phủ định siêu hình tiến bộ hơn"],"answer":1,"explain":"Phủ định biện chứng: tự phủ định, có tính kế thừa, giữ lại những yếu tố tích cực của cái cũ. Phủ định siêu hình: phủ định sạch trơn, không kế thừa, do lực lượng bên ngoài."},
-  {"id":29,"question":"Đấu tranh giai cấp có vai trò gì trong lịch sử?","options":["Cản trở sự phát triển xã hội","Là động lực trực tiếp của lịch sử trong xã hội có giai cấp đối kháng","Chỉ gây ra chiến tranh, không có ý nghĩa tích cực","Chỉ xảy ra ở giai đoạn đầu của lịch sử"],"answer":1,"explain":"Đấu tranh giai cấp trong xã hội có giai cấp đối kháng là động lực trực tiếp của lịch sử — thúc đẩy sự phát triển của lực lượng sản xuất, thay thế hình thái kinh tế – xã hội cũ bằng hình thái mới."},
-  {"id":30,"question":"Đâu là 3 hình thức cơ bản của thực tiễn?","options":["Học tập, nghiên cứu, lao động","Sản xuất vật chất, hoạt động chính trị – xã hội, thực nghiệm khoa học","Suy nghĩ, cảm nhận, hành động","Kinh tế, chính trị, văn hóa"],"answer":1,"explain":"Ba hình thức cơ bản của thực tiễn: (1) Sản xuất vật chất — cơ bản nhất; (2) Hoạt động chính trị – xã hội; (3) Thực nghiệm khoa học."},
-  {"id":31,"question":"Vai trò của quần chúng nhân dân trong lịch sử là gì?","options":["Chỉ là công cụ của các lãnh tụ vĩ đại","Là chủ thể sáng tạo ra lịch sử: tạo ra của cải vật chất, cải biến xã hội và sáng tạo văn hóa","Không có vai trò gì đáng kể","Chỉ tham gia các cuộc cách mạng"],"answer":1,"explain":"Quần chúng nhân dân là chủ thể sáng tạo ra lịch sử: lực lượng sản xuất cơ bản tạo ra của cải vật chất, động lực của các cuộc cách mạng xã hội, sáng tạo các giá trị văn hóa tinh thần."},
-  {"id":32,"question":"Vai trò của cá nhân lãnh tụ vĩ đại trong lịch sử là gì?","options":["Là người duy nhất quyết định lịch sử","Không có vai trò gì, chỉ quần chúng mới quan trọng","Là người nhận thức đúng xu thế lịch sử, tổ chức và lãnh đạo quần chúng thực hiện nhiệm vụ lịch sử","Chỉ có vai trò trong thời chiến"],"answer":2,"explain":"Lãnh tụ vĩ đại có tầm ảnh hưởng lớn song không quyết định chiều hướng phát triển của lịch sử. Họ phải phản ánh đúng nhu cầu và nguyện vọng của quần chúng để có thể tập hợp và lãnh đạo."},
-  {"id":33,"question":"Cơ sở hạ tầng là gì?","options":["Toàn bộ cơ sở vật chất – kỹ thuật của xã hội","Toàn bộ các quan hệ sản xuất hợp thành cơ cấu kinh tế của xã hội","Hệ thống pháp luật và nhà nước","Các phong trào xã hội và chính trị"],"answer":1,"explain":"Cơ sở hạ tầng là toàn bộ những quan hệ sản xuất hợp thành cơ cấu kinh tế của một xã hội nhất định. Cơ sở hạ tầng quyết định kiến trúc thượng tầng."},
-  {"id":34,"question":"'Bản thể luận' trong triết học nghiên cứu vấn đề gì?","options":["Nghiên cứu quá trình nhận thức","Nghiên cứu về bản chất của thực tại, về tồn tại","Nghiên cứu đạo đức và giá trị","Nghiên cứu lịch sử triết học"],"answer":1,"explain":"Bản thể luận (Ontology) là bộ phận của triết học nghiên cứu về bản chất của tồn tại, về những nguyên lý tối cao quyết định mọi tồn tại — vật chất hay tinh thần có trước."},
-  {"id":35,"question":"'Nhận thức luận' trong triết học nghiên cứu vấn đề gì?","options":["Bản chất của vật chất","Khả năng và giới hạn nhận thức của con người, con đường nhận thức chân lý","Lịch sử hình thành xã hội loài người","Các quy luật logic hình thức"],"answer":1,"explain":"Nhận thức luận (Epistemology) nghiên cứu về bản chất, khả năng và giới hạn của nhận thức; nguồn gốc và cơ sở của tri thức; tiêu chuẩn của chân lý."},
-  {"id":36,"question":"Nguyên tắc thống nhất giữa lý luận và thực tiễn có nghĩa là gì?","options":["Lý luận quan trọng hơn thực tiễn","Thực tiễn và lý luận phải gắn bó chặt chẽ: lý luận xuất phát từ thực tiễn, soi đường cho thực tiễn","Chỉ cần thực tiễn, không cần lý luận","Lý luận và thực tiễn hoàn toàn độc lập với nhau"],"answer":1,"explain":"Nguyên tắc thống nhất lý luận – thực tiễn: lý luận phải xuất phát từ và trở về thực tiễn; thực tiễn là cơ sở, tiêu chuẩn của lý luận; lý luận soi đường, dẫn dắt thực tiễn."},
-  {"id":37,"question":"Khái niệm 'tha hóa' (alienation) của Mác đề cập đến vấn đề gì?","options":["Sự cô đơn trong xã hội hiện đại","Lao động của công nhân bị biến thành vật xa lạ, thống trị lại chính người công nhân","Sự phân hóa văn hóa giữa các dân tộc","Tâm lý chán nản của người lao động"],"answer":1,"explain":"Trong xã hội tư bản, lao động của công nhân tạo ra của cải nhưng của cải đó thuộc về nhà tư bản và quay lại thống trị công nhân — đây là sự tha hóa lao động."},
-  {"id":38,"question":"Theo triết học Mác-Lênin, tự do là gì?","options":["Làm bất cứ điều gì mình muốn","Tự do là nhận thức được tất yếu và hành động phù hợp với tất yếu đó","Sự vắng mặt của mọi ràng buộc","Sự tùy tiện trong hành động"],"answer":1,"explain":"Tự do không phải là tùy tiện mà là nhận thức được tất yếu khách quan và hành động phù hợp. 'Tự do là cái nhận thức được tất yếu' (Hegel – được Mác kế thừa và phát triển)."},
-  {"id":39,"question":"Ý thức xã hội có đặc điểm gì so với tồn tại xã hội?","options":["Hoàn toàn phụ thuộc vào tồn tại xã hội, không có tính độc lập","Có tính độc lập tương đối: có thể đi trước hoặc lạc hậu hơn tồn tại xã hội","Luôn tiến bộ hơn tồn tại xã hội","Không liên quan đến tồn tại xã hội"],"answer":1,"explain":"Ý thức xã hội có tính độc lập tương đối: có thể phản ánh vượt trước (lý luận khoa học) hoặc lạc hậu hơn (tư tưởng bảo thủ) so với tồn tại xã hội."},
-  {"id":40,"question":"Chủ nghĩa xã hội khoa học dựa trên nền tảng lý luận nào?","options":["Chủ nghĩa xã hội không tưởng","Triết học duy tâm","Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử","Kinh tế học cổ điển"],"answer":2,"explain":"CNXH khoa học của Mác – Ăng-ghen đặt trên nền tảng triết học duy vật biện chứng và duy vật lịch sử, phân tích khoa học về PTSX tư bản chủ nghĩa và quy luật vận động lịch sử."},
-  {"id":41,"question":"'Phủ định biện chứng' có mấy đặc điểm cơ bản?","options":["1 đặc điểm","2 đặc điểm: tính khách quan và tính kế thừa","3 đặc điểm","4 đặc điểm"],"answer":1,"explain":"Phủ định biện chứng có 2 đặc điểm cơ bản: (1) Tính khách quan — do mâu thuẫn nội tại của bản thân sự vật; (2) Tính kế thừa — giữ lại những yếu tố tích cực của cái cũ."},
-  {"id":42,"question":"Mối quan hệ giữa cơ sở hạ tầng và kiến trúc thượng tầng là gì?","options":["Hai yếu tố hoàn toàn độc lập","CSHT quyết định KTTT; KTTT tác động trở lại CSHT","KTTT quyết định CSHT","CSHT và KTTT ngang bằng nhau"],"answer":1,"explain":"CSHT quyết định KTTT (nội dung, tính chất của KTTT). KTTT có tính độc lập tương đối và tác động trở lại CSHT — bảo vệ và củng cố CSHT sinh ra nó (nếu tiến bộ) hoặc kìm hãm (nếu lạc hậu)."},
-  {"id":43,"question":"Đâu là đặc trưng của nhận thức lý tính?","options":["Trực tiếp qua giác quan, cụ thể","Khái niệm, phán đoán, suy lý — phản ánh bản chất, quy luật","Chỉ phản ánh bề ngoài sự vật","Dựa trên cảm xúc và trực giác"],"answer":1,"explain":"Nhận thức lý tính (tư duy trừu tượng) gồm: khái niệm, phán đoán, suy lý — phản ánh được bản chất, quy luật của sự vật. Đây là bước nhảy vọt từ cảm tính lên lý tính."},
-  {"id":44,"question":"Theo CNDVLS, tiến bộ xã hội là gì?","options":["Sự tăng trưởng kinh tế thuần túy","Sự phát triển từ hình thái kinh tế – xã hội thấp lên cao hơn, phù hợp hơn với quy luật khách quan","Sự đổi mới công nghệ kỹ thuật","Sự gia tăng dân số"],"answer":1,"explain":"Tiến bộ xã hội là sự vận động đi lên từ hình thái kinh tế – xã hội thấp hơn lên cao hơn, từ trình độ thấp hơn lên cao hơn — theo quy luật khách quan của lịch sử."},
-  {"id":45,"question":"Chủ nghĩa duy tâm cho rằng gì?","options":["Vật chất có trước, ý thức có sau","Ý thức, tinh thần có trước và quyết định vật chất","Vật chất và ý thức ngang bằng nhau","Không thể biết cái gì có trước"],"answer":1,"explain":"Chủ nghĩa duy tâm (Idealism) coi ý thức, tinh thần, lý tính hay ý chí là cái có trước, có tính thứ nhất; vật chất là cái có sau, phụ thuộc vào ý thức."},
-  {"id":46,"question":"Điểm khác biệt cơ bản giữa phép biện chứng và phép siêu hình là gì?","options":["Phép biện chứng thừa nhận sự vận động và phát triển; phép siêu hình xem sự vật cô lập, bất biến","Phép siêu hình mới nhất, phép biện chứng cũ hơn","Phép biện chứng chỉ áp dụng cho tự nhiên","Không có sự khác biệt cơ bản"],"answer":0,"explain":"Phép biện chứng duy vật: xem xét sự vật trong mối liên hệ phổ biến, trong sự vận động và phát triển. Phép siêu hình: xem xét sự vật cô lập, tĩnh tại, bất biến, không liên hệ."},
-  {"id":47,"question":"Hồ Chí Minh vận dụng sáng tạo chủ nghĩa Mác-Lênin như thế nào vào Việt Nam?","options":["Áp dụng nguyên xi không thay đổi","Kết hợp lý luận Mác-Lênin với thực tiễn Việt Nam, kết hợp độc lập dân tộc với CNXH, phát huy truyền thống dân tộc","Chỉ dùng lý luận kinh tế của Mác","Chỉ học theo mô hình Liên Xô"],"answer":1,"explain":"Hồ Chí Minh vận dụng sáng tạo: kết hợp CMVS với CMGPDT, CNXH với truyền thống yêu nước, đặc thù văn hóa VN; đặt nền tảng cho đường lối cách mạng độc lập, tự chủ."},
-  {"id":48,"question":"Đổi mới 1986 của Việt Nam thể hiện sự vận dụng quy luật nào?","options":["Quy luật phủ định của phủ định","Quy luật quan hệ sản xuất phải phù hợp với lực lượng sản xuất","Quy luật lượng – chất","Quy luật đấu tranh giai cấp"],"answer":1,"explain":"Đổi mới 1986: QHSX kế hoạch hóa tập trung quan liêu bao cấp không còn phù hợp LLSX → chuyển sang kinh tế thị trường định hướng XHCN. Đây là ứng dụng quy luật QHSX phù hợp LLSX."},
-  {"id":49,"question":"Triết học phương Đông và phương Tây khác nhau chủ yếu ở điểm nào?","options":["Triết học phương Đông hoàn toàn không khoa học","Triết học phương Đông chú trọng thực hành đạo đức, hòa hợp; phương Tây phân tích lý luận, logic hình thức","Không có điểm gì khác nhau","Triết học phương Tây ra đời sớm hơn nhiều"],"answer":1,"explain":"Triết học phương Đông (Nho, Phật, Lão-Trang): chú trọng đạo đức, chính trị, hòa hợp thiên – nhân. Triết học phương Tây (Hy Lạp cổ đại trở đi): phân tích logic, khoa học tự nhiên, siêu hình học."},
-  {"id":50,"question":"Đâu là đặc trưng quan trọng nhất của giai cấp công nhân theo quan điểm Mác-Lênin?","options":["Không có tư liệu sản xuất, phải bán sức lao động; là lực lượng sản xuất tiên tiến nhất và mang sứ mệnh lịch sử xóa bỏ CNTB","Chỉ làm việc trong công xưởng, nhà máy","Luôn nghèo hơn tất cả các giai cấp khác","Chỉ tồn tại ở các nước công nghiệp phát triển"],"answer":0,"explain":"GCCN: không có TLSX → bán sức lao động; gắn với LLSX tiên tiến (máy móc công nghiệp); có tổ chức kỷ luật cao; mang sứ mệnh lịch sử: xóa bỏ CNTB, xây dựng CNXH-CNCS."},
-  {"id":51,"question":"Vai trò của 'ý thức' trong triết học Mác-Lênin là gì?","options":["Không có vai trò gì, hoàn toàn thụ động","Có tính độc lập tương đối, có thể tác động mạnh mẽ trở lại vật chất nếu phản ánh đúng hiện thực","Quyết định toàn bộ thực tại vật chất","Chỉ là sự phản chiếu thụ động của vật chất"],"answer":1,"explain":"Ý thức có tính độc lập tương đối và tác động trở lại vật chất. Ý thức đúng đắn, khoa học có thể thúc đẩy sự phát triển; ý thức sai lầm có thể kìm hãm sự phát triển."},
-  {"id":52,"question":"Theo CNDVLS, đâu là nguồn gốc của bất bình đẳng xã hội?","options":["Sự khác biệt về năng lực tự nhiên giữa các cá nhân","Sự xuất hiện của chế độ tư hữu về tư liệu sản xuất","Ý muốn chủ quan của các nhà cai trị","Sự khác biệt về văn hóa và trình độ học vấn"],"answer":1,"explain":"Theo CNDVLS: bất bình đẳng xã hội xuất hiện cùng với chế độ tư hữu về TLSX — khi một số người chiếm hữu TLSX, họ có thể chiếm đoạt lao động của người khác."},
-  {"id":53,"question":"Chủ nghĩa duy vật lịch sử (CNDVLS) nghiên cứu vấn đề gì?","options":["Lịch sử hình thành vật chất trong vũ trụ","Quy luật phát triển của xã hội loài người","Lịch sử tư tưởng triết học","Lịch sử khoa học tự nhiên"],"answer":1,"explain":"CNDVLS (hay duy vật về lịch sử) là học thuyết về xã hội và lịch sử xã hội — nghiên cứu quy luật vận động, phát triển của xã hội loài người từ góc độ duy vật."},
-  {"id":54,"question":"Đâu là đặc trưng của tư duy biện chứng?","options":["Xem xét sự vật cô lập, tách rời","Xem xét sự vật trong mối liên hệ, trong quá trình vận động và phát triển mâu thuẫn nội tại","Phủ nhận sự tồn tại của mâu thuẫn","Chỉ quan tâm đến trạng thái tĩnh"],"answer":1,"explain":"Tư duy biện chứng: xem xét sự vật trong mối liên hệ phổ biến; nhìn thấy sự vận động và phát triển; phát hiện mâu thuẫn nội tại là nguồn gốc của sự vận động."},
-  {"id":55,"question":"Triết học Mác-Lênin có vai trò gì đối với Đảng CSVN?","options":["Chỉ là lý thuyết trừu tượng không ứng dụng được","Là nền tảng tư tưởng và phương pháp luận cho đường lối, chính sách của Đảng","Là một trong nhiều học thuyết bình đẳng","Chỉ dùng để giáo dục cán bộ, đảng viên"],"answer":1,"explain":"Đảng CSVN lấy Chủ nghĩa Mác-Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng và kim chỉ nam hành động — cơ sở lý luận để hoạch định đường lối chiến lược."},
-  {"id":56,"question":"Khái niệm 'vận động' trong triết học Mác-Lênin có nghĩa là gì?","options":["Chỉ là sự di chuyển cơ học trong không gian","Mọi sự biến đổi, thay đổi nói chung — là phương thức tồn tại của vật chất","Sự tăng trưởng và phát triển tích cực","Chỉ là sự thay đổi về mặt lượng"],"answer":1,"explain":"Vận động trong triết học Mác-Lênin là mọi sự biến đổi nói chung — phương thức tồn tại của vật chất. Có 5 hình thức vận động từ thấp đến cao: cơ học, vật lý, hóa học, sinh học, xã hội."},
-  {"id":57,"question":"Đâu là 5 hình thức vận động cơ bản (từ thấp đến cao)?","options":["Thực vật, động vật, con người, xã hội, vũ trụ","Cơ học, vật lý, hóa học, sinh học, xã hội","Đơn giản, phức tạp, tiến bộ, thoái bộ, tuần hoàn","Lý học, hóa học, sinh học, tâm lý học, xã hội học"],"answer":1,"explain":"Ăng-ghen phân chia 5 hình thức vận động từ thấp lên cao: cơ học (di chuyển), vật lý (nhiệt, điện...), hóa học (phản ứng), sinh học (trao đổi chất), xã hội (thay đổi kinh tế – xã hội)."},
-  {"id":58,"question":"'Không gian và thời gian' theo quan điểm duy vật là gì?","options":["Tồn tại độc lập với vật chất, có trước vật chất","Hình thức tồn tại của vật chất — không tách rời vật chất vận động","Chỉ là khái niệm chủ quan của con người","Tuyệt đối, không thay đổi theo vật chất"],"answer":1,"explain":"Quan điểm duy vật biện chứng: không gian và thời gian là hình thức tồn tại của vật chất vận động, không tách rời vật chất. Không gian: tính quảng tính (3 chiều); thời gian: tính thứ tự, chiều hướng."},
-  {"id":59,"question":"Mối liên hệ phổ biến trong phép biện chứng có nghĩa là gì?","options":["Mọi sự vật hoàn toàn độc lập với nhau","Mọi sự vật, hiện tượng đều có liên hệ, tác động qua lại, quy định lẫn nhau","Chỉ một số sự vật có liên hệ với nhau","Mọi sự vật chỉ liên hệ về mặt vật chất"],"answer":1,"explain":"Nguyên lý về mối liên hệ phổ biến: mọi sự vật, hiện tượng đều tồn tại trong mối liên hệ, tác động qua lại, quy định và chuyển hóa lẫn nhau. Không có sự vật nào tồn tại hoàn toàn cô lập."},
-  {"id":60,"question":"Nguyên lý về sự phát triển trong phép biện chứng nói lên điều gì?","options":["Mọi thứ đứng yên, bất biến","Sự vật vận động theo vòng tròn, lặp đi lặp lại","Sự vận động đi lên, từ thấp đến cao, từ đơn giản đến phức tạp, từ kém hoàn thiện đến hoàn thiện hơn","Chỉ có sự thay đổi tiêu cực"],"answer":2,"explain":"Nguyên lý về sự phát triển: phát triển là xu hướng chung của vận động — đi lên, từ thấp đến cao, từ đơn giản đến phức tạp, từ chưa hoàn thiện đến hoàn thiện hơn; theo hình thức xoáy ốc."},
-  {"id":61,"question":"Đặc trưng nào phân biệt con người với động vật?","options":["Kích thước cơ thể lớn hơn","Con người lao động, sử dụng và chế tạo công cụ, có ngôn ngữ và ý thức, sáng tạo lịch sử","Con người sống theo bầy đàn","Con người có trí nhớ tốt hơn"],"answer":1,"explain":"Con người khác động vật ở: (1) Lao động — chế tạo và sử dụng công cụ; (2) Ý thức và tư duy; (3) Ngôn ngữ; (4) Quan hệ xã hội; (5) Có lịch sử — tự sáng tạo ra chính mình."},
-  {"id":62,"question":"Luận điểm 'Tồn tại quyết định ý thức' được hiểu là gì?","options":["Mọi việc phải được suy nghĩ trước mới thực hiện","Điều kiện, hoàn cảnh vật chất quyết định quan điểm, tư tưởng, ý thức","Ý thức phụ thuộc hoàn toàn vào sự tồn tại sinh học","Bạo lực vật chất quan trọng hơn tư tưởng"],"answer":1,"explain":"'Tồn tại quyết định ý thức' = điều kiện, hoàn cảnh vật chất – xã hội quyết định quan điểm, tư tưởng và ý thức xã hội. Khi tồn tại thay đổi thì ý thức cũng thay đổi theo."},
-  {"id":63,"question":"Triết học Mác-Lênin khắc phục hạn chế của triết học Hegel như thế nào?","options":["Bác bỏ hoàn toàn triết học Hegel","Đặt phép biện chứng của Hegel lên nền tảng duy vật, không dừng ở duy tâm","Chỉ giữ lại kết quả, không dùng phương pháp của Hegel","Phát triển triết học Hegel theo hướng duy tâm hơn"],"answer":1,"explain":"Mác và Ăng-ghen đã 'lộn ngược' Hegel: giữ lại phép biện chứng (phương pháp) nhưng đặt trên nền tảng duy vật thay vì duy tâm tuyệt đối của Hegel — tạo ra phép biện chứng duy vật."},
-  {"id":64,"question":"Điểm mới căn bản nhất mà Lênin bổ sung vào triết học Mác là gì?","options":["Lý thuyết về nhà nước chuyên chính vô sản","Phát triển triết học Mác trong điều kiện CNTB độc quyền; bảo vệ và phát triển chủ nghĩa duy vật biện chứng","Lý luận về giá trị thặng dư","Lý luận về đấu tranh giai cấp"],"answer":1,"explain":"Lênin bảo vệ và phát triển triết học Mác trong bối cảnh CNTB độc quyền, các khoa học tự nhiên phát triển mạnh. Đặc biệt: phát triển lý luận nhận thức, mối liên hệ vật chất – ý thức trong thời đại mới."},
-  {"id":65,"question":"Khái niệm 'thống nhất của các mặt đối lập' có nghĩa là gì?","options":["Hai mặt đối lập hoàn toàn giống nhau","Hai mặt đối lập cùng tồn tại trong một sự vật, nương tựa vào nhau, là điều kiện tồn tại của nhau","Hai mặt đối lập không liên quan nhau","Một mặt sẽ tiêu diệt hoàn toàn mặt kia"],"answer":1,"explain":"Thống nhất của các mặt đối lập: hai mặt đối lập cùng tồn tại trong một sự vật, thống nhất với nhau — là điều kiện, tiền đề tồn tại của nhau. Ví dụ: đồng hóa và dị hóa trong sinh vật."},
-  {"id":66,"question":"Theo Mác, điều gì là tiêu chuẩn của chân lý?","options":["Số đông người tin vào điều đó","Tính logic nội tại của lý luận","Thực tiễn","Sự đồng thuận của các chuyên gia"],"answer":2,"explain":"Mác khẳng định: thực tiễn là tiêu chuẩn duy nhất và cuối cùng để kiểm tra chân lý. Thực tiễn vừa có tính khách quan vừa có tính cụ thể – lịch sử."},
-  {"id":67,"question":"Tại sao nói thực tiễn là 'tiêu chuẩn' nhưng không 'tuyệt đối'?","options":["Vì thực tiễn thường sai","Vì thực tiễn mang tính lịch sử – cụ thể, ở mỗi giai đoạn có giới hạn nhất định","Vì chân lý không thể kiểm nghiệm được","Vì lý luận quan trọng hơn thực tiễn"],"answer":1,"explain":"Thực tiễn là tiêu chuẩn khách quan nhưng không tuyệt đối vì: thực tiễn mang tính lịch sử cụ thể — điều đúng ở thời điểm này, hoàn cảnh này có thể chưa đủ ở thời điểm, hoàn cảnh khác."},
-  {"id":68,"question":"'Quan hệ biện chứng' giữa cá nhân và xã hội là gì?","options":["Cá nhân hoàn toàn phụ thuộc xã hội","Xã hội là mục tiêu, cá nhân là phương tiện","Cá nhân và xã hội tác động qua lại — cá nhân tạo ra xã hội, xã hội hình thành cá nhân","Cá nhân quan trọng hơn xã hội"],"answer":2,"explain":"Quan hệ biện chứng cá nhân – xã hội: cá nhân là thành tố của xã hội, xã hội là tổng hợp các quan hệ của cá nhân. Xã hội hình thành, phát triển cá nhân; cá nhân xây dựng, cải tạo xã hội."},
-  {"id":69,"question":"Đặc trưng nào của CNXH phân biệt với CNTB?","options":["Chỉ là sự thay đổi về tên gọi","Công hữu hóa tư liệu sản xuất, xóa bỏ bóc lột, phát triển vì con người","Duy trì chế độ tư hữu nhưng tăng phúc lợi","Áp dụng kinh tế kế hoạch tuyệt đối"],"answer":1,"explain":"CNXH đặc trưng: công hữu về TLSX chủ yếu; xóa bỏ áp bức bóc lột; phân phối theo lao động; phát triển vì lợi ích con người và toàn xã hội; nhà nước của dân, do dân, vì dân."},
-  {"id":70,"question":"Phương châm 'Dĩ bất biến ứng vạn biến' của Hồ Chí Minh thể hiện nguyên lý triết học nào?","options":["Phép siêu hình, bất biến","Thống nhất giữa kiên định nguyên tắc (bất biến) và linh hoạt sách lược (vạn biến)","Chủ nghĩa tương đối","Phủ nhận mọi quy luật khách quan"],"answer":1,"explain":"'Dĩ bất biến ứng vạn biến': bất biến = độc lập dân tộc, chủ quyền quốc gia (nguyên tắc); vạn biến = linh hoạt chiến thuật, sách lược. Đây là sự thống nhất biện chứng giữa nguyên tắc và linh hoạt."},
-  {"id":71,"question":"Lý luận nhận thức của Mác-Lênin dựa trên cơ sở nào?","options":["Triết học duy tâm tiên nghiệm của Kant","Triết học thực dụng","Chủ nghĩa duy vật biện chứng và lý luận thực tiễn","Triết học kinh nghiệm thuần túy"],"answer":2,"explain":"Lý luận nhận thức Mác-Lênin đặt trên CNDVBC: thế giới khách quan là đối tượng nhận thức; thực tiễn là cơ sở của nhận thức; quá trình nhận thức đi từ trực quan sinh động đến tư duy trừu tượng."},
-  {"id":72,"question":"Theo triết học Mác-Lênin, mục đích cuối cùng của nhận thức là gì?","options":["Tích lũy tri thức để tự thỏa mãn","Phục vụ thực tiễn — cải tạo thế giới","Đạt đến tri thức tuyệt đối","Hiểu biết nguyên nhân của sự vật"],"answer":1,"explain":"Mục đích cuối cùng của nhận thức không phải là tri thức mà là thực tiễn — nhận thức phục vụ cải tạo thế giới, phục vụ sản xuất và đấu tranh xã hội."},
-  {"id":73,"question":"Điều kiện để một cá nhân trở thành 'lãnh tụ vĩ đại' là gì?","options":["Xuất thân quý tộc và quyền lực gia truyền","Nhận thức đúng xu thế lịch sử, hiểu nguyện vọng nhân dân, có phẩm chất đạo đức cách mạng","Có quân đội và vũ lực mạnh nhất","Được các nước lớn ủng hộ"],"answer":1,"explain":"Lãnh tụ vĩ đại: (1) Nhận thức đúng xu thế lịch sử và lợi ích giai cấp; (2) Biết tổ chức, lãnh đạo quần chúng; (3) Phẩm chất đạo đức và năng lực vượt trội; (4) Gắn bó mật thiết với nhân dân."},
-  {"id":74,"question":"Ý nghĩa của việc học Triết học Mác-Lênin đối với sinh viên Việt Nam hiện nay?","options":["Chỉ để đáp ứng yêu cầu môn học bắt buộc","Xây dựng thế giới quan khoa học, phương pháp tư duy biện chứng, vận dụng vào nghề nghiệp và cuộc sống","Thuộc lòng các định nghĩa và công thức","Học để thi qua môn rồi thôi"],"answer":1,"explain":"Học Triết học Mác-Lênin giúp: (1) Xây dựng TGQ duy vật biện chứng; (2) Rèn luyện PPL biện chứng khoa học; (3) Định hướng tư tưởng chính trị; (4) Vận dụng vào thực tiễn nghề nghiệp."},
-  {"id":75,"question":"Quan điểm của Mác về lao động là gì?","options":["Lao động là hình phạt của con người","Lao động là hoạt động bản chất của con người — phương tiện con người khẳng định bản thân và tạo ra lịch sử","Lao động chỉ là phương tiện kiếm sống","Lao động là gánh nặng cần giảm thiểu"],"answer":1,"explain":"Mác coi lao động là hoạt động bản chất đặc trưng của con người — qua lao động, con người không chỉ tạo ra của cải vật chất mà còn tự tạo ra chính mình, khẳng định bản chất loài của mình."},
-  {"id":76,"question":"Khái niệm 'siêu hình học' trong triết học có nghĩa gì?","options":["Khoa học nghiên cứu các hiện tượng siêu nhiên","Triết học nghiên cứu những vấn đề ngoài vật lý — bản thể, tồn tại, không gian, thời gian","Phương pháp tư duy xem xét sự vật tĩnh, cô lập, bất biến","Cả hai nghĩa B và C"],"answer":3,"explain":"'Siêu hình học' có 2 nghĩa: (1) Bản thể luận – nghiên cứu thực tại ngoài vật lý (Aristotle); (2) Phương pháp tư duy siêu hình — đối lập với biện chứng, xem xét sự vật tĩnh, cô lập."},
-  {"id":77,"question":"Nguyên tắc 'khách quan' trong phương pháp luận duy vật biện chứng yêu cầu gì?","options":["Không cần quan tâm đến lợi ích chủ quan","Nhận thức phải xuất phát từ thực tế khách quan, không áp đặt ý muốn chủ quan vào sự vật","Tất cả nhận thức đều là khách quan","Chỉ tin vào số liệu thống kê"],"answer":1,"explain":"Nguyên tắc khách quan: khi nhận thức và hành động phải xuất phát từ bản thân sự vật, tôn trọng quy luật khách quan, không được áp đặt ý muốn chủ quan vào sự vật, hiện tượng."},
-  {"id":78,"question":"'Phát triển bền vững' ở Việt Nam hiện nay liên quan đến nguyên lý triết học nào?","options":["Chỉ liên quan đến kinh tế","Nguyên lý về mối liên hệ phổ biến — phát triển kinh tế gắn liền với xã hội, môi trường","Nguyên lý phủ định của phủ định","Quy luật đấu tranh giai cấp"],"answer":1,"explain":"Phát triển bền vững (kinh tế – xã hội – môi trường) thể hiện nguyên lý mối liên hệ phổ biến — không thể chỉ phát triển một chiều mà phải xem xét toàn diện các mối liên hệ và tác động qua lại."},
-  {"id":79,"question":"Đặc điểm 'tính Đảng' trong triết học Mác-Lênin là gì?","options":["Triết học Mác-Lênin chỉ phục vụ một đảng chính trị cụ thể","Mọi triết học đều thể hiện lợi ích giai cấp — THMLN thể hiện lập trường của GCCN và nhân dân lao động","Triết học phải trung lập với tất cả giai cấp","Tính đảng chỉ áp dụng trong chính trị, không trong triết học"],"answer":1,"explain":"Tính Đảng trong triết học: mọi triết học đều phục vụ lợi ích giai cấp. THMLN, về mặt giai cấp, phục vụ lợi ích của GCCN và nhân dân lao động — giai cấp đại diện cho lực lượng tiến bộ lịch sử."},
-  {"id":80,"question":"Đặc điểm nào của phép biện chứng duy vật phân biệt nó với phép biện chứng duy tâm của Hegel?","options":["Phép biện chứng DV không có 3 quy luật cơ bản","Phép biện chứng DV đặt trên nền tảng duy vật — thế giới vật chất tự vận động, phát triển theo quy luật khách quan","Phép biện chứng DV phủ nhận sự vận động","Phép biện chứng Hegel phức tạp hơn"],"answer":1,"explain":"Hegel: phép biện chứng nhưng trên nền duy tâm — 'Ý niệm tuyệt đối' tự vận động. Mác-Ăng-ghen: 'lộn ngược' Hegel — phép biện chứng trên nền duy vật, thế giới vật chất tự vận động theo quy luật khách quan."},
-  {"id":81,"question":"Mâu thuẫn trong cùng một sự vật gồm mấy loại?","options":["Chỉ một loại","Nhiều loại, trong đó có mâu thuẫn cơ bản, chủ yếu, đối kháng và không đối kháng","Chỉ hai loại: đối kháng và không đối kháng","Ba loại: bên trong, bên ngoài và trung gian"],"answer":1,"explain":"Mâu thuẫn được phân loại: (1) Mâu thuẫn cơ bản/không cơ bản; (2) Mâu thuẫn chủ yếu/thứ yếu; (3) Mâu thuẫn đối kháng (giữa giai cấp thù địch) và không đối kháng (trong nội bộ nhân dân)."},
-  {"id":82,"question":"Quy luật 'đấu tranh' của các mặt đối lập dẫn đến điều gì?","options":["Sự hủy diệt của cả hai mặt","Sự phát triển, biến đổi về chất của sự vật — giải quyết mâu thuẫn, tạo ra sự vật mới","Hai mặt đối lập tồn tại mãi mãi","Sự cân bằng hoàn hảo"],"answer":1,"explain":"Đấu tranh của các mặt đối lập là nguồn gốc của sự vận động và phát triển. Khi mâu thuẫn được giải quyết (một mặt thắng, hoặc hai mặt chuyển hóa), sự vật mới ra đời."},
-  {"id":83,"question":"Điểm nút trong quy luật lượng – chất là gì?","options":["Điểm bắt đầu của quá trình thay đổi lượng","Giới hạn mà ở đó sự thay đổi về lượng dẫn đến sự thay đổi về chất","Điểm kết thúc của sự phát triển","Trạng thái cân bằng của lượng và chất"],"answer":1,"explain":"Điểm nút là giới hạn (threshold) mà khi lượng tích lũy vượt qua, sự vật sẽ xảy ra bước nhảy — chuyển hóa về chất. Ví dụ: nước đun đến 100°C (điểm nút) → bốc hơi (bước nhảy)."},
-  {"id":84,"question":"Phép biện chứng duy vật có ý nghĩa gì với hoạt động thực tiễn?","options":["Chỉ có ý nghĩa lý luận thuần túy","Cung cấp phương pháp luận khoa học để nhận thức và cải tạo thế giới — cơ sở cho mọi hoạt động thực tiễn","Chỉ áp dụng trong khoa học tự nhiên","Giúp phân tích các sự kiện lịch sử"],"answer":1,"explain":"Phép BCDV cung cấp: (1) Phương pháp tiếp cận toàn diện, lịch sử – cụ thể; (2) Phát hiện mâu thuẫn để giải quyết; (3) Nắm bắt xu hướng phát triển; (4) Kết hợp lý luận – thực tiễn."},
-  {"id":85,"question":"Sự khác nhau cơ bản giữa chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật siêu hình là gì?","options":["CNDVBC thừa nhận tồn tại của vật chất, CNDVSHHH không","CNDVBC xem xét vật chất vận động, biện chứng; CNDVSHHH xem vật chất cơ học, tĩnh","Không có sự khác nhau","CNDVSHHH tiến bộ hơn CNDVBC"],"answer":1,"explain":"CNDVSHHH (thế kỷ XVII-XVIII): vật chất là cơ giới, tĩnh, bất biến. CNDVBC (Mác-Ăng-ghen): vật chất vận động và phát triển biện chứng, không gian – thời gian gắn với vật chất vận động."},
-  {"id":86,"question":"Điều kiện khách quan và điều kiện chủ quan trong cách mạng xã hội là gì?","options":["Điều kiện khách quan là ý chí của lãnh tụ","Điều kiện khách quan là LLSX phát triển mâu thuẫn QHSX cũ; chủ quan là giai cấp cách mạng có tổ chức, lý luận","Điều kiện chủ quan là địa lý tự nhiên","Hai điều kiện không liên quan nhau"],"answer":1,"explain":"Điều kiện khách quan: LLSX phát triển mâu thuẫn gay gắt với QHSX cũ; giai cấp thống trị khủng hoảng. Điều kiện chủ quan: giai cấp cách mạng trưởng thành, có lý luận, tổ chức và lãnh tụ."},
-  {"id":87,"question":"Nguồn gốc của ý thức gồm mấy nguồn gốc?","options":["Một nguồn gốc duy nhất: não người","Hai nguồn gốc: tự nhiên (não người) và xã hội (lao động và ngôn ngữ)","Ba nguồn gốc","Không xác định được nguồn gốc"],"answer":1,"explain":"Ý thức có hai nguồn gốc: (1) Nguồn gốc tự nhiên — não người (vật chất có tổ chức cao) là cơ sở vật chất; (2) Nguồn gốc xã hội — lao động và ngôn ngữ là nguồn gốc trực tiếp."},
-  {"id":88,"question":"Nhận thức đi từ 'trực quan sinh động đến tư duy trừu tượng' có nghĩa gì?","options":["Nhận thức bắt đầu từ cảm giác trực tiếp rồi nâng lên tư duy khái niệm, bản chất","Nhận thức bắt đầu từ lý thuyết rồi kiểm nghiệm","Nhận thức đi từ cao xuống thấp","Hai giai đoạn này không liên quan"],"answer":0,"explain":"Con đường biện chứng của nhận thức (Lênin): 'Từ trực quan sinh động đến tư duy trừu tượng, và từ tư duy trừu tượng đến thực tiễn — đó là con đường biện chứng của nhận thức chân lý'."},
-  {"id":89,"question":"Triết học Mác ra đời dựa trên 3 tiền đề lý luận nào?","options":["Duy tâm Đức, kinh tế chính trị Pháp, CNXH không tưởng Anh","Triết học cổ điển Đức, kinh tế chính trị học cổ điển Anh, CNXH không tưởng Pháp","Triết học Hy Lạp cổ đại, kinh tế học hiện đại, khoa học tự nhiên","Chủ nghĩa thực chứng, chủ nghĩa kinh nghiệm, chủ nghĩa duy lý"],"answer":1,"explain":"Ba tiền đề lý luận của triết học Mác: (1) Triết học cổ điển Đức (Hegel, Feuerbach); (2) Kinh tế chính trị học cổ điển Anh (A.Smith, D.Ricardo); (3) CNXH không tưởng Pháp (Saint-Simon, Fourier, Owen)."},
-  {"id":90,"question":"Ba tiền đề khoa học tự nhiên của triết học Mác là gì?","options":["Thuyết tương đối, cơ học lượng tử, thuyết Big Bang","Định luật bảo toàn năng lượng, học thuyết tế bào, học thuyết tiến hóa Darwin","Thuyết nguyên tử, thuyết điện tử, thuyết di truyền Mendel","Vật lý Newton, hóa học Lavoisier, thiên văn học Copernicus"],"answer":1,"explain":"Ba tiền đề khoa học tự nhiên (thế kỷ XIX) cung cấp cơ sở cho CNDVBC: (1) Định luật bảo toàn và chuyển hóa năng lượng; (2) Học thuyết tế bào; (3) Học thuyết tiến hóa của Darwin."},
-  {"id":91,"question":"Theo nguyên lý mối liên hệ phổ biến, cần có quan điểm gì khi giải quyết vấn đề?","options":["Chỉ tập trung vào một khía cạnh quan trọng nhất","Quan điểm toàn diện: xem xét tất cả các mặt, các mối liên hệ; đồng thời có trọng tâm","Xem xét tất cả mọi thứ như nhau, không phân biệt chính phụ","Bỏ qua các yếu tố bên ngoài, chỉ tập trung nội tại"],"answer":1,"explain":"Quan điểm toàn diện: nhìn nhận sự vật trong tất cả các mặt, các mối liên hệ; đồng thời phân biệt các mối liên hệ chủ yếu, thứ yếu, để có trọng tâm trong hành động."},
-  {"id":92,"question":"Theo nguyên lý phát triển, cần có quan điểm gì khi tiếp cận sự vật?","options":["Nhìn sự vật như đã hoàn thiện, bất biến","Quan điểm lịch sử – cụ thể và phát triển: đặt sự vật trong quá trình vận động, thấy xu hướng tất yếu","Chỉ nhìn vào trạng thái hiện tại","Bi quan về sự thoái bộ"],"answer":1,"explain":"Quan điểm phát triển: nhìn sự vật không phải như đã hoàn thành mà trong quá trình vận động; thấy được xu hướng tất yếu; không bảo thủ với cái cũ; ủng hộ cái mới tiến bộ."},
-  {"id":93,"question":"Chính sách kinh tế thị trường định hướng XHCN ở Việt Nam thể hiện điều gì về triết học?","options":["Từ bỏ chủ nghĩa Mác-Lênin","Vận dụng sáng tạo nguyên lý quan hệ sản xuất phù hợp lực lượng sản xuất","Theo chủ nghĩa tư bản hoàn toàn","Không liên quan đến triết học"],"answer":1,"explain":"KTTT định hướng XHCN: vận dụng quy luật QHSX phải phù hợp với LLSX (sử dụng cơ chế thị trường phù hợp trình độ LLSX), đồng thời giữ định hướng XHCN (vai trò nhà nước, sở hữu toàn dân)."},
-  {"id":94,"question":"Đâu là luận điểm sai về chân lý?","options":["Chân lý có tính khách quan","Chân lý có tính tuyệt đối và tương đối","Chân lý là điều được số đông ủng hộ","Chân lý được kiểm nghiệm qua thực tiễn"],"answer":2,"explain":"Chân lý KHÔNG phải là điều số đông ủng hộ — đây là quan điểm phi Mác-xít. Chân lý là tri thức phản ánh đúng thực tại khách quan, được thực tiễn kiểm nghiệm, có tính khách quan, cụ thể."},
-  {"id":95,"question":"Tính 'đảng' và tính 'khoa học' trong triết học Mác-Lênin có mâu thuẫn không?","options":["Có mâu thuẫn, không thể kết hợp","Không mâu thuẫn — GCCN có lợi ích phù hợp xu hướng tiến bộ lịch sử, nên tính đảng và khoa học thống nhất","Tính đảng quan trọng hơn tính khoa học","Tính khoa học phủ nhận tính đảng"],"answer":1,"explain":"GCCN có lợi ích phù hợp với sự tiến bộ lịch sử và xu hướng vận động khách quan — vì vậy trong THMLN, tính Đảng (lập trường GCCN) thống nhất với tính khoa học (phản ánh đúng quy luật khách quan)."},
-  {"id":96,"question":"Triết học Mác-Lênin giải quyết vấn đề 'con người có thể nhận thức được thế giới không' như thế nào?","options":["Con người không thể nhận thức được bản chất thế giới (Kant)","Con người có thể nhận thức được thế giới — thực tiễn là bằng chứng khả năng nhận thức","Nhận thức là vô hạn, không có giới hạn","Chỉ nhận thức được hiện tượng, không thể hiểu bản chất"],"answer":1,"explain":"THMLN khẳng định có thể nhận thức thế giới (chống thuyết bất khả tri của Kant, Hume). Thực tiễn chứng minh: khoa học ngày càng khám phá được những quy luật sâu xa của tự nhiên và xã hội."},
-  {"id":97,"question":"Theo CNDVLS, nhà nước sẽ tồn tại mãi mãi không?","options":["Có, nhà nước là thiết chế vĩnh cửu","Không — khi không còn giai cấp, nhà nước sẽ tiêu vong","Nhà nước chỉ mất đi khi bị lật đổ bằng bạo lực","Nhà nước biến đổi nhưng không tiêu vong"],"answer":1,"explain":"Mác-Ăng-ghen: nhà nước ra đời từ mâu thuẫn giai cấp không điều hòa được. Khi CNCS xây dựng xong, giai cấp tiêu vong thì nhà nước cũng tự tiêu vong — không cần bạo lực phá bỏ."},
-  {"id":98,"question":"Chính sách 'Đại đoàn kết dân tộc' của Việt Nam thể hiện nguyên lý triết học nào?","options":["Quy luật đấu tranh giai cấp","Nguyên lý thống nhất các mặt đối lập và mối liên hệ phổ biến","Quy luật phủ định của phủ định","Quy luật lượng – chất"],"answer":1,"explain":"Đại đoàn kết: xây dựng sự thống nhất trong đa dạng (thống nhất các mặt khác biệt). Phát huy mối liên hệ giữa các dân tộc, tôn giáo, tầng lớp — tổng hợp sức mạnh dân tộc theo nguyên lý liên hệ phổ biến."},
-  {"id":99,"question":"Đâu là đặc điểm phân biệt triết học với khoa học cụ thể?","options":["Triết học không có phương pháp nghiên cứu","Triết học nghiên cứu những quy luật chung nhất, phổ biến nhất của thế giới; khoa học cụ thể nghiên cứu một lĩnh vực cụ thể","Triết học kém chính xác hơn khoa học","Triết học ra đời trước khoa học nên lỗi thời"],"answer":1,"explain":"Triết học: nghiên cứu những quy luật, tính chất chung nhất, phổ biến nhất của toàn bộ thế giới (tự nhiên + xã hội + tư duy). Khoa học cụ thể: nghiên cứu một lĩnh vực, một nhóm hiện tượng cụ thể."},
-  {"id":100,"question":"Bài học rút ra từ việc nghiên cứu triết học Mác-Lênin cho sinh viên là gì?","options":["Học thuộc lòng để vượt qua kỳ thi","Hình thành tư duy biện chứng, nhìn nhận sự vật đa chiều, gắn lý luận với thực tiễn cuộc sống","Theo Đảng vì sợ không có việc làm","Không áp dụng được vào cuộc sống hiện đại"],"answer":1,"explain":"Triết học Mác-Lênin giúp sinh viên: tư duy biện chứng, phân tích đa chiều; gắn lý luận – thực tiễn; nhận thức quy luật khách quan; định hướng đúng đắn trong học tập, nghề nghiệp và cuộc sống."}
+  {
+    "id": 101,
+    "chapter": 1,
+    "question": "Thuật ngữ 'Kinh tế chính trị' được sử dụng lần đầu tiên bởi ai?",
+    "options": [
+      "Adam Smith",
+      "Antoine de Montchrétien",
+      "Karl Marx",
+      "David Ricardo"
+    ],
+    "answer": 1,
+    "explain": "Antoine de Montchrétien là người đầu tiên đưa ra thuật ngữ này trong tác phẩm 'Chuyên luận về Kinh tế chính trị' (1615)."
+  },
+  {
+    "id": 102,
+    "chapter": 1,
+    "question": "Học thuyết nào được coi là 'hòn đá tảng' trong lý luận kinh tế của Mác?",
+    "options": [
+      "Lý luận hàng hóa",
+      "Lý luận địa tô",
+      "Lý luận giá trị thặng dư",
+      "Lý luận về tiền tệ"
+    ],
+    "answer": 2,
+    "explain": "Lý luận giá trị thặng dư giúp vạch trần bản chất bóc lột của CNTB và là đóng góp vĩ đại nhất của Mác cho kinh tế học."
+  },
+  {
+    "id": 201,
+    "chapter": 2,
+    "question": "Tính hai mặt của lao động sản xuất hàng hóa là gì?",
+    "options": [
+      "Lao động chân tay và trí óc",
+      "Lao động cụ thể và lao động trừu tượng",
+      "Lao động giản đơn và phức tạp",
+      "Lao động tư nhân và xã hội"
+    ],
+    "answer": 1,
+    "explain": "Lao động cụ thể tạo ra giá trị sử dụng, lao động trừu tượng tạo ra giá trị hàng hóa."
+  },
+  {
+    "id": 202,
+    "chapter": 2,
+    "question": "Khi năng suất lao động tăng, lượng giá trị của một đơn vị hàng hóa sẽ thay đổi thế nào?",
+    "options": [
+      "Tăng lên",
+      "Giảm xuống",
+      "Không đổi",
+      "Tăng gấp đôi"
+    ],
+    "answer": 1,
+    "explain": "Năng suất lao động tỉ lệ nghịch với lượng giá trị một đơn vị sản phẩm."
+  },
+  {
+    "id": 203,
+    "chapter": 2,
+    "question": "Chức năng nào của tiền tệ được coi là quan trọng nhất để niêm yết giá hàng hóa?",
+    "options": [
+      "Phương tiện lưu thông",
+      "Phương tiện cất trữ",
+      "Thước đo giá trị",
+      "Phương tiện thanh toán"
+    ],
+    "answer": 2,
+    "explain": "Tiền dùng để đo lường và biểu hiện giá trị của các hàng hóa khác bằng tiền (giá cả)."
+  },
+  {
+    "id": 301,
+    "chapter": 3,
+    "question": "Tại sao hàng hóa sức lao động là hàng hóa đặc biệt?",
+    "options": [
+      "Vì nó khó mua hơn các hàng hóa khác",
+      "Vì GTSD của nó có khả năng tạo ra giá trị mới lớn hơn giá trị bản thân nó",
+      "Vì nó không có giá trị",
+      "Vì nó chỉ do nhà nước quản lý"
+    ],
+    "answer": 1,
+    "explain": "Đây là đặc điểm cốt yếu để tiền chuyển hóa thành tư bản và tạo ra giá trị thặng dư."
+  },
+  {
+    "id": 302,
+    "chapter": 3,
+    "question": "Giá trị thặng dư siêu ngạch thu được là do đâu?",
+    "options": [
+      "Tăng năng suất lao động xã hội",
+      "Kéo dài ngày lao động",
+      "Tăng năng suất lao động cá biệt vượt trên năng suất lao động xã hội",
+      "Giảm chi phí vận chuyển"
+    ],
+    "answer": 2,
+    "explain": "m siêu ngạch là động lực mạnh mẽ nhất thúc đẩy các nhà tư bản cải tiến kỹ thuật."
+  },
+  {
+    "id": 303,
+    "chapter": 3,
+    "question": "Cấu tạo hữu cơ của tư bản (c/v) có xu hướng thay đổi thế nào khi kỹ thuật phát triển?",
+    "options": [
+      "Giảm xuống",
+      "Tăng lên",
+      "Giữ nguyên",
+      "Biến thiên ngẫu nhiên"
+    ],
+    "answer": 1,
+    "explain": "Khi kỹ thuật phát triển, máy móc (c) tăng nhanh hơn sức lao động (v), dẫn đến cấu tạo hữu cơ tăng lên."
+  },
+  {
+    "id": 401,
+    "chapter": 4,
+    "question": "Xuất khẩu tư bản là đặc điểm của giai đoạn nào?",
+    "options": [
+      "CNTB tự do cạnh tranh",
+      "CNTB độc quyền",
+      "Chủ nghĩa trọng thương",
+      "Kinh tế phong kiến"
+    ],
+    "answer": 1,
+    "explain": "Lênin xác định xuất khẩu tư bản (mang vốn sang nước khác) là một trong 5 đặc điểm cơ bản của độc quyền."
+  },
+  {
+    "id": 402,
+    "chapter": 4,
+    "question": "Mục đích cuối cùng của các tổ chức độc quyền là gì?",
+    "options": [
+      "Giúp đỡ cộng đồng",
+      "Thống trị thế giới",
+      "Thu lợi nhuận độc quyền cao",
+      "Cải tiến kỹ thuật"
+    ],
+    "answer": 2,
+    "explain": "Lợi nhuận độc quyền cao dựa trên việc khống chế giá cả và thị trường."
+  },
+  {
+    "id": 501,
+    "chapter": 5,
+    "question": "Tại sao kinh tế nhà nước phải giữ vai trò chủ đạo ở Việt Nam?",
+    "options": [
+      "Để cạnh tranh với tư nhân",
+      "Để nắm giữ các ngành then chốt và điều tiết định hướng XHCN",
+      "Vì nhà nước có nhiều tiền nhất",
+      "Để xóa bỏ các thành phần khác"
+    ],
+    "answer": 1,
+    "explain": "Kinh tế nhà nước là công cụ vật chất để định hướng phát triển kinh tế-xã hội theo con đường XHCN."
+  },
+  {
+    "id": 502,
+    "chapter": 5,
+    "question": "Quan hệ phân phối nào là cơ bản nhất trong KTTT định hướng XHCN?",
+    "options": [
+      "Phân phối bình quân",
+      "Phân phối theo nhu cầu",
+      "Phân phối theo lao động và hiệu quả kinh tế",
+      "Phân phối theo may mắn"
+    ],
+    "answer": 2,
+    "explain": "Phân phối theo lao động đảm bảo công bằng và tạo động lực phát triển."
+  },
+  {
+    "id": 601,
+    "chapter": 6,
+    "question": "Trong Cách mạng công nghệ 4.0, tài nguyên nào được coi là quan trọng nhất?",
+    "options": [
+      "Dầu mỏ",
+      "Sắt thép",
+      "Tri thức và dữ liệu số",
+      "Lao động cơ bắp"
+    ],
+    "answer": 2,
+    "explain": "Kinh tế tri thức lấy tri thức và dữ liệu làm lực lượng sản xuất trực tiếp và quan trọng nhất."
+  },
+  {
+    "id": 602,
+    "chapter": 6,
+    "question": "Hội nhập kinh tế quốc tế của Việt Nam thực hiện theo phương châm nào?",
+    "options": [
+      "Chỉ chơi với các nước mạnh",
+      "Đóng cửa bảo vệ sản xuất trong nước",
+      "Đa phương hóa, đa dạng hóa quan hệ",
+      "Lệ thuộc vào một đối tác duy nhất"
+    ],
+    "answer": 2,
+    "explain": "Việc đa dạng hóa giúp Việt Nam linh hoạt và bảo vệ độc lập tự chủ kinh tế."
+  }
 ]
