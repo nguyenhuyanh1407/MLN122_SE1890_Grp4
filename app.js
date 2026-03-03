@@ -1,5 +1,5 @@
 /**
- * EconMap — Triết học Mác-Lênin
+ * EconMap — Kinh tế chính trị Mác-Lênin
  * Full-featured: Mind Map + Progress Tracking + Quiz System
  */
 document.addEventListener('DOMContentLoaded', async function () {
@@ -83,8 +83,7 @@ document.addEventListener('DOMContentLoaded', async function () {
   // ── Progress tracking ─────────────────────────────────────────────
   var studiedNodes = new Set();
   var nodeTimers = {};   // nodeId → timeout id
-  var allNodeCount = 59;
-  totalCount.textContent = allNodeCount;
+  var allNodeCount = 0; // Will be calculated from data
 
   function markStudied(nodeId) {
     if (studiedNodes.has(nodeId)) return;
@@ -139,6 +138,11 @@ document.addEventListener('DOMContentLoaded', async function () {
   try {
     mapData = await d3.json('mindmap.json');
     quizData = await d3.json('quiz.json');
+
+    // Calculate total nodes (concepts) excluding root
+    allNodeCount = d3.hierarchy(mapData).descendants().length - 1;
+    totalCount.textContent = allNodeCount;
+
     buildMap(mapData);
     buildSidebar(mapData);
     gsap.to(loader, { opacity: 0, duration: 0.5, onComplete: function () { loader.style.display = 'none'; } });
