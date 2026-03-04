@@ -7,110 +7,8 @@
   "vietnam_example": "Đảng Cộng sản Việt Nam vận dụng sáng tạo lý luận này để xây dựng mô hình Kinh tế thị trường định hướng XHCN từ 1986 đến nay.",
   "children": [
     {
-      "id": "ch1",
-      "name": "Chương 1: Đối tượng, Phương pháp\n& Chức năng",
-      "shortName": "Chương 1",
-      "level": 1,
-      "color": "#a855f7",
-      "icon": "📚",
-      "description": "Giới thiệu sự hình thành và các phương pháp luận của Kinh tế chính trị Mác - Lênin, xác định đối tượng nghiên cứu là các quan hệ sản xuất gắn với lực lượng sản xuất.",
-      "vietnam_example": "Việc nghiên cứu Chương 1 giúp cán bộ, đảng viên và sinh viên Việt Nam hiểu rõ nền tảng tư duy kinh tế của Đảng trong quản lý đất nước.",
-      "children": [
-        {
-          "id": "ch1_1",
-          "name": "Sự hình thành và phát triển",
-          "level": 2,
-          "description": "Quá trình tiến hóa của tư tưởng kinh tế từ cổ đại đến hệ thống khoa học của Mác, Ăng-ghen và Lênin.",
-          "vietnam_example": "Giáo trình này là kết quả của việc tiếp thu lý luận kinh tế Mác - Lênin chuẩn mực, được giảng dạy thống nhất trong hệ thống giáo dục quốc dân Việt Nam.",
-          "children": [
-            {
-              "id": "ch1_1_1",
-              "name": "Trước Mác",
-              "level": 3,
-              "description": "Chủ nghĩa Trọng thương (coi trọng thương mại), Trọng nông (coi trọng nông nghiệp) và Kinh tế chính trị tư bản cổ điển (A.Smith, D.Ricardo) đặt nền móng cho lý luận giá trị.",
-              "vietnam_example": "Việt Nam hiện nay vẫn học tập các quy tắc thị trường từ kinh tế học cổ điển như 'Bàn tay vô hình' để điều tiết cung cầu."
-            },
-            {
-              "id": "ch1_1_2",
-              "name": "Của Mác & Ăng-ghen",
-              "level": 3,
-              "description": "Xây dựng hệ thống lý luận khoa học dựa trên duy vật biện chứng, phát hiện ra quy luật giá trị thặng dư - 'hòn đá tảng' vạch trần bản chất bóc lột của CNTB.",
-              "vietnam_example": "Lý luận về các hình thái kinh tế - xã hội của Mác là cơ sở để Việt Nam khẳng định con đường đi lên CNXH bỏ qua chế độ TBCN."
-            },
-            {
-              "id": "ch1_1_3",
-              "name": "Giai đoạn Lênin",
-              "level": 3,
-              "description": "V.I.Lênin phát triển lý luận về chủ nghĩa tư bản độc quyền (giai đoạn cao của CNTB) và các nguyên lý kinh tế trong thời kỳ quá độ lên CNXH (Chính sách kinh tế mới - NEP).",
-              "vietnam_example": "Chính sách NEP của Lênin là gợi ý quan trọng cho công cuộc Đổi mới tại Việt Nam, chấp nhận kinh tế nhiều thành phần."
-            }
-          ]
-        },
-        {
-          "id": "ch1_2",
-          "name": "Đối tượng & Phương pháp",
-          "level": 2,
-          "description": "Xác định rõ phạm vi nghiên cứu và các công cụ tư duy để khám phá bản chất kinh tế xã hội.",
-          "vietnam_example": "Phương pháp luận của Mác giúp Việt Nam phân tích đúng thực trạng các 'quan hệ lợi ích' trong nền kinh tế thị trường hiện nay.",
-          "children": [
-            {
-              "id": "ch1_2_1",
-              "name": "Đối tượng nghiên cứu",
-              "level": 3,
-              "description": "Nghiên cứu quan hệ xã hội của sản xuất hàng hóa và trao đổi, xem xét các quan hệ này trong sự tác động qua lại với lực lượng sản xuất và kiến trúc thượng tầng.",
-              "vietnam_example": "Tại Việt Nam, đối tượng nghiên cứu còn bao gồm quan hệ giữa các thành phần kinh tế (Nhà nước, Tư nhân, FDI) dưới sự quản lý của Nhà nước XHCN."
-            },
-            {
-              "id": "ch1_2_2",
-              "name": "Trừu tượng hóa khoa học",
-              "level": 3,
-              "description": "Phương pháp gạt bỏ các yếu tố ngẫu nhiên, tạm thời hoặc không bản chất để đi sâu vào các phạm trù kinh tế và quy luật kinh tế khách quan.",
-              "vietnam_example": "Khi nghiên cứu thị trường bất động sản Việt Nam, ta dùng phương pháp này để bỏ qua các cơn 'sốt đất' ảo và tìm ra quy luật cung cầu thực sự."
-            }
-          ]
-        },
-        {
-          "id": "ch1_3",
-          "name": "Chức năng của môn học",
-          "level": 2,
-          "description": "Những giá trị cốt lõi mà môn học mang lại cho người học và xã hội.",
-          "vietnam_example": "Học tập các chức năng này giúp sinh viên hình thành tư duy kinh tế sắc bén và bản lĩnh chính trị vững vàng.",
-          "children": [
-            {
-              "id": "ch1_3_1",
-              "name": "Chức năng nhận thức",
-              "level": 3,
-              "description": "Cung cấp hệ thống tri thức về sự vận động của các quan hệ sản xuất và các quy luật kinh tế khách quan của xã hội.",
-              "vietnam_example": "Giúp người dân hiểu vì sao giá xăng lại biến động dựa trên quy luật giá trị và quan hệ cung cầu toàn cầu."
-            },
-            {
-              "id": "ch1_3_2",
-              "name": "Chức năng thực tiễn",
-              "level": 3,
-              "description": "Là cơ sở lý luận để hình thành các chính sách kinh tế, quản lý sản xuất kinh doanh và định hướng hành động cá nhân.",
-              "vietnam_example": "Chính phủ Việt Nam dựa trên chức năng này để ban hành các gói hỗ trợ kinh tế sau đại dịch Covid-19."
-            },
-            {
-              "id": "ch1_3_3",
-              "name": "Chức năng tư tưởng",
-              "level": 3,
-              "description": "Góp phần xây dựng thế giới quan khoa học, niềm tin vào sự chiến thắng của các giá trị tiến bộ và định hướng XHCN.",
-              "vietnam_example": "Củng cố niềm tin của nhân dân vào mô hình 'Dân giàu, nước mạnh, dân chủ, công bằng, văn minh'."
-            },
-            {
-              "id": "ch1_3_4",
-              "name": "Chức năng phương pháp luận",
-              "level": 3,
-              "description": "Nền tảng lý luận để nghiên cứu các môn kinh tế chuyên ngành (Quản trị, Tài chính, Ngân hàng).",
-              "vietnam_example": "Sinh viên ngành Kế toán cần nắm vững lý luận giá trị để hiểu bản chất của các dòng chi phí và doanh thu."
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "ch2",
-      "name": "Chương 2: Hàng hóa, Thị trường\n& Chủ thể",
+      "name": "Hàng hóa, Thị trường\n& Chủ thể",
       "shortName": "Chương 2",
       "level": 1,
       "color": "#06b6d4",
@@ -212,7 +110,7 @@
     },
     {
       "id": "ch3",
-      "name": "Chương 3: Giá trị thặng dư\ntrong nền KTTT",
+      "name": "Giá trị thặng dư\ntrong nền KTTT",
       "shortName": "Chương 3",
       "level": 1,
       "color": "#10b981",
@@ -229,7 +127,7 @@
           "children": [
             {
               "id": "ch3_1_1",
-              "name": "Công thức chung: T – H – T’",
+              "name": "Công thức chung: T – H – T'",
               "level": 3,
               "description": "Sự vận động của tiền với mục đích thu về lượng tiền lớn hơn (T' = T + m), trong đó m là giá trị thặng dư.",
               "vietnam_example": "Doanh nhân bỏ vốn (T) mua nguyên liệu/máy móc (H) và bán sản phẩm để thu về số tiền lớn hơn ban đầu."
@@ -300,7 +198,7 @@
     },
     {
       "id": "ch4",
-      "name": "Chương 4: Cạnh tranh & Độc quyền",
+      "name": "Cạnh tranh & Độc quyền",
       "shortName": "Chương 4",
       "level": 1,
       "color": "#f59e0b",
@@ -379,7 +277,7 @@
     },
     {
       "id": "ch5",
-      "name": "Chương 5: KTTT định hướng XHCN\n& Lợi ích kinh tế",
+      "name": "KTTT định hướng XHCN\n& Lợi ích kinh tế",
       "shortName": "Chương 5",
       "level": 1,
       "color": "#ef4444",
@@ -481,7 +379,7 @@
     },
     {
       "id": "ch6",
-      "name": "Chương 6: CNH-HĐH\n& Hội nhập kinh tế",
+      "name": "CNH-HĐH\n& Hội nhập kinh tế",
       "shortName": "Chương 6",
       "level": 1,
       "color": "#3b82f6",
