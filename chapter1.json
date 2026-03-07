@@ -1,0 +1,1302 @@
+[
+    {
+        "id": 101,
+        "chapter": 1,
+        "question": "Ai là người đầu tiên đưa ra thuật ngữ 'Kinh tế chính trị'?",
+        "options": [
+            "Adam Smith",
+            "Antoine de Montchrétien",
+            "Karl Marx",
+            "David Ricardo"
+        ],
+        "answer": 1,
+        "explain": "Antoine de Montchrétien đưa ra thuật ngữ này năm 1615."
+    },
+    {
+        "id": 102,
+        "chapter": 1,
+        "question": "Đối tượng nghiên cứu của kinh tế chính trị Mác - Lênin là gì?",
+        "options": [
+            "Sản xuất vật chất",
+            "Quan hệ sản xuất trong mối liên hệ với lực lượng sản xuất và kiến trúc thượng tầng",
+            "Các quy luật tự nhiên",
+            "Các hiện tượng kinh tế rời rạc"
+        ],
+        "answer": 1,
+        "explain": "KTTT Mác - Lênin nghiên cứu quan hệ sản xuất trong sự tác động qua lại với LLSX và KTTT."
+    },
+    {
+        "id": 103,
+        "chapter": 1,
+        "question": "Chức năng nào của kinh tế chính trị giúp hình thành thế giới quan khoa học?",
+        "options": [
+            "Chức năng nhận thức",
+            "Chức năng tư tưởng",
+            "Chức năng thực tiễn",
+            "Chức năng phương pháp luận"
+        ],
+        "answer": 1,
+        "explain": "Chức năng tư tưởng góp phần xây dựng thế giới quan cách mạng của giai cấp công nhân."
+    },
+    {
+        "id": 104,
+        "chapter": 1,
+        "question": "Sản xuất hàng hóa ra đời dựa trên mấy điều kiện?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": 1,
+        "explain": "Hai điều kiện: Phân công lao động xã hội và Sự tách biệt về mặt kinh tế giữa các chủ thể sản xuất."
+    },
+    {
+        "id": 105,
+        "chapter": 1,
+        "question": "Hàng hóa là gì?",
+        "options": [
+            "Sản phẩm dùng để tiêu dùng",
+            "Sản phẩm của lao động nhằm thỏa mãn nhu cầu con người thông qua trao đổi, mua bán",
+            "Vật phẩm tự nhiên hữu ích",
+            "Sản phẩm của lao động"
+        ],
+        "answer": 1,
+        "explain": "Hàng hóa phải là sản phẩm của lao động và được trao đổi."
+    },
+    {
+        "id": 106,
+        "chapter": 1,
+        "question": "Giá trị sử dụng của hàng hóa là gì?",
+        "options": [
+            "Công dụng của vật chất thỏa mãn nhu cầu nào đó của con người",
+            "Lượng lao động kết tinh",
+            "Khả năng trao đổi",
+            "Giá bán trên thị trường"
+        ],
+        "answer": 0,
+        "explain": "GTSD là thuộc tính tự nhiên của vật phẩm."
+    },
+    {
+        "id": 107,
+        "chapter": 1,
+        "question": "Giá trị hàng hóa được tạo ra bởi yếu tố nào?",
+        "options": [
+            "Máy móc",
+            "Nguyên liệu",
+            "Lao động trừu tượng của người sản xuất",
+            "Công nghệ"
+        ],
+        "answer": 2,
+        "explain": "Chỉ có lao động trừu tượng mới tạo ra giá trị hàng hóa."
+    },
+    {
+        "id": 108,
+        "chapter": 1,
+        "question": "Tính hai mặt của lao động sản xuất hàng hóa gồm?",
+        "options": [
+            "Lao động chân tay và trí óc",
+            "Lao động cụ thể và lao động trừu tượng",
+            "Lao động tư nhân và xã hội",
+            "Lao động giản đơn và phức tạp"
+        ],
+        "answer": 1,
+        "explain": "Mác là người phát hiện ra tính hai mặt này."
+    },
+    {
+        "id": 109,
+        "chapter": 1,
+        "question": "Lượng giá trị của một đơn vị hàng hóa được đo bằng gì?",
+        "options": [
+            "Thời gian lao động cá biệt",
+            "Thời gian lao động xã hội cần thiết",
+            "Số lượng sản phẩm",
+            "Chi phí sản xuất"
+        ],
+        "answer": 1,
+        "explain": "Lượng giá trị được tính bằng TGLĐXH cần thiết."
+    },
+    {
+        "id": 110,
+        "chapter": 1,
+        "question": "Khi năng suất lao động tăng, lượng giá trị của một đơn vị hàng hóa sẽ?",
+        "options": [
+            "Tăng",
+            "Giảm",
+            "Không đổi",
+            "Tăng gấp đôi"
+        ],
+        "answer": 1,
+        "explain": "NSLĐ tỉ lệ nghịch với lượng giá trị một đơn vị sản phẩm."
+    },
+    {
+        "id": 111,
+        "chapter": 1,
+        "question": "Cường độ lao động tăng thì lượng giá trị của một đơn vị hàng hóa?",
+        "options": [
+            "Tăng",
+            "Giảm",
+            "Không đổi",
+            "Thay đổi ngẫu nhiên"
+        ],
+        "answer": 2,
+        "explain": "Tăng cường độ lao động chỉ làm tăng tổng số giá trị trong một thời gian, giá trị 1 đơn vị không đổi."
+    },
+    {
+        "id": 112,
+        "chapter": 1,
+        "question": "Tiền tệ có mấy chức năng chính theo Mác?",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "answer": 2,
+        "explain": "5 chức năng: Thước đo giá trị, Phương tiện lưu thông, Phương tiện cất trữ, Phương tiện thanh toán, Tiền tệ thế giới."
+    },
+    {
+        "id": 113,
+        "chapter": 1,
+        "question": "Thước đo giá trị là chức năng tiền dùng để làm gì?",
+        "options": [
+            "Mua hàng",
+            "Trình bày và đo lường giá trị hàng hóa",
+            "Trả nợ",
+            "Để dành"
+        ],
+        "answer": 1,
+        "explain": "Tiền thực hiện chức năng này khi biểu hiện giá trị hàng hóa thành giá cả."
+    },
+    {
+        "id": 114,
+        "chapter": 1,
+        "question": "Quy luật giá trị yêu cầu việc sản xuất và trao đổi hàng hóa phải dựa trên?",
+        "options": [
+            "Sở thích cá nhân",
+            "Hao phí lao động xã hội cần thiết",
+            "Hao phí lao động cá biệt",
+            "Quyết định của nhà nước"
+        ],
+        "answer": 1,
+        "explain": "Đây là nội dung cơ bản của quy luật giá trị."
+    },
+    {
+        "id": 115,
+        "chapter": 1,
+        "question": "Cơ chế tác động của quy luật giá trị là thông qua sự biến động của?",
+        "options": [
+            "Cung và cầu",
+            "Giá cả thị trường xoay quanh giá trị",
+            "Lãi suất",
+            "Tỷ giá"
+        ],
+        "answer": 1,
+        "explain": "Giá cả là biểu hiện bằng tiền của giá trị."
+    },
+    {
+        "id": 116,
+        "chapter": 1,
+        "question": "Chủ thể nào đóng vai trò cầu nối giữa sản xuất và tiêu dùng?",
+        "options": [
+            "Người sản xuất",
+            "Người tiêu dùng",
+            "Các chủ thể trung gian",
+            "Nhà nước"
+        ],
+        "answer": 2,
+        "explain": "Thương nhân, môi giới... kết nối cung cầu."
+    },
+    {
+        "id": 117,
+        "chapter": 1,
+        "question": "Chủ thể nào kiểm soát và điều tiết vĩ mô nền kinh tế?",
+        "options": [
+            "Người sản xuất",
+            "Nhà nước",
+            "Người tiêu dùng",
+            "Chủ ngân hàng"
+        ],
+        "answer": 1,
+        "explain": "Nhà nước thực hiện quản lý vĩ mô thị trường."
+    },
+    {
+        "id": 118,
+        "chapter": 1,
+        "question": "Thị trường có chức năng gì?",
+        "options": [
+            "Thừa nhận giá trị của hàng hóa",
+            "Cung cấp thông tin",
+            "Kích thích hoặc hạn chế sản xuất/tiêu dùng",
+            "Cả 3 phương án trên"
+        ],
+        "answer": 3,
+        "explain": "Thị trường có đầy đủ các chức năng này."
+    },
+    {
+        "id": 119,
+        "chapter": 1,
+        "question": "Lao động cụ thể tạo ra gì?",
+        "options": [
+            "Giá trị hàng hóa",
+            "Giá trị sử dụng",
+            "Tiền",
+            "Thời gian"
+        ],
+        "answer": 1,
+        "explain": "Mỗi lao động cụ thể tạo ra một GTSD riêng biệt."
+    },
+    {
+        "id": 120,
+        "chapter": 1,
+        "question": "Lao động trừu tượng là gì?",
+        "options": [
+            "Lao động có mục đích riêng",
+            "Lao động của người sản xuất hàng hóa xét về sự hao phí sức lực nói chung",
+            "Lao động trí óc",
+            "Lao động chân tay"
+        ],
+        "answer": 1,
+        "explain": "Hao phí cơ bắp, thần kinh xét trên phương diện chung."
+    },
+    {
+        "id": 121,
+        "chapter": 1,
+        "question": "Sản xuất hàng hóa có ưu điểm gì so với tự cấp tự túc?",
+        "options": [
+            "Thúc đẩy phân công lao động",
+            "Tăng năng suất",
+            "Thỏa mãn nhu cầu đa dạng",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Sản xuất hàng hóa là một bước tiến lớn của nhân loại."
+    },
+    {
+        "id": 122,
+        "chapter": 1,
+        "question": "Điều kiện để tiền biến thành tư bản là gì?",
+        "options": [
+            "Có nhiều tiền",
+            "Sức lao động trở thành hàng hóa",
+            "Tiền được dùng để mua máy móc",
+            "Tiền được cất giữ"
+        ],
+        "answer": 1,
+        "explain": "Hàng hóa sức lao động là chìa khóa tạo ra giá trị thặng dư."
+    },
+    {
+        "id": 123,
+        "chapter": 1,
+        "question": "Mối quan hệ giữa vật chất và ý chí trong kinh tế chính trị được hiểu là?",
+        "options": [
+            "Ý chí quyết định kinh tế",
+            "Kinh tế quyết định ý chí",
+            "Tự do tuyệt đối",
+            "Không liên quan"
+        ],
+        "answer": 1,
+        "explain": "Cơ sở hạ tầng (kinh tế) quyết định kiến trúc thượng tầng."
+    },
+    {
+        "id": 124,
+        "chapter": 1,
+        "question": "Quy luật lưu thông tiền tệ xác định lượng tiền cần thiết dựa trên?",
+        "options": [
+            "Tổng số tiền ngân hàng có",
+            "Tổng giá cả hàng hóa / Tốc độ lưu thông tiền tệ",
+            "Số lượng dân số",
+            "Mức độ lạm phát"
+        ],
+        "answer": 1,
+        "explain": "Công thức của Mác về lượng tiền cần thiết."
+    },
+    {
+        "id": 125,
+        "chapter": 1,
+        "question": "Ai là người sáng lập ra trường phái Kinh tế chính trị cổ điển Anh?",
+        "options": [
+            "K. Marx",
+            "W. Petty",
+            "A. Smith",
+            "D. Ricardo"
+        ],
+        "answer": 1,
+        "explain": "William Petty là người đặt nền móng."
+    },
+    {
+        "id": 126,
+        "chapter": 1,
+        "question": "Đặc điểm của hàng hóa sức lao động là gì?",
+        "options": [
+            "Nó có thể tái sản xuất",
+            "GTSD của nó tạo ra giá trị mới lớn hơn giá trị của bản thân nó",
+            "Nó vô hạn",
+            "Nó không có giá cả"
+        ],
+        "answer": 1,
+        "explain": "Đây là đặc điểm đặc biệt nhất của hàng hóa này."
+    },
+    {
+        "id": 127,
+        "chapter": 1,
+        "question": "Giá trị sức lao động được đo bằng gì?",
+        "options": [
+            "Giá trị các tư liệu sinh hoạt cần thiết cho người lao động và gia đình họ",
+            "Sức mạnh của người lao động",
+            "Bằng cấp",
+            "Sự chăm chỉ"
+        ],
+        "answer": 0,
+        "explain": "Bao gồm cả chi phí đào tạo và nuôi con cái."
+    },
+    {
+        "id": 128,
+        "chapter": 1,
+        "question": "Cạnh tranh có vai trò gì trong nền kinh tế?",
+        "options": [
+            "Động lực thúc đẩy cải tiến kỹ thuật",
+            "Làm phá sản doanh nghiệp yếu",
+            "Phân bổ nguồn lực",
+            "Tất cả phương án trên"
+        ],
+        "answer": 3,
+        "explain": "Cạnh tranh là động lực của sự phát triển."
+    },
+    {
+        "id": 129,
+        "chapter": 1,
+        "question": "Thế nào là lao động phức tạp?",
+        "options": [
+            "Lao động nhiều bước",
+            "Lao động đòi hỏi phải được đào tạo mới làm được",
+            "Lao động nặng nhọc",
+            "Lao động trí óc"
+        ],
+        "answer": 1,
+        "explain": "Thường được coi là bội số của lao động giản đơn."
+    },
+    {
+        "id": 130,
+        "chapter": 1,
+        "question": "Nhân tố nào quan trọng nhất ảnh hưởng đến lượng giá trị hàng hóa?",
+        "options": [
+            "Năng suất lao động",
+            "Thời tiết",
+            "Sở thích",
+            "May mắn"
+        ],
+        "answer": 0,
+        "explain": "NSLĐ thay đổi làm thay đổi lượng giá trị kết tinh trong 1 sản phẩm."
+    },
+    {
+        "id": 131,
+        "chapter": 1,
+        "question": "Kinh tế thị trường là gì?",
+        "options": [
+            "Nền kinh tế tự sản tự tiêu",
+            "Nền kinh tế sản xuất hàng hóa phát triển cao, mọi quan hệ đều qua thị trường",
+            "Nền kinh tế chỉ có nhà nước",
+            "Nền kinh tế nông nghiệp"
+        ],
+        "answer": 1,
+        "explain": "Mọi yếu tố đầu vào, đầu ra đều là hàng hóa."
+    },
+    {
+        "id": 132,
+        "chapter": 1,
+        "question": "Giá trị trao đổi là hình thức biểu hiện ra bên ngoài của?",
+        "options": [
+            "Giá trị sử dụng",
+            "Giá trị hàng hóa",
+            "Giá bán",
+            "Công nghệ"
+        ],
+        "answer": 1,
+        "explain": "Giá trị là nội dung, giá trị trao đổi là hình thức biểu hiện."
+    },
+    {
+        "id": 133,
+        "chapter": 1,
+        "question": "Lao động tư nhân và lao động xã hội là mâu thuẫn cơ bản của?",
+        "options": [
+            "Kinh tế tự nhiên",
+            "Sản xuất hàng hóa giản đơn",
+            "Kinh tế tập trung",
+            "Kinh tế chia sẻ"
+        ],
+        "answer": 1,
+        "explain": "Sản xuất cho mình nhưng lại cần xã hội thừa nhận."
+    },
+    {
+        "id": 134,
+        "chapter": 1,
+        "question": "Tiền làm chức năng phương tiện lưu thông khi nào?",
+        "options": [
+            "Làm trung gian trong trao đổi H-T-H",
+            "Dùng để nộp thuế",
+            "Dùng để gửi tiết kiệm",
+            "Dùng để định giá"
+        ],
+        "answer": 0,
+        "explain": "Lưu thông hàng hóa cần tiền làm môi giới."
+    },
+    {
+        "id": 135,
+        "chapter": 1,
+        "question": "Lợi ích kinh tế là gì?",
+        "options": [
+            "Sự thỏa mãn nhu cầu vật chất",
+            "Lợi nhuận sau thuế",
+            "Tiền mặt",
+            "Sự vui vẻ"
+        ],
+        "answer": 0,
+        "explain": "Lợi ích kinh tế phản ánh mục tiêu thực hiện nhu cầu vật chất."
+    },
+    {
+        "id": 136,
+        "chapter": 1,
+        "question": "Chủ thể nào có mục đích tối đa hóa lợi nhuận?",
+        "options": [
+            "Người tiêu dùng",
+            "Người sản xuất",
+            "Chủ ngân hàng",
+            "Cả B và C"
+        ],
+        "answer": 3,
+        "explain": "Các nhà kinh doanh đều hướng tới tối đa hóa lợi nhuận."
+    },
+    {
+        "id": 137,
+        "chapter": 1,
+        "question": "Hệ thống các quy luật của kinh tế thị trường bao gồm?",
+        "options": [
+            "Quy luật giá trị",
+            "Quy luật cung cầu",
+            "Quy luật cạnh tranh",
+            "Tất cả các mục trên"
+        ],
+        "answer": 3,
+        "explain": "Đây là các quy luật cốt lõi của thị trường."
+    },
+    {
+        "id": 138,
+        "chapter": 1,
+        "question": "Phân công lao động xã hội là gì?",
+        "options": [
+            "Mỗi người làm một phần việc",
+            "Sự phân chia lao động xã hội ra thành các ngành, nghề khác nhau",
+            "Giao việc cho cấp dưới",
+            "Làm việc theo nhóm"
+        ],
+        "answer": 1,
+        "explain": "Cơ sở của trao đổi hàng hóa."
+    },
+    {
+        "id": 139,
+        "chapter": 1,
+        "question": "Cường độ lao động là nhân tố phản ánh?",
+        "options": [
+            "Mức độ khéo léo",
+            "Mức độ khẩn trương, nặng nhọc của lao động",
+            "Công nghệ hiện đại",
+            "Thời gian làm việc ngắn"
+        ],
+        "answer": 1,
+        "explain": "Độ dày đặc của hao phí sức lao động trong thời gian nhất định."
+    },
+    {
+        "id": 140,
+        "chapter": 1,
+        "question": "Hình thái giá trị đầu tiên trong lịch sử là?",
+        "options": [
+            "Hình thái giá trị giản đơn hay ngẫu nhiên",
+            "Hình thái giá trị đầy đủ",
+            "Hình thái chung",
+            "Hình thái tiền tệ"
+        ],
+        "answer": 0,
+        "explain": "Trao đổi vật đổi vật ngẫu nhiên."
+    },
+    {
+        "id": 141,
+        "chapter": 1,
+        "question": "Vật ngang giá chung là gì?",
+        "options": [
+            "Vàng",
+            "Mọi hàng hóa",
+            "Hàng hóa dùng để đo giá trị của mọi hàng hóa khác",
+            "Bạc"
+        ],
+        "answer": 2,
+        "explain": "Bước tiến tới hình thái tiền tệ."
+    },
+    {
+        "id": 142,
+        "chapter": 1,
+        "question": "Lạm phát xảy ra khi?",
+        "options": [
+            "Tiền giấy phát hành quá nhiều so với lượng tiền cần thiết",
+            "Giá cả giảm",
+            "Sản xuất tăng nhanh",
+            "Dân số tăng"
+        ],
+        "answer": 0,
+        "explain": "Lạm phát làm đồng tiền mất giá."
+    },
+    {
+        "id": 143,
+        "chapter": 1,
+        "question": "Quan hệ giữa người sản xuất và người tiêu dùng là quan hệ?",
+        "options": [
+            "Đối kháng",
+            "Tác động qua lại, quy định lẫn nhau",
+            "Độc lập hoàn toàn",
+            "Chỉ có mua và bán"
+        ],
+        "answer": 1,
+        "explain": "Sản xuất tạo ra sản phẩm cho tiêu dùng, tiêu dùng định hướng sản xuất."
+    },
+    {
+        "id": 144,
+        "chapter": 1,
+        "question": "Các thành phần kinh tế ở Việt Nam bao gồm?",
+        "options": [
+            "Kinh tế nhà nước, tập thể, tư nhân, có vốn đầu tư nước ngoài",
+            "Chỉ có kinh tế nhà nước",
+            "Chỉ có tư nhân",
+            "Nhà nước và tập thể"
+        ],
+        "answer": 0,
+        "explain": "Nền kinh tế đa dạng thành phần."
+    },
+    {
+        "id": 145,
+        "chapter": 1,
+        "question": "Vai trò của quan hệ sản xuất đối với lực lượng sản xuất?",
+        "options": [
+            "Không liên quan",
+            "Phù hợp sẽ thúc đẩy, không phù hợp sẽ kìm hãm",
+            "LLSX luôn phục tùng QHSX",
+            "QHSX quyết định trình độ LLSX"
+        ],
+        "answer": 1,
+        "explain": "Quy luật khách quan trong sự phát triển."
+    },
+    {
+        "id": 146,
+        "chapter": 1,
+        "question": "Thuộc tính cơ bản nhất của hàng hóa là gì?",
+        "options": [
+            "Giá trị sử dụng",
+            "Giá trị",
+            "Cả 2 thuộc tính",
+            "Màu sắc"
+        ],
+        "answer": 2,
+        "explain": "Hàng hóa luôn có hai thuộc tính thống nhất."
+    },
+    {
+        "id": 147,
+        "chapter": 1,
+        "question": "Tại sao lao động của người sản xuất hàng hóa có tính xã hội?",
+        "options": [
+            "Vì họ làm việc cùng nhau",
+            "Vì sản phẩm làm ra để đáp ứng nhu cầu xã hội",
+            "Vì nhà nước quản lý",
+            "Vì họ dùng chung máy móc"
+        ],
+        "answer": 1,
+        "explain": "Sản phẩm là một phần của tổng sản phẩm xã hội."
+    },
+    {
+        "id": 148,
+        "chapter": 1,
+        "question": "Ưu thế của kinh tế thị trường là?",
+        "options": [
+            "Tự động phát hiện lỗi",
+            "Phát huy tiềm năng các chủ thể, thúc đẩy sáng tạo",
+            "Loại bỏ hoàn toàn đói nghèo",
+            "Ổn định giá cả"
+        ],
+        "answer": 1,
+        "explain": "KTTT tạo môi trường năng động cho các chủ thể."
+    },
+    {
+        "id": 149,
+        "chapter": 1,
+        "question": "Khuyết tật của kinh tế thị trường bao gồm?",
+        "options": [
+            "Phân hóa giàu nghèo",
+            "Ô nhiễm môi trường",
+            "Khủng hoảng kinh tế",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "KTTT cần sự can thiệp của nhà nước để khắc phục khuyết tật."
+    },
+    {
+        "id": 150,
+        "chapter": 1,
+        "question": "Cơ chế thị trường là?",
+        "options": [
+            "Sự điều hành của chính phủ",
+            "Mối liên hệ tự nhiên khách quan giữa các yếu tố thị trường",
+            "Phần mềm quản lý",
+            "Chợ truyền thống"
+        ],
+        "answer": 1,
+        "explain": "Hệ thống các quan hệ kinh tế khách quan."
+    },
+    {
+        "id": 151,
+        "chapter": 1,
+        "question": "Giá cả hàng hóa do yếu tố nào quyết định?",
+        "options": [
+            "Giá trị hàng hóa",
+            "Quan hệ cung cầu",
+            "Giá trị của tiền",
+            "Cả A, B, C"
+        ],
+        "answer": 3,
+        "explain": "Giá cả chịu tác động của cả 3 yếu tố này."
+    },
+    {
+        "id": 152,
+        "chapter": 1,
+        "question": "Người tiêu dùng có vai trò gì?",
+        "options": [
+            "Cung cấp vốn",
+            "Định hướng sản xuất thông qua nhu cầu",
+            "Làm từ thiện",
+            "Quyết định thuế"
+        ],
+        "answer": 1,
+        "explain": "Người tiêu dùng là 'thượng đế' dẫn dắt thị trường."
+    },
+    {
+        "id": 153,
+        "chapter": 1,
+        "question": "Hợp tác kinh tế quốc tế mang lại gì?",
+        "options": [
+            "Mở rộng thị trường",
+            "Tiếp cận công nghệ",
+            "Tăng trưởng GDP",
+            "Tất cả phương án trên"
+        ],
+        "answer": 3,
+        "explain": "Xu thế tất yếu của thời đại."
+    },
+    {
+        "id": 154,
+        "chapter": 1,
+        "question": "Thước đo giá trị của tiền tệ là?",
+        "options": [
+            "Tiền mặt",
+            "Tiền trong tâm tưởng (vàng lý tưởng)",
+            "Tiền ngân hàng",
+            "Tiền lẻ"
+        ],
+        "answer": 1,
+        "explain": "Không cần tiền mặt khi định giá hàng hóa."
+    },
+    {
+        "id": 155,
+        "chapter": 1,
+        "question": "Tiền tệ thế giới thực hiện chức năng?",
+        "options": [
+            "Mua hàng quốc tế",
+            "Trả nợ quốc tế",
+            "Di chuyển của cải",
+            "Tất cả chức năng trên"
+        ],
+        "answer": 3,
+        "explain": "Tiền dùng trong quan hệ quốc tế."
+    },
+    {
+        "id": 156,
+        "chapter": 1,
+        "question": "Tính tư nhân của lao động sản xuất hàng hóa là?",
+        "options": [
+            "Làm việc tại nhà",
+            "Người sản xuất tự quyết định sản xuất cái gì, như thế nào",
+            "Sở hữu cá nhân về tư liệu sản xuất",
+            "Cả B và C"
+        ],
+        "answer": 3,
+        "explain": "Do sự tách biệt về sở hữu nên lao động có tính tư nhân."
+    },
+    {
+        "id": 157,
+        "chapter": 1,
+        "question": "Sản xuất hàng hóa là kiểu tổ chức kinh tế dựa trên?",
+        "options": [
+            "Trao đổi",
+            "Tự cung tự cấp",
+            "Lệnh của vua",
+            "Săn bắt hái lượm"
+        ],
+        "answer": 0,
+        "explain": "Trao đổi là đặc trưng cốt lõi."
+    },
+    {
+        "id": 158,
+        "chapter": 1,
+        "question": "Vàng trở thành tiền tệ vì?",
+        "options": [
+            "Nó đẹp",
+            "Nó quý hiếm",
+            "Nó có thuộc tính tự nhiên phù hợp với vật ngang giá chung",
+            "Nó khó hỏng"
+        ],
+        "answer": 2,
+        "explain": "Vàng thuần nhất, dễ chia nhỏ, bền vững."
+    },
+    {
+        "id": 159,
+        "chapter": 1,
+        "question": "Phương tiện thanh toán là chức năng tiền thực hiện khi?",
+        "options": [
+            "Mua hàng trả tiền ngay",
+            "Mua hàng trả chậm, nộp thuế, trả nợ",
+            "Trao đổi lấy vàng",
+            "Gửi tiền ngân hàng"
+        ],
+        "answer": 1,
+        "explain": "Gắn với sự vận động của các khoản nợ."
+    },
+    {
+        "id": 160,
+        "chapter": 1,
+        "question": "Quan hệ trao đổi hàng hóa được thực hiện theo nguyên tắc?",
+        "options": [
+            "Bắt buộc",
+            "Ngang giá",
+            "Ưu tiên người nghèo",
+            "Giá rẻ nhất"
+        ],
+        "answer": 1,
+        "explain": "Trao đổi ngang giá theo hao phí lao động xã hội cần thiết."
+    },
+    {
+        "id": 161,
+        "chapter": 1,
+        "question": "Quy luật giá trị có tác dụng gì?",
+        "options": [
+            "Điều tiết sản xuất và lưu thông",
+            "Kích thích cải tiến kỹ thuật",
+            "Phân hóa người sản xuất",
+            "Tất cả các mục trên"
+        ],
+        "answer": 3,
+        "explain": "Cả 3 tác động quan trọng của quy luật giá trị."
+    },
+    {
+        "id": 162,
+        "chapter": 1,
+        "question": "Thương mại là gì?",
+        "options": [
+            "Hoạt động sản xuất",
+            "Hoạt động lưu thông hàng hóa trên thị trường",
+            "Hoạt động nông nghiệp",
+            "Hoạt động của nhà nước"
+        ],
+        "answer": 1,
+        "explain": "Khâu trung gian đưa hàng hóa từ SX đến tiêu dùng."
+    },
+    {
+        "id": 163,
+        "chapter": 1,
+        "question": "Sự khác biệt giữa NSLĐ và CĐLĐ là?",
+        "options": [
+            "NSLĐ làm giảm giá trị 1 đơn vị, CĐLĐ không đổi",
+            "NSLĐ làm tăng giá trị 1 đơn vị",
+            "Giống nhau hoàn toàn",
+            "CĐLĐ làm giảm giá trị 1 đơn vị"
+        ],
+        "answer": 0,
+        "explain": "Cần phân biệt rõ hai khái niệm này."
+    },
+    {
+        "id": 164,
+        "chapter": 1,
+        "question": "Lao động giản đơn là gì?",
+        "options": [
+            "Lao động không cần đào tạo chuyên môn",
+            "Lao động làm những việc dễ",
+            "Lao động ít tốn sức",
+            "Lao động chân tay"
+        ],
+        "answer": 0,
+        "explain": "Bất kỳ người bình thường nào cũng có thể làm."
+    },
+    {
+        "id": 165,
+        "chapter": 1,
+        "question": "Giá trị thặng dư là đóng góp của ai?",
+        "options": [
+            "Adam Smith",
+            "Karl Marx",
+            "David Ricardo",
+            "Lenin"
+        ],
+        "answer": 1,
+        "explain": "Học thuyết GTTD là hòn đá tảng của kinh tế chính trị Mác."
+    },
+    {
+        "id": 166,
+        "chapter": 1,
+        "question": "Hàng hóa dịch vụ khác hàng hóa vật chất ở điểm nào?",
+        "options": [
+            "Giá quá đắt",
+            "Sản xuất và tiêu dùng diễn ra đồng thời",
+            "Không thể trao đổi",
+            "Chỉ có nhà nước cung cấp"
+        ],
+        "answer": 1,
+        "explain": "Dịch vụ là hàng hóa vô hình."
+    },
+    {
+        "id": 167,
+        "chapter": 1,
+        "question": "Chủ thể trung gian bao gồm?",
+        "options": [
+            "Nhà trung gian thương mại",
+            "Các sàn giao dịch",
+            "Môi giới bất động sản",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Họ kết nối cung - cầu hàng hóa."
+    },
+    {
+        "id": 168,
+        "chapter": 1,
+        "question": "Người tiêu dùng đóng vai trò gì trong sự phát triển kinh tế?",
+        "options": [
+            "Tiết kiệm tiền",
+            "Động lực thúc đẩy sản xuất sáng tạo nội dung mới",
+            "Làm việc chăm chỉ",
+            "Không có vai trò gì"
+        ],
+        "answer": 1,
+        "explain": "Nhu cầu của họ dẫn dắt sự thay đổi của hàng hóa."
+    },
+    {
+        "id": 169,
+        "chapter": 1,
+        "question": "Quy luật cạnh tranh yêu cầu các doanh nghiệp?",
+        "options": [
+            "Hợp tác với nhau để tăng giá",
+            "Không ngừng cải tiến để đứng vững trên thị trường",
+            "Nhờ nhà nước hỗ trợ",
+            "Chờ đợi cơ hội"
+        ],
+        "answer": 1,
+        "explain": "Cạnh tranh buộc doanh nghiệp phải đổi mới."
+    },
+    {
+        "id": 170,
+        "chapter": 1,
+        "question": "Cạnh tranh trong nội bộ ngành dẫn đến?",
+        "options": [
+            "Hình thành giá trị thị trường",
+            "Giá trị cá biệt giảm",
+            "Hình thành lợi nhuận bình quân",
+            "Phân chia lại thị trường"
+        ],
+        "answer": 0,
+        "explain": "Các doanh nghiệp trong cùng ngành thi đua hạ giá trị cá biệt."
+    },
+    {
+        "id": 171,
+        "chapter": 1,
+        "question": "Cạnh tranh giữa các ngành dẫn đến?",
+        "options": [
+            "Sản phẩm rẻ hơn",
+            "Hình thành tỷ suất lợi nhuận bình quân",
+            "Máy móc hiện đại hơn",
+            "Phân hóa giàu nghèo"
+        ],
+        "answer": 1,
+        "explain": "Di chuyển tư bản giữa các ngành khác nhau."
+    },
+    {
+        "id": 172,
+        "chapter": 1,
+        "question": "Lợi ích kinh tế cá nhân là?",
+        "options": [
+            "Lợi ích của cộng đồng",
+            "Lợi ích của từng người sản xuất, tiêu dùng",
+            "Của cải của nhà nước",
+            "Đóng thuế đầy đủ"
+        ],
+        "answer": 1,
+        "explain": "Động lực trực tiếp của mỗi chủ thể kinh tế."
+    },
+    {
+        "id": 173,
+        "chapter": 1,
+        "question": "Lợi ích kinh tế xã hội là?",
+        "options": [
+            "Lợi ích mang tính tổng thể của cả nền kinh tế",
+            "Của cải của các tập đoàn",
+            "Thu nhập của công nhân",
+            "Sự giàu có của các quan chức"
+        ],
+        "answer": 0,
+        "explain": "Đảm bảo sự ổn định và phát triển chung."
+    },
+    {
+        "id": 174,
+        "chapter": 1,
+        "question": "Mối quan hệ giữa các lợi ích kinh tế là gì?",
+        "options": [
+            "Luôn mâu thuẫn",
+            "Thống nhất và mâu thuẫn",
+            "Luôn thống nhất",
+            "Độc lập hoàn toàn"
+        ],
+        "answer": 1,
+        "explain": "Cần sự điều tiết của nhà nước để hài hòa các lợi ích."
+    },
+    {
+        "id": 175,
+        "chapter": 1,
+        "question": "Chức năng phương tiện cất trữ đòi hỏi tiền phải?",
+        "options": [
+            "Là tiền vàng, bạc hoặc vật có giá trị thực",
+            "Là tiền giấy",
+            "Là tiền ảo",
+            "Là séc"
+        ],
+        "answer": 0,
+        "explain": "Tiền phải có giá trị thực mới cất trữ được lâu dài."
+    },
+    {
+        "id": 176,
+        "chapter": 1,
+        "question": "Mọi vật phẩm có GTSD đều là hàng hóa?",
+        "options": [
+            "Đúng",
+            "Sai",
+            "Tùy quốc gia",
+            "Chỉ ở Việt Nam"
+        ],
+        "answer": 1,
+        "explain": "Vật phẩm tự nhiên không là hàng hóa (vì không qua lao động và trao đổi)."
+    },
+    {
+        "id": 177,
+        "chapter": 1,
+        "question": "Giá trị thặng dư được tạo ra ở đâu?",
+        "options": [
+            "Lưu thông",
+            "Sản xuất",
+            "Ngõ cụt của trao đổi",
+            "Ngân hàng"
+        ],
+        "answer": 1,
+        "explain": "Sản xuất trực tiếp tạo ra giá trị mới."
+    },
+    {
+        "id": 178,
+        "chapter": 1,
+        "question": "Học thuyết giá trị thặng dư vạch trần bản chất gì?",
+        "options": [
+            "Sự giàu có",
+            "Sự bóc lột của chủ tư bản đối với công nhân làm thuê",
+            "Sự tiến bộ của kỹ thuật",
+            "Sự công bằng xã hội"
+        ],
+        "answer": 1,
+        "explain": "Bản chất kinh tế của CNTB."
+    },
+    {
+        "id": 179,
+        "chapter": 1,
+        "question": "KTTT Mác - Lênin kế thừa trực tiếp từ trường phái nào?",
+        "options": [
+            "Trọng nông",
+            "Trọng thương",
+            "Cổ điển Anh",
+            "Tân cổ điển"
+        ],
+        "answer": 2,
+        "explain": "Mác kế thừa và phát triển học thuyết của Adam Smith và David Ricardo."
+    },
+    {
+        "id": 180,
+        "chapter": 1,
+        "question": "Phương pháp nghiên cứu đặc trưng nhất của kinh tế chính trị là?",
+        "options": [
+            "Thực nghiệm",
+            "Trừu tượng hóa khoa học",
+            "Phân tích thống kê",
+            "Duy vật lịch sử"
+        ],
+        "answer": 1,
+        "explain": "Gạt bỏ những cái ngẫu nhiên để tìm ra bản chất quy luật."
+    },
+    {
+        "id": 181,
+        "chapter": 1,
+        "question": "Mâu thuẫn cơ bản của kinh tế hàng hóa là gì?",
+        "options": [
+            "Giàu và nghèo",
+            "Lao động tư nhân và lao động xã hội",
+            "Chủ và thợ",
+            "Mua và bán"
+        ],
+        "answer": 1,
+        "explain": "Gốc rễ của các cuộc khủng hoảng."
+    },
+    {
+        "id": 182,
+        "chapter": 1,
+        "question": "Sự phát triển các hình thái giá trị phản ánh?",
+        "options": [
+            "Lịch sử loài người",
+            "Sự phát triển của sản xuất và trao đổi hàng hóa",
+            "Sự ra đời của máy tính",
+            "Lòng tham của con người"
+        ],
+        "answer": 1,
+        "explain": "Sự tiến hóa từ ngẫu nhiên đến tiền tệ."
+    },
+    {
+        "id": 183,
+        "chapter": 1,
+        "question": "Vai trò của nhà nước trong kinh tế thị trường là gì?",
+        "options": [
+            "Làm thay doanh nghiệp",
+            "Kiến tạo môi trường pháp lý, khắc phục khuyết tật thị trường",
+            "Chỉ thu thuế",
+            "Không làm gì"
+        ],
+        "answer": 1,
+        "explain": "Quản lý vĩ mô để đảm bảo định hướng."
+    },
+    {
+        "id": 184,
+        "chapter": 1,
+        "question": "Lợi nhuận là hình thức biểu hiện của?",
+        "options": [
+            "Giá trị hàng hóa",
+            "Giá trị thặng dư",
+            "Số tiền tiết kiệm",
+            "Chi phí bỏ ra"
+        ],
+        "answer": 1,
+        "explain": "GTTD khi đã được thực hiện trong lưu thông."
+    },
+    {
+        "id": 185,
+        "chapter": 1,
+        "question": "Cạnh tranh không lành mạnh bao gồm?",
+        "options": [
+            "Giảm giá",
+            "Hàng giả, hàng nhái, quảng cáo sai sự thật",
+            "Mở nhiều chi nhánh",
+            "Thuê nhân viên giỏi"
+        ],
+        "answer": 1,
+        "explain": "Các hành vi vi phạm đạo đức và pháp luật."
+    },
+    {
+        "id": 186,
+        "chapter": 1,
+        "question": "Khi lạm phát cao, chức năng nào của tiền bị suy yếu nhất?",
+        "options": [
+            "Thước đo giá trị",
+            "Phương tiện lưu thông",
+            "Phương tiện cất trữ",
+            "Tiền tệ thế giới"
+        ],
+        "answer": 2,
+        "explain": "Người dân không còn muốn giữ tiền mất giá."
+    },
+    {
+        "id": 187,
+        "chapter": 1,
+        "question": "Kinh tế tri thức là giai đoạn phát triển cao của?",
+        "options": [
+            "Kinh tế nông nghiệp",
+            "Kinh tế công nghiệp",
+            "Kinh tế thị trường",
+            "Kinh tế hái lượm"
+        ],
+        "answer": 1,
+        "explain": "Tri thức trở thành lực lượng sản xuất trực tiếp."
+    },
+    {
+        "id": 188,
+        "chapter": 1,
+        "question": "Thế nào là trao đổi ngang giá?",
+        "options": [
+            "Giá bán bằng giá mua",
+            "Trao đổi theo hao phí lao động xã hội cần thiết",
+            "Trao đổi lấy cùng 1 cân nặng",
+            "Hai người thấy vui là được"
+        ],
+        "answer": 1,
+        "explain": "Nguyên tắc khách quan của quy luật giá trị."
+    },
+    {
+        "id": 189,
+        "chapter": 1,
+        "question": "Đối tượng nào mua hàng để tiêu dùng?",
+        "options": [
+            "Người sản xuất",
+            "Người tiêu dùng",
+            "Thương nhân",
+            "Nhà nước"
+        ],
+        "answer": 1,
+        "explain": "Họ là điểm kết thúc của quá trình lưu thông."
+    },
+    {
+        "id": 190,
+        "chapter": 1,
+        "question": "Cạnh tranh có mấy loại chính?",
+        "options": [
+            "Cạnh tranh nội bộ ngành",
+            "Cạnh tranh giữa các ngành",
+            "Cả A và B",
+            "Cạnh tranh gia đình"
+        ],
+        "answer": 2,
+        "explain": "Hai loại cạnh tranh kinh tế cơ bản."
+    },
+    {
+        "id": 191,
+        "chapter": 1,
+        "question": "Chức năng phương tiện lưu thông của tiền có rủi ro gì?",
+        "options": [
+            "Tiền bị rách",
+            "Khả năng tách rời thời gian và không gian mua - bán dễ dẫn đến khủng hoảng",
+            "Tiền bị mất",
+            "Ngân hàng phá sản"
+        ],
+        "answer": 1,
+        "explain": "Mua nhưng không bán hàng khác ngay lập tức."
+    },
+    {
+        "id": 192,
+        "chapter": 1,
+        "question": "Giá trị cũ (c) chuyển vào sản phẩm bằng cách nào?",
+        "options": [
+            "Sáng tạo mới",
+            "Bảo tồn và chuyển nguyên vẹn",
+            "Bị mất đi",
+            "Tăng thêm"
+        ],
+        "answer": 1,
+        "explain": "Giá trị của máy móc, nguyên liệu được giữ lại."
+    },
+    {
+        "id": 193,
+        "chapter": 1,
+        "question": "Ai tạo ra giá trị mới (v+m)?",
+        "options": [
+            "Người quản lý",
+            "Công nhân trực tiếp sản xuất",
+            "Máy móc tự động",
+            "Chủ ngân hàng"
+        ],
+        "answer": 1,
+        "explain": "Lao động trừu tượng của công nhân tạo ra giá trị mới."
+    },
+    {
+        "id": 194,
+        "chapter": 1,
+        "question": "Một người thợ làm ra 10 sản phẩm/ngày. Nếu tăng năng suất lên 20 sản phẩm/ngày thì tổng giá trị ngày đó?",
+        "options": [
+            "Tăng gấp đôi",
+            "Không đổi",
+            "Giảm 50%",
+            "Tăng 100%"
+        ],
+        "answer": 1,
+        "explain": "Tổng giá trị do hao phí sức lao động 1 ngày không đổi, chỉ giá trị 1 sp giảm."
+    },
+    {
+        "id": 195,
+        "chapter": 1,
+        "question": "Tại sao hàng hóa có hai thuộc tính?",
+        "options": [
+            "Vì người mua muốn thế",
+            "Vì lao động sản xuất hàng hóa có tính hai mặt",
+            "Vì quy định của nhà nước",
+            "Vì nó đẹp"
+        ],
+        "answer": 1,
+        "explain": "Nội dung này là phát hiện lớn của Mác."
+    },
+    {
+        "id": 196,
+        "chapter": 1,
+        "question": "Ưu thế của cạnh tranh hoàn hảo là?",
+        "options": [
+            "Nhiều người mua, nhiều người bán, không ai thao túng được giá",
+            "Chỉ một người bán",
+            "Giá rất cao",
+            "Nhà nước quản lý toàn bộ"
+        ],
+        "answer": 0,
+        "explain": "Thị trường cạnh tranh lý tưởng."
+    },
+    {
+        "id": 197,
+        "chapter": 1,
+        "question": "Cấu tạo kỹ thuật của tư bản là?",
+        "options": [
+            "Số lượng máy móc / số lượng công nhân",
+            "Giá trị máy móc / giá trị sức lao động",
+            "Kích thước nhà xưởng",
+            "Tốc độ sản xuất"
+        ],
+        "answer": 0,
+        "explain": "Tỷ lệ về lượng giữa TLSX và sức lao động."
+    },
+    {
+        "id": 198,
+        "chapter": 1,
+        "question": "Quy luật giá trị là quy luật kinh tế của?",
+        "options": [
+            "Kinh tế tự nhiên",
+            "Kinh tế hàng hóa",
+            "Kinh tế chỉ huy",
+            "Mọi nền kinh tế"
+        ],
+        "answer": 1,
+        "explain": "Nơi nào có sản xuất hàng hóa, nơi đó có quy luật giá trị."
+    },
+    {
+        "id": 199,
+        "chapter": 1,
+        "question": "Lao động xã hội là gì?",
+        "options": [
+            "Làm việc cho nhà nước",
+            "Lao động là bộ phận hợp thành lao động tổng hợp của xã hội",
+            "Lao động thiện nguyện",
+            "Làm việc theo nhóm lớn"
+        ],
+        "answer": 1,
+        "explain": "Xét trong sự liên kết của cộng đồng sản xuất."
+    },
+    {
+        "id": 200,
+        "chapter": 1,
+        "question": "Tự do kinh doanh là?",
+        "options": [
+            "Thích làm gì thì làm phá luật",
+            "Quyền được kinh doanh những gì pháp luật không cấm",
+            "Mọi người đều phải mở công ty",
+            "Kinh doanh không cần nộp thuế"
+        ],
+        "answer": 1,
+        "explain": "Một trong những yếu tố cơ bản của nền KTTT."
+    }
+]

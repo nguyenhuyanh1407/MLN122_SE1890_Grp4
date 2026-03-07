@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', async function () {
   var closePanelBtn = document.getElementById('close-panel');
   var breadcrumbEl = document.getElementById('breadcrumb');
   var progFill = document.getElementById('prog-fill');
-  var learnedCount = document.getElementById('learned-count');
   var totalCount = document.getElementById('total-count');
-  var branchList = document.getElementById('branch-list');
+  var timelineContainer = document.getElementById('timeline-container');
+  var timelineMarks = document.querySelectorAll('.timeline-mark');
 
   // ── D3 setup ──────────────────────────────────────────────────────
   var svg = d3.select(svgEl);
@@ -78,6 +78,14 @@ document.addEventListener('DOMContentLoaded', async function () {
   var sgf = defs.append('filter').attr('id', 'strong-glow').attr('x', '-200%').attr('y', '-200%').attr('width', '500%').attr('height', '500%');
   sgf.append('feGaussianBlur').attr('stdDeviation', '15').attr('result', 'blur');
   sgf.append('feMerge').selectAll('feMergeNode').data(['blur', 'SourceGraphic']).enter().append('feMergeNode').attr('in', function (d) { return d; });
+
+  // Custom gold glow for the map ring
+  var goldGlow = defs.append('filter').attr('id', 'gold-glow').attr('x', '-50%').attr('y', '-50%').attr('width', '200%').attr('height', '200%');
+  goldGlow.append('feGaussianBlur').attr('stdDeviation', '10').attr('result', 'blur');
+  goldGlow.append('feComponentTransfer').attr('in', 'blur').attr('result', 'glow')
+    .append('feFuncA').attr('type', 'linear').attr('slope', '1.5');
+  goldGlow.append('feMerge').selectAll('feMergeNode').data(['glow', 'SourceGraphic']).enter().append('feMergeNode').attr('in', function (d) { return d; });
+
   var shockwaveLayer = g.append('g').attr('class', 'shockwave-layer');
 
   // ── Progress tracking ─────────────────────────────────────────────
@@ -144,38 +152,12 @@ document.addEventListener('DOMContentLoaded', async function () {
     totalCount.textContent = allNodeCount;
 
     buildMap(mapData);
-    buildSidebar(mapData);
     gsap.to(loader, { opacity: 0, duration: 0.5, onComplete: function () { loader.style.display = 'none'; } });
   } catch (err) {
     console.error('Load error:', err);
     loader.innerHTML = '<p style="color:#ef5350">Lỗi tải dữ liệu. Vui lòng tải lại trang.</p>';
   }
 
-  // ── Build sidebar ─────────────────────────────────────────────────
-  function buildSidebar(data) {
-    var iconMap = {
-      '⚡': 'bi-lightning-fill',
-      '🔮': 'bi-magic',
-      '⚛️': 'bi-globe2',
-      '🔄': 'bi-arrow-repeat',
-      '🏛️': 'bi-bank2',
-      '🌟': 'bi-star-fill',
-      '📌': 'bi-pin-angle-fill'
-    };
-    data.children.forEach(function (branch) {
-      var btn = document.createElement('button');
-      btn.className = 'branch-btn';
-      var col = branch.color || '#5c6bc0';
-      var iconClass = iconMap[branch.icon] || 'bi-bookmarks-fill';
-      btn.innerHTML = '<div class="branch-icon" style="background:' + col + '22; color: ' + col + '"><i class="bi ' + iconClass + '" style="filter:drop-shadow(0 0 6px ' + col + ')"></i></div>'
-        + '<span class="branch-name">' + branch.name.replace('\n', ' ') + '</span>';
-      btn.style.setProperty('--branch-color', col);
-      btn.addEventListener('click', function () {
-        zoomToBranchByData(branch);
-      });
-      branchList.appendChild(btn);
-    });
-  }
 
   // ── Build mind map ────────────────────────────────────────────────
   var lastRoot = null;
@@ -190,18 +172,40 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     root.descendants().forEach(function (d) {
       var angle = (d.x - 90) * Math.PI / 180;
-      var radius = d.depth === 1 ? 520 : d.depth === 2 ? 1150 : d.depth === 3 ? 1800 : 0;
+      var radius = d.depth === 1 ? 680 : d.depth === 2 ? 1300 : d.depth === 3 ? 1950 : 0;
       d.radius = radius;
       d.x_cart = radius * Math.cos(angle);
       d.y_cart = radius * Math.sin(angle);
       if (d.depth === 0) { d.x_cart = 0; d.y_cart = 0; }
     });
 
-    // Links
+    // Function to generate links based on the current radius of the map-ring
+    function updateLinks() {
+      var ringElement = d3.select('.map-ring').node();
+      var currentRingRadius = ringElement ? parseFloat(ringElement.getAttribute('r')) : 260;
+
+      var radialLink = d3.linkRadial()
+        .angle(function (d) { return d.x * Math.PI / 180; })
+        .radius(function (d) { return d.radius; })
+        .source(function (d) {
+          if (d.source.depth === 0) {
+            // Vòng tròn vàng có nét viền stroke-width = 6, tức là nó loe ra ngoài 3px và vào trong 3px.
+            // Để đường nối xuất phát chính xác từ viền ngoài của vòng tròn mà không bị đè lên 1px, 
+            // ta cộng thêm 3px vào bán kính xuất phát.
+            return { x: d.target.x, radius: currentRingRadius + 3 };
+          }
+          return d.source;
+        });
+
+      g.selectAll('.link').attr('d', radialLink);
+    }
+
+    // Initialize links without d attribute, let updateLinks handle it
     g.selectAll('.link').data(root.links()).enter().append('path').attr('class', 'link')
-      .attr('d', d3.linkRadial().angle(function (d) { return d.x * Math.PI / 180; }).radius(function (d) { return d.radius; }))
       .style('stroke', function (d) { return colorOf(d.target); })
       .style('stroke-width', function (d) { return d.target.depth === 1 ? '6px' : '3px'; });
+
+    updateLinks(); // Set initial render paths
 
     // Nodes
     var nodes = g.selectAll('.node').data(root.descendants()).enter()
@@ -209,13 +213,22 @@ document.addEventListener('DOMContentLoaded', async function () {
       .attr('transform', function (d) { return 'translate(' + d.x_cart + ',' + d.y_cart + ')'; })
       .on('click', function (event, d) { event.stopPropagation(); onNodeClick(event, d); })
       .on('mouseenter', function (event, d) {
-        if (d.depth === 0) return;
+        if (d.depth === 0) {
+          // Hover effect for larger map image only
+          var img = d3.select(this).select('image');
+          gsap.to(img.node(), { attr: { width: 1500, height: 1920, x: -750, y: -960 }, duration: 0.3, ease: 'back.out(1.5)' });
+          return;
+        }
         var r = nodeRadius(d.data);
         var el = d3.select(this).select('circle');
         gsap.to(el.node(), { attr: { r: r * 1.3 }, duration: 0.2, ease: 'back.out(2)' });
       })
       .on('mouseleave', function (event, d) {
-        if (d.depth === 0) return;
+        if (d.depth === 0) {
+          var img = d3.select(this).select('image');
+          gsap.to(img.node(), { attr: { width: 1400, height: 1800, x: -700, y: -900 }, duration: 0.4, ease: 'elastic.out(1,0.5)' });
+          return;
+        }
         var r = nodeRadius(d.data);
         var el = d3.select(this).select('circle');
         gsap.to(el.node(), { attr: { r: r }, duration: 0.3, ease: 'elastic.out(1,0.5)' });
@@ -239,31 +252,84 @@ document.addEventListener('DOMContentLoaded', async function () {
       .style('stroke', function (d) { return d.depth === 0 ? 'none' : colorOf(d); })
       .style('stroke-width', function (d) { return d.depth === 0 ? '0' : d.depth === 1 ? '6px' : '4px'; });
 
-    // Center node: image (macimg.png) above + text below
+    // Center node: Gold glowing ring below
     nodes.filter(function (d) { return d.depth === 0; })
-      .append('image')
-      .attr('href', 'macimg.png')
-      .attr('width', 120).attr('height', 120)
-      .attr('x', -60).attr('y', -160)
+      .append('circle')
+      .attr('class', 'map-ring')
+      .attr('r', 260)
+      .attr('cx', 0)
+      .attr('cy', 0) // Centered
+      .style('fill', 'rgba(120, 10, 10, 0.4)') // Add a subtle dark red fill to block links bleeding underneath
+      .style('stroke', '#facc15')
+      .style('stroke-width', 6)
+      .style('filter', 'url(#gold-glow)')
+      .style('opacity', 0.95)
       .style('pointer-events', 'none');
 
+    // Make the map ring pulse
+    gsap.to(g.selectAll('.map-ring').nodes(), {
+      attr: { r: 275 },
+      opacity: 0.6,
+      duration: 1.5,
+      repeat: -1,
+      yoyo: true,
+      ease: 'sine.inOut',
+      onUpdate: updateLinks
+    });
+
+    // Center node: map.png above (increased size, perfectly centered)
+    nodes.filter(function (d) { return d.depth === 0; })
+      .append('image')
+      .attr('href', 'map.png')
+      .attr('width', 1400).attr('height', 1800)
+      .attr('x', -700).attr('y', -900) // Perfectly centered relative to 0,0
+      .style('position', 'relative')
+      .style('z-index', 10)
+      .style('pointer-events', 'all')
+      .style('cursor', 'pointer');
+
+    // Root node text centered logically inside the circle, shifted below
     nodes.filter(function (d) { return d.depth === 0; }).append('text')
-      .attr('text-anchor', 'middle').style('font-size', '52px').style('font-weight', '800')
-      .style('fill', 'white').style('font-family', "'Be Vietnam Pro', sans-serif")
+      .attr('text-anchor', 'middle')
+      .style('font-size', '52px')
+      .style('font-weight', '800')
+      .style('fill', '#ffffff')
+      .style('text-shadow', '2px 4px 6px rgba(0,0,0,0.8)')
+      .style('font-family', "'Be Vietnam Pro', sans-serif")
+      .attr('y', 230) // Position text nicely below the golden ring
       .each(function (d) {
         var el = d3.select(this);
         var lines = (d.data.name || '').split('\n');
         lines.forEach(function (line, i) {
-          el.append('tspan').attr('x', 0).attr('dy', i === 0 ? '15px' : '1.3em').text(line);
+          el.append('tspan').attr('x', 0).attr('dy', i === 0 ? '0' : '1.3em').text(line);
         });
       });
 
     // Icons
-    nodes.filter(function (d) { return d.depth > 0 && !!d.data.icon; }).append('text')
-      .attr('text-anchor', 'middle').attr('dy', '.35em')
-      .style('font-size', function (d) { return d.depth === 1 ? '36px' : '24px'; })
-      .style('fill', function (d) { return colorOf(d); })
-      .text(function (d) { return d.data.icon; });
+    nodes.filter(function (d) { return d.depth > 0 && !!d.data.icon; })
+      .each(function (d) {
+        var el = d3.select(this);
+        var icon = d.data.icon;
+        if (icon.toLowerCase().endsWith('.png')) {
+          var size = d.depth === 1 ? 60 : 40;
+          // Shrink vietnam.png slightly as requested
+          if (icon.toLowerCase() === 'vietnam.png') size = 48;
+
+          el.append('image')
+            .attr('xlink:href', icon)
+            .attr('width', size)
+            .attr('height', size)
+            .attr('x', -size / 2)
+            .attr('y', -size / 2);
+        } else {
+          el.append('text')
+            .attr('text-anchor', 'middle')
+            .attr('dy', '.35em')
+            .style('font-size', d.depth === 1 ? '36px' : '24px')
+            .style('fill', colorOf(d))
+            .text(icon);
+        }
+      });
 
     // Labels
     nodes.filter(function (d) { return d.depth > 0; }).append('text').attr('class', 'node-text')
@@ -328,6 +394,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     highlightLinks(d, color);
 
     if (d.depth === 0) {
+      hideDetails();
       resetBranchFocus(); return;
     } else if (d.depth === 1) {
       zoomToBranch(d);
@@ -344,20 +411,8 @@ document.addEventListener('DOMContentLoaded', async function () {
       startStudyTimer(d.data.id);
     }
 
-    // Update sidebar highlight
-    updateSidebarActive(d);
   }
 
-  function updateSidebarActive(d) {
-    document.querySelectorAll('.branch-btn').forEach(function (b) { b.classList.remove('active'); });
-    var ancestor = d;
-    while (ancestor && ancestor.depth > 1) ancestor = ancestor.parent;
-    if (ancestor && ancestor.depth === 1) {
-      var idx = ancestor.parent ? ancestor.parent.children.indexOf(ancestor) : -1;
-      var btns = document.querySelectorAll('.branch-btn');
-      if (idx >= 0 && btns[idx]) btns[idx].classList.add('active');
-    }
-  }
 
   // ── Zoom helpers ──────────────────────────────────────────────────
   function zoomToBranch(d) {
@@ -370,20 +425,20 @@ document.addEventListener('DOMContentLoaded', async function () {
     var minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
     var bw = maxX - minX + 400, bh = maxY - minY + 400;
     var midX = (minX + maxX) / 2, midY = (minY + maxY) / 2;
-    var panelW = 370, usableW = vw - panelW - 60;
+    var panelW = 920, usableW = vw - panelW - 60;
     var scale = Math.min(Math.min(usableW / bw, vh / bh) * 0.88, 2.5);
     scale = Math.max(scale, 0.05);
-    var tx = usableW / 2 - scale * midX, ty = vh / 2 - scale * midY;
+    var tx = (vw - panelW) / 2 - scale * midX, ty = vh / 2 - scale * midY - 40;
     svg.transition().duration(900).ease(d3.easeCubicInOut).call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
-    dimSiblings(d); showBreadcrumb(d);
+    dimSiblings(d);
   }
 
   function zoomToNode(d) {
     focusedNode = d;
     var vw = svgEl.parentElement.clientWidth, vh = svgEl.parentElement.clientHeight;
-    var panelW = 370, usableW = vw - panelW - 60;
+    var panelW = 920, usableW = vw - panelW - 60;
     var scale = Math.min(currentTransform.k * 1.5, 2.2);
-    var tx = usableW / 2 - scale * d.x_cart, ty = vh / 2 - scale * d.y_cart;
+    var tx = usableW / 2 - scale * d.x_cart, ty = vh / 2 - scale * d.y_cart - 40;
     svg.transition().duration(600).ease(d3.easeCubicInOut).call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
     dimSiblings(d);
   }
@@ -438,22 +493,13 @@ document.addEventListener('DOMContentLoaded', async function () {
   }
 
   function resetBranchFocus() {
-    focusedNode = null; dimBranches(); hideBreadcrumb(); initialView(lastRoot);
-    document.querySelectorAll('.branch-btn').forEach(function (b) { b.classList.remove('active'); });
+    focusedNode = null;
+    dimBranches();
+    initialView(lastRoot);
+    hideDetails();
   }
 
-  // ── Breadcrumb ────────────────────────────────────────────────────
-  function showBreadcrumb(d) {
-    var color = colorOf(d) || '#5c6bc0';
-    breadcrumbEl.querySelector('.bc-name').textContent = (d.data.name || '').replace('\n', ' ');
-    breadcrumbEl.querySelector('.bc-dot').style.background = color;
-    breadcrumbEl.classList.remove('bc-hidden');
-    gsap.fromTo(breadcrumbEl, { y: -40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4, ease: 'back.out(1.7)' });
-  }
-  function hideBreadcrumb() {
-    gsap.to(breadcrumbEl, { y: -40, opacity: 0, duration: 0.3, onComplete: function () { breadcrumbEl.classList.add('bc-hidden'); } });
-  }
-  breadcrumbEl.addEventListener('click', resetBranchFocus);
+
   svg.on('click', function (event) {
     if ((event.target === svgEl || event.target.tagName.toLowerCase() === 'svg') && focusedNode) {
       resetBranchFocus();
@@ -463,11 +509,13 @@ document.addEventListener('DOMContentLoaded', async function () {
   // ── Effects ───────────────────────────────────────────────────────
   function emitRings(cx, cy, color, depth, data) {
     var count = depth === 0 ? 4 : depth === 1 ? 3 : 2;
-    var baseR = nodeRadius(data), rangeFactor = depth === 0 ? 280 : depth === 1 ? 180 : 110;
+    var baseR = depth === 0 ? 260 : nodeRadius(data);
+    var rangeFactor = depth === 0 ? 280 : depth === 1 ? 180 : 110;
+    var effectColor = depth === 0 ? '#facc15' : color;
     for (var i = 0; i < count; i++) {
       (function (idx) {
         var ring = shockwaveLayer.append('circle').attr('cx', cx).attr('cy', cy).attr('r', baseR)
-          .style('fill', 'none').style('stroke', color).style('stroke-width', depth <= 1 ? 5 : 3)
+          .style('fill', 'none').style('stroke', effectColor).style('stroke-width', depth <= 1 ? 5 : 3)
           .style('opacity', 0.9).style('pointer-events', 'none');
         gsap.to(ring.node(), {
           attr: { r: 70 + rangeFactor + idx * 50 }, opacity: 0, strokeWidth: 1,
@@ -476,18 +524,39 @@ document.addEventListener('DOMContentLoaded', async function () {
       })(i);
     }
     var flash = shockwaveLayer.append('circle').attr('cx', cx).attr('cy', cy).attr('r', baseR * 2)
-      .style('fill', color).style('opacity', 0.35).style('pointer-events', 'none');
+      .style('fill', effectColor).style('opacity', 0.35).style('pointer-events', 'none');
     gsap.to(flash.node(), { attr: { r: baseR * 0.3 }, opacity: 0, duration: 0.28, ease: 'expo.out', onComplete: function () { flash.remove(); } });
   }
 
   function bloomNode(nodeEl, d, color) {
-    var circle = d3.select(nodeEl).select('circle');
-    var r = nodeRadius(d.data);
+    var circle = d3.select(nodeEl).select('circle.node-circle');
+    var r = d.depth === 0 ? 260 : nodeRadius(d.data);
+    var effectColor = d.depth === 0 ? '#facc15' : color;
+
+    if (d.depth === 0) {
+      circle.style('stroke-width', '6px');
+      circle.style('filter', 'url(#strong-glow)');
+      gsap.timeline({
+        onComplete: function () {
+          circle.style('filter', null);
+          circle.style('stroke', 'none');
+        }
+      })
+        .to(circle.node(), { attr: { r: r * 0.95 }, duration: 0.08, ease: 'power3.in' }) // less shrink
+        .to(circle.node(), { attr: { r: r * 1.1 }, stroke: effectColor, duration: 0.2, ease: 'expo.out' }) // expand slightly, keep it gold
+        .to(circle.node(), { attr: { r: r }, stroke: 'none', duration: 0.45, ease: 'elastic.out(1,0.4)' });
+      return;
+    }
+
     circle.style('filter', 'url(#strong-glow)');
-    gsap.timeline({ onComplete: function () { circle.style('filter', null); } })
+    gsap.timeline({
+      onComplete: function () {
+        circle.style('filter', null);
+      }
+    })
       .to(circle.node(), { attr: { r: r * 0.65 }, duration: 0.08, ease: 'power3.in' })
       .to(circle.node(), { attr: { r: r * 1.8 }, stroke: '#ffffff', duration: 0.2, ease: 'expo.out' })
-      .to(circle.node(), { attr: { r: r }, stroke: color, duration: 0.45, ease: 'elastic.out(1,0.4)' });
+      .to(circle.node(), { attr: { r: r }, stroke: effectColor, duration: 0.45, ease: 'elastic.out(1,0.4)' });
   }
 
   function highlightLinks(d, color) {
@@ -509,19 +578,82 @@ document.addEventListener('DOMContentLoaded', async function () {
     document.getElementById('topic-title').textContent = (data.name || '').replace('\n', ' ');
     document.getElementById('topic-description').textContent = data.description || '';
     document.getElementById('topic-example').textContent = data.vietnam_example || '';
-    document.getElementById('topic-icon').textContent = data.icon || '📌';
-    document.getElementById('topic-badge').textContent = 'Cấp ' + (data.level === 0 ? 'Gốc' : data.level);
-    var color = data.color || '#5c6bc0';
-    document.getElementById('topic-badge').style.background = color + '22';
-    document.getElementById('topic-badge').style.color = color;
-    document.querySelector('.vn-box').style.borderColor = color;
+
+    // Handle Timeline visibility and state
+    var isHistoryBranch = false;
+    var current = data;
+    // Check if node or its ancestors is the "History of the Party" branch (ch1)
+    if (data.id === 'ch1' || data.id === 'ch1_1' || data.id === 'ch1_2' || data.id === 'ch1_3' || data.id === 'ch1_4' || data.id === 'ch1_2_victory' || (data.id && data.id.startsWith('ch1_1_')) || (data.id && data.id.startsWith('ch1_2_')) || (data.id && data.id.startsWith('ch1_3_'))) {
+      isHistoryBranch = true;
+    }
+
+    if (isHistoryBranch) {
+      timelineContainer.classList.add('visible');
+      updateTimeline(data.id);
+    } else {
+      timelineContainer.classList.remove('visible');
+    }
+
+    var meaningEl = document.getElementById('topic-meaning');
+    var colMeaning = document.getElementById('col-meaning');
+    if (data.meaning) {
+      meaningEl.textContent = data.meaning;
+      colMeaning.style.display = 'block';
+      document.querySelector('.panel-grid').style.gridTemplateColumns = '1fr 1fr 1fr';
+    } else {
+      colMeaning.style.display = 'none';
+      document.querySelector('.panel-grid').style.gridTemplateColumns = '1fr 1fr';
+    }
+
     detailPanel.classList.add('open');
-    gsap.fromTo(detailPanel, { x: '100%' }, { x: '0%', duration: 0.5, ease: 'expo.out' });
+    document.body.classList.add('detail-open');
+    gsap.fromTo(detailPanel, { y: '120%', x: '0%' }, { y: '0%', x: '0%', duration: 0.6, ease: 'expo.out' });
   }
 
-  closePanelBtn.addEventListener('click', function () {
+  function hideDetails() {
+    if (!detailPanel.classList.contains('open')) return;
     if (currentNodeId) stopStudyTimer(currentNodeId);
-    gsap.to(detailPanel, { x: '100%', duration: 0.4, ease: 'power2.in', onComplete: function () { detailPanel.classList.remove('open'); } });
+    gsap.to(detailPanel, {
+      y: '120%',
+      duration: 0.5,
+      ease: 'power2.in',
+      onComplete: function () {
+        detailPanel.classList.remove('open');
+        document.body.classList.remove('detail-open');
+      }
+    });
+  }
+
+  closePanelBtn.addEventListener('click', hideDetails);
+
+  // ── Timeline Logic ────────────────────────────────────────────────
+  function updateTimeline(activeId) {
+    var mapping = {
+      'ch1_1': 'ch1_1', 'ch1_1_1': 'ch1_1', 'ch1_1_2': 'ch1_1',
+      'ch1_2_victory': 'ch1_2_victory',
+      'ch1_2': 'ch1_2', 'ch1_2_1': 'ch1_2', 'ch1_2_2': 'ch1_2',
+      'ch1_3': 'ch1_3', 'ch1_3_1': 'ch1_3',
+      'ch1_4': 'ch1_4'
+    };
+    var targetId = mapping[activeId];
+    timelineMarks.forEach(function (mark) {
+      if (mark.getAttribute('data-id') === targetId) {
+        mark.classList.add('active');
+      } else {
+        mark.classList.remove('active');
+      }
+    });
+  }
+
+  timelineMarks.forEach(function (mark) {
+    mark.addEventListener('click', function () {
+      var id = this.getAttribute('data-id');
+      g.selectAll('.node').each(function (d) {
+        if (d.data.id === id) {
+          onNodeClick({ stopPropagation: function () { }, currentTarget: this }, d);
+        }
+      });
+    });
   });
 
   // ── View helpers ──────────────────────────────────────────────────
@@ -530,7 +662,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     var parent = svgEl.parentElement;
     // Better default zoom to match "Ảnh 2": level 1 branches at ~520px radius
     var scale = (Math.min(parent.clientWidth, parent.clientHeight) * 0.92) / (520 * 2 + 400);
-    svg.transition().duration(1000).call(zoom.transform, d3.zoomIdentity.translate(parent.clientWidth / 2, parent.clientHeight / 2).scale(scale));
+    svg.transition().duration(1000).call(zoom.transform, d3.zoomIdentity.translate(parent.clientWidth / 2, parent.clientHeight / 2 - 40).scale(scale));
   }
 
   function resetView() {
@@ -552,7 +684,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   function nodeRadius(d) {
     var level = d && d.level !== undefined ? d.level : (d && d.data ? d.data.level : 3);
-    switch (level) { case 0: return 85; case 1: return 42; case 2: return 22; default: return 16; }
+    switch (level) { case 0: return 190; case 1: return 42; case 2: return 22; default: return 16; }
   }
 
   // ── Controls ──────────────────────────────────────────────────────
@@ -646,7 +778,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     if (!isClickInsidePanel && !isOpeningNode && !isInteractingWithChat) {
       if (detailPanel.classList.contains('open')) {
         if (currentNodeId) stopStudyTimer(currentNodeId);
-        gsap.to(detailPanel, { x: '100%', duration: 0.4, ease: 'power2.in', onComplete: function () { detailPanel.classList.remove('open'); } });
+        gsap.to(detailPanel, { y: '120%', duration: 0.4, ease: 'power2.in', onComplete: function () { detailPanel.classList.remove('open'); } });
       }
     }
   });
@@ -677,17 +809,37 @@ document.addEventListener('DOMContentLoaded', async function () {
   }
 
   function showQuizStart() {
-    quizStart.style.display = 'block';
+    quizStart.style.display = 'flex';
     quizQScreen.style.display = 'none';
     quizResultsDiv.style.display = 'none';
-    var bsd = document.getElementById('best-score-display');
-    bsd.textContent = bestScore !== null ? bestScore + '/20' : '—';
   }
 
-  function startQuiz() {
-    if (!quizData || !quizData.length) { alert('Không tải được ngân hàng câu hỏi.'); return; }
+  window.startQuizByTopic = async function (topic) {
+    let qData = [];
+    try {
+      if (topic === 'all') {
+        // Load all 5 chapters
+        const indices = [1, 2, 3, 4, 5];
+        const loads = indices.map(i => d3.json(`chapter${i}.json`));
+        const results = await Promise.all(loads);
+        qData = results.flat();
+      } else {
+        // Load specific chapter
+        qData = await d3.json(`chapter${topic}.json`);
+      }
+    } catch (err) {
+      console.error('Quiz load error:', err);
+      alert('Không thể tải ngân hàng câu hỏi cho chủ đề này.');
+      return;
+    }
+
+    if (!qData || !qData.length) {
+      alert('Ngân hàng câu hỏi trống.');
+      return;
+    }
+
     // Shuffle & pick 20
-    var shuffled = quizData.slice().sort(function () { return Math.random() - 0.5; });
+    var shuffled = qData.slice().sort(function () { return Math.random() - 0.5; });
     currentQuiz = shuffled.slice(0, 20);
     currentQIdx = 0;
     userAnswers = [];
@@ -705,7 +857,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     }, 1000);
 
     renderQuestion();
-  }
+  };
 
   function renderQuestion() {
     var q = currentQuiz[currentQIdx];
@@ -761,28 +913,44 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
   });
 
-  function showResults() {
+  async function showResults() {
     quizQScreen.style.display = 'none';
     quizResultsDiv.style.display = 'block';
+    quizResultsDiv.scrollTop = 0;
 
     var correct = 0;
-    userAnswers.forEach(function (ans, i) { if (ans === currentQuiz[i].answer) correct++; });
-    var pct = Math.round((correct / currentQuiz.length) * 100);
+    var wrongQuestions = [];
+    userAnswers.forEach(function (ans, i) {
+      if (ans === currentQuiz[i].answer) {
+        correct++;
+      } else {
+        wrongQuestions.push(currentQuiz[i]);
+      }
+    });
 
+    var pct = Math.round((correct / currentQuiz.length) * 100);
     if (bestScore === null || correct > bestScore) bestScore = correct;
 
     var scoreClass = pct >= 80 ? 'score-green' : pct >= 50 ? 'score-orange' : 'score-red';
     var stars = pct >= 80 ? '⭐⭐⭐' : pct >= 60 ? '⭐⭐' : '⭐';
     var msg = pct >= 80 ? 'Xuất sắc! Bạn nắm vững kiến thức.' : pct >= 60 ? 'Khá tốt! Tiếp tục ôn luyện.' : 'Cần ôn tập thêm. Đừng nản!';
 
-    var html = '<div style="padding-bottom:8px">'
-      + '<div style="font-size:2.2rem;margin-bottom:8px">' + stars + '</div>'
+    var html = '<div style="padding:40px; text-align:center;">'
+      + '<div style="font-size:3rem;margin-bottom:12px">' + stars + '</div>'
       + '<h2>Kết quả thi</h2>'
       + '<div class="results-score ' + scoreClass + '">' + correct + '<span style="font-size:1.4rem;opacity:0.5">/' + currentQuiz.length + '</span></div>'
-      + '<div class="results-meta">' + msg + ' | Thời gian: ' + elapsed + 's | Tỉ lệ đúng: ' + pct + '%</div>'
+      + '<div class="results-meta">' + msg + ' | Thời gian: ' + elapsed + 's | Tỉ lệ đúng: ' + pct + '%</div>';
+
+    // AI Analysis Section
+    html += '<div class="ai-analysis-box">'
+      + '<div class="ai-analysis-header"><i class="bi bi-robot"></i> AI Phân tích & Lời khuyên</div>'
+      + '<div id="ai-advice-content">Hệ thống đang phân tích kết quả của bạn...</div>'
       + '</div>';
 
-    html += '<div style="font-size:0.82rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:12px">Chi tiết câu trả lời</div>';
+    html += '</div>';
+
+    html += '<div style="padding:0 40px 40px;">'
+      + '<div style="font-size:0.82rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:12px">Chi tiết câu trả lời</div>';
 
     currentQuiz.forEach(function (q, i) {
       var ua = userAnswers[i];
@@ -798,21 +966,60 @@ document.addEventListener('DOMContentLoaded', async function () {
     });
 
     html += '<div class="results-actions">'
-      + '<button id="retry-btn" onclick="document.getElementById(\'quiz-start-btn\').click()">🔄 Thi lại</button>'
-      + '<button id="back-btn">← Quay lại</button>'
-      + '</div>';
+      + '<button id="back-btn">← Quay lại menu chính</button>'
+      + '</div></div>';
 
     quizResultsDiv.innerHTML = html;
     document.getElementById('back-btn').addEventListener('click', function () {
-      closeQuiz();
+      showQuizStart();
     });
-    var retryBtn = document.getElementById('retry-btn');
-    if (retryBtn) retryBtn.addEventListener('click', function () { startQuiz(); });
+
+    // Start AI Analysis
+    analyzeResultsByAI(wrongQuestions, correct, currentQuiz.length);
+  }
+
+  async function analyzeResultsByAI(wrongQuestions, correct, total) {
+    const adviceEl = document.getElementById('ai-advice-content');
+    if (!adviceEl) return;
+
+    if (wrongQuestions.length === 0) {
+      adviceEl.textContent = "Chúc mừng! Bạn đã trả lời đúng tất cả các câu hỏi. Hãy tiếp tục duy trì phong độ này!";
+      return;
+    }
+
+    const topics = wrongQuestions.map(q => q.question).join(", ");
+    const prompt = `Người dùng vừa làm bài thi trắc nghiệm Triết học Mác-Lênin. 
+    Kết quả: đúng ${correct}/${total} câu.
+    Những nội dung người dùng trả lời sai hoặc chưa vững: ${topics}.
+    Hãy đưa ra lời khuyên ngắn gọn (khoảng 3-4 câu), tập trung vào những mảng kiến thức cần ôn tập lại và động viên người dùng. 
+    Dùng ngôn từ của một trợ lý học tập tận tâm.`;
+
+    try {
+      const response = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          messages: [
+            { role: 'system', content: 'Bạn là chuyên gia về Triết học Mác-Lênin, hãy phân tích kết quả thi và đưa ra lời khuyên học tập.' },
+            { role: 'user', content: prompt }
+          ]
+        })
+      });
+
+      const data = await response.json();
+      if (data.content) {
+        adviceEl.innerHTML = data.content.replace(/\n/g, '<br>');
+      } else {
+        adviceEl.textContent = "AI hiện không thể đưa ra phân tích chi tiết. Tuy nhiên, bạn nên tập trung xem lại các câu hỏi đã trả lời sai.";
+      }
+    } catch (error) {
+      console.error('AI Analysis error:', error);
+      adviceEl.textContent = "Không thể kết nối với AI để phân tích. Hãy tự ôn tập lại các phần kiến thức tương ứng nhé!";
+    }
   }
 
   // Quiz triggers
   document.getElementById('quiz-open-btn').addEventListener('click', openQuiz);
-  document.getElementById('quiz-start-btn').addEventListener('click', startQuiz);
   document.getElementById('quiz-cancel-btn').addEventListener('click', closeQuiz);
   document.getElementById('quiz-close-btn2').addEventListener('click', function () {
     clearInterval(timerInterval);

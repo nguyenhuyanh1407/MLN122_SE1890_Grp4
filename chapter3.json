@@ -1,0 +1,1302 @@
+[
+    {
+        "id": 301,
+        "chapter": 3,
+        "question": "Đặc điểm cơ bản của cạnh tranh trong giai đoạn độc quyền là gì?",
+        "options": [
+            "Cạnh tranh bị triệt tiêu",
+            "Cạnh tranh trở nên gay gắt hơn, đa dạng hơn giữa các tổ chức độc quyền",
+            "Chỉ có cạnh tranh về giá",
+            "Cạnh tranh tự do hoàn toàn"
+        ],
+        "answer": 1,
+        "explain": "Độc quyền sinh ra từ cạnh tranh tự do nhưng không triệt tiêu cạnh tranh."
+    },
+    {
+        "id": 302,
+        "chapter": 3,
+        "question": "Nguyên nhân hình thành tổ chức độc quyền là gì?",
+        "options": [
+            "Sự phát triển của LLSX và tiến bộ KHKT",
+            "Tác động của các quy luật kinh tế (giá trị thặng dư, tích tụ...)",
+            "Các cuộc khủng hoảng kinh tế",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Độc quyền là kết quả khách quan của quá trình tích tụ và tập trung tư bản."
+    },
+    {
+        "id": 303,
+        "chapter": 3,
+        "question": "Hình thức độc quyền nào đầu tiên trong lịch sử?",
+        "options": [
+            "Cartel",
+            "Syndicate",
+            "Trust",
+            "Consortium"
+        ],
+        "answer": 0,
+        "explain": "Cartel là hình thức liên kết thấp nhất, các thành viên giữ độc lập về sản xuất và thương mại."
+    },
+    {
+        "id": 304,
+        "chapter": 3,
+        "question": "Syndicate là hình thức độc quyền mà các thành viên?",
+        "options": [
+            "Giữ độc lập hoàn toàn",
+            "Mất độc lập về thương mại, mọi việc mua bán do ban quản trị chung đảm nhận",
+            "Mất độc lập cả về sản xuất và thương mại",
+            "Chỉ hợp tác về vốn"
+        ],
+        "answer": 1,
+        "explain": "Phát triển cao hơn Cartel về mặt liên kết thương mại."
+    },
+    {
+        "id": 305,
+        "chapter": 3,
+        "question": "Trust là hình thức độc quyền cao hơn vì?",
+        "options": [
+            "Các thành viên mất cả độc lập về sản xuất lẫn thương mại, trở thành cổ đông",
+            "Chỉ liên kết về giá",
+            "Dễ tan rã",
+            "Chỉ có ở nông nghiệp"
+        ],
+        "answer": 0,
+        "explain": "Các nhà tư bản tham gia trở thành cổ đông của công ty hợp nhất."
+    },
+    {
+        "id": 306,
+        "chapter": 3,
+        "question": "Consortium là hình thức độc quyền đa ngành?",
+        "options": [
+            "Đúng",
+            "Sai",
+            "Chỉ có ở Mỹ",
+            "Chỉ có ở Nhật"
+        ],
+        "answer": 0,
+        "explain": "Liên kết các xí nghiệp từ nhiều ngành khác nhau nhưng cùng gắn bó về tài chính."
+    },
+    {
+        "id": 307,
+        "chapter": 3,
+        "question": "Tư bản tài chính là gì?",
+        "options": [
+            "Tiền của ngân hàng",
+            "Sự thâm nhập và hòa hợp giữa tư bản độc quyền ngân hàng và tư bản độc quyền công nghiệp",
+            "Tiền đóng thuế",
+            "Vàng trong kho"
+        ],
+        "answer": 1,
+        "explain": "Lenin xác định đây là một đặc điểm cơ bản của độc quyền."
+    },
+    {
+        "id": 308,
+        "chapter": 3,
+        "question": "Chế độ tham dự là phương thức thống trị của?",
+        "options": [
+            "Địa chủ",
+            "Tư bản tài chính thông qua việc nắm giữ cổ phiếu khống chế",
+            "Người lao động",
+            "Chính phủ"
+        ],
+        "answer": 1,
+        "explain": "Một hệ thống các bậc thang cổ phần để kiểm soát vốn xã hội."
+    },
+    {
+        "id": 309,
+        "chapter": 3,
+        "question": "Xuất khẩu tư bản là gì?",
+        "options": [
+            "Bán hàng ra nước ngoài",
+            "Mang tư bản ra đầu tư ở nước ngoài nhằm chiếm đoạt GTTD ở nước sở tại",
+            "Mua nguyên liệu ngoại",
+            "Gửi tiền bank ngoại"
+        ],
+        "answer": 1,
+        "explain": "Đặc trưng cho giai đoạn độc quyền."
+    },
+    {
+        "id": 310,
+        "chapter": 3,
+        "question": "Xuất khẩu tư bản khác xuất khẩu hàng hóa ở chỗ?",
+        "options": [
+            "Giá đắt hơn",
+            "Một cái đưa giá trị ra ngoài để thực hiện m, một cái đưa tư bản ra để sản xuất m tại chỗ",
+            "Giống nhau",
+            "Một cái cho nhà nước, một cái cho cá nhân"
+        ],
+        "answer": 1,
+        "explain": "Mục đích là chiếm đoạt giá trị thặng dư nước ngoài."
+    },
+    {
+        "id": 311,
+        "chapter": 3,
+        "question": "Thế giới hiện nay xuất khẩu tư bản có xu hướng?",
+        "options": [
+            "Chỉ chảy vào nước nghèo",
+            "Chảy mạnh giữa các nước phát triển với nhau",
+            "Bị cấm",
+            "Giảm sút"
+        ],
+        "answer": 1,
+        "explain": "Do sự tương đồng về trình độ công nghệ và hạ tầng hiện đại."
+    },
+    {
+        "id": 312,
+        "chapter": 3,
+        "question": "Độc quyền nhà nước là gì?",
+        "options": [
+            "Nhà nước cấm tư nhân kinh doanh",
+            "Sự kết hợp sức mạnh của các tổ chức độc quyền tư nhân với sức mạnh của nhà nước tư sản",
+            "Nhà nước sở hữu toàn bộ",
+            "Chỉ có ở Việt Nam"
+        ],
+        "answer": 1,
+        "explain": "Vì lợi ích của các tập đoàn độc quyền."
+    },
+    {
+        "id": 313,
+        "chapter": 3,
+        "question": "Nguyên nhân ra đời độc quyền nhà nước?",
+        "options": [
+            "Sự phát triển của phân công lao động xã hội",
+            "Nhiều ngành có vốn lớn, rủi ro cao mà tư nhân không làm nổi",
+            "Cần điều tiết mâu thuẫn giai cấp",
+            "Tất cả ý trên"
+        ],
+        "answer": 3,
+        "explain": "Đáp ứng yêu cầu phát triển của LLSX hiện đại."
+    },
+    {
+        "id": 314,
+        "chapter": 3,
+        "question": "Bản chất của độc quyền nhà nước trong CNTB là?",
+        "options": [
+            "Vì lợi ích nhân dân lao động",
+            "Để phục vụ và bảo vệ lợi ích của tư bản độc quyền",
+            "Để xóa bỏ CNTB",
+            "Trung lập"
+        ],
+        "answer": 1,
+        "explain": "Nhà nước đóng vai trò 'người gác cổng' cho các tập đoàn."
+    },
+    {
+        "id": 315,
+        "chapter": 3,
+        "question": "Lợi nhuận độc quyền là gì?",
+        "options": [
+            "Lợi nhuận bình quân",
+            "Lợi nhuận thu được cao hơn lợi nhuận bình quân do vị thế độc quyền",
+            "Lợi nhuận của nhà nước",
+            "Số tiền bị phạt"
+        ],
+        "answer": 1,
+        "explain": "Dựa trên giá cả độc quyền."
+    },
+    {
+        "id": 316,
+        "chapter": 3,
+        "question": "Giá cả độc quyền bằng?",
+        "options": [
+            "Chi phí + Lợi nhuận bình quân",
+            "Chi phí + Lợi nhuận độc quyền",
+            "Giá trị hàng hóa",
+            "Giá bán lẻ"
+        ],
+        "answer": 1,
+        "explain": "Thường cao hơn giá trị hàng hóa đối với người mua."
+    },
+    {
+        "id": 317,
+        "chapter": 3,
+        "question": "Lợi nhuận độc quyền có nguồn gốc từ?",
+        "options": [
+            "GTTD của công nhân tại đơn vị độc quyền",
+            "GTTD của công nhân tại đơn vị ngoài độc quyền",
+            "Giá trị của người sản xuất nhỏ và nước nghèo",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Sự vắt kiệt giá trị từ nhiều nguồn xã hội khác nhau."
+    },
+    {
+        "id": 318,
+        "chapter": 3,
+        "question": "Đặc điểm 'Sự phân chia thế giới giữa các tổ chức độc quyền' nghĩa là gì?",
+        "options": [
+            "Chia đất đai",
+            "Phân chia thị trường, nguồn nguyên liệu trên phạm vi toàn cầu",
+            "Xây tường ngăn cách",
+            "Chăm sóc khách hàng"
+        ],
+        "answer": 1,
+        "explain": "Các liên minh độc quyền ký kết hiệp định chia sẻ khu vực ảnh hưởng."
+    },
+    {
+        "id": 319,
+        "chapter": 3,
+        "question": "Sự phân chia thế giới về mặt lãnh thổ giữa các cường quốc dẫn đến?",
+        "options": [
+            "Hòa bình vĩnh viễn",
+            "Các cuộc chiến tranh giành giật thuộc địa",
+            "Giao thương tự do",
+            "Xóa bỏ biên giới"
+        ],
+        "answer": 1,
+        "explain": "Nguyên nhân chính của các cuộc thế chiến I và II."
+    },
+    {
+        "id": 320,
+        "chapter": 3,
+        "question": "Hệ thống thuộc địa tan rã dẫn đến xu hướng bóc lột mới là?",
+        "options": [
+            "Chủ nghĩa thực dân mới (thống trị gián tiếp qua kinh tế, tài chính)",
+            "Hết bóc lột",
+            "Mọi người bình đẳng",
+            "Trả lại tiền cho dân"
+        ],
+        "answer": 0,
+        "explain": "Dùng nợ nần, công nghệ để khống chế các nước."
+    },
+    {
+        "id": 321,
+        "chapter": 3,
+        "question": "Đầu sỏ tài chính là tầng lớp thống trị về?",
+        "options": [
+            "Chỉ kinh tế",
+            "Cả kinh tế và chính trị",
+            "Chỉ tôn giáo",
+            "Chỉ quân sự"
+        ],
+        "answer": 1,
+        "explain": "Họ chi phối cả bộ máy nhà nước."
+    },
+    {
+        "id": 322,
+        "chapter": 3,
+        "question": "Tư bản độc quyền nhà nước ở các nước phát triển hiện nay biểu hiện qua?",
+        "options": [
+            "Sở hữu nhà nước",
+            "Sự điều tiết vĩ mô của nhà nước",
+            "Sự kết hợp nhân sự giữa tập đoàn và chính phủ",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Sự xâm nhập sâu rộng giữa công và tư."
+    },
+    {
+        "id": 323,
+        "chapter": 3,
+        "question": "Sở hữu nhà nước trong CNTB thực hiện chức năng?",
+        "options": [
+            "Nền tảng của chế độ mới",
+            "Đỡ đầu cho tư bản tư nhân bằng cách bao thầu các ngành thua lỗ",
+            "Xóa bỏ sở hữu tư nhân",
+            "Chia tiền cho người nghèo"
+        ],
+        "answer": 1,
+        "explain": "Chỉnh đốn nền kinh tế theo hướng có lợi cho tích lũy tư bản."
+    },
+    {
+        "id": 324,
+        "chapter": 3,
+        "question": "Hoạt động điều tiết của nhà nước tư sản nhằm?",
+        "options": [
+            "Duy trì sự ổn định của hệ thống tư bản",
+            "Giảm bớt khủng hoảng",
+            "Thoát khỏi lạm phát",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Bằng các chính sách tài khóa, tiền tệ."
+    },
+    {
+        "id": 325,
+        "chapter": 3,
+        "question": "Tổ chức độc quyền xuyên quốc gia (TNCs) là?",
+        "options": [
+            "Công ty chỉ bán hàng ở 1 nước",
+            "Tổ chức độc quyền có phạm vi hoạt động ở khắp thế giới",
+            "Xí nghiệp nông nghiệp",
+            "Tổ chức của liên hợp quốc"
+        ],
+        "answer": 1,
+        "explain": "Chủ thể chính của toàn cầu hóa kinh tế hiện nay."
+    },
+    {
+        "id": 326,
+        "chapter": 3,
+        "question": "Vai trò tích cực của chủ nghĩa bản độc quyền?",
+        "options": [
+            "Thúc đẩy tiến bộ kỹ thuật do có vốn lớn",
+            "Tăng NSLĐ",
+            "Mở rộng quan hệ kinh tế quốc tế",
+            "Tất cả ý trên"
+        ],
+        "answer": 3,
+        "explain": "Giai đoạn này vẫn đóng góp cho sự phát triển của nhân loại."
+    },
+    {
+        "id": 327,
+        "chapter": 3,
+        "question": "Hạn chế của chủ nghĩa độc quyền?",
+        "options": [
+            "Gây ra bất bình đẳng sâu sắc",
+            "Chiến tranh và kìm hãm NSLĐ khi đã nắm giữ thế độc quyền",
+            "Không cho người nghèo đi học",
+            "Chỉ làm hàng giả"
+        ],
+        "answer": 1,
+        "explain": "Khi không còn áp lực cạnh tranh, họ có xu hướng bảo thủ kỹ thuật."
+    },
+    {
+        "id": 328,
+        "chapter": 3,
+        "question": "Lenin khẳng định Imperialism (Chủ nghĩa đế quốc) là?",
+        "options": [
+            "Giai đoạn cuối cùng của CNTB",
+            "Giai đoạn đầu",
+            "Sự quay lại phong kiến",
+            "Thời đại hoàng kim"
+        ],
+        "answer": 0,
+        "explain": "Giai đoạn CNTB đã 'nẫu chín', chuẩn bị cho cách mạng xã hội."
+    },
+    {
+        "id": 329,
+        "chapter": 3,
+        "question": "Đặc điểm mới của độc quyền hiện nay là?",
+        "options": [
+            "Chỉ tập trung ở 1 nước",
+            "Tập trung tư bản đa ngành (Conglomerate)",
+            "Hết cạnh tranh",
+            "Lương công nhân rất thấp"
+        ],
+        "answer": 1,
+        "explain": "Phát triển các tập đoàn kinh doanh đa lĩnh vực cực lớn."
+    },
+    {
+        "id": 330,
+        "chapter": 3,
+        "question": "Sự can thiệp của nhà nước hiện nay chuyển từ 'cưỡng bức' sang?",
+        "options": [
+            "Cấm đoán hoàn toàn",
+            "Điều tiết bằng các công cụ luật pháp và kinh tế",
+            "Phó mặc",
+            "Tự do tuyệt đối"
+        ],
+        "answer": 1,
+        "explain": "Sử dụng các quy luật thị trường để điều khiển thị trường."
+    },
+    {
+        "id": 331,
+        "chapter": 3,
+        "question": "Độc quyền nảy sinh từ?",
+        "options": [
+            "Lòng tham",
+            "Cạnh tranh tự do",
+            "Luật pháp",
+            "May mắn"
+        ],
+        "answer": 1,
+        "explain": "Cạnh tranh làm kẻ mạnh thắng, dẫn đến tích tụ lớn trở thành độc quyền."
+    },
+    {
+        "id": 332,
+        "chapter": 3,
+        "question": "Độc quyền luôn muốn duy trì giá cả độc quyền?",
+        "options": [
+            "Thấp hơn giá trị",
+            "Cao hơn giá trị",
+            "Bằng chi phí",
+            "Bằng giá lợn"
+        ],
+        "answer": 1,
+        "explain": "Để tối đa hóa lợi nhuận thu về."
+    },
+    {
+        "id": 333,
+        "chapter": 3,
+        "question": "Mối quan hệ giữa Độc quyền và Cạnh tranh?",
+        "options": [
+            "Độc quyền triệt tiêu cạnh tranh",
+            "Độc quyền làm cạnh tranh trở nên gay gắt hơn",
+            "Không có quan hệ gì",
+            "Chỉ có hòa bình"
+        ],
+        "answer": 1,
+        "explain": "Họ cạnh tranh trong nội bộ độc quyền và cạnh tranh với doanh nghiệp ngoài độc quyền."
+    },
+    {
+        "id": 334,
+        "chapter": 3,
+        "question": "Hệ thống tài chính quốc tế hiện nay chịu sự chi phối mạnh bởi?",
+        "options": [
+            "Người dân nghèo",
+            "Các tổ chức tài chính quốc tế (IMF, WB) và các tập đoàn tài chính lớn",
+            "Các nhà khoa học",
+            "Các nghệ sĩ"
+        ],
+        "answer": 1,
+        "explain": "Công cụ của các nước phát triển để duy trì tầm ảnh hưởng."
+    },
+    {
+        "id": 335,
+        "chapter": 3,
+        "question": "Toàn cầu hóa kinh tế là?",
+        "options": [
+            "Mọi người đi du lịch",
+            "Sự hội nhập sâu sắc các nền kinh tế quốc gia vào thị trường toàn cầu",
+            "Xây nhiều sàn chứng khoán",
+            "In chung một loại tiền"
+        ],
+        "answer": 1,
+        "explain": "Xu thế khách quan của thời đại độc quyền hiện đại."
+    },
+    {
+        "id": 336,
+        "chapter": 3,
+        "question": "Thành phần của tư bản tài chính ngày nay bao gồm?",
+        "options": [
+            "Chỉ các nhà ngân hàng",
+            "Các giới tài chính, ngân hàng và các ông chủ công nghiệp lớn",
+            "Chỉ chính phủ",
+            "Chỉ các chuyên gia kinh tế"
+        ],
+        "answer": 1,
+        "explain": "Sự pha trộn mật thiết không thể tách rời."
+    },
+    {
+        "id": 337,
+        "chapter": 3,
+        "question": "Mục tiêu của xuất khẩu tư bản hiện nay là?",
+        "options": [
+            "Tận dụng nguồn lực, lao động rẻ và mở rộng thị trường",
+            "Làm từ thiện",
+            "Xây dựng hòa bình",
+            "Mua lại văn hóa nước khác"
+        ],
+        "answer": 0,
+        "explain": "Tư bản luôn đi tìm nơi có p' cao nhất."
+    },
+    {
+        "id": 338,
+        "chapter": 3,
+        "question": "Độc quyền nhà nước ra đời vào khoảng thời gian nào mạnh nhất?",
+        "options": [
+            "Cận đại",
+            "Từ sau Thế chiến II đến nay",
+            "Thế kỷ 15",
+            "Thời trung cổ"
+        ],
+        "answer": 1,
+        "explain": "Phát triển mạnh mẽ để khắc phục những thất bại của thị trường tư nhân."
+    },
+    {
+        "id": 339,
+        "chapter": 3,
+        "question": "Công cụ để nhà nước tư sản điều tiết kinh tế?",
+        "options": [
+            "Ngân sách nhà nước",
+            "Hệ thống tín dụng, tiền tệ",
+            "Luật pháp kinh tế",
+            "Tất cả các phương án"
+        ],
+        "answer": 3,
+        "explain": "Các đòn bẩy vĩ mô."
+    },
+    {
+        "id": 340,
+        "chapter": 3,
+        "question": "Sự phát triển của LLSX ở trình độ cao đòi hỏi?",
+        "options": [
+            "Quản lý làng xã",
+            "Sự quản lý, điều tiết ở quy mô xã hội và toàn cầu",
+            "Không cần quản lý",
+            "Sự tự phát"
+        ],
+        "answer": 1,
+        "explain": "Nguyên nhân dẫn đến độc quyền và vai trò của nhà nước."
+    },
+    {
+        "id": 341,
+        "chapter": 3,
+        "question": "Mâu thuẫn giữa các cường quốc đế quốc là gì?",
+        "options": [
+            "Tranh giành ảnh hưởng, thị trường và nguồn tài nguyên",
+            "Ai giàu hơn",
+            "Ai đẹp trai hơn",
+            "Ai nhiều lính hơn"
+        ],
+        "answer": 0,
+        "explain": "Xung đột lợi ích cốt lõi của tư bản độc quyền."
+    },
+    {
+        "id": 342,
+        "chapter": 3,
+        "question": "Thuộc địa trong thời đại độc quyền có vai trò?",
+        "options": [
+            "Cung cấp nguyên liệu, lao động rẻ",
+            "Thị trường tiêu thụ độc quyền",
+            "Căn cứ quân sự chiến lược",
+            "Tất cả phương án"
+        ],
+        "answer": 3,
+        "explain": "Nguồn sống quan trọng của đế quốc."
+    },
+    {
+        "id": 343,
+        "chapter": 3,
+        "question": "Thế nào là tài chính hóa nền kinh tế?",
+        "options": [
+            "Mọi người dùng thẻ",
+            "Lợi nhuận đến từ giao dịch tài chính lớn hơn sản xuất thực tế",
+            "Xây nhiều ngân hàng",
+            "Giao dịch bằng vàng"
+        ],
+        "answer": 1,
+        "explain": "Một xu hướng nguy hiểm của CNTB hiện đại gây ra bong bóng tài chính."
+    },
+    {
+        "id": 344,
+        "chapter": 3,
+        "question": "Tại sao các tổ chức độc quyền thường xuất hiện trong các ngành công nghiệp nặng?",
+        "options": [
+            "Vì công nhân đông",
+            "Vì vốn lớn, trình độ kỹ thuật cao đòi hỏi tích tụ vốn lớn",
+            "Vì thép quan trọng",
+            "Vì dễ quản lý"
+        ],
+        "answer": 1,
+        "explain": "Rào cản gia nhập ngành rất cao."
+    },
+    {
+        "id": 345,
+        "chapter": 3,
+        "question": "Khủng hoảng kinh tế 1929-1933 đã dẫn đến?",
+        "options": [
+            "Sự quay lại cạnh tranh tự do",
+            "Sự ra đời mạnh mẽ của độc quyền nhà nước (như New Deal ở Mỹ)",
+            "Sự sụp đổ của ngân hàng hoàn toàn",
+            "Hết bóc lột"
+        ],
+        "answer": 1,
+        "explain": "Thừa nhận sự can thiệp của nhà nước là bắt buộc."
+    },
+    {
+        "id": 346,
+        "chapter": 3,
+        "question": "Liên minh độc quyền là gì?",
+        "options": [
+            "Các công ty hợp tác vui vẻ",
+            "Sự thỏa thuận giữa các công ty lớn để khống chế sản xuất và thị trường",
+            "Tổ chức từ thiện của giới siêu giàu",
+            "Hội các nhà khoa học"
+        ],
+        "answer": 1,
+        "explain": "Bản chất là để tiêu diệt các đối thủ nhỏ hơn."
+    },
+    {
+        "id": 347,
+        "chapter": 3,
+        "question": "Tính hai mặt của xuất khẩu tư bản?",
+        "options": [
+            "Thúc đẩy kinh tế nước nhận đầu tư phát triển",
+            "Gây ra sự lệ thuộc và bóc lột tài nguyên nước nhận đầu tư",
+            "Cả A và B",
+            "Chỉ có lợi nhuận cho người giàu"
+        ],
+        "answer": 2,
+        "explain": "Vừa mang lại công nghệ, vừa mang đi giá trị thặng dư."
+    },
+    {
+        "id": 348,
+        "chapter": 3,
+        "question": "Trong CNTB độc quyền, quy luật giá trị thặng dư biểu hiện thành?",
+        "options": [
+            "Quy luật GTTD tuyệt đối",
+            "Quy luật lợi nhuận độc quyền cao",
+            "Quy luật lợi nhuận bình quân",
+            "Quy luật cho không"
+        ],
+        "answer": 1,
+        "explain": "Mọi hoạt động đều hướng tới lợi nhuận tối đa nhờ vị thế độc quyền."
+    },
+    {
+        "id": 349,
+        "chapter": 3,
+        "question": "Hệ thống thứ bậc bộ máy cai trị của tư bản tài chính là?",
+        "options": [
+            "Bình đẳng",
+            "Sự phục tùng của các công ty con vào công ty mẹ (Holding Company)",
+            "Hợp tác hữu nghị",
+            "Do dân bầu"
+        ],
+        "answer": 1,
+        "explain": "Sự kiểm soát vốn theo hình tháp."
+    },
+    {
+        "id": 350,
+        "chapter": 3,
+        "question": "Toàn cầu hóa mang lại cơ hội gì cho các nước nghèo?",
+        "options": [
+            "Tiếp cận vốn và công nghệ nhanh",
+            "Xóa nợ",
+            "Bình đẳng tuyệt đối",
+            "Không có cơ hội nào"
+        ],
+        "answer": 0,
+        "explain": "Nếu biết tận dụng sẽ rút ngắn khoảng cách phát triển."
+    },
+    {
+        "id": 351,
+        "chapter": 3,
+        "question": "Thách thức của toàn cầu hóa?",
+        "options": [
+            "Nguy cơ mất bản sắc và lệ thuộc kinh tế",
+            "Gia tăng khoảng cách giàu nghèo",
+            "Ô nhiễm môi trường toàn cầu",
+            "Tất cả các phương án"
+        ],
+        "answer": 3,
+        "explain": "Mặt trái cần được quản lý."
+    },
+    {
+        "id": 352,
+        "chapter": 3,
+        "question": "Tổ chức độc quyền Syndicate mất độc lập về mặt?",
+        "options": [
+            "Kỹ thuật",
+            "Thương mại",
+            "Sản xuất",
+            "Linh hồn"
+        ],
+        "answer": 1,
+        "explain": "Chỉ quan tâm bán hàng chung."
+    },
+    {
+        "id": 353,
+        "chapter": 3,
+        "question": "Trust xuất hiện đầu tiên và mạnh nhất ở đâu?",
+        "options": [
+            "Anh",
+            "Đức",
+            "Mỹ",
+            "Pháp"
+        ],
+        "answer": 2,
+        "explain": "Những năm cuối thế kỷ 19 tại Hoa Kỳ."
+    },
+    {
+        "id": 354,
+        "chapter": 3,
+        "question": "Consorcium là sự liên kết giữa?",
+        "options": [
+            "Các xí nghiệp nhỏ",
+            "Các tổ chức độc quyền lớn thuộc các ngành khác nhau gắn bó qua ngân hàng",
+            "Các nông dân",
+            "Các thợ thủ công"
+        ],
+        "answer": 1,
+        "explain": "Quy mô khổng lồ đa ngành."
+    },
+    {
+        "id": 355,
+        "chapter": 3,
+        "question": "Ngân hàng trong thời đại độc quyền trở thành?",
+        "options": [
+            "Nơi gửi tiền an toàn",
+            "Người khống chế vạn năng toàn bộ đời sống kinh tế",
+            "Phòng kế toán của nhà nước",
+            "Nơi làm từ thiện"
+        ],
+        "answer": 1,
+        "explain": "Lenin gọi ngân hàng là 'kẻ đầu sỏ' mới."
+    },
+    {
+        "id": 356,
+        "chapter": 3,
+        "question": "Hình thức xuất khẩu tư bản của nhà nước nhằm?",
+        "options": [
+            "Lấy lãi trực tiếp",
+            "Tạo môi trường, tiền đề thuận lợi cho tư bản tư nhân thâm nhập (viện trợ ODA...)",
+            "Giúp đỡ không vụ lợi",
+            "Xây trường học miễn phí"
+        ],
+        "answer": 1,
+        "explain": "Sử dụng tiền thuế để mở đường cho các tập đoàn."
+    },
+    {
+        "id": 357,
+        "chapter": 3,
+        "question": "Phân chia thế giới về kinh tế thường thông qua?",
+        "options": [
+            "Các cuộc họp hữu nghị",
+            "Các liên minh kinh tế quốc tế và các hiệp định thương mại",
+            "Trao đổi văn hóa",
+            "Giải trí"
+        ],
+        "answer": 1,
+        "explain": "Sự tranh giành ngầm sau các văn bản."
+    },
+    {
+        "id": 358,
+        "chapter": 3,
+        "question": "Cùng với sự phát triển của độc quyền, mâu thuẫn cơ bản của CNTB?",
+        "options": [
+            "Mất đi",
+            "Giảm nhẹ",
+            "Ngày càng sâu sắc và gay gắt",
+            "Không thay đổi"
+        ],
+        "answer": 2,
+        "explain": "Mâu thuẫn giữa tính chất xã hội hóa của LLSX và hình thức chiếm hữu tư nhân."
+    },
+    {
+        "id": 359,
+        "chapter": 3,
+        "question": "Điều tiết kinh tế của nhà nước tư sản hiện nay chú trọng?",
+        "options": [
+            "Chỉ dùng mệnh lệnh",
+            "Phối hợp các công cụ kinh tế, hành chính và tâm lý xã hội",
+            "Chỉ dùng súng",
+            "Bỏ mặc hoàn toàn"
+        ],
+        "answer": 1,
+        "explain": "Sự kết hợp tinh vi các biện pháp."
+    },
+    {
+        "id": 360,
+        "chapter": 3,
+        "question": "Giai đoạn độc quyền là tiền thân của?",
+        "options": [
+            "Thời đại phong kiến",
+            "Chủ nghĩa xã hội (theo quan điểm Mác - Lênin)",
+            "Sự sụp đổ hoàn toàn của xã hội",
+            "Sự bình yên"
+        ],
+        "answer": 1,
+        "explain": "Sự xã hội hóa cao độ chuẩn bị nhân tố cho chế độ mới."
+    },
+    {
+        "id": 361,
+        "chapter": 3,
+        "question": "Tỷ suất lợi nhuận bình quân trong giai đoạn độc quyền?",
+        "options": [
+            "Không còn tồn tại",
+            "Vẫn tồn tại nhưng bị bóp méo bởi vị thế độc quyền",
+            "Tăng vọt",
+            "Chỉ dành cho người nghèo"
+        ],
+        "answer": 1,
+        "explain": "Nguồn lực vẫn di chuyển nhưng bị ngăn cản bởi rào cản độc quyền."
+    },
+    {
+        "id": 362,
+        "chapter": 3,
+        "question": "Giá cả độc quyền thấp thu được từ?",
+        "options": [
+            "Mua nguyên liệu của người sản xuất nhỏ và nước nghèo",
+            "Bán hàng cho dân",
+            "Trả lương công nhân",
+            "In tiền"
+        ],
+        "answer": 0,
+        "explain": "Chủ độc quyền cưỡng bức giá mua nguyên liệu đầu vào thấp."
+    },
+    {
+        "id": 363,
+        "chapter": 3,
+        "question": "Sự hòa nhập nhân sự giữa nhà nước và độc quyền là?",
+        "options": [
+            "Nhân viên nhà nước đi làm thuê",
+            "Các ông chủ tập đoàn giữ ghế bộ trưởng và ngược lại",
+            "Con em quan chức học trường tư",
+            "Không có sự hòa nhập"
+        ],
+        "answer": 1,
+        "explain": "Lenin gọi là 'sự kết hợp cá nhân'."
+    },
+    {
+        "id": 364,
+        "chapter": 3,
+        "question": "Viện trợ phát triển (ODA) là một hình thức?",
+        "options": [
+            "Gấp đôi lợi nhuận",
+            "Xuất khẩu tư bản của nhà nước gắn với điều kiện kinh tế, chính trị",
+            "Tiền mừng tuổi",
+            "Hợp tác văn hóa"
+        ],
+        "answer": 1,
+        "explain": "Buộc nước nhận viện trợ phải mua hàng hoặc theo chính sách của nước cho."
+    },
+    {
+        "id": 365,
+        "chapter": 3,
+        "question": "Chủ nghĩa phong kiến quân phiệt gắn với đế quốc nào?",
+        "options": [
+            "Mỹ",
+            "Nhật, Đức",
+            "Anh",
+            "Pháp"
+        ],
+        "answer": 1,
+        "explain": "Tính hiếu chiến rất cao thời kỳ trước 1945."
+    },
+    {
+        "id": 366,
+        "chapter": 3,
+        "question": "Đặc trưng của xuất khẩu tư bản hiện nay là?",
+        "options": [
+            "Chỉ xuất khẩu vốn",
+            "Gắn với việc chuyển giao công nghệ và kỹ năng quản lý",
+            "Không cần lợi nhuận",
+            "Chỉ làm ở nông thôn"
+        ],
+        "answer": 1,
+        "explain": "Tận dụng lợi thế về trình độ kỹ thuật."
+    },
+    {
+        "id": 367,
+        "chapter": 3,
+        "question": "Kinh tế nhà nước trong CNTB chiếm tỷ trọng bao nhiêu?",
+        "options": [
+            "100%",
+            "Thường từ 20-30% tùy quốc gia",
+            "0%",
+            "Tùy dân số"
+        ],
+        "answer": 1,
+        "explain": "Giữ những khâu then chốt để điều tiết."
+    },
+    {
+        "id": 368,
+        "chapter": 3,
+        "question": "Thị trường tài chính toàn cầu vận động theo hướng?",
+        "options": [
+            "Dưới sự điều khiển của liên hợp quốc",
+            "Liên thông 24/7 và vô cùng nhạy cảm với thông tin",
+            "Dùng vàng làm trung gian",
+            "Mọi giao dịch bằng tiền mặt"
+        ],
+        "answer": 1,
+        "explain": "Công nghệ thông tin làm tài chính vận động cực nhanh."
+    },
+    {
+        "id": 369,
+        "chapter": 3,
+        "question": "Tại sao cạnh tranh trong giai đoạn độc quyền lại khốc liệt hơn?",
+        "options": [
+            "Vì các tập đoàn quá mạnh và không muốn nhường thị trường",
+            "Vì có súng",
+            "Vì ai cũng muốn làm vua",
+            "Vì thế giới chật quá"
+        ],
+        "answer": 0,
+        "explain": "Sự sống còn của các đại gia."
+    },
+    {
+        "id": 370,
+        "chapter": 3,
+        "question": "Tác động của độc quyền đến quy luật giá trị?",
+        "options": [
+            "Xóa bỏ quy luật giá trị",
+            "Làm quy luật giá trị biểu hiện qua giá cả độc quyền",
+            "Không có tác động",
+            "Sử dụng quy luật giá trị để cứu người"
+        ],
+        "answer": 1,
+        "explain": "Biểu hiện của quy luật giá trị trong điều kiện mới."
+    },
+    {
+        "id": 371,
+        "chapter": 3,
+        "question": "Tại sao nhà nước tư sản phải bảo vệ môi trường?",
+        "options": [
+            "Vì họ yêu thiên nhiên",
+            "Để duy trì điều kiện tồn tại lâu dài cho hệ thống tư bản",
+            "Theo yêu cầu của người nghèo",
+            "Vì bị ép buộc"
+        ],
+        "answer": 1,
+        "explain": "Môi trường là tiền đề cho sự phát triển bền vững của tư bản."
+    },
+    {
+        "id": 372,
+        "chapter": 3,
+        "question": "Chính sách chống độc quyền nhằm mục đích?",
+        "options": [
+            "Tiêu diệt các tập đoàn lớn",
+            "Duy trì môi trường cạnh tranh cần thiết để hệ thống không bị trì trệ",
+            "Giúp doanh nghiệp nhỏ lên thay",
+            "Xóa bỏ CNTB"
+        ],
+        "answer": 1,
+        "explain": "Bảo vệ 'sức sống' cho thị trường."
+    },
+    {
+        "id": 373,
+        "chapter": 3,
+        "question": "Toàn cầu hóa kinh tế dẫn đến sự phân hóa?",
+        "options": [
+            "Nước nào cũng giàu",
+            "Nước giàu ngày càng giàu, nước nghèo rơi vào bẫy nợ",
+            "Khai sáng toàn bộ nhân loại",
+            "Hòa bình thế giới"
+        ],
+        "answer": 1,
+        "explain": "Sự bất bình đẳng gia tăng giữa các quốc gia (Bắc - Nam)."
+    },
+    {
+        "id": 374,
+        "chapter": 3,
+        "question": "Nội dung phản ánh đặc điểm kinh tế của độc quyền hiện đại?",
+        "options": [
+            "Sản xuất phân tán",
+            "Sự xuất hiện các công ty xuyên quốc gia lớn",
+            "Chỉ làm dịch vụ",
+            "Chỉ đầu tư trong nước"
+        ],
+        "answer": 1,
+        "explain": "Tầm vóc mang tính hành tinh của các tập đoàn."
+    },
+    {
+        "id": 375,
+        "chapter": 3,
+        "question": "Các trung tâm kinh tế tài chính lớn hiện nay là?",
+        "options": [
+            "Đông Nam Á",
+            "Mỹ, Tây Âu, Nhật Bản",
+            "Châu Phi",
+            "Châu Nam Cực"
+        ],
+        "answer": 1,
+        "explain": "Sự thống trị của 'Tam giác vàng'."
+    },
+    {
+        "id": 376,
+        "chapter": 3,
+        "question": "Giai đoạn Imperialism (Đế quốc) được Lenin gọi là?",
+        "options": [
+            "Đêm trước của cách mạng vô sản",
+            "Sự khởi đầu của thịnh vượng",
+            "Sự chấm dứt của lịch sử",
+            "Thời đại của các hiệp sĩ"
+        ],
+        "answer": 0,
+        "explain": "Do mâu thuẫn đã đạt tới cực điểm."
+    },
+    {
+        "id": 377,
+        "chapter": 3,
+        "question": "Độc quyền giúp tập trung vốn để?",
+        "options": [
+            "Làm từ thiện quy mô lớn",
+            "Nghiên cứu và phát triển công nghệ mới (R&D)",
+            "Xây dựng tháp cao",
+            "Đi du lịch vũ trụ"
+        ],
+        "answer": 1,
+        "explain": "Lợi thế quy mô trong đổi mới sáng tạo."
+    },
+    {
+        "id": 378,
+        "chapter": 3,
+        "question": "Dưới độc quyền, lợi nhuận bình quân giữa các xí nghiệp nhỏ ra sao?",
+        "options": [
+            "Bằng lợi nhuận độc quyền",
+            "Rất thấp, thường bị chèn ép",
+            "Do nhà nước bù lỗ",
+            "Họ cực kỳ giàu"
+        ],
+        "answer": 1,
+        "explain": "Các doanh nghiệp ngoài độc quyền phải chịu thiệt thòi."
+    },
+    {
+        "id": 379,
+        "chapter": 3,
+        "question": "Tập đoàn tài chính nắm giữ chính phủ thông qua?",
+        "options": [
+            "Bầu cử dân chủ hoàn toàn",
+            "Vận động hành lang (lobbying) và tài trợ tranh cử",
+            "Chỉ bằng bạo lực",
+            "Bằng các bài báo"
+        ],
+        "answer": 1,
+        "explain": "Sử dụng tiền để lấy quyền."
+    },
+    {
+        "id": 380,
+        "chapter": 3,
+        "question": "KTTT Mác - Lênin đánh giá độc quyền là?",
+        "options": [
+            "Sự thoái lui của lịch sử",
+            "Một bước phát triển tất yếu của LLSX",
+            "Một sự sai lầm",
+            "Một món quà"
+        ],
+        "answer": 1,
+        "explain": "Phát triển biện chứng của CNTB."
+    },
+    {
+        "id": 381,
+        "chapter": 3,
+        "question": "Xu hướng xuất khẩu tư bản từ nước phát triển sang nước đang phát triển nhằm?",
+        "options": [
+            "Giải quyết lượng vốn thừa",
+            "Khai thác tài nguyên thiên nhiên",
+            "Tận dụng giá nhân công rẻ",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Các lợi thế so sánh của các khu vực nghèo."
+    },
+    {
+        "id": 382,
+        "chapter": 3,
+        "question": "Toàn cầu hóa kinh tế thúc đẩy?",
+        "options": [
+            "Sản xuất khép kín",
+            "Phân công lao động quốc tế ngày càng sâu sắc",
+            "Xóa bỏ giao thương",
+            "Sự cô lập giữa các nước"
+        ],
+        "answer": 1,
+        "explain": "Mỗi nước trở thành một mắt xích trong chuỗi giá trị."
+    },
+    {
+        "id": 383,
+        "chapter": 3,
+        "question": "Mâu thuẫn giữa độc quyền và phần còn lại của xã hội?",
+        "options": [
+            "Không có",
+            "Ngày càng tăng do áp đặt giá cả độc quyền",
+            "Chỉ dành cho công nhân",
+            "Chỉ dành cho trí thức"
+        ],
+        "answer": 1,
+        "explain": "Giá cả độc quyền gây thiệt hại cho đại đa số người tiêu dùng."
+    },
+    {
+        "id": 384,
+        "chapter": 3,
+        "question": "Tư bản độc quyền nhà nước xuất hiện sớm nhất trong?",
+        "options": [
+            "Ngành điện ảnh",
+            "Ngành vận tải đường sắt, bưu điện (1870-1880)",
+            "Ngành internet",
+            "Ngành vũ trụ"
+        ],
+        "answer": 1,
+        "explain": "Những ngành hạ tầng cần vốn quá lớn và quản lý tập trung."
+    },
+    {
+        "id": 385,
+        "chapter": 3,
+        "question": "Holding Company (Công ty mẹ) có vai trò?",
+        "options": [
+            "Chăm sóc trẻ em",
+            "Nắm giữ cổ phần khống chế của nhiều công ty con",
+            "Làm kế toán cho xã hội",
+            "Chỉ là một cái tên"
+        ],
+        "answer": 1,
+        "explain": "Trái tim của hệ thống tham dự tài chính."
+    },
+    {
+        "id": 386,
+        "chapter": 3,
+        "question": "Đặc điểm 'Xuất khẩu tư bản chiếm ưu thế so với xuất khẩu hàng hóa' thuộc giai đoạn nào?",
+        "options": [
+            "Cạnh tranh tự do",
+            "CNTB độc quyền",
+            "Kinh tế phong kiến",
+            "Kinh tế chia sẻ"
+        ],
+        "answer": 1,
+        "explain": "Đặc điểm thứ ba của CN đế quốc theo Lenin."
+    },
+    {
+        "id": 387,
+        "chapter": 3,
+        "question": "Đặc điểm 'Sự phân chia lãnh thổ thế giới giữa các cường quốc' phản ánh sự ra đời của?",
+        "options": [
+            "Các tổ chức quân sự",
+            "Chủ nghĩa thực dân",
+            "Thị trường tự do",
+            "Liên hợp quốc"
+        ],
+        "answer": 1,
+        "explain": "Tranh giành đất đai để nắm nguồn sống của tư bản."
+    },
+    {
+        "id": 388,
+        "chapter": 3,
+        "question": "Trong độc quyền hiện nay, ranh giới giữa tư bản tài chính và công nghiệp ra sao?",
+        "options": [
+            "Rõ ràng hơn",
+            "Mờ nhạt hơn, hòa quyện sâu sắc",
+            "Bị ngăn cấm bởi luật",
+            "Ngân hàng bị dẹp bỏ"
+        ],
+        "answer": 1,
+        "explain": "Hỗ trợ lẫn nhau để thống trị toàn cầu."
+    },
+    {
+        "id": 389,
+        "chapter": 3,
+        "question": "Mối quan hệ giữa chính trị và kinh tế trong CN độc quyền?",
+        "options": [
+            "Chính trị quyết định hoàn toàn",
+            "Kinh tế độc quyền quyết định chính sách của nhà nước",
+            "Độc lập hoàn toàn",
+            "Dân quyết định"
+        ],
+        "answer": 1,
+        "explain": "Kinh tế là cơ sở, chính trị là công cụ phục vụ kinh tế."
+    },
+    {
+        "id": 390,
+        "chapter": 3,
+        "question": "Thuộc địa kiểu mới thực hiện việc khống chế bằng cách?",
+        "options": [
+            "Đưa quân đội sang đóng chiếm",
+            "Cài bẫy nợ, chi phối bằng công nghệ và viện trợ quân sự",
+            "Kêu gọi hòa bình",
+            "Giúp đỡ hết mình"
+        ],
+        "answer": 1,
+        "explain": "Thoạt nhìn là độc lập nhưng thực chất là lệ thuộc."
+    },
+    {
+        "id": 391,
+        "chapter": 3,
+        "question": "Lợi ích của tổ chức độc quyền Syndicate là?",
+        "options": [
+            "Hợp nhất toàn bộ vốn",
+            "Duy trì độc lập về sản xuất nhưng ngăn chặn sự cạnh tranh về giá",
+            "Dành cho người nghèo",
+            "Chỉ bán hàng nội địa"
+        ],
+        "answer": 1,
+        "explain": "Khống chế khâu lưu thông để ép giá."
+    },
+    {
+        "id": 392,
+        "chapter": 3,
+        "question": "Hoạt động kinh doanh đa ngành (Conglomerate) giúp?",
+        "options": [
+            "Phát triển chuyên môn sâu",
+            "Phân tán rủi ro và tận dụng quy mô vốn",
+            "Làm hài lòng chính phủ",
+            "Giảm thuế"
+        ],
+        "answer": 1,
+        "explain": "Khi ngành này khó khăn, ngành kia sẽ bù đắp."
+    },
+    {
+        "id": 393,
+        "chapter": 3,
+        "question": "Vai trò của tri thức trong độc quyền hiện đại?",
+        "options": [
+            "Làm cảnh",
+            "Lực lượng sản xuất chính yếu mang lại lợi nhuận cao nhất",
+            "Giúp công nhân thông minh hơn",
+            "Không quan trọng bằng thép"
+        ],
+        "answer": 1,
+        "explain": "Kinh tế tri thức thống trị trong các tập đoàn lớn."
+    },
+    {
+        "id": 394,
+        "chapter": 3,
+        "question": "Sự xuất hiện của độc quyền nhà nước là?",
+        "options": [
+            "Sự quay lại chủ nghĩa xã hội",
+            "Sự thích nghi của CNTB với điều kiện mới",
+            "Sự thất bại của các tập đoàn",
+            "Một hiện tượng ngẫu nhiên"
+        ],
+        "answer": 1,
+        "explain": "Tư bản phải tự điều chỉnh để tồn tại."
+    },
+    {
+        "id": 395,
+        "chapter": 3,
+        "question": "Vì sao các nước đế quốc phát động chiến tranh?",
+        "options": [
+            "Vì bị xúc phạm",
+            "Vì tranh giành lại các thuộc địa và khu vực ảnh hưởng kinh tế",
+            "Vì dân số quá nóng",
+            "Vì yêu thích võ thuật"
+        ],
+        "answer": 1,
+        "explain": "Xung đột lợi ích không thể điều hòa bằng đàm phán."
+    },
+    {
+        "id": 396,
+        "chapter": 3,
+        "question": "Giai cấp vô sản trong thời đại độc quyền có nhiệm vụ?",
+        "options": [
+            "Tiếp tục làm thuê",
+            "Liên minh quốc tế để lật đổ ách thống trị của độc quyền tài chính",
+            "Đi du học",
+            "Chăm chỉ kiếm tiền"
+        ],
+        "answer": 1,
+        "explain": "Chuyển từ đấu tranh dân tộc sang đấu tranh giai cấp quốc tế."
+    },
+    {
+        "id": 397,
+        "chapter": 3,
+        "question": "Phát biểu nào sau đây đúng về độc quyền?",
+        "options": [
+            "Độc quyền xóa bỏ cạnh tranh",
+            "Độc quyền tồn tại song song và làm cạnh tranh gay gắt hơn",
+            "Cạnh tranh sinh ra độc quyền rồi tự biến mất",
+            "Độc quyền chỉ có ở nông nghiệp"
+        ],
+        "answer": 1,
+        "explain": "Mối quan hệ biện chứng giữa cạnh tranh và độc quyền."
+    },
+    {
+        "id": 398,
+        "chapter": 3,
+        "question": "Toàn cầu hóa kinh tế mang lại lợi ích lớn nhất cho?",
+        "options": [
+            "Các nước chậm phát triển",
+            "Các nước phát triển và các tập đoàn xuyên quốc gia",
+            "Nông dân",
+            "Học sinh"
+        ],
+        "answer": 1,
+        "explain": "Họ nắm giữ công nghệ, vốn và quy luật cuộc chơi."
+    },
+    {
+        "id": 399,
+        "chapter": 3,
+        "question": "Tại sao độc quyền kìm hãm NSLĐ?",
+        "options": [
+            "Vì họ mệt",
+            "Vì muốn giữ giá cao bằng cách hạn chế cung và ngăn cản công nghệ mới làm giảm giá",
+            "Vì thiếu vốn",
+            "Vì bị nhà nước cấm"
+        ],
+        "answer": 1,
+        "explain": "Vị thế thống trị làm nảy sinh tính trì trệ."
+    },
+    {
+        "id": 400,
+        "chapter": 3,
+        "question": "Lenin hoàn thiện học thuyết về đế quốc chủ nghĩa dựa trên?",
+        "options": [
+            "Học thuyết của Mác về tích lũy và tập trung tư bản",
+            "Kinh nghiệm bản thân",
+            "Sự tưởng tượng",
+            "Luật pháp Nga"
+        ],
+        "answer": 0,
+        "explain": "Kế thừa logic của 'Bộ Tư Bản' vào hoàn cảnh lịch sử mới."
+    }
+]

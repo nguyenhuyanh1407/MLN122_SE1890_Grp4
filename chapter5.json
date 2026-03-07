@@ -1,0 +1,1302 @@
+[
+    {
+        "id": 501,
+        "chapter": 5,
+        "question": "Cách mạng công nghiệp lần thứ nhất bắt đầu với sự ra đời của?",
+        "options": [
+            "Động cơ đốt trong",
+            "Động cơ hơi nước",
+            "Máy tính",
+            "Internet"
+        ],
+        "answer": 1,
+        "explain": "Diễn ra vào cuối thế kỷ 18, khởi đầu từ Anh."
+    },
+    {
+        "id": 502,
+        "chapter": 5,
+        "question": "Cách mạng công nghiệp lần thứ hai đặc trưng bởi?",
+        "options": [
+            "Sử dụng năng lượng điện và sản xuất dây chuyền",
+            "Máy hơi nước",
+            "Trí tuệ nhân tạo",
+            "Công nghệ sinh học"
+        ],
+        "answer": 0,
+        "explain": "Diễn ra vào cuối thế kỷ 19, đầu thế kỷ 20."
+    },
+    {
+        "id": 503,
+        "chapter": 5,
+        "question": "Cách mạng công nghiệp lần thứ ba (Cách mạng số) bắt đầu từ?",
+        "options": [
+            "Những năm 1950",
+            "Những năm 1960-1970",
+            "Thế kỷ 21",
+            "Thời trung cổ"
+        ],
+        "answer": 1,
+        "explain": "Gắn liền với sự ra đời của máy tính cá nhân và internet."
+    },
+    {
+        "id": 504,
+        "chapter": 5,
+        "question": "Cách mạng công nghiệp lần thứ tư (4.0) có đặc điểm gì?",
+        "options": [
+            "Sự kết hợp các công nghệ thực - ảo, trí tuệ nhân tạo (AI), Big Data, IoT",
+            "Chỉ dùng máy hơi nước",
+            "Chỉ sản xuất hàng may mặc",
+            "Không dùng máy tính"
+        ],
+        "answer": 0,
+        "explain": "Xóa nhòa ranh giới giữa vật lý, kỹ thuật số và sinh học."
+    },
+    {
+        "id": 505,
+        "chapter": 5,
+        "question": "Công nghiệp hóa là gì?",
+        "options": [
+            "Xây dựng thật nhiều nhà máy",
+            "Quá trình chuyển đổi căn bản, toàn diện các hoạt động sản xuất từ sử dụng lao động thủ công sang lao động bằng máy móc",
+            "Chỉ phát triển ngành thép",
+            "Bỏ rơi nông nghiệp"
+        ],
+        "answer": 1,
+        "explain": "Nâng cao năng suất lao động xã hội thông qua kỹ thuật."
+    },
+    {
+        "id": 506,
+        "chapter": 5,
+        "question": "Hiện đại hóa là gì?",
+        "options": [
+            "Mua đồ mới",
+            "Quá trình ứng dụng những thành tựu khoa học, công nghệ hiện đại vào sản xuất và quản lý",
+            "Sống theo phong cách phương Tây",
+            "In nhiều tiền"
+        ],
+        "answer": 1,
+        "explain": "Đi đôi với công nghiệp hóa để đạt trình độ tiên tiến."
+    },
+    {
+        "id": 507,
+        "chapter": 5,
+        "question": "Tại sao Việt Nam cần thực hiện CNH, HĐH?",
+        "options": [
+            "Để thoát khỏi tình trạng nghèo nàn, lạc hậu",
+            "Xây dựng cơ sở vật chất - kỹ thuật cho CNXH",
+            "Phát triển LLSX và tăng sức cạnh tranh quốc gia",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Nhiệm vụ trung tâm của thời kỳ quá độ."
+    },
+    {
+        "id": 508,
+        "chapter": 5,
+        "question": "Đặc điểm CNH, HĐH ở Việt Nam là?",
+        "options": [
+            "CNH gắn với HĐH và gắn với phát triển kinh tế tri thức",
+            "CNH gắn với bảo vệ môi trường và ứng phó biến đổi khí hậu",
+            "CNH trong điều kiện kinh tế thị trường định hướng XHCN",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Sự kết hợp nhiều mục tiêu trong bối cảnh mới."
+    },
+    {
+        "id": 509,
+        "chapter": 5,
+        "question": "Nội dung cơ bản của CNH, HĐH ở Việt Nam bao gồm?",
+        "options": [
+            "Phát triển mạnh mẽ LLSX",
+            "Chuyển dịch cơ cấu kinh tế theo hướng hiện đại, hiệu quả",
+            "Củng cố và hoàn thiện QHSX",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Tác động lên cả hai mặt của phương thức sản xuất."
+    },
+    {
+        "id": 510,
+        "chapter": 5,
+        "question": "Kinh tế tri thức là nền kinh tế mà trong đó?",
+        "options": [
+            "Chủ yếu dựa vào tài nguyên",
+            "Sự sản xuất, phân phối và sử dụng tri thức đóng vai trò quyết định tăng trưởng",
+            "Chỉ dành cho những người có bằng tiến sĩ",
+            "Trốn tránh lao động tay chân"
+        ],
+        "answer": 1,
+        "explain": "Tri thức trở thành nguồn lực quan trọng nhất."
+    },
+    {
+        "id": 511,
+        "chapter": 5,
+        "question": "Hội nhập kinh tế quốc tế là gì?",
+        "options": [
+            "Đi du lịch",
+            "Quá trình một quốc gia thực hiện gắn kết nền kinh tế của mình với nền kinh tế khu vực và thế giới",
+            "Vay tiền nước ngoài",
+            "Đổi quốc tịch"
+        ],
+        "answer": 1,
+        "explain": "Tham gia vào các tổ chức và liên kết kinh tế."
+    },
+    {
+        "id": 512,
+        "chapter": 5,
+        "question": "Tính tất yếu của hội nhập kinh tế quốc tế ở Việt Nam?",
+        "options": [
+            "Do xu thế toàn cầu hóa",
+            "Để tận dụng vốn, công nghệ và thị trường",
+            "Để giữ vững an ninh và hòa bình phát triển",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Lựa chọn chiến lược vì lợi ích quốc gia."
+    },
+    {
+        "id": 513,
+        "chapter": 5,
+        "question": "Nguyên tắc cao nhất trong hội nhập kinh tế của nước ta là?",
+        "options": [
+            "Bằng mọi giá phải vào",
+            "Đảm bảo độc lập, tự chủ và lợi ích quốc gia, dân tộc",
+            "Nghe theo các nước lớn",
+            "Chỉ quan tâm lợi ích của doanh nghiệp"
+        ],
+        "answer": 1,
+        "explain": "Hội nhập để tự cường hơn."
+    },
+    {
+        "id": 514,
+        "chapter": 5,
+        "question": "Tác động tích cực của hội nhập kinh tế?",
+        "options": [
+            "Mở rộng thị trường xuất khẩu",
+            "Thúc đẩy cải cách thể chế kinh tế",
+            "Tiếp cận trình độ quản lý tiên tiến",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Tạo xung lực cho phát triển nội lực."
+    },
+    {
+        "id": 515,
+        "chapter": 5,
+        "question": "Thách thức của hội nhập kinh tế đối với Việt Nam?",
+        "options": [
+            "Cạnh tranh gay gắt đe dọa các doanh nghiệp yếu",
+            "Nguy cơ lệ thuộc kinh tế vào bên ngoài",
+            "Gia tăng khoảng cách giàu nghèo",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Mặt trái cần phải chủ động ứng phó."
+    },
+    {
+        "id": 516,
+        "chapter": 5,
+        "question": "Nội dung hội nhập kinh tế quốc tế bao gồm?",
+        "options": [
+            "Hội nhập thương mại (WTO...)",
+            "Hội nhập đầu tư và tài chính",
+            "Hội nhập về dịch vụ, sở hữu trí tuệ",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Hội nhập đa phương diện và đa cấp độ."
+    },
+    {
+        "id": 517,
+        "chapter": 5,
+        "question": "Việc thực hiện CNH, HĐH nông nghiệp, nông thôn nhằm?",
+        "options": [
+            "Xóa bỏ nông nghiệp",
+            "Nâng cao giá trị nông sản và cải thiện đời sống nông dân",
+            "Biến nông dân thành công nhân hết",
+            "Đẩy nhanh đô thị hóa cưỡng bức"
+        ],
+        "answer": 1,
+        "explain": "Nông nghiệp vẫn là bệ đỡ của nền kinh tế."
+    },
+    {
+        "id": 518,
+        "chapter": 5,
+        "question": "Yếu tố nào được coi là 'quốc sách hàng đầu' trong CNH, HĐH?",
+        "options": [
+            "Tài nguyên khoáng sản",
+            "Giáo dục - đào tạo và khoa học - công nghệ",
+            "Vốn vay nước ngoài",
+            "Quân sự"
+        ],
+        "answer": 1,
+        "explain": "Con người và tri thức là động lực chính."
+    },
+    {
+        "id": 519,
+        "chapter": 5,
+        "question": "Chiến lược hội nhập kinh tế của Việt Nam là?",
+        "options": [
+            "Đóng cửa để bảo vệ",
+            "Chủ động, tích cực hội nhập kinh tế quốc tế",
+            "Chờ đợi nước khác mời",
+            "Chỉ chơi với nước láng giềng"
+        ],
+        "answer": 1,
+        "explain": "Phương châm xuyên suốt từ thời kỳ Đổi mới."
+    },
+    {
+        "id": 520,
+        "chapter": 5,
+        "question": "Chuyển dịch cơ cấu kinh tế theo hướng hiện đại là gì?",
+        "options": [
+            "Tăng tỷ trọng nông nghiệp",
+            "Tăng tỷ trọng công nghiệp, dịch vụ và giảm tỷ trọng nông nghiệp (tương đối)",
+            "Giữ nguyên cơ cấu cũ",
+            "Phá dỡ nhà máy"
+        ],
+        "answer": 1,
+        "explain": "Phản ánh quá trình công nghiệp hóa."
+    },
+    {
+        "id": 521,
+        "chapter": 5,
+        "question": "Phát triển công nghiệp hỗ trợ có ý nghĩa gì?",
+        "options": [
+            "Lãng phí tiền",
+            "Tăng tỷ lệ nội địa hóa và sức cạnh tranh cho các ngành sản xuất chính",
+            "Thay thế hàng nhập khẩu 100%",
+            "Chỉ để giải quyết việc làm"
+        ],
+        "answer": 1,
+        "explain": "Nền tảng để CNH bền vững."
+    },
+    {
+        "id": 522,
+        "chapter": 5,
+        "question": "Tại sao phải quan tâm đến phát triển kinh tế xanh?",
+        "options": [
+            "Vì bị ép buộc",
+            "Để đảm bảo phát triển bền vững, bảo vệ môi trường cho tương lai",
+            "Vì tốn kém",
+            "Để giống nước phát triển"
+        ],
+        "answer": 1,
+        "explain": "Xu thế tất yếu đối mặt với biến đổi khí hậu."
+    },
+    {
+        "id": 523,
+        "chapter": 5,
+        "question": "Hội nhập kinh tế tạo áp lực gì cho Nhà nước Việt Nam?",
+        "options": [
+            "Áp lực tăng thuế",
+            "Áp lực phải hoàn thiện hệ thống pháp luật theo chuẩn mực quốc tế",
+            "Áp lực phải từ chức",
+            "Không có áp lực"
+        ],
+        "answer": 1,
+        "explain": "Hội nhập buộc thể chế phải cải cách để tương thích."
+    },
+    {
+        "id": 524,
+        "chapter": 5,
+        "question": "Lợi thế so sánh của Việt Nam trong giai đoạn đầu hội nhập là?",
+        "options": [
+            "Công nghệ cao",
+            "Nguồn lao động dồi dào, giá rẻ và tài nguyên thiên nhiên",
+            "Vốn đầu tư khổng lồ",
+            "Chưa có lợi thế nào"
+        ],
+        "answer": 1,
+        "explain": "Nền tảng ban đầu để thu hút FDI."
+    },
+    {
+        "id": 525,
+        "chapter": 5,
+        "question": "Việc tham gia các hiệp định thương mại tự do (FTA) giúp gì cho người tiêu dùng?",
+        "options": [
+            "Hàng hóa đắt hơn",
+            "Hàng hóa phong phú hơn, giá rẻ hơn do giảm thuế",
+            "Chỉ tốn tiền thêm",
+            "Không có lợi ích gì"
+        ],
+        "answer": 1,
+        "explain": "Người dân được tiếp cận sản phẩm chất lượng toàn cầu giá tốt."
+    },
+    {
+        "id": 526,
+        "chapter": 5,
+        "question": "Đặc trưng của CNH thời đại ngày nay là?",
+        "options": [
+            "CNH kiểu cổ điển (rất chậm)",
+            "CNH rút ngắn và gắn với bảo vệ môi trường",
+            "Chỉ dành cho nước giàu",
+            "Không cần máy móc"
+        ],
+        "answer": 1,
+        "explain": "Tận dụng lợi thế của nước đi sau."
+    },
+    {
+        "id": 527,
+        "chapter": 5,
+        "question": "Vai trò của cộng đồng doanh nhân trong CNH, HĐH?",
+        "options": [
+            "Chỉ kiếm lợi nhuận",
+            "Lực lượng nòng cốt thực hiện các dự án sản xuất kinh doanh hiện đại",
+            "Không có đóng góp gì",
+            "Phụ thuộc hoàn toàn vào Nhà nước"
+        ],
+        "answer": 1,
+        "explain": "Doanh nghiệp là tế bào thực hiện chuyển dịch kinh tế."
+    },
+    {
+        "id": 528,
+        "chapter": 5,
+        "question": "Hệ quả của cuộc Cách mạng công nghiệp 4.0 đến việc làm?",
+        "options": [
+            "Tạo ra nhiều ngành nghề mới",
+            "Nguy cơ mất việc làm ở các ngành thâm dụng lao động thấp",
+            "Đòi hỏi kỹ năng số hóa cao",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Đòi hỏi sự thích nghi của lực lượng lao động."
+    },
+    {
+        "id": 529,
+        "chapter": 5,
+        "question": "Mục tiêu đến năm 2045 của Việt Nam là?",
+        "options": [
+            "Nước nghèo",
+            "Trở thành nước phát triển, thu nhập cao",
+            "Nước đang phát triển thu nhập thấp",
+            "Giữ nguyên hiện trạng"
+        ],
+        "answer": 1,
+        "explain": "Khát vọng hùng cường của dân tộc."
+    },
+    {
+        "id": 530,
+        "chapter": 5,
+        "question": "Độc lập tự chủ về kinh tế trong hội nhập nghĩa là gì?",
+        "options": [
+            "Không nợ nước ngoài",
+            "Không bị lệ thuộc, áp đặt về chính trị từ các mối quan hệ kinh tế",
+            "Tự sản xuất toàn bộ, không mua gì",
+            "In tiền theo ý thích"
+        ],
+        "answer": 1,
+        "explain": "Hội nhập nhưng không 'hòa tan'."
+    },
+    {
+        "id": 531,
+        "chapter": 5,
+        "question": "Việc thu hút FDI cần chú trọng yếu tố nào nhất hiện nay?",
+        "options": [
+            "Chỉ cần nhiều tiền",
+            "Công nghệ cao, thân thiện môi trường và quản trị hiện đại",
+            "Số lượng nhà thầu",
+            "Vị trí địa lý"
+        ],
+        "answer": 1,
+        "explain": "Chuyển từ thu hút số lượng sang chất lượng."
+    },
+    {
+        "id": 532,
+        "chapter": 5,
+        "question": "Mối quan hệ giữa CNH và HĐH?",
+        "options": [
+            "CNH là tiền đề, HĐH là xu hướng và trình độ",
+            "Độc lập với nhau",
+            "CNH làm hỏng HĐH",
+            "Chỉ cần 1 trong 2"
+        ],
+        "answer": 0,
+        "explain": "Chúng gắn kết lồng ghép trong chiến lược phát triển tại Việt Nam."
+    },
+    {
+        "id": 533,
+        "chapter": 5,
+        "question": "Logistics có vai trò gì trong hội nhập?",
+        "options": [
+            "Chỉ là giao hàng",
+            "Mạch máu liên kết sản xuất và tiêu dùng toàn cầu, giảm chi phí kinh doanh",
+            "Làm phiền dân số",
+            "Không quan trọng"
+        ],
+        "answer": 1,
+        "explain": "Ngành dịch vụ hạ tầng quan trọng cho xuất nhập khẩu."
+    },
+    {
+        "id": 534,
+        "chapter": 5,
+        "question": "Đổi mới sáng tạo (Innovation) là gì?",
+        "options": [
+            "Mua máy cũ về sửa",
+            "Sáng tạo hoặc ứng dụng cái mới vào thực tiễn để tạo giá trị vượt trội",
+            "Thay đổi tên công ty",
+            "Chỉ là một khẩu hiệu"
+        ],
+        "answer": 1,
+        "explain": "Chìa khóa để tăng suất và cạnh tranh 4.0."
+    },
+    {
+        "id": 535,
+        "chapter": 5,
+        "question": "Hội nhập kinh tế khu vực Đông Nam Á (ASEAN) giúp Việt Nam?",
+        "options": [
+            "Yếu đi",
+            "Tạo môi trường hòa bình, ổn định và thị trường rộng lớn",
+            "Hết nghèo ngay lập tức",
+            "Không có thay đổi gì"
+        ],
+        "answer": 1,
+        "explain": "Cửa ngõ đầu tiên để Việt Nam ra thế giới."
+    },
+    {
+        "id": 536,
+        "chapter": 5,
+        "question": "Lao động thủ công sẽ như thế nào trong quá trình CNH?",
+        "options": [
+            "Được tôn vinh hơn máy",
+            "Dần bị thay thế bởi lao động máy móc và tự động hóa",
+            "Mãi mãi tồn tại duy nhất",
+            "Không bị ảnh hưởng"
+        ],
+        "answer": 1,
+        "explain": "Xu hướng tất yếu của tiến bộ kỹ thuật."
+    },
+    {
+        "id": 537,
+        "chapter": 5,
+        "question": "Cơ cấu xã hội - giai cấp biến đổi thế nào trong CNH?",
+        "options": [
+            "Giai cấp công nhân và tầng lớp trí thức tăng nhanh",
+            "Nông dân chuyển sang công nghiệp nhiều hơn",
+            "Cả A và B",
+            "Xóa bỏ mọi tầng lớp"
+        ],
+        "answer": 2,
+        "explain": "Phản ánh sự thay đổi của phương thức sản xuất."
+    },
+    {
+        "id": 538,
+        "chapter": 5,
+        "question": "Chương trình chuyển đổi số quốc gia nhằm?",
+        "options": [
+            "Để dân chơi game",
+            "Phát triển chính phủ số, kinh tế số và xã hội số",
+            "Tốn điện",
+            "Dễ quản lý dân số"
+        ],
+        "answer": 1,
+        "explain": "Thích ứng với thời đại 4.0."
+    },
+    {
+        "id": 539,
+        "chapter": 5,
+        "question": "Hội nhập giúp Việt Nam tận dụng 'nguồn vốn thừa' từ các nước phát triển?",
+        "options": [
+            "Đúng",
+            "Sai",
+            "Tùy lúc",
+            "Chỉ nước nghèo mới cần"
+        ],
+        "answer": 0,
+        "explain": "Dưới hình thức FDI, ODA..."
+    },
+    {
+        "id": 540,
+        "chapter": 5,
+        "question": "Việc xuất khẩu nông sản chất lượng cao ra thế giới chứng tỏ?",
+        "options": [
+            "Nông nghiệp đang suy thoái",
+            "Kết quả của CNH, HĐH nông nghiệp gắn với thị trường quốc tế",
+            "Dân trong nước không muốn ăn",
+            "Chúng ta quá giàu"
+        ],
+        "answer": 1,
+        "explain": "Nâng tầm nông sản Việt Nam."
+    },
+    {
+        "id": 541,
+        "chapter": 5,
+        "question": "Rủi ro 'Bẫy thu nhập trung bình' là gì?",
+        "options": [
+            "Nước nghèo mãi",
+            "Nước đạt mức thu nhập trung bình nhưng không thể bứt phá lên mức cao hơn do thiếu sáng tạo và năng suất",
+            "Bị các nước giàu lừa",
+            "Hết tài nguyên"
+        ],
+        "answer": 1,
+        "explain": "Thách thức lớn đối với Việt Nam trong giai đoạn này."
+    },
+    {
+        "id": 542,
+        "chapter": 5,
+        "question": "CNH, HĐH ở Việt Nam hiện nay ưu tiên ngành nào?",
+        "options": [
+            "Chỉ dệt may",
+            "Công nghệ cao, công nghiệp chế biến - chế tạo và kinh tế xanh",
+            "Hái lượm",
+            "Đào khoáng sản thô"
+        ],
+        "answer": 1,
+        "explain": "Hướng tới giá trị gia tăng cao."
+    },
+    {
+        "id": 543,
+        "chapter": 5,
+        "question": "Vai trò của trí thức trong kinh tế tri thức?",
+        "options": [
+            "Chỉ làm lý thuyết",
+            "Lực lượng tiên phong sản xuất và ứng dụng tri thức vào thực tiễn",
+            "Phụ thuộc công nhân",
+            "Không quan trọng"
+        ],
+        "answer": 1,
+        "explain": "Chất xám là vàng của thời đại mới."
+    },
+    {
+        "id": 544,
+        "chapter": 5,
+        "question": "Hội nhập văn hóa đi kèm hội nhập kinh tế mang lại?",
+        "options": [
+            "Sự biến mất của truyền thống",
+            "Sự giao lưu và làm phong phú thêm bản sắc dân tộc nếu biết tiếp thu chọn lọc",
+            "Xóa bỏ ngôn ngữ mẹ đẻ",
+            "Sự hỗn loạn"
+        ],
+        "answer": 1,
+        "explain": "Hội nhập toàn diện."
+    },
+    {
+        "id": 545,
+        "chapter": 5,
+        "question": "Vốn đầu tư trực tiếp nước ngoài (FDI) tại Việt Nam chủ yếu đổ vào?",
+        "options": [
+            "Chăm sóc sức khỏe",
+            "Công nghiệp chế biến, chế tạo",
+            "Thời trang",
+            "Chỉ bất động sản"
+        ],
+        "answer": 1,
+        "explain": "Gắn với sự chuyển dịch cơ cấu công nghiệp."
+    },
+    {
+        "id": 546,
+        "chapter": 5,
+        "question": "Chuỗi giá trị toàn cầu là gì?",
+        "options": [
+            "Nhiều cửa hàng trang sức",
+            "Các công đoạn từ thiết kế đến tiêu dùng sản phẩm được thực hiện ở nhiều nước khác nhau",
+            "Lời hứa của các tập đoàn",
+            "Sự may mắn của người mua"
+        ],
+        "answer": 1,
+        "explain": "Việt Nam đang nỗ lực vươn lên nấc thang cao hơn trong chuỗi này."
+    },
+    {
+        "id": 547,
+        "chapter": 5,
+        "question": "Tại sao hạ tầng giao thông lại là 'mũi nhọn' của CNH?",
+        "options": [
+            "Để người dân đi chơi cho nhanh",
+            "Giảm chi phí vận chuyển, kết nối vùng miền và thu hút đầu tư",
+            "Xây nhiều cầu cho đẹp",
+            "Chi tiêu ngân sách"
+        ],
+        "answer": 1,
+        "explain": "Giao thông đi trước mở đường cho kinh tế."
+    },
+    {
+        "id": 548,
+        "chapter": 5,
+        "question": "Hệ quả mặt trái của hội nhập là nguy cơ 'Chảy máu chất xám'?",
+        "options": [
+            "Đúng",
+            "Sai",
+            "Chỉ ở Việt Nam",
+            "Không quan trọng"
+        ],
+        "answer": 0,
+        "explain": "Nhân tài ra nước ngoài nếu môi trường trong nước không tốt."
+    },
+    {
+        "id": 549,
+        "chapter": 5,
+        "question": "Xuất khẩu lao động là một hình thức hội nhập?",
+        "options": [
+            "Chỉ để lấy tiền",
+            "Hội nhập về thị trường lao động quốc tế",
+            "Mất hết lao động trong nước",
+            "Làm xấu hình ảnh quốc gia"
+        ],
+        "answer": 1,
+        "explain": "Tăng thu nhập và nâng cao kỹ năng cho người lao động."
+    },
+    {
+        "id": 550,
+        "chapter": 5,
+        "question": "Đặc trưng của doanh nghiệp 4.0 là?",
+        "options": [
+            "Dùng nhiều công nhân",
+            "Quản lý bằng dữ liệu số, tự động hóa và kết nối IoT",
+            "In thật nhiều giấy tờ",
+            "Làm việc thủ công"
+        ],
+        "answer": 1,
+        "explain": "Sự thông minh trong sản xuất."
+    },
+    {
+        "id": 551,
+        "chapter": 5,
+        "question": "Hội nhập kinh tế quốc tế giúp Việt Nam học hỏi gì về quản lý?",
+        "options": [
+            "Cách trốn thuế",
+            "Quản trị hiện đại, minh bạch và hiệu quả",
+            "Cách gian lận thương mại",
+            "Không học được gì"
+        ],
+        "answer": 1,
+        "explain": "Nâng cấp trình độ quản trị quốc gia và doanh nghiệp."
+    },
+    {
+        "id": 552,
+        "chapter": 5,
+        "question": "Tính hai mặt của internet trong hội nhập?",
+        "options": [
+            "Kho tàng kiến thức",
+            "Nguy cơ mất an ninh thông tin và văn hóa xấu độc",
+            "Cả A và B",
+            "Chỉ để giải trí"
+        ],
+        "answer": 2,
+        "explain": "Cần sử dụng internet một cách thông thái."
+    },
+    {
+        "id": 553,
+        "chapter": 5,
+        "question": "Chủ quyền kinh tế trong hội nhập được thể hiện qua?",
+        "options": [
+            "Tự chủ về chính sách, tài chính và định hướng phát triển",
+            "Đóng cửa biên giới",
+            "Không nộp thuế hội viên",
+            "Đuổi hết FDI"
+        ],
+        "answer": 0,
+        "explain": "Hợp tác nhưng giữ vững tự tôn và quyền tự quyết."
+    },
+    {
+        "id": 554,
+        "chapter": 5,
+        "question": "Tại sao phải liên kết vùng trong quá trình CNH?",
+        "options": [
+            "Để chia rẽ",
+            "Phát huy lợi thế từng địa phương, tạo sức mạnh tổng hợp cho cả vùng",
+            "Tốn kém thời gian",
+            "Chỉ làm ở thành phố lớn"
+        ],
+        "answer": 1,
+        "explain": "Xây dựng các cực tăng trưởng."
+    },
+    {
+        "id": 555,
+        "chapter": 5,
+        "question": "CNH, HĐH nhằm mục đích cuối cùng là?",
+        "options": [
+            "Để giàu có cho quan chức",
+            "Xây dựng xã hội dân giàu, nước mạnh, công bằng và hạnh phúc cho mọi người",
+            "Để khoe với thế giới",
+            "Xây nhiều cao ốc"
+        ],
+        "answer": 1,
+        "explain": "Mục tiêu phục vụ nhân dân."
+    },
+    {
+        "id": 556,
+        "chapter": 5,
+        "question": "Ngành du lịch ở Việt Nam được xác định là?",
+        "options": [
+            "Chỉ dùng để giải trí",
+            "Ngành kinh tế mũi nhọn trong hội nhập",
+            "Phụ thuộc hoàn toàn nước ngoài",
+            "Ngành không cần đầu tư"
+        ],
+        "answer": 1,
+        "explain": "Khai thác thế mạnh văn hóa, thiên nhiên."
+    },
+    {
+        "id": 557,
+        "chapter": 5,
+        "question": "Vai trò của cảng biển trong hội nhập kinh tế quốc tế?",
+        "options": [
+            "Để ngư dân đánh cá",
+            "Cửa ngõ quan trọng để hàng hóa Việt Nam ra thế giới và ngược lại",
+            "Nơi nghỉ dưỡng",
+            "Không quan trọng bằng đường bộ"
+        ],
+        "answer": 1,
+        "explain": "Việt Nam có ưu thế đường bờ biển dài."
+    },
+    {
+        "id": 558,
+        "chapter": 5,
+        "question": "Cạnh tranh bằng chất lượng và thương hiệu hay cạnh tranh bằng giá rẻ quan trọng hơn hiện nay?",
+        "options": [
+            "Giá rẻ",
+            "Chất lượng và thương hiệu (giá trị gia tăng)",
+            "Chỉ cần quảng cáo",
+            "Không cần cạnh tranh"
+        ],
+        "answer": 1,
+        "explain": "Sống sót bền vững trên thị trường quốc tế."
+    },
+    {
+        "id": 559,
+        "chapter": 5,
+        "question": "Hội nhập giúp Việt Nam rút ngắn khoảng cách phát triển thế nào?",
+        "options": [
+            "Đi xin tiền",
+            "Học tập và ứng dụng nhanh các công nghệ hiện đại thay vì tự nghiên cứu từ đầu",
+            "Không bao giờ rút ngắn được",
+            "Chờ các nước phát triển dắt tay"
+        ],
+        "answer": 1,
+        "explain": "Lợi thế của 'người đi sau'."
+    },
+    {
+        "id": 560,
+        "chapter": 5,
+        "question": "Tinh thần tự lực tự cường trong hội nhập là gì?",
+        "options": [
+            "Không cần ai giúp",
+            "Phát huy tối đa nội lực để tận dụng ngoại lực tốt nhất",
+            "Xua đuổi khách quốc tế",
+            "In thật nhiều tiền để dùng"
+        ],
+        "answer": 1,
+        "explain": "Nội lực là quyết định yếu tố thành bại."
+    },
+    {
+        "id": 561,
+        "chapter": 5,
+        "question": "Đặc trưng của CNH thời đại 4.0 là 'Thông minh hóa'?",
+        "options": [
+            "Đúng",
+            "Sai",
+            "Chỉ có ở máy tính",
+            "Không có thực"
+        ],
+        "answer": 0,
+        "explain": "Sản xuất thông minh trên nền tảng dữ liệu."
+    },
+    {
+        "id": 562,
+        "chapter": 5,
+        "question": "Nhân tố quyết định thành công của CNH, HĐH là?",
+        "options": [
+            "Nguồn tài nguyên",
+            "Nguồn lực con người (trí tuệ và kỹ năng)",
+            "Đất đai rộng lớn",
+            "Thời tiết thuận lợi"
+        ],
+        "answer": 1,
+        "explain": "Con người tạo ra tất cả các giá trị."
+    },
+    {
+        "id": 563,
+        "chapter": 5,
+        "question": "Việc tham gia WTO (2007) là cột mốc quan trọng gì?",
+        "options": [
+            "Việt Nam chính thức tham gia sân chơi thương mại toàn cầu",
+            "Việt Nam hết nghèo",
+            "Xóa bỏ mọi rào cản thuế quan ngay lập tức",
+            "Chỉ để làm đẹp hồ sơ"
+        ],
+        "answer": 0,
+        "explain": "Minh chứng cho quyết tâm hội nhập sâu rộng."
+    },
+    {
+        "id": 564,
+        "chapter": 5,
+        "question": "Hàng rào kỹ thuật (TBT) trong thương mại quốc tế là?",
+        "options": [
+            "Xây tường ở biên giới",
+            "Các tiêu chuẩn về an toàn, vệ sinh dịch tễ để bảo vệ người tiêu dùng (thường dùng để bảo hộ kinh tế)",
+            "Mất thời gian kiểm tra",
+            "Chỉ nước giàu mới được dùng"
+        ],
+        "answer": 1,
+        "explain": "Thách thức cho hàng hóa Việt Nam khi xuất khẩu."
+    },
+    {
+        "id": 565,
+        "chapter": 5,
+        "question": "Thế nào là 'Tự do hóa thương mại'?",
+        "options": [
+            "Ai muốn bán gì thì bán",
+            "Cắt giảm thuế quan và xóa bỏ rào cản hành chính trong trao đổi hàng hóa",
+            "Bán hàng không nộp thuế",
+            "Chỉ cho dân nghèo buôn bán"
+        ],
+        "answer": 1,
+        "explain": "Tạo điều kiện lưu thông hàng hóa thông suốt."
+    },
+    {
+        "id": 566,
+        "chapter": 5,
+        "question": "CNH, HĐH gắn với kinh tế tri thức nghĩa là?",
+        "options": [
+            "Chỉ những người có tri thức mới được làm công nghiệp",
+            "Sử dụng tri thức để đổi mới quy trình sản xuất và quản trị ngay từ đầu",
+            "Dẹp bỏ máy móc cũ",
+            "Xây nhiều thư viện"
+        ],
+        "answer": 1,
+        "explain": "Ứng dụng trí tuệ vào vật chất."
+    },
+    {
+        "id": 567,
+        "chapter": 5,
+        "question": "Tầm quan trọng của an ninh lương thực trong hội nhập?",
+        "options": [
+            "Không quan trọng",
+            "Nền tảng ổn định xã hội để yên tâm phát triển các ngành khác",
+            "Chỉ tốn kém",
+            "Bán hết gạo đi vay tiền"
+        ],
+        "answer": 1,
+        "explain": "Việt Nam có thế mạnh lớn về cái này."
+    },
+    {
+        "id": 568,
+        "chapter": 5,
+        "question": "Việc đổi mới doanh nghiệp nhà nước (cổ phần hóa) giúp gì?",
+        "options": [
+            "Bán rẻ tài sản",
+            "Nâng cao hiệu quả quản trị và tính minh bạch, giảm gánh nặng ngân sách",
+            "Tạo nhiều ghế cho quan chức",
+            "Làm mất quyền làm chủ"
+        ],
+        "answer": 1,
+        "explain": "Tạo xung lực mới cho các tập đoàn."
+    },
+    {
+        "id": 569,
+        "chapter": 5,
+        "question": "Thương mại điện tử có vai trò gì trong HĐH?",
+        "options": [
+            "Chỉ để mua sắm giải trí",
+            "Thúc đẩy lưu thông hàng hóa nhanh, tiết kiệm chi phí và tiếp cận toàn cầu",
+            "Gây thất nghiệp ở chợ",
+            "Không an toàn"
+        ],
+        "answer": 1,
+        "explain": "Phương thức kinh doanh của thời đại số."
+    },
+    {
+        "id": 570,
+        "chapter": 5,
+        "question": "Học tập kinh nghiệm các nước đi trước giúp?",
+        "options": [
+            "Làm hỏng sự sáng tạo",
+            "Tránh được những sai lầm và rút ngắn con đường phát triển",
+            "Bị lệ thuộc tư duy",
+            "Không có tác dụng"
+        ],
+        "answer": 1,
+        "explain": "Kết hợp \"Đằng sau đuổi kịp\" và \"Vượt lên\"."
+    },
+    {
+        "id": 571,
+        "chapter": 5,
+        "question": "Sự phát triển của công nghiệp quốc phòng có mục đích?",
+        "options": [
+            "Để đi xâm chiếm",
+            "Tự chủ vũ khí, trang bị để bảo vệ Tổ quốc phục vụ CNH",
+            "Cạnh tranh với nước ngoài",
+            "Chỉ tốn ngân sách"
+        ],
+        "answer": 1,
+        "explain": "Gắn CNH với an ninh quốc phòng."
+    },
+    {
+        "id": 572,
+        "chapter": 5,
+        "question": "Bảo vệ bản sắc văn hóa dân tộc trong hội nhập là bệ đỡ cho?",
+        "options": [
+            "Chỉ cho du lịch",
+            "Sức mạnh nội sinh bền vững của quốc gia",
+            "Xóa bỏ sự đa dạng",
+            "Lãng phí tinh thần"
+        ],
+        "answer": 1,
+        "explain": "Văn hóa còn thì dân tộc còn."
+    },
+    {
+        "id": 573,
+        "chapter": 5,
+        "question": "Việc cải cách hành chính (Chính phủ điện tử) giúp gì cho hội nhập?",
+        "options": [
+            "Giảm quan chức",
+            "Tăng tính minh bạch, nâng cao niềm tin của đối tác và nhà đầu tư",
+            "Lãng phí internet",
+            "Dễ lộ thông tin mật"
+        ],
+        "answer": 1,
+        "explain": "Tạo môi trường kinh doanh thuận lợi."
+    },
+    {
+        "id": 574,
+        "chapter": 5,
+        "question": "Ngành ngân hàng cần hiện đại hóa cái gì nhất?",
+        "options": [
+            "Công nghệ thanh toán và bảo mật số hóa",
+            "In thêm nhiều tiền",
+            "Xây nhiều trụ sở to",
+            "Tăng phí dịch vụ"
+        ],
+        "answer": 0,
+        "explain": "Theo đuổi xu hướng Fintech toàn cầu."
+    },
+    {
+        "id": 575,
+        "chapter": 5,
+        "question": "Hệ quả tích cực của biến đổi cơ cấu lao động là?",
+        "options": [
+            "Thất nghiệp nhiều",
+            "Lao động có trình độ tăng, kỹ năng được nâng cao để đáp ứng máy móc",
+            "Lao động nông nghiệp không còn việc",
+            "Giới trẻ lười lao động tay chân"
+        ],
+        "answer": 1,
+        "explain": "Nâng cao chất lượng nguồn nhân lực."
+    },
+    {
+        "id": 576,
+        "chapter": 5,
+        "question": "Sự phát triển kinh tế biển ở Việt Nam?",
+        "options": [
+            "Chỉ có tắm biển",
+            "Khai thác dầu khí, hải sản, vận tải và dịch vụ cảng biển quy mô lớn",
+            "Không liên quan gì đến CNH",
+            "Chỉ dành cho du lịch"
+        ],
+        "answer": 1,
+        "explain": "Tài nguyên biển là vô giá trong tương lai."
+    },
+    {
+        "id": 577,
+        "chapter": 5,
+        "question": "Cạnh tranh không chỉ bằng vốn mà bằng gì quan trọng hơn?",
+        "options": [
+            "Bằng súng",
+            "Bằng công nghệ và tốc độ thay đổi",
+            "Bằng may mắn",
+            "Bằng thủ đoạn"
+        ],
+        "answer": 1,
+        "explain": "Trong 4.0, ai nhanh nhất sẽ thắng."
+    },
+    {
+        "id": 578,
+        "chapter": 5,
+        "question": "Hội nhập giúp ổn định môi trường hòa bình vì?",
+        "options": [
+            "Mọi người sợ chiến tranh",
+            "Sự ràng buộc lợi ích đan xen giữa các nền kinh tế (phụ thuộc lẫn nhau)",
+            "Lời hứa của các nước",
+            "Tình thương"
+        ],
+        "answer": 1,
+        "explain": "Kinh tế gắn kết ngăn cản xung đột bạo lực."
+    },
+    {
+        "id": 579,
+        "chapter": 5,
+        "question": "Thách thức về 'Ô nhiễm rác thải nhựa' trong quá trình phát triển là?",
+        "options": [
+            "Mặt trái của sản xuất và tiêu dùng thiếu trách nhiệm",
+            "Dấu hiệu của sự giàu có",
+            "Không có thực",
+            "Chỉ do người nghèo"
+        ],
+        "answer": 0,
+        "explain": "Cần thay đổi sang kinh tế tuần hoàn."
+    },
+    {
+        "id": 580,
+        "chapter": 5,
+        "question": "CNH, HĐH nông thôn hướng tới 'Nông dân văn minh' nghĩa là?",
+        "options": [
+            "Lao động chân tay ít đi",
+            "Nông dân có tri thức, kỹ năng và phẩm chất hiện đại",
+            "Mặc quần áo hàng hiệu",
+            "Đi làm bằng ô tô hết"
+        ],
+        "answer": 1,
+        "explain": "Nâng cấp chất lượng dân cư nông thôn."
+    },
+    {
+        "id": 581,
+        "chapter": 5,
+        "question": "Hệ thống tiêu chuẩn ISO là gì?",
+        "options": [
+            "Hãng xe hơi",
+            "Hệ thống tiêu chuẩn quản lý chất lượng quốc tế mà doanh nghiệp cần tuân thủ",
+            "Một loại visa",
+            "Sở thích người mua"
+        ],
+        "answer": 1,
+        "explain": "Giấy thông hành để hàng hóa xuất khẩu."
+    },
+    {
+        "id": 582,
+        "chapter": 5,
+        "question": "Ưu thế của doanh nghiệp Việt Nam trong nước là?",
+        "options": [
+            "Vốn mạnh nhất",
+            "Am hiểu văn hóa, thói quen tiêu dùng địa phương và linh hoạt",
+            "Dùng hàng nhái không bị phạt",
+            "Được nhà nước bao cấp toàn bộ"
+        ],
+        "answer": 1,
+        "explain": "Biết người biết ta."
+    },
+    {
+        "id": 583,
+        "chapter": 5,
+        "question": "Hoạt động 'Chống biến đổi khí hậu' ở Việt Nam trọng tâm vào?",
+        "options": [
+            "Vùng núi",
+            "Vùng đồng bằng sông Cửu Long (do bị xâm nhập mặn)",
+            "Chỉ ở các thành phố",
+            "Chẳng quan tâm"
+        ],
+        "answer": 1,
+        "explain": "Bảo vệ vùng sản xuất lương thực trọng điểm."
+    },
+    {
+        "id": 584,
+        "chapter": 5,
+        "question": "Nguồn lực tài chính cho CNH ở Việt Nam từ đâu?",
+        "options": [
+            "Ngân sách nhà nước",
+            "Vốn của doanh nghiệp và dân cư",
+            "Vốn FDI, ODA và thị trường chứng khoán",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Khơi thông mọi nguồn lực xã hội."
+    },
+    {
+        "id": 585,
+        "chapter": 5,
+        "question": "Sự ra đời của các khu công nghiệp, khu công nghệ cao giúp?",
+        "options": [
+            "Tăng chi phí đất đai",
+            "Tạo môi trường tập trung, đồng bộ hạ tầng để thu hút sản xuất quy mô lớn",
+            "Chỉ để làm màu",
+            "Ngăn cách với dân cư"
+        ],
+        "answer": 1,
+        "explain": "Mô hình hiệu quả cho CNH nhanh."
+    },
+    {
+        "id": 586,
+        "chapter": 5,
+        "question": "Khái niệm 'Kinh tế tuần hoàn' là?",
+        "options": [
+            "Kinh tế chỉ dùng tiền mặt",
+            "Dòng vật chất từ chất thải ngành này làm nguyên liệu ngành kia, giảm ô nhiễm",
+            "Kinh tế quay lại thời cũ",
+            "Mọi người đi vòng tròn"
+        ],
+        "answer": 1,
+        "explain": "Mô hình sản xuất hiện đại và nhân văn."
+    },
+    {
+        "id": 587,
+        "chapter": 5,
+        "question": "Vai trò của trí tuệ nhân tạo (AI) trong 4.0?",
+        "options": [
+            "Thay thế hoàn toàn con người",
+            "Tối ưu hóa quy trình, tăng độ chính xác và cá nhân hóa dịch vụ",
+            "Chỉ để làm thơ",
+            "Một sự trò đùa"
+        ],
+        "answer": 1,
+        "explain": "Động lực mới của cuộc cách mạng mới."
+    },
+    {
+        "id": 588,
+        "chapter": 5,
+        "question": "Thế nào là 'Phát triển rút ngắn'?",
+        "options": [
+            "Phát triển ít lại",
+            "Bỏ qua các bước trung gian lạc hậu bằng cách tiếp cận ngay trình độ tiên tiến",
+            "Làm việc nhanh hơn",
+            "In nhiều tiền để giàu nhanh"
+        ],
+        "answer": 1,
+        "explain": "Cơ hội cho Việt Nam bắt kịp thế giới."
+    },
+    {
+        "id": 589,
+        "chapter": 5,
+        "question": "Chủ nghĩa Mác-Lênin cho rằng LLSX quyết định QHSX. CNH giúp gì?",
+        "options": [
+            "Làm thay đổi trình độ LLSX, từ đó thúc đẩy hoàn thiện quan hệ sản xuất mới",
+            "Chẳng giúp gì",
+            "Kìm hãm QHSX",
+            "Xóa bỏ cả hai"
+        ],
+        "answer": 0,
+        "explain": "Biện chứng của sự phát triển xã hội."
+    },
+    {
+        "id": 590,
+        "chapter": 5,
+        "question": "Công nhân Việt Nam hiện nay cần trang bị gì nhất?",
+        "options": [
+            "Thần lực",
+            "Kỹ năng chuyên môn, ngoại ngữ và tư duy số hóa",
+            "Sức khỏe cơ bắp đơn thuần",
+            "Chỉ cần làm theo ý chủ"
+        ],
+        "answer": 1,
+        "explain": "Chân dung công nhân thời đại 4.0."
+    },
+    {
+        "id": 591,
+        "chapter": 5,
+        "question": "Thế nào là 'Thế giới phẳng' trong hội nhập?",
+        "options": [
+            "Mặt đất bằng phẳng",
+            "Sự kết nối và xóa bỏ khoảng cách về thông tin, giao thương do internet",
+            "Mọi người có chiều cao bằng nhau",
+            "Trái đất không tròn"
+        ],
+        "answer": 1,
+        "explain": "Sách của Thomas Friedman về toàn cầu hóa."
+    },
+    {
+        "id": 592,
+        "chapter": 5,
+        "question": "Đặc điểm CNH gắn với phát triển bền vững?",
+        "options": [
+            "Sản xuất bằng mọi giá",
+            "Sản xuất đi đôi với bảo vệ hệ sinh thái và công bằng xã hội",
+            "Chỉ làm ở nông thôn",
+            "Chờ nước khác làm giúp"
+        ],
+        "answer": 1,
+        "explain": "Mô hình CNH kiểu mới của Việt Nam."
+    },
+    {
+        "id": 593,
+        "chapter": 5,
+        "question": "Hội nhập giúp hoàn thiện thể chế kinh tế vì?",
+        "options": [
+            "Bị bắt buộc 100%",
+            "Học tập các mô hình quản trị hiệu quả và tuân thủ luật chơi quốc tế minh bạch",
+            "Để lấy lòng quan chức quốc tế",
+            "Không liên quan"
+        ],
+        "answer": 1,
+        "explain": "Áp lực từ bên ngoài là động lực cho cải cách bên trong."
+    },
+    {
+        "id": 594,
+        "chapter": 5,
+        "question": "Tại sao hạ tầng số (internet, 5G) quan trọng hơn hạ tầng cứng?",
+        "options": [
+            "Vì nó rẻ hơn",
+            "Mọi giao dịch và quản lý hiện đại đều dựa trên kết nối số tốc độ cao",
+            "Vì không nhìn thấy được",
+            "Chẳng quan trọng gì"
+        ],
+        "answer": 1,
+        "explain": "Cơ sở hạ tầng của tương lai."
+    },
+    {
+        "id": 595,
+        "chapter": 5,
+        "question": "Sự xuất hiện của xe điện tại Việt Nam là minh chứng cho?",
+        "options": [
+            "Nền kinh tế lạc hậu",
+            "Hội nhập và ứng dụng công nghệ 4.0 bảo vệ môi trường",
+            "Người dân quá giàu",
+            "Không có thay đổi gì"
+        ],
+        "answer": 1,
+        "explain": "Xu hướng tiêu dùng xanh hiện đại."
+    },
+    {
+        "id": 596,
+        "chapter": 5,
+        "question": "Mối quan hệ giữa CNH và đô thị hóa?",
+        "options": [
+            "Độc lập",
+            "CNH thúc đẩy đô thị hóa, đô thị hóa tạo thị trường cho công nghiệp",
+            "Đô thị hóa làm hỏng CNH",
+            "Chỉ dành cho dân phố"
+        ],
+        "answer": 1,
+        "explain": "Mối quan hệ hỗ trợ lẫn nhau."
+    },
+    {
+        "id": 597,
+        "chapter": 5,
+        "question": "Hệ quả mặt trái của CNH là tệ nạn xã hội gia tăng?",
+        "options": [
+            "Có thể, nếu không quản lý tốt mặt xã hội",
+            "Luôn luôn đúng",
+            "Không bao giờ",
+            "Chỉ ở nước tư bản"
+        ],
+        "answer": 0,
+        "explain": "Sự xáo trộn xã hội cần được quan tâm điều chỉnh."
+    },
+    {
+        "id": 598,
+        "chapter": 5,
+        "question": "Bản chất của các cam kết hội nhập là?",
+        "options": [
+            "Ưu tiên người lạ",
+            "Sự nhượng bộ lẫn nhau để cùng đạt được thị trường lớn hơn",
+            "Sự lừa gạt",
+            "Sự bắt buộc đơn phương"
+        ],
+        "answer": 1,
+        "explain": "Nguyên tắc cùng có lợi (mutual benefit)."
+    },
+    {
+        "id": 599,
+        "chapter": 5,
+        "question": "Tương lai của CNH, HĐH Việt Nam thuộc về?",
+        "options": [
+            "Thế hệ già",
+            "Thế hệ trẻ năng động, giỏi công nghệ và có lòng yêu nước",
+            "Người nước ngoài",
+            "Vận may"
+        ],
+        "answer": 1,
+        "explain": "Chủ nhân tương lai của đất nước phát triển."
+    },
+    {
+        "id": 600,
+        "chapter": 5,
+        "question": "MLN122 giúp chúng ta hiểu CNH, HĐH là?",
+        "options": [
+            "Chuyện của các kỹ sư",
+            "Quá trình kinh tế - xã hội phức tạp nhằm thay đổi cả LLSX và QHSX đi lên CNXH",
+            "Sự sở hữu máy móc",
+            "Chỉ là một giấc mơ"
+        ],
+        "answer": 1,
+        "explain": "Tư duy hệ thống về sự phát triển dân tộc."
+    }
+]

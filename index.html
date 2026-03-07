@@ -14,17 +14,23 @@
     <style>
         :root {
             --bg: #0b0d17;
-            --surface: #13162a;
-            --surface2: #1a1e35;
-            --border: rgba(255, 255, 255, 0.08);
-            --text: #e8eaf6;
-            --muted: #7986cb;
-            --accent: #5c6bc0;
-            --green: #26a69a;
-            --gold: #ffa726;
+            --surface: rgba(13, 15, 20, 0.7);
+            --surface2: rgba(26, 30, 53, 0.8);
+            --border: rgba(255, 215, 0, 0.15);
+            /* Gold tinted border */
+            --text: #fff;
+            --text-muted: #e0e0e0;
+            --muted: #facc15;
+            /* Gold/yellow for muted text/icons */
+            --accent: #ef4444;
+            /* Red accent */
+            --green: #22c55e;
+            --gold: #facc15;
             --pink: #ec407a;
             --purple: #ab47bc;
             --cyan: #26c6da;
+            --header-bg: rgba(120, 10, 10, 0.85);
+            /* Deep red, semi-transparent header */
             --font: 'Be Vietnam Pro', sans-serif;
         }
 
@@ -35,7 +41,8 @@
         }
 
         body {
-            background: var(--bg);
+            background: var(--bg) url('background.png') no-repeat center center fixed;
+            background-size: cover;
             color: var(--text);
             font-family: var(--font);
             overflow: hidden;
@@ -51,13 +58,14 @@
             right: 0;
             height: 56px;
             z-index: 200;
-            background: rgba(11, 13, 23, 0.92);
+            background: var(--header-bg);
             backdrop-filter: blur(16px);
             border-bottom: 1px solid var(--border);
             display: flex;
             align-items: center;
             padding: 0 20px;
             gap: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
         }
 
         .logo {
@@ -70,14 +78,24 @@
         }
 
         .logo-icon {
-            width: 34px;
-            height: 34px;
-            border-radius: 10px;
-            background: linear-gradient(135deg, #5c6bc0, #26c6da);
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: #ca8a04;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.1rem;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(250, 204, 21, 0.5);
+            border: 2px solid #facc15;
+        }
+
+        .logo-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* Ensure the star in the center is prominent */
+            object-position: center;
         }
 
         .search-box {
@@ -105,12 +123,14 @@
 
         .search-box .si {
             position: absolute;
-            left: 12px;
+            left: 14px;
             top: 50%;
             transform: translateY(-50%);
-            color: var(--muted);
-            font-size: 0.9rem;
+            color: var(--gold);
+            font-size: 1rem;
             pointer-events: none;
+            display: flex;
+            align-items: center;
         }
 
         #search-results {
@@ -195,13 +215,13 @@
 
         .progress-bar-fill {
             height: 100%;
-            background: linear-gradient(90deg, #26a69a, #26c6da);
+            background: linear-gradient(90deg, #facc15, #fef08a);
             border-radius: 3px;
             transition: width 0.5s ease;
         }
 
         .pill-text {
-            color: var(--muted);
+            color: var(--text-muted);
         }
 
         .pill-count {
@@ -238,13 +258,13 @@
             width: 34px;
             height: 34px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #5c6bc0, #ec407a);
+            background: linear-gradient(135deg, #b91c1c, #991b1b);
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 1rem;
             cursor: pointer;
-            border: 2px solid var(--border);
+            border: 2px solid var(--gold);
         }
 
         /* ═══ LAYOUT ═══════════════════════════════════════════════ */
@@ -254,129 +274,40 @@
             padding-top: 56px;
         }
 
-        /* ═══ SIDEBAR ═══════════════════════════════════════════════ */
-        #sidebar {
-            width: 240px;
-            background: var(--surface);
-            border-right: 1px solid var(--border);
-            display: flex;
-            flex-direction: column;
-            flex-shrink: 0;
-            overflow: hidden;
-        }
-
-        .sidebar-section {
-            padding: 14px 12px 8px;
-        }
-
-        .sidebar-label {
-            font-size: 0.72rem;
-            font-weight: 700;
-            color: var(--muted);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            padding: 0 8px 8px;
-        }
-
-        .branch-btn {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            padding: 10px 12px;
-            border-radius: 10px;
-            cursor: pointer;
-            margin-bottom: 4px;
-            transition: background 0.2s;
-            border: none;
-            background: none;
-            color: var(--text);
-            width: 100%;
-            text-align: left;
-            font-family: var(--font);
-            font-size: 0.88rem;
-            font-weight: 500;
-        }
-
-        .branch-btn:hover {
-            background: rgba(255, 255, 255, 0.06);
-        }
-
-        .branch-btn.active {
-            background: rgba(92, 107, 192, 0.2);
-        }
-
-        .branch-icon {
-            width: 30px;
-            height: 30px;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1rem;
-            flex-shrink: 0;
-        }
-
-        .branch-name {
-            flex: 1;
-            line-height: 1.3;
-        }
-
-        .sidebar-divider {
-            height: 1px;
-            background: var(--border);
-            margin: 8px 12px;
-        }
-
-        .sidebar-mode-btn {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            padding: 10px 20px;
-            cursor: pointer;
-            transition: background 0.2s;
-            border: none;
-            background: none;
-            color: var(--text);
-            width: 100%;
-            text-align: left;
-            font-family: var(--font);
-            font-size: 0.88rem;
-            font-weight: 600;
-        }
-
-        .sidebar-mode-btn:hover {
-            background: rgba(255, 255, 255, 0.05);
-        }
-
-        .sidebar-mode-btn .sm-icon {
-            font-size: 1.1rem;
-        }
-
+        /* QUIZ BUTTON (Header) */
         .quiz-btn {
-            background: linear-gradient(135deg, #5c6bc0, #26c6da) !important;
-            border-radius: 12px;
-            margin: 16px auto 20px;
-            width: calc(100% - 24px);
-            padding: 12px 20px !important;
-            color: #fff !important;
-            font-weight: 700;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(92, 107, 192, 0.4);
+            background: rgba(0, 0, 0, 0.4) !important;
+            border-radius: 20px;
+            padding: 6px 16px !important;
+            color: var(--text-muted) !important;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 8px;
             border: 1px solid rgba(255, 255, 255, 0.1) !important;
-            font-size: 0.95rem;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-decoration: none;
+            white-space: nowrap;
         }
 
         .quiz-btn:hover {
-            box-shadow: 0 6px 20px rgba(92, 107, 192, 0.6);
-            transform: translateY(-2px);
-            background: linear-gradient(135deg, #6b7bd4, #2cd6eb) !important;
+            background: rgba(255, 255, 255, 0.1) !important;
+            color: #fff !important;
+        }
+
+        .quiz-btn .sm-icon {
+            font-size: 1rem;
+            color: var(--gold);
         }
 
         /* ═══ MAIN CANVAS ═══════════════════════════════════════════ */
         #mindmap-container {
             flex: 1;
             position: relative;
-            background: radial-gradient(ellipse at 50% 40%, #151829 0%, #0b0d17 70%);
+            background: transparent;
+            /* Changed from radial gradient to show body background */
             cursor: grab;
             overflow: hidden;
         }
@@ -480,117 +411,236 @@
             font-size: 0.78rem;
         }
 
-        /* ═══ DETAIL PANEL ═══════════════════════════════════════════ */
+        /* ═══ DETAIL PANEL (HORIZONTAL CARD) ════════════════════════ */
         #detail-panel {
-            width: 360px;
-            height: 100%;
-            background: rgba(11, 13, 23, 0.97);
-            border-left: 1px solid var(--border);
-            position: absolute;
-            right: 0;
-            top: 0;
-            z-index: 100;
-            backdrop-filter: blur(20px);
-            padding: 90px 28px 32px;
-            transform: translateX(100%);
-            transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
-            display: flex;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 920px;
+            max-width: calc(100vw - 60px);
+            background: rgba(15, 12, 12, 0.85);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.5), inset 0 0 15px rgba(255, 215, 0, 0.1);
+            border-radius: 12px;
+            z-index: 1000;
+            padding: 20px 30px;
+            display: none;
             flex-direction: column;
-            gap: 0;
+            transform: translateY(120%);
+            transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+            overflow: hidden;
+        }
+
+        #detail-panel::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #ffd700, transparent);
+            box-shadow: 0 0 15px #ffd700;
         }
 
         #detail-panel.open {
-            transform: translateX(0);
+            display: flex;
+            transform: translateY(0);
         }
 
         .close-btn {
             position: absolute;
-            top: 60px;
-            right: 20px;
+            top: 10px;
+            right: 15px;
             background: none;
             border: none;
-            color: var(--muted);
-            font-size: 1.8rem;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 1.4rem;
             cursor: pointer;
-            line-height: 1;
-            transition: color 0.2s;
-            z-index: 1000;
+            transition: color 0.2s, transform 0.2s;
+            z-index: 1010;
         }
 
         .close-btn:hover {
-            color: var(--text);
+            color: #ffd700;
+            transform: scale(1.1);
         }
 
-        .panel-content {
-            flex: 1;
-            overflow-y: auto;
-            display: flex;
-            flex-direction: column;
-            gap: 24px;
-            padding-right: 4px;
-        }
-
-        .panel-header {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .ph-icon {
-            font-size: 2.2rem;
+        .panel-header-horiz {
+            text-align: center;
+            margin-bottom: 20px;
+            position: relative;
         }
 
         #topic-title {
-            font-size: 1.6rem;
-            font-weight: 800;
-            line-height: 1.2;
-        }
-
-        .ph-badge {
-            align-self: flex-start;
-            padding: 3px 12px;
-            border-radius: 20px;
-            background: rgba(255, 255, 255, 0.08);
-            font-size: 0.72rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: var(--muted);
-            font-weight: 600;
-        }
-
-        .panel-section h3 {
-            font-size: 0.78rem;
+            font-size: 1.4rem;
             font-weight: 700;
-            color: var(--muted);
-            text-transform: uppercase;
+            color: #fff;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+            margin: 0;
+        }
+
+        .horiz-divider {
+            height: 1px;
+            background: rgba(255, 215, 0, 0.2);
+            margin: 10px 0 20px;
+            position: relative;
+        }
+
+        .horiz-divider::after {
+            content: "";
+            position: absolute;
+            top: -2px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 5px;
+            background: #ffd700;
+            box-shadow: 0 0 10px #ffd700;
+            border-radius: 10px;
+        }
+
+        .panel-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 25px;
+        }
+
+        .panel-col {
+            position: relative;
+            padding: 0 10px;
+        }
+
+        .panel-col:not(:last-child)::after {
+            content: "";
+            position: absolute;
+            right: -12px;
+            top: 10%;
+            height: 80%;
+            width: 1px;
+            background: rgba(255, 215, 0, 0.2);
+        }
+
+        .panel-col h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #ffd700;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .panel-col p {
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.85);
+            margin: 0;
+            text-align: justify;
+        }
+
+        .entry-dot {
+            color: #ffd700;
+            font-size: 0.8rem;
+            margin-right: 5px;
+        }
+
+        /* ═══ TIMELINE (HORIZONTAL) ════════════════════════════════ */
+        #timeline-container {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px 0 25px;
+            width: 100%;
+            position: relative;
+        }
+
+        #timeline-container.visible {
+            display: flex;
+        }
+
+        .timeline-track {
+            position: relative;
+            width: 80%;
+            height: 2px;
+            background: rgba(255, 215, 0, 0.2);
+            margin: 25px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .timeline-track::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.5), transparent);
+            box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+        }
+
+        .timeline-mark {
+            position: relative;
+            width: 12px;
+            height: 12px;
+            background: #1a1505;
+            border: 2px solid rgba(255, 215, 0, 0.5);
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            z-index: 5;
+        }
+
+        .timeline-mark:hover {
+            transform: scale(1.4);
+            border-color: #ffd700;
+            box-shadow: 0 0 15px #ffd700;
+        }
+
+        .timeline-mark.active {
+            background: #ffd700;
+            border-color: #fff;
+            box-shadow: 0 0 20px #ffd700, 0 0 40px rgba(255, 215, 0, 0.4);
+            transform: scale(1.5);
+        }
+
+        .timeline-label {
+            position: absolute;
+            top: -28px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.8rem;
+            font-weight: 700;
+            white-space: nowrap;
             letter-spacing: 1px;
-            margin-bottom: 10px;
+            transition: color 0.3s;
         }
 
-        .panel-section p {
-            line-height: 1.65;
-            color: #c5cae9;
-            font-size: 0.93rem;
+        .timeline-mark.active .timeline-label {
+            color: #ffd700;
+            font-size: 1rem;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
         }
 
-        .vn-box {
-            background: rgba(38, 166, 154, 0.06);
-            border-left: 3px solid var(--green);
-            padding: 16px;
-            border-radius: 0 10px 10px 0;
-        }
-
-        .panel-section:last-child {
-            padding-bottom: 24px;
-        }
-
-        .panel-content::-webkit-scrollbar {
+        .timeline-mark::after {
+            content: "";
+            position: absolute;
             width: 4px;
+            height: 4px;
+            top: 4px;
+            left: 4px;
+            background: #ffd700;
+            border-radius: 50%;
+            opacity: 0;
+            transition: opacity 0.3s;
         }
 
-        .panel-content::-webkit-scrollbar-thumb {
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 4px;
+        .timeline-mark.active::after {
+            opacity: 1;
+            box-shadow: 0 0 10px #fff;
         }
 
         /* ═══ LOADER ═══════════════════════════════════════════════ */
@@ -624,32 +674,141 @@
             }
         }
 
-        /* ═══ QUIZ MODAL ═══════════════════════════════════════════ */
+        /* ═══ QUIZ OVERLAY ════════════════════════════════════════ */
         #quiz-overlay {
             position: fixed;
-            inset: 0;
-            z-index: 500;
-            background: rgba(5, 6, 12, 0.92);
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.85);
             backdrop-filter: blur(12px);
             display: none;
             align-items: center;
             justify-content: center;
+            z-index: 2000;
+            opacity: 0;
+            transition: opacity 0.4s;
         }
 
         #quiz-overlay.show {
             display: flex;
+            opacity: 1;
         }
 
         #quiz-box {
-            width: min(720px, 96vw);
-            max-height: 90vh;
-            background: var(--surface);
+            background: linear-gradient(rgba(17, 20, 34, 0.9), rgba(17, 20, 34, 0.9)), url('background.png') no-repeat center center;
+            background-size: cover;
+            width: 100%;
+            max-width: 900px;
+            height: 85vh;
+            border-radius: 24px;
             border: 1px solid var(--border);
-            border-radius: 20px;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.8);
+            position: relative;
+            overflow: hidden;
             display: flex;
             flex-direction: column;
+        }
+
+        #quiz-start {
+            padding: 40px;
+            overflow-y: auto;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .topic-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        .topic-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 215, 0, 0.1);
+            border-radius: 16px;
+            padding: 24px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            position: relative;
             overflow: hidden;
-            box-shadow: 0 40px 80px rgba(0, 0, 0, 0.6);
+        }
+
+        .topic-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--accent);
+            opacity: 0.5;
+        }
+
+        .topic-card:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: var(--gold);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .topic-card h3 {
+            font-size: 1rem;
+            line-height: 1.4;
+            color: #fff;
+            margin-bottom: 4px;
+        }
+
+        .topic-card p {
+            font-size: 0.8rem;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+
+        .topic-card.general {
+            background: linear-gradient(135deg, rgba(185, 28, 28, 0.2), rgba(185, 28, 28, 0.05));
+            border-color: rgba(185, 28, 28, 0.3);
+        }
+
+        .topic-card.general::before {
+            background: var(--gold);
+        }
+
+        .topic-card.general:hover {
+            border-color: var(--gold);
+        }
+
+        .ai-analysis-box {
+            background: rgba(250, 204, 21, 0.05);
+            border: 1px solid rgba(250, 204, 21, 0.2);
+            border-radius: 12px;
+            padding: 16px;
+            margin-top: 20px;
+            position: relative;
+        }
+
+        .ai-analysis-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--gold);
+            font-weight: 700;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+
+        #ai-advice-content {
+            font-size: 0.85rem;
+            line-height: 1.6;
+            color: #eee;
         }
 
         #quiz-header {
@@ -1011,41 +1170,52 @@
             position: fixed;
             bottom: 30px;
             right: 30px;
-            width: 60px;
-            height: 60px;
+            width: 54px;
+            height: 54px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #a855f7, #06b6d4);
+            background: linear-gradient(135deg, #facc15, #ca8a04);
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
-            font-size: 1.8rem;
             cursor: pointer;
-            box-shadow: 0 4px 20px rgba(168, 85, 247, 0.4);
-            z-index: 400;
-            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 0 15px rgba(250, 204, 21, 0.4), 0 5px 25px rgba(0, 0, 0, 0.5);
+            z-index: 1100;
+            border: 2px solid #b91c1c;
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), right 0.6s cubic-bezier(0.16, 1, 0.3, 1), left 0.6s cubic-bezier(0.16, 1, 0.3, 1), bottom 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        body.detail-open #ai-chatbot-btn {
+            right: auto;
+            left: 90px;
         }
 
         #ai-chatbot-btn:hover {
             transform: scale(1.1) rotate(5deg);
+            box-shadow: 0 0 25px rgba(250, 204, 21, 0.6);
         }
 
         #ai-chat-window {
             position: fixed;
             bottom: 100px;
             right: 30px;
-            width: 380px;
-            height: 520px;
-            background: rgba(13, 15, 24, 0.95);
-            backdrop-filter: blur(20px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            width: 400px;
+            height: 560px;
+            background: rgba(11, 13, 23, 0.95);
+            backdrop-filter: blur(25px);
+            border: 1px solid rgba(255, 215, 0, 0.15);
             border-radius: 20px;
             display: flex;
             flex-direction: column;
-            z-index: 400;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+            z-index: 1100;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
             overflow: hidden;
-            transition: transform 0.4s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.3s;
+            transition: transform 0.4s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.3s, right 0.6s cubic-bezier(0.16, 1, 0.3, 1), left 0.6s cubic-bezier(0.16, 1, 0.3, 1), bottom 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        body.detail-open #ai-chat-window {
+            right: auto;
+            left: 90px;
         }
 
         #ai-chat-window.chat-hidden {
@@ -1056,8 +1226,8 @@
 
         .chat-header {
             padding: 16px 20px;
-            background: rgba(255, 255, 255, 0.04);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            background: var(--header-bg);
+            border-bottom: 1px solid var(--border);
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -1067,17 +1237,23 @@
             display: flex;
             align-items: center;
             gap: 10px;
-            font-weight: 600;
+            font-weight: 700;
             font-size: 0.95rem;
+            color: #ffd700;
         }
 
         .chat-header button {
             background: none;
             border: none;
-            color: rgba(255, 255, 255, 0.5);
+            color: rgba(255, 255, 255, 0.7);
             cursor: pointer;
-            font-size: 1rem;
+            font-size: 1.2rem;
             padding: 5px;
+            transition: color 0.2s;
+        }
+
+        .chat-header button:hover {
+            color: #ffd700;
         }
 
         #chat-messages {
@@ -1108,46 +1284,63 @@
 
         .message.user {
             align-self: flex-end;
-            background: #5c6bc0;
-            color: white;
+            background: linear-gradient(135deg, #facc15, #ca8a04);
+            color: #1a1505;
+            font-weight: 600;
+            border-bottom-right-radius: 4px;
+            box-shadow: 0 4px 12px rgba(250, 204, 21, 0.2);
         }
 
         .message.system {
             align-self: flex-start;
-            background: rgba(255, 255, 255, 0.06);
-            color: #e2e8f0;
+            background: rgba(255, 255, 255, 0.04);
+            color: #f1f5f9;
+            border-left: 3px solid #b91c1c;
+            border-bottom-left-radius: 4px;
         }
 
         .chat-input-area {
-            padding: 15px;
-            background: rgba(255, 255, 255, 0.02);
-            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 16px;
+            background: rgba(0, 0, 0, 0.2);
+            border-top: 1px solid var(--border);
             display: flex;
-            gap: 10px;
+            gap: 12px;
         }
 
         .chat-input-area input {
             flex: 1;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 10px;
-            padding: 8px 12px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 10px 16px;
             color: white;
             outline: none;
             font-family: var(--font);
+            font-size: 0.9rem;
+            transition: border-color 0.2s;
+        }
+
+        .chat-input-area input:focus {
+            border-color: #ffd700;
         }
 
         .chat-input-area button {
-            width: 38px;
-            height: 38px;
-            border-radius: 10px;
-            background: linear-gradient(135deg, #5c6bc0, #26c6da);
+            width: 42px;
+            height: 42px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #facc15, #ca8a04);
             border: none;
-            color: white;
+            color: #1a1505;
             display: flex;
             align-items: center;
             justify-content: center;
             cursor: pointer;
+            font-size: 1.1rem;
+            transition: transform 0.2s;
+        }
+
+        .chat-input-area button:hover {
+            transform: scale(1.05);
         }
     </style>
 </head>
@@ -1157,11 +1350,11 @@
     <!-- TOP BAR -->
     <div id="topbar">
         <div class="logo">
-            <div class="logo-icon"><i class="bi bi-book-half" style="font-size: 1.1rem; color: #fff;"></i></div>
+            <div class="logo-icon"><img src="vietnam1.png" alt="Logo"></div>
             <span>Grp4MM</span>
         </div>
         <div class="search-box">
-            <span class="si">🔍</span>
+            <span class="si"><i class="bi bi-search"></i></span>
             <input type="text" id="search-input" placeholder="Tìm kiếm khái niệm...">
             <div id="search-results"></div>
         </div>
@@ -1174,6 +1367,9 @@
             <span class="pill-text">khái niệm đã học</span>
         </div>
         <div class="topbar-actions">
+            <button class="quiz-btn" id="quiz-open-btn">
+                <span class="sm-icon"><i class="bi bi-ui-checks"></i></span> Thi thử
+            </button>
             <button class="icon-btn" id="theme-btn" title="Giao diện">🌙</button>
             <div class="avatar">👤</div>
         </div>
@@ -1181,19 +1377,6 @@
 
     <!-- MAIN APP -->
     <div id="app">
-        <!-- SIDEBAR -->
-        <div id="sidebar">
-            <div class="sidebar-section">
-                <div class="sidebar-label">Chủ đề</div>
-                <div id="branch-list"></div>
-            </div>
-            <div class="sidebar-divider"></div>
-            <div class="sidebar-section" style="padding-top:8px">
-                <button class="sidebar-mode-btn quiz-btn" id="quiz-open-btn">
-                    <span class="sm-icon"><i class="bi bi-ui-checks"></i></span> Thi thử
-                </button>
-            </div>
-        </div>
 
         <!-- MINDMAP -->
         <div id="mindmap-container">
@@ -1205,32 +1388,42 @@
                 <button id="reset-view" title="Căn giữa"><i class="bi bi-crosshair"></i></button>
                 <button id="toggle-all" title="Hiện toàn bộ các nhánh"><i class="bi bi-eye"></i></button>
             </div>
-            <div id="breadcrumb" class="bc-hidden">
-                <span>←</span>
-                <div class="bc-dot"></div>
-                <span class="bc-name"></span>
-                <span class="bc-hint">— Nhấn để quay lại</span>
-            </div>
+
         </div>
 
-        <!-- DETAIL PANEL -->
+        <!-- DETAIL PANEL (HORIZONTAL) -->
         <div id="detail-panel">
-            <button class="close-btn" id="close-panel" title="Đóng panel"><i class="bi bi-x-circle-fill"></i></button>
-            <div class="panel-content">
-                <div class="panel-header">
-                    <div class="ph-icon" id="topic-icon">📌</div>
-                    <h2 id="topic-title">Chủ đề</h2>
-                    <span class="ph-badge" id="topic-badge">Cấp độ</span>
+            <button class="close-btn" id="close-panel" title="Đóng panel"><i class="bi bi-x"></i></button>
+            <div class="panel-header-horiz">
+                <h2 id="topic-title">Tên chủ đề</h2>
+            </div>
+            <div id="timeline-container">
+                <div class="timeline-track">
+                    <div class="timeline-mark" data-id="ch1_1" title="Đại hội III"><span
+                            class="timeline-label">1960</span></div>
+                    <div class="timeline-mark" data-id="ch1_2_victory" title="Đại thắng 1975"><span
+                            class="timeline-label">1975</span></div>
+                    <div class="timeline-mark" data-id="ch1_2" title="Đại hội IV"><span
+                            class="timeline-label">1976</span></div>
+                    <div class="timeline-mark" data-id="ch1_3" title="Đại hội V"><span
+                            class="timeline-label">1982</span></div>
+                    <div class="timeline-mark" data-id="ch1_4" title="Đại hội VI"><span
+                            class="timeline-label">1986</span></div>
                 </div>
-                <div class="panel-section">
-                    <h3>📖 Nội dung lý luận</h3>
-                    <p id="topic-description"></p>
+            </div>
+            <div class="horiz-divider"></div>
+            <div class="panel-grid">
+                <div class="panel-col">
+                    <h3>Lý luận</h3>
+                    <p id="topic-description">Nội dung lý luận sẽ hiển thị ở đây.</p>
                 </div>
-                <div class="panel-section">
-                    <h3>🇻🇳 Vận dụng tại Việt Nam</h3>
-                    <div class="vn-box">
-                        <p id="topic-example"></p>
-                    </div>
+                <div class="panel-col">
+                    <h3>Thực tiễn</h3>
+                    <p id="topic-example">Nội dung thực tiễn sẽ hiển thị ở đây.</p>
+                </div>
+                <div class="panel-col" id="col-meaning">
+                    <h3>Ý nghĩa</h3>
+                    <p id="topic-meaning">Nội dung ý nghĩa sẽ hiển thị ở đây.</p>
                 </div>
             </div>
         </div>
@@ -1249,25 +1442,38 @@
             <div id="quiz-start">
                 <div style="font-size:3rem;margin-bottom:16px">📝</div>
                 <h2>Thi thử Triết học Mác-Lênin</h2>
-                <p>Hệ thống sẽ chọn ngẫu nhiên <strong>20 câu</strong> từ ngân hàng <strong>100 câu hỏi</strong>.<br>Sau
-                    khi hoàn thành, bạn sẽ thấy kết quả và đáp án chi tiết.</p>
-                <div class="start-stats">
-                    <div class="stat-card">
-                        <div class="stat-num">100</div>
-                        <div class="stat-lbl">Câu hỏi</div>
+                <p>Chọn chủ đề để bắt đầu. Hệ thống sẽ chọn ngẫu nhiên <strong>20 câu mỗi lần</strong>.</p>
+
+                <div class="topic-grid">
+                    <div class="topic-card" onclick="startQuizByTopic(1)">
+                        <h3>Chương 1: Hàng hóa, thị trường và vai trò của các chủ thể</h3>
+                        <p>Lý luận về hàng hóa, tiền tệ và các quan hệ kinh tế cơ bản.</p>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-num">20</div>
-                        <div class="stat-lbl">Câu thi</div>
+                    <div class="topic-card" onclick="startQuizByTopic(2)">
+                        <h3>Chương 2: Giá trị thặng dư trong nền kinh tế thị trường</h3>
+                        <p>Bản chất của bóc lột và nguồn gốc giàu có trong CNTB.</p>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-num" id="best-score-display">—</div>
-                        <div class="stat-lbl">Điểm cao nhất</div>
+                    <div class="topic-card" onclick="startQuizByTopic(3)">
+                        <h3>Chương 3: Cạnh tranh và Độc quyền</h3>
+                        <p>Các quy luật vận động của CNTB trong giai đoạn hiện đại.</p>
+                    </div>
+                    <div class="topic-card" onclick="startQuizByTopic(4)">
+                        <h3>Chương 4: KTTT định hướng XHCN & Lợi ích kinh tế</h3>
+                        <p>Mô hình kinh tế đặc trưng và các quan hệ lợi ích tại Việt Nam.</p>
+                    </div>
+                    <div class="topic-card" onclick="startQuizByTopic(5)">
+                        <h3>Chương 5: CNH, HĐH và Hội nhập quốc tế</h3>
+                        <p>Chiến lược phát triển và vị thế của Việt Nam trên trường quốc tế.</p>
+                    </div>
+                    <div class="topic-card general" onclick="startQuizByTopic('all')">
+                        <h3>Tổng ôn tập toàn bộ kiến thức</h3>
+                        <p>Random 20 câu từ ngân hàng 500 câu hỏi của tất cả các chương.</p>
                     </div>
                 </div>
-                <button class="start-btn" id="quiz-start-btn">Bắt đầu thi 🚀</button>
+
                 <button class="quiz-nav-btn" id="quiz-cancel-btn"
-                    style="background:none;border:none;color:var(--muted);margin-top:14px;display:block;margin-left:auto;margin-right:auto;cursor:pointer">Hủy</button>
+                    style="background:none;border:none;color:var(--muted);margin-top:24px;display:block;margin-left:auto;margin-right:auto;cursor:pointer">Đóng
+                    cửa sổ</button>
             </div>
 
             <!-- QUESTION SCREEN (hidden initially) -->
@@ -1301,7 +1507,7 @@
 
     <!-- AI CHATBOT -->
     <div id="ai-chatbot-btn" title="Hỏi đáp cùng AI">
-        <i class="bi bi-robot"></i>
+        <img src="macimg.png" alt="AI Chat" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;">
     </div>
 
     <div id="ai-chat-window" class="chat-hidden">
@@ -1321,7 +1527,7 @@
         </div>
     </div>
 
-    <script src="app.js?v=9"></script>
+    <script src="app.js?v=999"></script>
 </body>
 
 </html>

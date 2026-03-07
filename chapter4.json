@@ -1,0 +1,1300 @@
+[
+    {
+        "id": 401,
+        "chapter": 4,
+        "question": "Kinh tế thị trường định hướng XHCN ở Việt Nam là gì?",
+        "options": [
+            "Nền kinh tế thị trường tự do hoàn toàn",
+            "Nền kinh tế thị trường hiện đại, hội nhập quốc tế, vận hành theo quy luật thị trường, có sự quản lý của Nhà nước pháp quyền XHCN",
+            "Nền kinh tế hái lượm",
+            "Nền kinh tế kế hoạch hóa tập trung quan liêu bao cấp"
+        ],
+        "answer": 1,
+        "explain": "Đây là mô hình kinh tế tổng quát của nước ta trong thời kỳ quá độ."
+    },
+    {
+        "id": 402,
+        "chapter": 4,
+        "question": "Mục tiêu hàng đầu của kinh tế thị trường định hướng XHCN ở nước ta là gì?",
+        "options": [
+            "Làm giàu cho một nhóm người",
+            "Dân giàu, nước mạnh, dân chủ, công bằng, văn minh",
+            "Bán hết tài nguyên",
+            "Đóng cửa nền kinh tế"
+        ],
+        "answer": 1,
+        "explain": "Mục tiêu cao cả nhất là vì con người và sự phát triển bền vững của đất nước."
+    },
+    {
+        "id": 403,
+        "chapter": 4,
+        "question": "Tại sao phải phát triển kinh tế thị trường ở Việt Nam?",
+        "options": [
+            "Để giống các nước khác",
+            "Phù hợp với trình độ phát triển của LLSX và xu thế hội nhập",
+            "Vì không còn cách nào khác",
+            "Để xóa bỏ nông nghiệp"
+        ],
+        "answer": 1,
+        "explain": "KTTT là phương thức hiệu quả để thúc đẩy LLSX phát triển."
+    },
+    {
+        "id": 404,
+        "chapter": 4,
+        "question": "Đặc trưng về quan hệ sở hữu trong KTTT định hướng XHCN ở Việt Nam là?",
+        "options": [
+            "Chỉ có sở hữu nhà nước",
+            "Đa dạng các hình thức sở hữu, nhiều thành phần kinh tế",
+            "Chỉ có sở hữu tư nhân",
+            "Sở hữu tập thể là duy nhất"
+        ],
+        "answer": 1,
+        "explain": "Kinh tế nhà nước giữ vai trò chủ đạo cùng các thành phần kinh tế khác phát triển."
+    },
+    {
+        "id": 405,
+        "chapter": 4,
+        "question": "Thành phần kinh tế nào nắm giữ vai trò chủ đạo ở Việt Nam?",
+        "options": [
+            "Kinh tế tư nhân",
+            "Kinh tế nhà nước",
+            "Kinh tế tập thể",
+            "Kinh tế có vốn đầu tư nước ngoài"
+        ],
+        "answer": 1,
+        "explain": "Kinh tế nhà nước là công cụ vật chất để định hướng xã hội."
+    },
+    {
+        "id": 406,
+        "chapter": 4,
+        "question": "Kinh tế tư nhân ở Việt Nam được xác định là?",
+        "options": [
+            "Thành phần kinh tế bị hạn chế",
+            "Một động lực quan trọng của nền kinh tế",
+            "Thành phần phụ trợ",
+            "Chỉ làm trong nông nghiệp"
+        ],
+        "answer": 1,
+        "explain": "Đại hội XII xác định kinh tế tư nhân là động lực quan trọng."
+    },
+    {
+        "id": 407,
+        "chapter": 4,
+        "question": "Đặc trưng về quan hệ quản lý trong KTTT định hướng XHCN?",
+        "options": [
+            "Nhà nước không can thiệp",
+            "Nhà nước quản lý theo định hướng XHCN, dân biết, dân bàn, dân làm, dân kiểm tra",
+            "Chỉ có doanh nghiệp tự quản lý",
+            "Quản lý bằng mệnh lệnh hành chính tuyệt đối"
+        ],
+        "answer": 1,
+        "explain": "Sự kết hợp giữa quy luật thị trường và sự điều tiết của Nhà nước."
+    },
+    {
+        "id": 408,
+        "chapter": 4,
+        "question": "Đặc trưng về quan hệ phân phối trong KTTT định hướng XHCN?",
+        "options": [
+            "Chỉ phân phối bình quân",
+            "Phân phối theo kết quả lao động, hiệu quả kinh tế, đóng góp vốn và qua hệ thống an sinh xã hội",
+            "Phân phối theo ý muốn của Nhà nước",
+            "Chỉ phân phối cho người giàu"
+        ],
+        "answer": 1,
+        "explain": "Đảm bảo công bằng và tạo động lực phát triển."
+    },
+    {
+        "id": 409,
+        "chapter": 4,
+        "question": "Lợi ích kinh tế là gì?",
+        "options": [
+            "Số tiền kiếm được",
+            "Sự thỏa mãn các nhu cầu của các chủ thể kinh tế thông qua hoạt động kinh tế",
+            "Lương tháng",
+            "Tài sản thừa kế"
+        ],
+        "answer": 1,
+        "explain": "Phản ánh mục tiêu và động lực của các hoạt động kinh tế."
+    },
+    {
+        "id": 410,
+        "chapter": 4,
+        "question": "Mối quan hệ giữa các lợi ích kinh tế là gì?",
+        "options": [
+            "Luôn đối kháng",
+            "Thống nhất và mâu thuẫn",
+            "Độc lập hoàn toàn",
+            "Luôn hài hòa tuyệt đối"
+        ],
+        "answer": 1,
+        "explain": "Các lợi ích vừa hỗ trợ vừa có thể xung đột với nhau."
+    },
+    {
+        "id": 411,
+        "chapter": 4,
+        "question": "Lợi ích nào được coi là động lực trực tiếp của các cá nhân, tổ chức?",
+        "options": [
+            "Lợi ích tập thể",
+            "Lợi ích cá nhân",
+            "Lợi ích nhà nước",
+            "Lợi ích tôn giáo"
+        ],
+        "answer": 1,
+        "explain": "Lợi ích cá nhân là điểm bắt đầu của mọi hoạt động sản xuất kinh doanh."
+    },
+    {
+        "id": 412,
+        "chapter": 4,
+        "question": "Vai trò của Nhà nước trong việc điều hòa các lợi ích kinh tế là?",
+        "options": [
+            "Ưu tiên lợi ích của quan chức",
+            "Xây dựng khung pháp lý, chính sách để hài hòa lợi ích cá nhân, tập thể và xã hội",
+            "Chỉ quan tâm lợi ích của người nghèo",
+            "Bỏ mặc cho thị trường tự quyết định"
+        ],
+        "answer": 1,
+        "explain": "Nhà nước đảm bảo sự công bằng và ổn định xã hội."
+    },
+    {
+        "id": 413,
+        "chapter": 4,
+        "question": "Thế nào là lợi ích kinh tế xã hội?",
+        "options": [
+            "Của cải của riêng Thủ tướng",
+            "Tổng thể lợi ích của cả cộng đồng quốc gia",
+            "Lợi nhuận của các tập đoàn nước ngoài",
+            "Tiền đóng thuế của dân"
+        ],
+        "answer": 1,
+        "explain": "Phản ánh trình độ thịnh vượng chung của một nước."
+    },
+    {
+        "id": 414,
+        "chapter": 4,
+        "question": "Các quan hệ lợi ích kinh tế chính bao gồm?",
+        "options": [
+            "Giữa người lao động và người sử dụng lao động",
+            "Giữa các doanh nghiệp với nhau",
+            "Giữa cá nhân với xã hội",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Các quan hệ này đan xen và tác động lẫn nhau trong nền kinh tế."
+    },
+    {
+        "id": 415,
+        "chapter": 4,
+        "question": "Để giải quyết mâu thuẫn giữa các lợi ích kinh tế, cần?",
+        "options": [
+            "Dùng bạo lực",
+            "Hoàn thiện thể chế kinh tế, cơ chế phối hợp và chính sách phân phối",
+            "Cấm kinh doanh",
+            "Kêu gọi lòng từ thiện"
+        ],
+        "answer": 1,
+        "explain": "Sử dụng các công cụ quản lý văn minh và khoa học."
+    },
+    {
+        "id": 416,
+        "chapter": 4,
+        "question": "Thể chế kinh tế là gì?",
+        "options": [
+            "Tòa nhà của bộ kinh tế",
+            "Hệ thống các quy tắc, luật pháp, bộ máy và cơ chế vận hành nền kinh tế",
+            "Phần mềm kế toán",
+            "Chữ ký của bộ trưởng"
+        ],
+        "answer": 1,
+        "explain": "Tạo ra khuôn khổ cho các hoạt động kinh tế."
+    },
+    {
+        "id": 417,
+        "chapter": 4,
+        "question": "Mục tiêu hoàn thiện thể chế KTTT định hướng XHCN ở Việt Nam là?",
+        "options": [
+            "Gống hoàn toàn phương Tây",
+            "Tạo môi trường kinh doanh minh bạch, cạnh tranh lành mạnh và đảm bảo an sinh xã hội",
+            "Tăng thuế",
+            "Hạn chế đầu tư nước ngoài"
+        ],
+        "answer": 1,
+        "explain": "Hướng tới sự phát triển nhanh và bền vững."
+    },
+    {
+        "id": 418,
+        "chapter": 4,
+        "question": "Đặc trưng nào thể hiện tính 'Định hướng XHCN' rõ nhất?",
+        "options": [
+            "Có dùng tiền",
+            "Gắn tăng trưởng kinh tế với tiến bộ và công bằng xã hội ngay trong từng bước và từng chính sách",
+            "Có xuất khẩu hàng hóa",
+            "Vận hành theo quy luật cung cầu"
+        ],
+        "answer": 1,
+        "explain": "Đây là sự khác biệt bản chất so với KTTT tư bản chủ nghĩa."
+    },
+    {
+        "id": 419,
+        "chapter": 4,
+        "question": "Kinh tế tập thể ở nước ta hiện nay nòng cốt là?",
+        "options": [
+            "Tập đoàn nhà nước",
+            "Hợp tác xã kiểu mới",
+            "Công ty gia đình",
+            "Cửa hàng bán lẻ"
+        ],
+        "answer": 1,
+        "explain": "Dựa trên sự tự nguyện và lợi ích chung của các thành viên."
+    },
+    {
+        "id": 420,
+        "chapter": 4,
+        "question": "Kinh tế có vốn đầu tư nước ngoài (FDI) có vai trò gì?",
+        "options": [
+            "Lấy đi hết tiền của Việt Nam",
+            "Bổ sung vốn, công nghệ và mở rộng thị trường xuất khẩu",
+            "Làm chủ đất nước",
+            "Thay thế hoàn toàn doanh nghiệp nội"
+        ],
+        "answer": 1,
+        "explain": "FDI là bộ phận quan trọng của nền kinh tế."
+    },
+    {
+        "id": 421,
+        "chapter": 4,
+        "question": "Công cụ nào sau đây là quan trọng nhất để Nhà nước quản lý kinh tế?",
+        "options": [
+            "Mệnh lệnh miệng",
+            "Hệ thống pháp luật và chính sách vĩ mô",
+            "Dùng công an",
+            "Phát tiền cho dân"
+        ],
+        "answer": 1,
+        "explain": "Nhà nước pháp quyền quản lý bằng luật pháp."
+    },
+    {
+        "id": 422,
+        "chapter": 4,
+        "question": "Thu nhập từ 'đóng góp vốn' trong phân phối ở Việt Nam là gì?",
+        "options": [
+            "Chỉ dành cho quan chức",
+            "Cổ tức, lợi tức nhận được khi đầu tư tiền vào sản xuất kinh doanh",
+            "Tiền trộm cắp",
+            "Tiền mừng tuổi"
+        ],
+        "answer": 1,
+        "explain": "Hình thức phân phối hợp pháp khuyến khích đầu tư xã hội."
+    },
+    {
+        "id": 423,
+        "chapter": 4,
+        "question": "Nguyên tắc 'Dân giàu' đặt ở vị trí nào trong mục tiêu tổng quát?",
+        "options": [
+            "Cuối cùng",
+            "Đầu tiên",
+            "Không có",
+            "Tùy lúc"
+        ],
+        "answer": 1,
+        "explain": "Dân giàu then mới tạo ra 'Nước mạnh'."
+    },
+    {
+        "id": 424,
+        "chapter": 4,
+        "question": "Mối quan hệ giữa kinh tế và xã hội trong KTTT định hướng XHCN là?",
+        "options": [
+            "Kinh tế đi trước, xã hội đi sau",
+            "Tăng trưởng kinh tế phải đi đôi với thực hiện chính sách xã hội",
+            "Không liên quan",
+            "Chỉ quan tâm kinh tế"
+        ],
+        "answer": 1,
+        "explain": "Đảm bảo tính nhân văn của chế độ."
+    },
+    {
+        "id": 425,
+        "chapter": 4,
+        "question": "Tại sao kinh tế nhà nước phải giữ vai trò chủ đạo?",
+        "options": [
+            "Vì Nhà nước thích thế",
+            "Để định hướng xã hội và giải quyết những vấn đề thị trường không làm được",
+            "Để triệt tiêu tư nhân",
+            "Để thu hết lợi nhuận"
+        ],
+        "answer": 1,
+        "explain": "Đảm bảo tính độc lập và an ninh kinh tế quốc gia."
+    },
+    {
+        "id": 426,
+        "chapter": 4,
+        "question": "Lợi ích kinh tế cá nhân của người công nhân là?",
+        "options": [
+            "Lợi nhuận của chủ",
+            "Tiền lương và các phúc lợi",
+            "Sức khỏe của họ",
+            "Bằng khen"
+        ],
+        "answer": 1,
+        "explain": "Số tiền thực tế họ nhận được để tái sản xuất SLĐ."
+    },
+    {
+        "id": 427,
+        "chapter": 4,
+        "question": "Phân phối qua hệ thống an sinh xã hội nhằm?",
+        "options": [
+            "Làm giàu cho người nghèo",
+            "Hỗ trợ các đối tượng yếu thế, giảm bớt khoảng cách giàu nghèo",
+            "Mua chuộc cử tri",
+            "Không có mục đích gì"
+        ],
+        "answer": 1,
+        "explain": "Thực hiện tính nhân văn của CNXH."
+    },
+    {
+        "id": 428,
+        "chapter": 4,
+        "question": "Nhà nước Việt Nam quản lý kinh tế bằng phương pháp nào là chủ yếu?",
+        "options": [
+            "Phương pháp kinh tế và pháp luật",
+            "Phương pháp hành chính cưỡng bức hoàn toàn",
+            "Phó mặc cho may rủi",
+            "Dùng tôn giáo"
+        ],
+        "answer": 0,
+        "explain": "Tôn trọng các quy luật khách quan của thị trường."
+    },
+    {
+        "id": 429,
+        "chapter": 4,
+        "question": "Hợp tác xã trong nền kinh tế hiện nay dựa trên sở hữu gì?",
+        "options": [
+            "Sở hữu chung của các thành viên",
+            "Sở hữu của riêng giám đốc",
+            "Sở hữu toàn dân",
+            "Không có sở hữu"
+        ],
+        "answer": 0,
+        "explain": "Dựa trên vốn đóng góp của các thành viên."
+    },
+    {
+        "id": 430,
+        "chapter": 4,
+        "question": "Lợi ích kinh tế giữa người sản xuất và người tiêu dùng mâu thuẫn khi?",
+        "options": [
+            "Giá bán quá cao hoặc chất lượng quá thấp",
+            "Hàng hóa quá tốt",
+            "Giá rẻ",
+            "Cả hai đều vui"
+        ],
+        "answer": 0,
+        "explain": "Sự xung đột về mục tiêu giá cả và chất lượng."
+    },
+    {
+        "id": 431,
+        "chapter": 4,
+        "question": "Vai trò của hội nhập kinh tế quốc tế đối với quan hệ lợi ích?",
+        "options": [
+            "Làm mất đi mọi lợi ích",
+            "Mở rộng cơ hội chiếm lĩnh lợi ích nhưng cũng đặt ra thách thức cạnh tranh gay gắt",
+            "Chỉ có lợi cho nước ngoài",
+            "Không có vai trò gì"
+        ],
+        "answer": 1,
+        "explain": "Phân chia lại lợi ích trên phạm vi rộng hơn."
+    },
+    {
+        "id": 432,
+        "chapter": 4,
+        "question": "Kinh tế thị trường ở Việt Nam vận hành đầy đủ theo?",
+        "options": [
+            "Ý muốn của Đảng",
+            "Các quy luật của kinh tế thị trường (giá trị, cung cầu, cạnh tranh...)",
+            "Luật lệ quốc tế gượng ép",
+            "Sở thích người tiêu dùng"
+        ],
+        "answer": 1,
+        "explain": "Vận hành theo các quy luật khách quan."
+    },
+    {
+        "id": 433,
+        "chapter": 4,
+        "question": "Khái niệm 'Định hướng XHCN' là do Nhà nước nào thực hiện?",
+        "options": [
+            "Nhà nước tư bản",
+            "Nhà nước pháp quyền XHCN Việt Nam, dưới sự lãnh đạo của Đảng",
+            "Công ty đa quốc gia",
+            "Liên hợp quốc"
+        ],
+        "answer": 1,
+        "explain": "Sự dẫn dắt chính trị của Đảng Cộng sản Việt Nam."
+    },
+    {
+        "id": 434,
+        "chapter": 4,
+        "question": "Các quy luật kinh tế tác động đến lợi ích theo xu hướng?",
+        "options": [
+            "Hỗ trợ người nghèo tự động",
+            "Hướng các chủ thể tới việc tối đa hóa lợi ích của mình",
+            "Làm mọi người mệt mỏi",
+            "Chỉ có lợi cho nhà nước"
+        ],
+        "answer": 1,
+        "explain": "Đây là tính năng vốn có của thị trường."
+    },
+    {
+        "id": 435,
+        "chapter": 4,
+        "question": "Phân phối theo lao động là gì?",
+        "options": [
+            "Làm nhiều hưởng nhiều, làm ít hưởng ít, không làm không hưởng",
+            "Ai cũng hưởng bằng nhau",
+            "Phát lương theo độ tuổi",
+            "Chỉ cấp cho người già"
+        ],
+        "answer": 0,
+        "explain": "Đảm bảo sự công bằng cơ bản nhất."
+    },
+    {
+        "id": 436,
+        "chapter": 4,
+        "question": "Sự đồng thuận về lợi ích giữa Nhà nước và doanh nghiệp biểu hiện qua?",
+        "options": [
+            "Doanh nghiệp trốn thuế",
+            "Thực hiện tốt nghĩa vụ thuế để Nhà nước đầu tư hạ tầng phục vụ lại doanh nghiệp",
+            "Nhà nước cấm doanh nghiệp bán hàng",
+            "Doanh nghiệp đình công"
+        ],
+        "answer": 1,
+        "explain": "Sự cộng sinh cùng phát triển."
+    },
+    {
+        "id": 437,
+        "chapter": 4,
+        "question": "Tại sao KTTT ở nước ta cần có sự quản lý của Nhà nước?",
+        "options": [
+            "Để kiểm soát hành vi doanh nghiệp",
+            "Để khắc phục các mặt trái của thị trường và giữ vững định hướng chính trị",
+            "Vì thị trường luôn đúng",
+            "Vì doanh nghiệp không biết làm việc"
+        ],
+        "answer": 1,
+        "explain": "Nhà nước đóng vai trò 'nhạc trưởng'."
+    },
+    {
+        "id": 438,
+        "chapter": 4,
+        "question": "Giá trị thặng dư trong nền KTTT Việt Nam có tồn tại không?",
+        "options": [
+            "Không",
+            "Có, nhưng mục đích phân phối và sử dụng có sự khác biệt so với tư bản",
+            "Chỉ ở doanh nghiệp nước ngoài",
+            "Bị cấm hoàn toàn"
+        ],
+        "answer": 1,
+        "explain": "Vẫn tồn tại quy luật m nhưng được điều tiết vì mục tiêu chung."
+    },
+    {
+        "id": 439,
+        "chapter": 4,
+        "question": "Quan hệ lợi ích giữa người sử dụng lao động và người lao động hài hòa khi?",
+        "options": [
+            "Người lao động bị ép lương",
+            "Người lao động có thu nhập khá và doanh nghiệp có lợi nhuận để phát triển",
+            "Chỉ có lợi nhuận cho chủ",
+            "Công nhân đình công thường xuyên"
+        ],
+        "answer": 1,
+        "explain": "Sự thỏa hiệp và cân bằng quyền lợi."
+    },
+    {
+        "id": 440,
+        "chapter": 4,
+        "question": "Các thành phần kinh tế ở Việt Nam đối xử với nhau theo nguyên tắc?",
+        "options": [
+            "Kẻ mạnh thắng",
+            "Bình đẳng trước pháp luật, cùng phát triển, hợp tác và cạnh tranh lành mạnh",
+            "Nhà nước chèn ép tư nhân",
+            "Tư nhân bài trừ FDI"
+        ],
+        "answer": 1,
+        "explain": "Môi trường kinh doanh công bằng."
+    },
+    {
+        "id": 441,
+        "chapter": 4,
+        "question": "Khái niệm 'Thương hiệu quốc gia' gắn liền với lợi ích nào?",
+        "options": [
+            "Lợi ích cá nhân",
+            "Lợi ích quốc gia, dân tộc",
+            "Lợi ích của 1 công ty",
+            "Chỉ dành cho xuất khẩu"
+        ],
+        "answer": 1,
+        "explain": "Phản ánh sức mạnh và uy tín kinh tế của Tổ quốc."
+    },
+    {
+        "id": 442,
+        "chapter": 4,
+        "question": "Việc thực hiện trách nhiệm xã hội của doanh nghiệp (CSR) là?",
+        "options": [
+            "Lãng phí tiền bạc",
+            "Hình thức hài hòa lợi ích doanh nghiệp với lợi ích cộng đồng",
+            "Bắt buộc theo luật 100%",
+            "Chỉ để làm màu"
+        ],
+        "answer": 1,
+        "explain": "Nâng cao uy tín và phát triển bền vững."
+    },
+    {
+        "id": 443,
+        "chapter": 4,
+        "question": "Hệ thống thuế có vai trò gì trong quan hệ lợi ích?",
+        "options": [
+            "Cướp tiền của dân",
+            "Điều tiết thu nhập, đảm bảo công bằng và tạo nguồn lực cho Nhà nước",
+            "Chỉ để nuôi quan chức",
+            "Làm phá sản doanh nghiệp"
+        ],
+        "answer": 1,
+        "explain": "Công cụ điều tiết tài chính vĩ mô."
+    },
+    {
+        "id": 444,
+        "chapter": 4,
+        "question": "Cơ chế thị trường ở Việt Nam được hiểu là?",
+        "options": [
+            "Chợ bán lẻ",
+            "Tổng thể các yếu tố, quan hệ và quy luật thị trường tác động lên giá cả và sản xuất",
+            "Một phần mềm của bộ tài chính",
+            "Sự sắp đặt của cá nhân"
+        ],
+        "answer": 1,
+        "explain": "Hệ thống vận hành khách quan."
+    },
+    {
+        "id": 445,
+        "chapter": 4,
+        "question": "Hệ thống pháp luật kinh tế đầy đủ giúp gì?",
+        "options": [
+            "Gây khó dễ cho doanh nghiệp",
+            "Bảo vệ các lợi ích hợp pháp và tạo sân chơi công bằng",
+            "Tăng chi phí bôi trơn",
+            "Không có tác dụng gì"
+        ],
+        "answer": 1,
+        "explain": "Nền tảng của sự thịnh vượng."
+    },
+    {
+        "id": 446,
+        "chapter": 4,
+        "question": "Chủ thể nào nắm quyền lực lãnh đạo nền kinh tế?",
+        "options": [
+            "Các triệu phú",
+            "Đảng Cộng sản Việt Nam thông qua các chủ trương, nghị quyết",
+            "Thị trường thế giới hoàn toàn",
+            "Người tiêu dùng"
+        ],
+        "answer": 1,
+        "explain": "Vai trò lãnh đạo của Đảng là nhân tố quyết định."
+    },
+    {
+        "id": 447,
+        "chapter": 4,
+        "question": "Quan hệ phân phối nào ngày càng có tỷ trọng lớn?",
+        "options": [
+            "Phân phối theo lao động",
+            "Phân phối theo vốn đóng góp và hiệu quả kinh tế",
+            "Phân phối bình quân",
+            "Phân phối bao cấp"
+        ],
+        "answer": 1,
+        "explain": "Phù hợp với tính chất của nền kinh tế thị trường đa thành phần."
+    },
+    {
+        "id": 448,
+        "chapter": 4,
+        "question": "Khái niệm 'Dân giàu' theo MLN122 là giàu về?",
+        "options": [
+            "Chỉ tiền bạc",
+            "Vật chất, tinh thần, trí tuệ và văn hóa",
+            "Tài sản thừa kế",
+            "Vàng cất giữ"
+        ],
+        "answer": 1,
+        "explain": "Phát triển diện diện con người."
+    },
+    {
+        "id": 449,
+        "chapter": 4,
+        "question": "Chủ nghĩa Mác-Lênin đánh giá lợi ích kinh tế là?",
+        "options": [
+            "Một thứ xấu xa",
+            "Điểm bắt đầu và mục tiêu của hành động lịch sử",
+            "Chỉ dành cho phong kiến",
+            "Không quan trọng bằng tinh thần"
+        ],
+        "answer": 1,
+        "explain": "Vị trí nền tảng trong duy vật lịch sử."
+    },
+    {
+        "id": 450,
+        "chapter": 4,
+        "question": "Tại sao cần hội nhập kinh tế quốc tế?",
+        "options": [
+            "Để tận dụng vốn và công nghệ",
+            "Mở rộng thị trường xuất khẩu",
+            "Thực hiện phân công lao động quốc tế",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Hướng tới sự phát triển bứt phá."
+    },
+    {
+        "id": 451,
+        "chapter": 4,
+        "question": "Hệ quả của việc không hài hòa lợi ích kinh tế?",
+        "options": [
+            "Mọi người thi đua làm việc",
+            "Xung đột xã hội, đình công, trốn thuế hoặc khủng hoảng",
+            "Ổn định chính trị",
+            "Sản xuất tăng vọt"
+        ],
+        "answer": 1,
+        "explain": "Nguy cơ đe dọa sự bền vững của chế độ."
+    },
+    {
+        "id": 452,
+        "chapter": 4,
+        "question": "Kinh tế tập thể (Hợp tác xã) có vai trò gì đối với nông dân?",
+        "options": [
+            "Chèn ép họ",
+            "Giúp họ liên kết, tăng sức mạnh cạnh tranh và giảm rủi ro",
+            "Thu hết đất của họ",
+            "Không có vai trò gì"
+        ],
+        "answer": 1,
+        "explain": "Con đường phát triển bền vững của nông thôn Việt Nam."
+    },
+    {
+        "id": 453,
+        "chapter": 4,
+        "question": "Khái niệm 'Cấu trúc hạ tầng' trong kinh tế bao gồm?",
+        "options": [
+            "Đường xá, cầu cống, cảng biển, mạng lưới điện...",
+            "Các đạo luật",
+            "Ký ức của người già",
+            "Sở hữu tư nhân"
+        ],
+        "answer": 0,
+        "explain": "Tiền đề vật chất cho phát triển kinh tế."
+    },
+    {
+        "id": 454,
+        "chapter": 4,
+        "question": "Công bằng xã hội trong KTTT định hướng XHCN nghĩa là?",
+        "options": [
+            "Lấy của người giàu chia cho người nghèo đều tăm tắp",
+            "Cơ hội bình đẳng cho mọi người, hưởng thụ theo đóng góp và được hưởng an sinh xã hội",
+            "Ai cũng là giám đốc",
+            "Miễn phí hoàn toàn thuốc men"
+        ],
+        "answer": 1,
+        "explain": "Công bằng trong cơ hội và kết quả lao động."
+    },
+    {
+        "id": 455,
+        "chapter": 4,
+        "question": "Mối quan hệ giữa tăng trưởng kinh tế và bảo vệ môi trường?",
+        "options": [
+            "Kinh tế trước, môi trường tính sau",
+            "Không đánh đổi môi trường lấy tăng trưởng kinh tế thuần túy",
+            "Chỉ làm môi trường không làm kinh tế",
+            "Phó mặc cho doanh nghiệp"
+        ],
+        "answer": 1,
+        "explain": "Tư duy phát triển bền vững hiện đại."
+    },
+    {
+        "id": 456,
+        "chapter": 4,
+        "question": "Thể chế kinh tế thị trường định hướng XHCN bao gồm?",
+        "options": [
+            "Chỉ các bộ luật",
+            "Luật pháp, bộ máy quản lý và cơ chế vận hành của các chủ thể",
+            "Chỉ các sàn giao dịch",
+            "Sổ đỏ"
+        ],
+        "answer": 1,
+        "explain": "Một hệ thống đồng bộ."
+    },
+    {
+        "id": 457,
+        "chapter": 4,
+        "question": "Tại sao phải hoàn thiện thể chế?",
+        "options": [
+            "Vì thể chế hiện tại đã lỗi thời hoặc chưa đồng bộ",
+            "Gỡ bỏ các nút thắt rào cản cho sự phát triển",
+            "Hội nhập với tiêu chuẩn thế giới",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Quá trình tự hoàn thiện liên tục."
+    },
+    {
+        "id": 458,
+        "chapter": 4,
+        "question": "Khái niệm 'Lợi ích nhóm' tiêu cực biểu hiện qua?",
+        "options": [
+            "Dùng sức mạnh chính trị để trục lợi bất chính cho một nhóm người",
+            "Hợp tác làm ăn chân chính",
+            "Mở nhiều chi nhánh",
+            "Đóng thuế nhiều"
+        ],
+        "answer": 0,
+        "explain": "Vấn nạn cần bài trừ để bảo vệ lợi ích chung."
+    },
+    {
+        "id": 459,
+        "chapter": 4,
+        "question": "Các quy luật của KTTT tác động đến định hướng XHCN thế nào?",
+        "options": [
+            "Làm hỏng định hướng",
+            "Là công cụ để Nhà nước dựa vào đó mà định hướng đi lên",
+            "Không có tác dụng",
+            "Đổi hướng lung tung"
+        ],
+        "answer": 1,
+        "explain": "Dùng thị trường để xây dựng CNXH."
+    },
+    {
+        "id": 460,
+        "chapter": 4,
+        "question": "Hoạt động 'Chống buôn lậu và gian lận thương mại' bảo vệ lợi ích của?",
+        "options": [
+            "Người tiêu dùng",
+            "Doanh nghiệp làm ăn chân chính",
+            "Nhà nước",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Đảm bảo sự lành mạnh của thị trường."
+    },
+    {
+        "id": 461,
+        "chapter": 4,
+        "question": "Sự thống nhất của các lợi ích kinh tế trong CNXH dựa trên?",
+        "options": [
+            "Sự tự nguyện tuyệt đối",
+            "Mục tiêu chung: Dân giàu nước mạnh và sở hữu công cộng đối với TLSX then chốt",
+            "Sứ mệnh của Thượng đế",
+            "Sự may mắn"
+        ],
+        "answer": 1,
+        "explain": "Cơ sở kinh tế - chính trị thống nhất."
+    },
+    {
+        "id": 462,
+        "chapter": 4,
+        "question": "Mâu thuẫn lợi ích kinh tế là gì?",
+        "options": [
+            "Sự thù ghét cá nhân",
+            "Sự va chạm, chồng chéo, phủ định lẫn nhau giữa mục tiêu của các chủ thể",
+            "Đánh nhau ở chợ",
+            "Tranh cãi trên tivi"
+        ],
+        "answer": 1,
+        "explain": "Tính tất yếu trong nền kinh tế đa chủ thể."
+    },
+    {
+        "id": 463,
+        "chapter": 4,
+        "question": "Phát biểu nào đúng về kinh tế thị trường ở nước ta?",
+        "options": [
+            "Đã hoàn thiện hoàn toàn",
+            "Đang trong quá trình hoàn thiện và phát triển",
+            "Chỉ mới bắt đầu",
+            "Bị đình trệ"
+        ],
+        "answer": 1,
+        "explain": "Cần nhiều cải cách để đạt trình độ cao hơn."
+    },
+    {
+        "id": 464,
+        "chapter": 4,
+        "question": "Đặc trưng 'Có nhiều thành phần kinh tế' giúp?",
+        "options": [
+            "Làm loãng sự lãnh đạo",
+            "Huy động tối đa mọi nguồn lực xã hội cho phát triển",
+            "Dân dễ nhầm lẫn",
+            "Không có lợi gì"
+        ],
+        "answer": 1,
+        "explain": "Khơi thông mọi dòng vốn."
+    },
+    {
+        "id": 465,
+        "chapter": 4,
+        "question": "Vai trò đầu tầu của kinh tế nhà nước biểu hiện qua?",
+        "options": [
+            "Làm tất cả mọi việc",
+            "Nắm giữ các lĩnh vực xương sống, hỗ trợ các thành phần khác",
+            "Thu hết vốn FDI",
+            "In thật nhiều tiền"
+        ],
+        "answer": 1,
+        "explain": "Định hướng và ổn định vĩ mô."
+    },
+    {
+        "id": 466,
+        "chapter": 4,
+        "question": "Lợi ích kinh tế của Nhà nước thực chất là?",
+        "options": [
+            "Của cá nhân quan chức",
+            "Lợi ích của nhân dân được Nhà nước đại diện và quản lý",
+            "Chi phí quân sự",
+            "Của cải của các vua chúa cũ"
+        ],
+        "answer": 1,
+        "explain": "Nhà nước là người đại diện hợp pháp cho toàn thể dân tộc."
+    },
+    {
+        "id": 467,
+        "chapter": 4,
+        "question": "Sự di chuyển của các nguồn lực kinh tế (vốn, lao động) do?",
+        "options": [
+            "Quy luật giá trị và quy luật cung cầu dẫn dắt",
+            "Nhà nước ép buộc 100%",
+            "Do thói quen",
+            "Do thời tiết"
+        ],
+        "answer": 0,
+        "explain": "Thị trường tự điều tiết phân bổ."
+    },
+    {
+        "id": 468,
+        "chapter": 4,
+        "question": "Tầm quan trọng của cơ sở hạ tầng thông tin hiện nay?",
+        "options": [
+            "Giảm bớt liên lạc",
+            "Nền tảng của kinh tế số và hội nhập công nghiệp 4.0",
+            "Lãng phí điện",
+            "Chỉ để giải trí"
+        ],
+        "answer": 1,
+        "explain": "Tài nguyên mới trong thời đại số."
+    },
+    {
+        "id": 469,
+        "chapter": 4,
+        "question": "Lợi ích kinh tế tập thể (của các HTX) là?",
+        "options": [
+            "Tổng tiền của Nhà nước",
+            "Sự kết hợp lợi ích của nhiều cá nhân một cách tự nguyện",
+            "Món quà của chủ tịch tỉnh",
+            "Vốn vay ngân hàng"
+        ],
+        "answer": 1,
+        "explain": "Sự đoàn kết tạo sức mạnh kinh tế."
+    },
+    {
+        "id": 470,
+        "chapter": 4,
+        "question": "Việc tham gia WTO, CPTPP mang lại gì cho quan hệ lợi ích?",
+        "options": [
+            "Làm thiệt hại hoàn toàn lợi ích dân tộc",
+            "Không có ảnh hưởng"
+        ],
+        "answer": 1,
+        "explain": "Hành lang pháp lý quốc tế."
+    },
+    {
+        "id": 471,
+        "chapter": 4,
+        "question": "Tại sao phải bảo vệ quyền sở hữu trí tuệ?",
+        "options": [
+            "Vì Nhà nước rảnh",
+            "Để bảo vệ lợi ích của người sáng tạo, thúc đẩy đổi mới công nghệ",
+            "Chỉ làm đắt hàng hóa thêm",
+            "Không cần thiết"
+        ],
+        "answer": 1,
+        "explain": "Động lực của kinh tế tri thức."
+    },
+    {
+        "id": 472,
+        "chapter": 4,
+        "question": "Khái niệm 'Vốn con người' (Human Capital) là?",
+        "options": [
+            "Dân số đông",
+            "Trình độ, kỹ năng, sức khỏe của lực lượng lao động",
+            "Xương người",
+            "Chi phí nuôi nhân viên"
+        ],
+        "answer": 1,
+        "explain": "Yếu tố quyết định sự thắng bại trong cạnh tranh."
+    },
+    {
+        "id": 473,
+        "chapter": 4,
+        "question": "Chương trình 'Mỗi xã một sản phẩm' (OCOP) hướng tới?",
+        "options": [
+            "Lợi ích của công ty lớn",
+            "Khai thác thế mạnh địa phương, tăng thu nhập cho nông dân",
+            "Làm màu",
+            "Xuất khẩu vàng"
+        ],
+        "answer": 1,
+        "explain": "Phát triển kinh tế nông thôn bền vững."
+    },
+    {
+        "id": 474,
+        "chapter": 4,
+        "question": "Tỷ trọng của khu vực kinh tế nhà nước hiện nay có xu hướng?",
+        "options": [
+            "Tăng lên kịch trần",
+            "Giảm về số lượng nhưng tăng về chất lượng và hiệu quả (cổ phần hóa)",
+            "Bị xóa bỏ",
+            "Không đổi"
+        ],
+        "answer": 1,
+        "explain": "Sắp xếp lại để nâng cao sức mạnh cốt lõi."
+    },
+    {
+        "id": 475,
+        "chapter": 4,
+        "question": "Bản chất của các tập đoàn kinh tế nhà nước ở Việt Nam là?",
+        "options": [
+            "Tư nhân giả danh",
+            "Công cụ điều tiết và dẫn dắt các ngành công nghiệp then chốt",
+            "Nơi làm từ thiện của Đảng",
+            "Do nước ngoài quản lý"
+        ],
+        "answer": 1,
+        "explain": "Lực lượng vật chất của Nhà nước."
+    },
+    {
+        "id": 476,
+        "chapter": 4,
+        "question": "Lợi ích quốc gia, dân tộc cao nhất trong kinh tế là gì?",
+        "options": [
+            "Tích thật nhiều vàng",
+            "Độc lập, tự chủ về kinh tế và sự thịnh vượng của toàn dân",
+            "Chỉ có lợi nhuận cho người giàu",
+            "Hạ giá bán hàng ra thế giới"
+        ],
+        "answer": 1,
+        "explain": "Nền tảng của chủ quyền quốc gia."
+    },
+    {
+        "id": 477,
+        "chapter": 4,
+        "question": "Quan hệ phân phối theo an sinh xã hội bao gồm?",
+        "options": [
+            "Lương tháng",
+            "Bảo hiểm xã hội, trợ cấp thất nghiệp, quà cứu trợ...",
+            "Lời hứa",
+            "Tiền mừng tuổi"
+        ],
+        "answer": 1,
+        "explain": "Mạng lưới bảo vệ người dân trước rủi ro."
+    },
+    {
+        "id": 478,
+        "chapter": 4,
+        "question": "Bản chất của Nhà nước Việt Nam là gì?",
+        "options": [
+            "Nhà nước của giới siêu giàu",
+            "Nhà nước của nhân dân, do nhân dân, vì nhân dân",
+            "Nhà nước phong kiến cực đoan",
+            "Nhà nước phó mặc cho thị trường"
+        ],
+        "answer": 1,
+        "explain": "Gốc rễ của mọi chính sách kinh tế."
+    },
+    {
+        "id": 479,
+        "chapter": 4,
+        "question": "Các quan hệ kinh tế ở Việt Nam ngày càng?",
+        "options": [
+            "Bị bao cấp",
+            "Minh bạch, pháp lý hóa và chuyên nghiệp theo chuẩn quốc tế",
+            "Phụ thuộc vào ý muốn cá nhân quan chức",
+            "Bị đình trệ"
+        ],
+        "answer": 1,
+        "explain": "Nâng cấp thể chế KTTT."
+    },
+    {
+        "id": 480,
+        "chapter": 4,
+        "question": "Sự khác biệt lớn nhất giữa KTTT định hướng XHCN và KTTT tư bản?",
+        "options": [
+            "Dùng tiền và không dùng tiền",
+            "Mục tiêu phát triển vì con người và sự lãnh đạo của Đảng Cộng sản",
+            "Sản xuất nhiều và sản xuất ít",
+            "Chẳng có gì khác"
+        ],
+        "answer": 1,
+        "explain": "Sự khác biệt về bản chất chính trị - xã hội."
+    },
+    {
+        "id": 481,
+        "chapter": 4,
+        "question": "Lợi ích của doanh nghiệp nhỏ và vừa là?",
+        "options": [
+            "Sự linh hoạt, tạo nhiều việc làm và năng động",
+            "Làm chủ thế giới",
+            "Khám phá vũ trụ",
+            "Không có lợi ích gì"
+        ],
+        "answer": 0,
+        "explain": "Xương sống của nền kinh tế địa phương."
+    },
+    {
+        "id": 482,
+        "chapter": 4,
+        "question": "Tiền thuê đất ở Việt Nam là do ai thu?",
+        "options": [
+            "Địa chủ tư nhân",
+            "Nhà nước (đại diện chủ sở hữu toàn dân về đất đai)",
+            "Không ai thu",
+            "Tùy dân thỏa thuận"
+        ],
+        "answer": 1,
+        "explain": "Chế độ sở hữu toàn dân về đất đai."
+    },
+    {
+        "id": 483,
+        "chapter": 4,
+        "question": "Hệ thống ngân hàng có vai trò gì trong quan hệ lợi ích?",
+        "options": [
+            "Cất giữ tiền",
+            "Cung cấp nguồn vốn đầu tư và điều tiết lưu thông tiền tệ",
+            "Làm giàu cho nhân viên ngân hàng",
+            "Kiểm soát đời tư khách hàng"
+        ],
+        "answer": 1,
+        "explain": "Huyết mạch của nền kinh tế."
+    },
+    {
+        "id": 484,
+        "chapter": 4,
+        "question": "Lợi ích kinh tế được thực hiện thông qua?",
+        "options": [
+            "Ước muốn",
+            "Hoạt động sản xuất, trao đổi và tiêu dùng sản phẩm",
+            "Tư duy lý thuyết",
+            "Chỉ qua việc in tiền"
+        ],
+        "answer": 1,
+        "explain": "Đi từ vật chất đi lên."
+    },
+    {
+        "id": 485,
+        "chapter": 4,
+        "question": "Cơ cấu kinh tế nước ta đang chuyển dịch theo hướng?",
+        "options": [
+            "Tăng công nghiệp và dịch vụ, giảm tỷ trọng nông nghiệp nhưng tăng giá trị",
+            "Chỉ làm nông nghiệp",
+            "Quay lại thời kỳ bao cấp",
+            "Phụ thuộc 100% vào dịch vụ"
+        ],
+        "answer": 0,
+        "explain": "Sự hiện đại hóa cơ cấu kinh tế."
+    },
+    {
+        "id": 486,
+        "chapter": 4,
+        "question": "Tính minh bạch trong quản lý kinh tế giúp ích gì?",
+        "options": [
+            "Giảm tham nhũng, tăng niềm tin chọn đầu tư",
+            "Lãng phí giấy tờ",
+            "Cung cấp thông tin cho tội phạm",
+            "Không có tác dụng"
+        ],
+        "answer": 0,
+        "explain": "Tạo môi trường kinh doanh sạch."
+    },
+    {
+        "id": 487,
+        "chapter": 4,
+        "question": "Hoạt động 'Chương trình nông thôn mới' nhằm mục đích?",
+        "options": [
+            "Tăng sản xuất lúa",
+            "Thu hẹp khoảng cách thành thị - nông thôn và nâng cao đời sống nhân dân",
+            "Mở rộng đất đai thành phố",
+            "Chẳng để làm gì"
+        ],
+        "answer": 1,
+        "explain": "Cân bằng sự phát triển xã hội."
+    },
+    {
+        "id": 488,
+        "chapter": 4,
+        "question": "Mối quan hệ giữa lợi ích cá nhân và lợi ích xã hội hài hòa khi?",
+        "options": [
+            "Mỗi người chỉ lo cho mình",
+            "Lợi ích cá nhân chính đáng được xã hội công nhận và bảo vệ thông qua hiến pháp",
+            "Lợi ích cá nhân bị xã hội triệt tiêu",
+            "Cả hai đều mệt mỏi"
+        ],
+        "answer": 1,
+        "explain": "Sự 'cùng thắng' (win-win)."
+    },
+    {
+        "id": 489,
+        "chapter": 4,
+        "question": "Giá cả hàng hóa khi lạm phát ảnh hưởng đến ai nhất?",
+        "options": [
+            "Người sản xuất",
+            "Người lao động làm công ăn lương",
+            "Chủ ngân hàng",
+            "Đại lý bán vàng"
+        ],
+        "answer": 1,
+        "explain": "Thu nhập thực tế bị giảm sút."
+    },
+    {
+        "id": 490,
+        "chapter": 4,
+        "question": "Khái niệm 'Độc lập tự chủ kinh tế' nghĩa là gì?",
+        "options": [
+            "Không chơi với nước ngoài",
+            "Kết hợp sức mạnh dân tộc với sức mạnh thời đại, không bị nước ngoài khống chế",
+            "Một mình một kiểu",
+            "In tiền theo sở thích"
+        ],
+        "answer": 1,
+        "explain": "Tự quyết định con đường phát triển của mình."
+    },
+    {
+        "id": 491,
+        "chapter": 4,
+        "question": "Cơ chế một cửa trong hành chính công giúp doanh nghiệp?",
+        "options": [
+            "Gặp nhiều quan chức hơn",
+            "Giảm thời gian, chi phí làm thủ tục hành chính, tối ưu hóa lợi ích",
+            "Mất nhiều hồ sơ",
+            "Phải nộp thêm phí"
+        ],
+        "answer": 1,
+        "explain": "Cải cách thể chế hành chính."
+    },
+    {
+        "id": 492,
+        "chapter": 4,
+        "question": "Phân phối lợi ích trong các tập đoàn kinh tế?",
+        "options": [
+            "Đồng đều cho mọi nhân viên",
+            "Dựa trên hiệu quả, trách nhiệm và đóng góp của từng bộ phận",
+            "Tùy chủ tịch quyết định",
+            "Không có quy tắc"
+        ],
+        "answer": 1,
+        "explain": "Gắn liền với kết quả kinh doanh thực tế."
+    },
+    {
+        "id": 493,
+        "chapter": 4,
+        "question": "Giá trị của đồng tiền Việt Nam được đảm bảo bằng?",
+        "options": [
+            "Niềm tin",
+            "Số lượng hàng hóa sản xuất ra và dự trữ vàng, ngoại hối",
+            "Màu sắc của tờ tiền",
+            "Lòng tự hào dân tộc"
+        ],
+        "answer": 1,
+        "explain": "Cơ sở vật chất của tiền tệ."
+    },
+    {
+        "id": 494,
+        "chapter": 4,
+        "question": "Việc đổi mới giáo dục và đào tạo hướng tới lợi ích?",
+        "options": [
+            "Tăng học phí",
+            "Cung cấp nhân lực chất lượng cao cho nền kinh tế tri thức",
+            "Làm đẹp hồ sơ",
+            "Tạo việc làm cho giáo viên"
+        ],
+        "answer": 1,
+        "explain": "Đầu tư cho tương lai."
+    },
+    {
+        "id": 495,
+        "chapter": 4,
+        "question": "Chủ thể 'Người lao động' trong KTTT Việt Nam là?",
+        "options": [
+            "Lực lượng nòng cốt, người sáng tạo ra mọi giá trị thặng dư",
+            "Chỉ là người làm thuê đơn thuần",
+            "Đối thủ của doanh nghiệp",
+            "Đối tượng bị nhà nước bỏ quên"
+        ],
+        "answer": 0,
+        "explain": "Chủ thể quan trọng nhất của xã hội."
+    },
+    {
+        "id": 496,
+        "chapter": 4,
+        "question": "Lợi ích của việc áp dụng khoa học công nghệ vào sản xuất?",
+        "options": [
+            "Tăng NSLĐ, giảm chi phí, tăng lợi nhuận và sức cạnh tranh",
+            "Gây thất nghiệp quy mô lớn (mặt tiêu cực cần quản lý)",
+            "Giảm bớt sự mệt mỏi của con người",
+            "Tất cả các ý trên"
+        ],
+        "answer": 3,
+        "explain": "Sức mạnh chuyển đổi nền kinh tế."
+    },
+    {
+        "id": 497,
+        "chapter": 4,
+        "question": "Sự thống nhất giữa lợi ích Nhà nước và lợi ích toàn dân biểu hiện qua?",
+        "options": [
+            "Nhà nước thu thuế để đầu tư an ninh quốc phòng và hạ tầng chung",
+            "Nhà nước cấm dân làm giàu",
+            "Dân không cần nộp thuế",
+            "Chẳng bao giờ thống nhất"
+        ],
+        "answer": 0,
+        "explain": "Bản chất phục vụ của Nhà nước XHCN."
+    },
+    {
+        "id": 498,
+        "chapter": 4,
+        "question": "Thể chế KTTT định hướng XHCN Việt Nam hiện nay so với 10 năm trước?",
+        "options": [
+            "Không có gì thay đổi",
+            "Đồng bộ, hiện đại và hội nhập sâu sắc hơn nhiều",
+            "Lỗi thời hơn",
+            "Bị thu hẹp"
+        ],
+        "answer": 1,
+        "explain": "Thành tựu của quá trình Đổi mới."
+    },
+    {
+        "id": 499,
+        "chapter": 4,
+        "question": "Phát biểu nào sau đây là hòn đá tảng cho chính sách kinh tế?",
+        "options": [
+            "Lợi ích nhóm",
+            "Kết hợp hài hòa các lợi ích kinh tế, trong đó lợi ích quốc gia là trên hết",
+            "Chỉ chăm lo cho cá nhân",
+            "Chỉ chăm lo cho tập đoàn"
+        ],
+        "answer": 1,
+        "explain": "Kim chỉ nam của Đảng và Nhà nước."
+    },
+    {
+        "id": 500,
+        "chapter": 4,
+        "question": "Tương lai của kinh tế Việt Nam phụ thuộc vào?",
+        "options": [
+            "Sự may mắn",
+            "Khát vọng phát triển, sự lãnh đạo đúng đắn và phát huy sức mạnh khối đại đoàn kết",
+            "Tình hình thế giới hoàn toàn",
+            "Chỉ vào tài nguyên"
+        ],
+        "answer": 1,
+        "explain": "Nội lực là quyết định, ngoại lực là quan trọng."
+    }
+]
