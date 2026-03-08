@@ -17,20 +17,16 @@
             --surface: rgba(13, 15, 20, 0.7);
             --surface2: rgba(26, 30, 53, 0.8);
             --border: rgba(255, 215, 0, 0.15);
-            /* Gold tinted border */
             --text: #fff;
             --text-muted: #e0e0e0;
             --muted: #facc15;
-            /* Gold/yellow for muted text/icons */
             --accent: #ef4444;
-            /* Red accent */
             --green: #22c55e;
             --gold: #facc15;
             --pink: #ec407a;
             --purple: #ab47bc;
             --cyan: #26c6da;
             --header-bg: rgba(120, 10, 10, 0.85);
-            /* Deep red, semi-transparent header */
             --font: 'Be Vietnam Pro', sans-serif;
         }
 
@@ -56,96 +52,223 @@
             top: 0;
             left: 0;
             right: 0;
-            height: 56px;
+            height: 64px;
             z-index: 200;
             background: var(--header-bg);
-            backdrop-filter: blur(16px);
+            backdrop-filter: blur(20px);
             border-bottom: 1px solid var(--border);
             display: flex;
             align-items: center;
-            padding: 0 20px;
-            gap: 16px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            justify-content: space-between;
+            padding: 0 30px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #b91c1c, #991b1b);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            cursor: pointer;
+            border: 2px solid var(--gold);
+            box-shadow: 0 0 10px rgba(250, 204, 21, 0.3);
         }
 
         .logo {
             display: flex;
             align-items: center;
-            gap: 10px;
-            font-weight: 800;
-            font-size: 1.1rem;
+            gap: 12px;
+            font-family: var(--font);
             white-space: nowrap;
         }
 
         .logo-icon {
-            width: 38px;
-            height: 38px;
+            width: 42px;
+            height: 42px;
             border-radius: 50%;
-            background: #ca8a04;
+            background: #b91c1c;
             display: flex;
             align-items: center;
             justify-content: center;
             overflow: hidden;
-            box-shadow: 0 0 10px rgba(250, 204, 21, 0.5);
+            box-shadow: 0 0 15px rgba(250, 204, 21, 0.4);
             border: 2px solid #facc15;
         }
 
         .logo-icon img {
-            width: 100%;
-            height: 100%;
+            width: 150%;
+            height: 150%;
             object-fit: cover;
-            /* Ensure the star in the center is prominent */
             object-position: center;
         }
 
-        .search-box {
-            flex: 1;
-            max-width: 460px;
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+        }
+
+        .main-title {
+            font-weight: 800;
+            font-size: 1.15rem;
+            letter-spacing: 0.5px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        .sub-title {
+            font-weight: 500;
+            font-size: 0.8rem;
+            color: var(--gold);
+            opacity: 0.9;
+        }
+
+        #branch-nav {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-left: 40px;
+        }
+
+        .nav-item {
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.8);
+            cursor: pointer;
+            transition: all 0.25s ease;
+            padding: 4px 8px;
+            border-radius: 6px;
             position: relative;
         }
 
-        .search-box input {
-            width: 100%;
-            padding: 8px 16px 8px 38px;
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 10px;
-            color: var(--text);
-            font-family: var(--font);
-            font-size: 0.88rem;
-            outline: none;
-            transition: border-color 0.2s;
+        .nav-item:hover {
+            color: #fff;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
         }
 
-        .search-box input:focus {
-            border-color: var(--accent);
-        }
-
-        .search-box .si {
+        /* ── Nav active underline indicator ── */
+        .nav-item[data-branch]::after {
+            content: '';
             position: absolute;
-            left: 14px;
-            top: 50%;
-            transform: translateY(-50%);
+            bottom: -2px;
+            left: 50%;
+            transform: translateX(-50%) scaleX(0);
+            width: 80%;
+            height: 2px;
+            background: var(--gold);
+            border-radius: 2px;
+            transition: transform 0.25s ease;
+            box-shadow: 0 0 8px var(--gold);
+        }
+
+        .nav-item[data-branch]:hover::after,
+        .nav-item[data-branch].nav-active::after {
+            transform: translateX(-50%) scaleX(1);
+        }
+
+        /* Active nav item highlight */
+        .nav-item.nav-active {
+            color: #fff;
+            background: rgba(255, 255, 255, 0.1);
+            text-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+        }
+
+        .nav-sep {
             color: var(--gold);
-            font-size: 1rem;
-            pointer-events: none;
+            font-size: 0.8rem;
+            opacity: 0.6;
+            margin-top: 2px;
+        }
+
+        .nav-sep-alt {
+            width: 1px;
+            height: 14px;
+            background: rgba(255, 255, 255, 0.2);
+            margin: 0 5px;
+        }
+
+        .nav-item-timeline {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .nav-item-timeline i {
+            font-size: 0.9rem;
+            color: var(--gold);
+        }
+
+        .search-box {
+            position: relative;
             display: flex;
             align-items: center;
         }
 
+        #search-btn-toggle {
+            font-size: 1.25rem;
+            color: #fff;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 50%;
+            transition: background 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #search-btn-toggle:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        #search-input-container {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 0;
+            overflow: hidden;
+            transition: width 0.3s ease;
+            background: var(--surface2);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        #search-input-container.active {
+            width: 300px;
+            padding: 0 15px;
+            border: 1px solid var(--border);
+        }
+
+        #search-input-container input {
+            width: 100%;
+            padding: 8px 0;
+            background: none;
+            border: none;
+            color: #fff;
+            outline: none;
+            font-size: 0.9rem;
+        }
+
         #search-results {
             position: absolute;
-            top: calc(100% + 6px);
-            left: 0;
+            top: calc(100% + 15px);
             right: 0;
+            width: 350px;
             background: var(--surface2);
             border: 1px solid var(--border);
-            border-radius: 10px;
+            border-radius: 12px;
             overflow: hidden;
             display: none;
             z-index: 300;
-            max-height: 300px;
-            overflow-y: auto;
+            max-height: 400px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
         }
 
         #search-results.visible {
@@ -274,7 +397,6 @@
             padding-top: 56px;
         }
 
-        /* QUIZ BUTTON (Header) */
         .quiz-btn {
             background: rgba(0, 0, 0, 0.4) !important;
             border-radius: 20px;
@@ -307,7 +429,6 @@
             flex: 1;
             position: relative;
             background: transparent;
-            /* Changed from radial gradient to show body background */
             cursor: grab;
             overflow: hidden;
         }
@@ -411,20 +532,21 @@
             font-size: 0.78rem;
         }
 
-        /* ═══ DETAIL PANEL (HORIZONTAL CARD) ════════════════════════ */
+        /* ═══ DETAIL PANEL ════════════════════════════════════════════ */
         #detail-panel {
             position: fixed;
             bottom: 30px;
             right: 30px;
             width: 920px;
             max-width: calc(100vw - 60px);
-            background: rgba(15, 12, 12, 0.85);
-            backdrop-filter: blur(15px);
+            max-height: 55vh;
+            background: rgba(15, 12, 12, 0.95);
+            backdrop-filter: blur(20px);
             border: 1px solid rgba(255, 215, 0, 0.3);
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.5), inset 0 0 15px rgba(255, 215, 0, 0.1);
-            border-radius: 12px;
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.8), inset 0 0 20px rgba(255, 215, 0, 0.05);
+            border-radius: 16px;
             z-index: 1000;
-            padding: 20px 30px;
+            padding: 25px 30px;
             display: none;
             flex-direction: column;
             transform: translateY(120%);
@@ -467,9 +589,9 @@
         }
 
         .panel-header-horiz {
+            flex-shrink: 0;
             text-align: center;
-            margin-bottom: 20px;
-            position: relative;
+            margin-bottom: 10px;
         }
 
         #topic-title {
@@ -480,10 +602,46 @@
             margin: 0;
         }
 
+        #timeline-container {
+            position: fixed;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%) translateY(20px);
+            width: 920px;
+            max-width: calc(100vw - 60px);
+            z-index: 900;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+            pointer-events: none;
+        }
+
+        #timeline-container.visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+
+        #timeline-container.at-panel {
+            bottom: calc(55vh + 85px);
+            left: auto;
+            right: 30px;
+            transform: translateY(0);
+            width: 920px;
+        }
+
+        #timeline-container * {
+            pointer-events: auto;
+        }
+
         .horiz-divider {
+            flex-shrink: 0;
             height: 1px;
             background: rgba(255, 215, 0, 0.2);
-            margin: 10px 0 20px;
+            margin: 0 0 25px;
             position: relative;
         }
 
@@ -494,16 +652,30 @@
             left: 50%;
             transform: translateX(-50%);
             width: 60px;
-            height: 5px;
+            height: 4px;
             background: #ffd700;
-            box-shadow: 0 0 10px #ffd700;
+            box-shadow: 0 0 12px #ffd700;
             border-radius: 10px;
         }
 
         .panel-grid {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            gap: 25px;
+            gap: 20px;
+            overflow-y: auto;
+            flex: 1;
+            padding-right: 10px;
+            scrollbar-width: thin;
+            scrollbar-color: var(--gold) transparent;
+        }
+
+        .panel-grid::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .panel-grid::-webkit-scrollbar-thumb {
+            background: var(--gold);
+            border-radius: 10px;
         }
 
         .panel-col {
@@ -545,26 +717,13 @@
             margin-right: 5px;
         }
 
-        /* ═══ TIMELINE (HORIZONTAL) ════════════════════════════════ */
-        #timeline-container {
-            display: none;
-            flex-direction: column;
-            align-items: center;
-            margin: 10px 0 25px;
-            width: 100%;
-            position: relative;
-        }
-
-        #timeline-container.visible {
-            display: flex;
-        }
-
+        /* ═══ TIMELINE ════════════════════════════════════════════ */
         .timeline-track {
             position: relative;
-            width: 80%;
+            width: 85%;
             height: 2px;
             background: rgba(255, 215, 0, 0.2);
-            margin: 25px 0;
+            margin: 20px 0;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -608,14 +767,14 @@
 
         .timeline-label {
             position: absolute;
-            top: -28px;
+            top: -24px;
             left: 50%;
             transform: translateX(-50%);
             color: rgba(255, 255, 255, 0.7);
-            font-size: 0.8rem;
+            font-size: 0.75rem;
             font-weight: 700;
             white-space: nowrap;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
             transition: color 0.3s;
         }
 
@@ -697,7 +856,7 @@
         }
 
         #quiz-box {
-            background: linear-gradient(rgba(17, 20, 34, 0.9), rgba(17, 20, 34, 0.9)), url('background.png') no-repeat center center;
+            background: linear-gradient(rgba(17, 20, 34, 0.75), rgba(17, 20, 34, 0.85)), url('vietnambackground.png') no-repeat center center;
             background-size: cover;
             width: 100%;
             max-width: 900px;
@@ -711,6 +870,47 @@
             flex-direction: column;
         }
 
+        .quiz-close-top {
+            position: absolute;
+            top: 16px;
+            right: 20px;
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #fff;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            cursor: pointer;
+            z-index: 10;
+            transition: all 0.2s;
+        }
+
+        .quiz-close-top:hover {
+            background: rgba(239, 83, 80, 0.8);
+            transform: scale(1.1);
+        }
+
+        .detail-body {
+            padding: 20px;
+            overflow-y: auto;
+            max-height: 400px;
+            scrollbar-width: thin;
+            scrollbar-color: var(--gold) transparent;
+        }
+
+        .detail-body::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .detail-body::-webkit-scrollbar-thumb {
+            background: var(--gold);
+            border-radius: 10px;
+        }
+
         #quiz-start {
             padding: 40px;
             overflow-y: auto;
@@ -718,6 +918,11 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            scrollbar-width: none;
+        }
+
+        #quiz-start::-webkit-scrollbar {
+            display: none;
         }
 
         .topic-grid {
@@ -812,7 +1017,7 @@
         }
 
         #quiz-header {
-            padding: 20px 28px;
+            padding: 20px 70px 20px 28px;
             border-bottom: 1px solid var(--border);
             display: flex;
             align-items: center;
@@ -845,6 +1050,11 @@
             flex: 1;
             overflow-y: auto;
             padding: 28px;
+            scrollbar-width: none;
+        }
+
+        #quiz-body::-webkit-scrollbar {
+            display: none;
         }
 
         #quiz-q-num {
@@ -938,6 +1148,20 @@
             transition: all 0.2s;
         }
 
+        /* Floating Section Labels */
+        .branch-label {
+            position: absolute;
+            font-weight: 900;
+            font-size: 28px;
+            color: rgba(255, 255, 255, 0.4);
+            pointer-events: none;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            white-space: nowrap;
+            z-index: 1;
+            font-family: 'Outfit', sans-serif;
+        }
+
         #quiz-next-btn {
             background: linear-gradient(135deg, #5c6bc0, #26c6da);
             color: #fff;
@@ -967,7 +1191,6 @@
             gap: 6px;
         }
 
-        /* QUIZ START SCREEN */
         #quiz-start {
             padding: 40px 28px;
             text-align: center;
@@ -1029,11 +1252,15 @@
             opacity: 0.85;
         }
 
-        /* QUIZ RESULTS */
         #quiz-results {
             padding: 32px 28px;
             overflow-y: auto;
             max-height: calc(90vh - 0px);
+            scrollbar-width: none;
+        }
+
+        #quiz-results::-webkit-scrollbar {
+            display: none;
         }
 
         #quiz-results h2 {
@@ -1136,13 +1363,11 @@
             border: 1px solid var(--border);
         }
 
-        /* Stars */
         .star {
             display: inline-block;
             font-size: 1.4rem;
         }
 
-        /* Node / link styles */
         .node-circle {
             cursor: pointer;
         }
@@ -1160,7 +1385,6 @@
             stroke-width: 2px;
         }
 
-        /* Studied overlay badge */
         .studied-ring {
             pointer-events: none;
         }
@@ -1350,35 +1574,61 @@
     <!-- TOP BAR -->
     <div id="topbar">
         <div class="logo">
-            <div class="logo-icon"><img src="vietnam1.png" alt="Logo"></div>
-            <span>Grp4MM</span>
-        </div>
-        <div class="search-box">
-            <span class="si"><i class="bi bi-search"></i></span>
-            <input type="text" id="search-input" placeholder="Tìm kiếm khái niệm...">
-            <div id="search-results"></div>
-        </div>
-        <div class="progress-pill">
-            <div class="pill-dot"></div>
-            <div class="progress-bar-wrap">
-                <div class="progress-bar-fill" id="prog-fill" style="width:0%"></div>
+            <div class="logo-icon">
+                <img src="vietnam1.png" alt="Icon">
             </div>
-            <span class="pill-count"><span id="learned-count">0</span>/<span id="total-count">59</span></span>
-            <span class="pill-text">khái niệm đã học</span>
+            <div class="logo-text">
+                <div class="main-title">MÙA XUÂN THỐNG NHẤT</div>
+                <div class="sub-title">(1960–1986)</div>
+            </div>
         </div>
+
+        <div id="branch-nav">
+            <div class="nav-item" data-branch="ch1">Lịch sử Đảng</div>
+            <div class="nav-sep">•</div>
+            <div class="nav-item" data-branch="ch2">CNXH Khoa học</div>
+            <div class="nav-sep">•</div>
+            <div class="nav-item" data-branch="ch3">Kinh tế chính trị</div>
+            <div class="nav-sep-alt"></div>
+            <div class="nav-item nav-item-timeline" id="nav-timeline-btn">
+                <i class="bi bi-grid-3x3-gap-fill"></i> Timeline
+            </div>
+        </div>
+
         <div class="topbar-actions">
+            <div class="search-box">
+                <button id="search-btn-toggle" title="Tìm kiếm">
+                    <i class="bi bi-search"></i>
+                </button>
+                <div id="search-input-container">
+                    <input type="text" id="search-input" placeholder="Tìm kiếm khái niệm...">
+                </div>
+                <div id="search-results"></div>
+            </div>
+
             <button class="quiz-btn" id="quiz-open-btn">
-                <span class="sm-icon"><i class="bi bi-ui-checks"></i></span> Thi thử
+                <i class="bi bi-patch-question-fill sm-icon"></i> Quiz
             </button>
-            <button class="icon-btn" id="theme-btn" title="Giao diện">🌙</button>
-            <div class="avatar">👤</div>
+
+            <div class="avatar"><i class="bi bi-person-circle" style="font-size: 1.5rem;"></i></div>
+        </div>
+    </div>
+
+    <!-- GLOBAL TIMELINE -->
+    <div id="timeline-container">
+        <div class="timeline-track">
+            <div class="timeline-mark" data-id="ch1_1" title="Đại hội III"><span class="timeline-label">1960</span>
+            </div>
+            <div class="timeline-mark" data-id="ch1_2_victory" title="Đại thắng 1975"><span
+                    class="timeline-label">1975</span></div>
+            <div class="timeline-mark" data-id="ch1_2" title="Đại hội IV"><span class="timeline-label">1976</span></div>
+            <div class="timeline-mark" data-id="ch1_3" title="Đại hội V"><span class="timeline-label">1982</span></div>
+            <div class="timeline-mark" data-id="ch1_4" title="Đại hội VI"><span class="timeline-label">1986</span></div>
         </div>
     </div>
 
     <!-- MAIN APP -->
     <div id="app">
-
-        <!-- MINDMAP -->
         <div id="mindmap-container">
             <svg id="mindmap-svg"></svg>
             <canvas id="particle-canvas"></canvas>
@@ -1388,28 +1638,13 @@
                 <button id="reset-view" title="Căn giữa"><i class="bi bi-crosshair"></i></button>
                 <button id="toggle-all" title="Hiện toàn bộ các nhánh"><i class="bi bi-eye"></i></button>
             </div>
-
         </div>
 
-        <!-- DETAIL PANEL (HORIZONTAL) -->
+        <!-- DETAIL PANEL -->
         <div id="detail-panel">
             <button class="close-btn" id="close-panel" title="Đóng panel"><i class="bi bi-x"></i></button>
             <div class="panel-header-horiz">
                 <h2 id="topic-title">Tên chủ đề</h2>
-            </div>
-            <div id="timeline-container">
-                <div class="timeline-track">
-                    <div class="timeline-mark" data-id="ch1_1" title="Đại hội III"><span
-                            class="timeline-label">1960</span></div>
-                    <div class="timeline-mark" data-id="ch1_2_victory" title="Đại thắng 1975"><span
-                            class="timeline-label">1975</span></div>
-                    <div class="timeline-mark" data-id="ch1_2" title="Đại hội IV"><span
-                            class="timeline-label">1976</span></div>
-                    <div class="timeline-mark" data-id="ch1_3" title="Đại hội V"><span
-                            class="timeline-label">1982</span></div>
-                    <div class="timeline-mark" data-id="ch1_4" title="Đại hội VI"><span
-                            class="timeline-label">1986</span></div>
-                </div>
             </div>
             <div class="horiz-divider"></div>
             <div class="panel-grid">
@@ -1438,12 +1673,10 @@
     <!-- QUIZ MODAL -->
     <div id="quiz-overlay">
         <div id="quiz-box">
-            <!-- START SCREEN -->
+            <button class="quiz-close-top" title="Đóng cửa sổ"><i class="bi bi-x"></i></button>
             <div id="quiz-start">
-                <div style="font-size:3rem;margin-bottom:16px">📝</div>
                 <h2>Thi thử Triết học Mác-Lênin</h2>
                 <p>Chọn chủ đề để bắt đầu. Hệ thống sẽ chọn ngẫu nhiên <strong>20 câu mỗi lần</strong>.</p>
-
                 <div class="topic-grid">
                     <div class="topic-card" onclick="startQuizByTopic(1)">
                         <h3>Chương 1: Hàng hóa, thị trường và vai trò của các chủ thể</h3>
@@ -1470,19 +1703,12 @@
                         <p>Random 20 câu từ ngân hàng 500 câu hỏi của tất cả các chương.</p>
                     </div>
                 </div>
-
-                <button class="quiz-nav-btn" id="quiz-cancel-btn"
-                    style="background:none;border:none;color:var(--muted);margin-top:24px;display:block;margin-left:auto;margin-right:auto;cursor:pointer">Đóng
-                    cửa sổ</button>
             </div>
 
-            <!-- QUESTION SCREEN (hidden initially) -->
             <div id="quiz-question-screen" style="display:none;flex-direction:column;height:100%">
                 <div id="quiz-header">
                     <h2 id="quiz-header-title">Thi thử</h2>
                     <span id="quiz-progress-text">1 / 20</span>
-                    <button class="icon-btn" id="quiz-close-btn2"
-                        style="background:none;border:none;color:var(--muted);font-size:1.4rem;cursor:pointer">×</button>
                 </div>
                 <div class="quiz-prog-bar">
                     <div class="quiz-prog-fill" id="quiz-prog-fill" style="width:5%"></div>
@@ -1494,14 +1720,14 @@
                     <div id="quiz-explain"></div>
                 </div>
                 <div id="quiz-footer">
-                    <div class="quiz-timer" id="quiz-timer">⏱ <span id="timer-val">0</span>s</div>
-                    <button class="quiz-nav-btn" id="quiz-next-btn" disabled>Tiếp theo →</button>
+                    <div class="quiz-timer" id="quiz-timer"><i class="bi bi-stopwatch"></i> <span
+                            id="timer-val">0</span>s</div>
+                    <button class="quiz-nav-btn" id="quiz-next-btn" disabled>Tiếp theo <i
+                            class="bi bi-arrow-right"></i></button>
                 </div>
             </div>
 
-            <!-- RESULTS SCREEN -->
-            <div id="quiz-results" style="display:none">
-            </div>
+            <div id="quiz-results" style="display:none"></div>
         </div>
     </div>
 
@@ -1527,7 +1753,7 @@
         </div>
     </div>
 
-    <script src="app.js?v=999"></script>
+    <script src="app.js?v=1000"></script>
 </body>
 
 </html>

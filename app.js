@@ -13,8 +13,12 @@ document.addEventListener('DOMContentLoaded', async function () {
   var breadcrumbEl = document.getElementById('breadcrumb');
   var progFill = document.getElementById('prog-fill');
   var totalCount = document.getElementById('total-count');
+  var learnedCount = document.getElementById('learned-count');
   var timelineContainer = document.getElementById('timeline-container');
   var timelineMarks = document.querySelectorAll('.timeline-mark');
+  var searchBtnToggle = document.getElementById('search-btn-toggle');
+  var searchInputContainer = document.getElementById('search-input-container');
+  var navTimelineBtn = document.getElementById('nav-timeline-btn');
 
   // ── D3 setup ──────────────────────────────────────────────────────
   var svg = d3.select(svgEl);
@@ -79,7 +83,6 @@ document.addEventListener('DOMContentLoaded', async function () {
   sgf.append('feGaussianBlur').attr('stdDeviation', '15').attr('result', 'blur');
   sgf.append('feMerge').selectAll('feMergeNode').data(['blur', 'SourceGraphic']).enter().append('feMergeNode').attr('in', function (d) { return d; });
 
-  // Custom gold glow for the map ring
   var goldGlow = defs.append('filter').attr('id', 'gold-glow').attr('x', '-50%').attr('y', '-50%').attr('width', '200%').attr('height', '200%');
   goldGlow.append('feGaussianBlur').attr('stdDeviation', '10').attr('result', 'blur');
   goldGlow.append('feComponentTransfer').attr('in', 'blur').attr('result', 'glow')
@@ -90,17 +93,16 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   // ── Progress tracking ─────────────────────────────────────────────
   var studiedNodes = new Set();
-  var nodeTimers = {};   // nodeId → timeout id
-  var allNodeCount = 0; // Will be calculated from data
+  var nodeTimers = {};
+  var allNodeCount = 0;
 
   function markStudied(nodeId) {
     if (studiedNodes.has(nodeId)) return;
     studiedNodes.add(nodeId);
     var n = studiedNodes.size;
-    learnedCount.textContent = n;
+    if (learnedCount) learnedCount.textContent = n;
     var pct = (n / allNodeCount) * 100;
-    progFill.style.width = pct + '%';
-    // Glow studied ring on node
+    if (progFill) progFill.style.width = pct + '%';
     g.selectAll('.node').each(function (d) {
       if (d.data.id === nodeId) {
         d3.select(this).select('.studied-ring').style('opacity', 1);
@@ -114,7 +116,6 @@ document.addEventListener('DOMContentLoaded', async function () {
     nodeTimers[nodeId] = setTimeout(function () {
       markStudied(nodeId);
       delete nodeTimers[nodeId];
-      // Quick pulse effect
       g.selectAll('.node').each(function (d) {
         if (d.data.id === nodeId) {
           var c = d3.select(this).select('circle');
@@ -142,14 +143,14 @@ document.addEventListener('DOMContentLoaded', async function () {
   svg.call(zoom);
 
   // ── Load data ─────────────────────────────────────────────────────
+  var lastRoot = null;
   var mapData, quizData;
   try {
     mapData = await d3.json('mindmap.json');
     quizData = await d3.json('quiz.json');
 
-    // Calculate total nodes (concepts) excluding root
     allNodeCount = d3.hierarchy(mapData).descendants().length - 1;
-    totalCount.textContent = allNodeCount;
+    if (totalCount) totalCount.textContent = allNodeCount;
 
     buildMap(mapData);
     gsap.to(loader, { opacity: 0, duration: 0.5, onComplete: function () { loader.style.display = 'none'; } });
@@ -158,9 +159,24 @@ document.addEventListener('DOMContentLoaded', async function () {
     loader.innerHTML = '<p style="color:#ef5350">Lỗi tải dữ liệu. Vui lòng tải lại trang.</p>';
   }
 
-
   // ── Build mind map ────────────────────────────────────────────────
-  var lastRoot = null;
+
+  function updateLinks() {
+    var ringElement = d3.select('.map-ring').node();
+    var currentRingRadius = ringElement ? parseFloat(ringElement.getAttribute('r')) : 260;
+
+    var radialLink = d3.linkRadial()
+      .angle(function (d) { return d.x * Math.PI / 180; })
+      .radius(function (d) { return d.radius; })
+      .source(function (d) {
+        if (d.source.depth === 0) {
+          return { x: d.target.x, radius: currentRingRadius + 3 };
+        }
+        return d.source;
+      });
+
+    g.selectAll('.link').attr('d', radialLink);
+  }
 
   function buildMap(data) {
     g.selectAll('.link, .node').remove();
@@ -179,42 +195,43 @@ document.addEventListener('DOMContentLoaded', async function () {
       if (d.depth === 0) { d.x_cart = 0; d.y_cart = 0; }
     });
 
-    // Function to generate links based on the current radius of the map-ring
-    function updateLinks() {
-      var ringElement = d3.select('.map-ring').node();
-      var currentRingRadius = ringElement ? parseFloat(ringElement.getAttribute('r')) : 260;
-
-      var radialLink = d3.linkRadial()
-        .angle(function (d) { return d.x * Math.PI / 180; })
-        .radius(function (d) { return d.radius; })
-        .source(function (d) {
-          if (d.source.depth === 0) {
-            // Vòng tròn vàng có nét viền stroke-width = 6, tức là nó loe ra ngoài 3px và vào trong 3px.
-            // Để đường nối xuất phát chính xác từ viền ngoài của vòng tròn mà không bị đè lên 1px, 
-            // ta cộng thêm 3px vào bán kính xuất phát.
-            return { x: d.target.x, radius: currentRingRadius + 3 };
-          }
-          return d.source;
-        });
-
-      g.selectAll('.link').attr('d', radialLink);
-    }
-
-    // Initialize links without d attribute, let updateLinks handle it
     g.selectAll('.link').data(root.links()).enter().append('path').attr('class', 'link')
       .style('stroke', function (d) { return colorOf(d.target); })
       .style('stroke-width', function (d) { return d.target.depth === 1 ? '6px' : '3px'; });
 
-    updateLinks(); // Set initial render paths
+    updateLinks();
+    update(root);
+    renderBranchLabels();
+    lastRoot = root;
+  }
 
-    // Nodes
+  function renderBranchLabels() {
+    const labels = [
+      { text: "LỊCH SỬ ĐẢNG", x: -800, y: -400 },
+      { text: "CNXH KHOA HỌC", x: 800, y: -400 },
+      { text: "KINH TẾ CHÍNH TRỊ", x: 0, y: 800 }
+    ];
+
+    d3.select("#mindmap-container").selectAll(".branch-label").remove();
+
+    labels.forEach(l => {
+      d3.select("#mindmap-container")
+        .append("div")
+        .attr("class", "branch-label")
+        .text(l.text)
+        .style("left", "50%")
+        .style("top", "50%")
+        .style("transform", `translate(calc(-50% + ${l.x}px), calc(-50% + ${l.y}px))`);
+    });
+  }
+
+  function update(root) {
     var nodes = g.selectAll('.node').data(root.descendants()).enter()
       .append('g').attr('class', function (d) { return 'node level-' + d.data.level; })
       .attr('transform', function (d) { return 'translate(' + d.x_cart + ',' + d.y_cart + ')'; })
       .on('click', function (event, d) { event.stopPropagation(); onNodeClick(event, d); })
       .on('mouseenter', function (event, d) {
         if (d.depth === 0) {
-          // Hover effect for larger map image only
           var img = d3.select(this).select('image');
           gsap.to(img.node(), { attr: { width: 1500, height: 1920, x: -750, y: -960 }, duration: 0.3, ease: 'back.out(1.5)' });
           return;
@@ -226,15 +243,14 @@ document.addEventListener('DOMContentLoaded', async function () {
       .on('mouseleave', function (event, d) {
         if (d.depth === 0) {
           var img = d3.select(this).select('image');
-          gsap.to(img.node(), { attr: { width: 1400, height: 1800, x: -700, y: -900 }, duration: 0.4, ease: 'elastic.out(1,0.5)' });
+          gsap.to(img.node(), { attr: { width: 1200, height: 1600, x: -600, y: -800 }, duration: 0.3 });
           return;
         }
         var r = nodeRadius(d.data);
         var el = d3.select(this).select('circle');
-        gsap.to(el.node(), { attr: { r: r }, duration: 0.3, ease: 'elastic.out(1,0.5)' });
+        gsap.to(el.node(), { attr: { r: r }, duration: 0.2 });
       });
 
-    // Studied ring (subtle outer glow ring)
     nodes.filter(function (d) { return d.depth > 0; }).append('circle')
       .attr('class', 'studied-ring')
       .attr('r', function (d) { return nodeRadius(d.data) + 8; })
@@ -245,28 +261,25 @@ document.addEventListener('DOMContentLoaded', async function () {
       .style('opacity', function (d) { return studiedNodes.has(d.data.id) ? 1 : 0; })
       .style('pointer-events', 'none');
 
-    // Circles
     nodes.append('circle').attr('class', 'node-circle')
       .attr('r', function (d) { return nodeRadius(d.data); })
       .style('fill', function (d) { return d.data.level === 0 ? 'transparent' : 'var(--bg)'; })
       .style('stroke', function (d) { return d.depth === 0 ? 'none' : colorOf(d); })
       .style('stroke-width', function (d) { return d.depth === 0 ? '0' : d.depth === 1 ? '6px' : '4px'; });
 
-    // Center node: Gold glowing ring below
     nodes.filter(function (d) { return d.depth === 0; })
       .append('circle')
       .attr('class', 'map-ring')
       .attr('r', 260)
       .attr('cx', 0)
-      .attr('cy', 0) // Centered
-      .style('fill', 'rgba(120, 10, 10, 0.4)') // Add a subtle dark red fill to block links bleeding underneath
+      .attr('cy', 0)
+      .style('fill', 'rgba(120, 10, 10, 0.4)')
       .style('stroke', '#facc15')
       .style('stroke-width', 6)
       .style('filter', 'url(#gold-glow)')
       .style('opacity', 0.95)
       .style('pointer-events', 'none');
 
-    // Make the map ring pulse
     gsap.to(g.selectAll('.map-ring').nodes(), {
       attr: { r: 275 },
       opacity: 0.6,
@@ -277,18 +290,16 @@ document.addEventListener('DOMContentLoaded', async function () {
       onUpdate: updateLinks
     });
 
-    // Center node: map.png above (increased size, perfectly centered)
     nodes.filter(function (d) { return d.depth === 0; })
       .append('image')
       .attr('href', 'map.png')
       .attr('width', 1400).attr('height', 1800)
-      .attr('x', -700).attr('y', -900) // Perfectly centered relative to 0,0
+      .attr('x', -700).attr('y', -900)
       .style('position', 'relative')
       .style('z-index', 10)
       .style('pointer-events', 'all')
       .style('cursor', 'pointer');
 
-    // Root node text centered logically inside the circle, shifted below
     nodes.filter(function (d) { return d.depth === 0; }).append('text')
       .attr('text-anchor', 'middle')
       .style('font-size', '52px')
@@ -296,7 +307,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       .style('fill', '#ffffff')
       .style('text-shadow', '2px 4px 6px rgba(0,0,0,0.8)')
       .style('font-family', "'Be Vietnam Pro', sans-serif")
-      .attr('y', 230) // Position text nicely below the golden ring
+      .attr('y', 230)
       .each(function (d) {
         var el = d3.select(this);
         var lines = (d.data.name || '').split('\n');
@@ -305,16 +316,13 @@ document.addEventListener('DOMContentLoaded', async function () {
         });
       });
 
-    // Icons
     nodes.filter(function (d) { return d.depth > 0 && !!d.data.icon; })
       .each(function (d) {
         var el = d3.select(this);
         var icon = d.data.icon;
         if (icon.toLowerCase().endsWith('.png')) {
           var size = d.depth === 1 ? 60 : 40;
-          // Shrink vietnam.png slightly as requested
           if (icon.toLowerCase() === 'vietnam.png') size = 48;
-
           el.append('image')
             .attr('xlink:href', icon)
             .attr('width', size)
@@ -331,7 +339,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
       });
 
-    // Labels
     nodes.filter(function (d) { return d.depth > 0; }).append('text').attr('class', 'node-text')
       .attr('x', function (d) { return d.x < 180 ? nodeRadius(d.data) + 14 : -(nodeRadius(d.data) + 14); })
       .style('text-anchor', function (d) { return d.x < 180 ? 'start' : 'end'; })
@@ -346,7 +353,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         });
       });
 
-    // Entrance animation
     gsap.set(g.selectAll('.node').nodes(), { opacity: 0, scale: 0, svgOrigin: '0 0' });
     gsap.to(g.selectAll('.node').nodes(), {
       opacity: function (i, el) {
@@ -376,43 +382,60 @@ document.addEventListener('DOMContentLoaded', async function () {
     });
   }
 
+  // ── Nav active state helper ───────────────────────────────────────
+  function setNavActive(branchId) {
+    document.querySelectorAll('.nav-item[data-branch]').forEach(function (n) {
+      n.classList.remove('nav-active');
+    });
+    if (branchId) {
+      var el = document.querySelector('.nav-item[data-branch="' + branchId + '"]');
+      if (el) el.classList.add('nav-active');
+    }
+  }
+
   // ── Click handler ─────────────────────────────────────────────────
   var currentNodeId = null;
 
-  function onNodeClick(event, d) {
-    // Use the mouse event's position directly — this is always exactly where the user clicked
-    // relative to the canvas element (which fills #mindmap-container)
-    var containerRect = canvasEl.parentElement.getBoundingClientRect();
-    var sx = event.clientX - containerRect.left;
-    var sy = event.clientY - containerRect.top;
-    var color = colorOf(d) || '#5c6bc0';
-    var cnt = d.depth === 0 ? 100 : d.depth === 1 ? 75 : 50;
+  function onNodeClick(event, d, targetEl) {
+    if (event && event.stopPropagation) event.stopPropagation();
+    var nodeColor = colorOf(d) || '#5c6bc0';
+    var el = targetEl || (event ? event.currentTarget : null);
 
-    spawnParticles(sx, sy, color, cnt);
-    emitRings(d.x_cart, d.y_cart, color, d.depth, d.data);
-    bloomNode(event.currentTarget, d, color);
-    highlightLinks(d, color);
+    if (event && typeof event.clientX === 'number') {
+      var containerRect = canvasEl.parentElement.getBoundingClientRect();
+      var sx = event.clientX - containerRect.left;
+      var sy = event.clientY - containerRect.top;
+      var cnt = d.depth === 0 ? 100 : d.depth === 1 ? 75 : 50;
+      spawnParticles(sx, sy, nodeColor, cnt);
+    }
+
+    emitRings(d.x_cart, d.y_cart, nodeColor, d.depth, d.data);
+    if (el) bloomNode(el, d, nodeColor);
+    highlightLinks(d, nodeColor);
 
     if (d.depth === 0) {
-      hideDetails();
-      resetBranchFocus(); return;
+      resetBranchFocus(true);
+      showDetails(d.data);
+      return;
     } else if (d.depth === 1) {
       zoomToBranch(d);
+      // Highlight the matching nav item
+      setNavActive(d.data.id);
     } else {
       zoomToNode(d);
+      // Highlight the parent branch nav item
+      var parentBranch = d.ancestors().find(function (a) { return a.depth === 1; });
+      if (parentBranch) setNavActive(parentBranch.data.id);
     }
 
     showDetails(d.data);
 
-    // Study timer: start when node is viewed
     if (d.data.id) {
       if (currentNodeId && currentNodeId !== d.data.id) stopStudyTimer(currentNodeId);
       currentNodeId = d.data.id;
       startStudyTimer(d.data.id);
     }
-
   }
-
 
   // ── Zoom helpers ──────────────────────────────────────────────────
   function zoomToBranch(d) {
@@ -445,9 +468,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   function dimSiblings(focusD) {
     var activeSet = new Set();
-    // 1. All descendants of the focused node stay active
     focusD.descendants().forEach(function (n) { activeSet.add(n.data.id || n.data.name); });
-    // 2. All ancestors of the focused node stay active
     var curr = focusD;
     while (curr) {
       activeSet.add(curr.data.id || curr.data.name);
@@ -455,18 +476,12 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
 
     g.selectAll('.node').each(function (nd) {
-      if (showAllNodes) {
-        gsap.to(this, { opacity: 1, duration: 0.45 });
-        return;
-      }
+      if (showAllNodes) { gsap.to(this, { opacity: 1, duration: 0.45 }); return; }
       var isActive = activeSet.has(nd.data.id || nd.data.name) || nd.depth === 0;
       gsap.to(this, { opacity: isActive ? 1 : 0.07, duration: 0.45 });
     });
     g.selectAll('.link').each(function (ld) {
-      if (showAllNodes) {
-        gsap.to(this, { opacity: 0.9, duration: 0.45 });
-        return;
-      }
+      if (showAllNodes) { gsap.to(this, { opacity: 0.9, duration: 0.45 }); return; }
       var sActive = activeSet.has(ld.source.data.id || ld.source.data.name);
       var tActive = activeSet.has(ld.target.data.id || ld.target.data.name);
       gsap.to(this, { opacity: (sActive && tActive) ? 0.9 : 0.04, duration: 0.45 });
@@ -475,30 +490,26 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   function dimBranches() {
     g.selectAll('.node').each(function (nd) {
-      if (showAllNodes) {
-        gsap.to(this, { opacity: 1, duration: 0.45 });
-        return;
-      }
+      if (showAllNodes) { gsap.to(this, { opacity: 1, duration: 0.45 }); return; }
       var isActive = nd.depth <= 1;
       gsap.to(this, { opacity: isActive ? 1 : 0.07, duration: 0.45 });
     });
     g.selectAll('.link').each(function (ld) {
-      if (showAllNodes) {
-        gsap.to(this, { opacity: 0.9, duration: 0.45 });
-        return;
-      }
+      if (showAllNodes) { gsap.to(this, { opacity: 0.9, duration: 0.45 }); return; }
       var isActive = ld.target.depth <= 1;
       gsap.to(this, { opacity: isActive ? 0.9 : 0.04, duration: 0.45 });
     });
   }
 
-  function resetBranchFocus() {
+  function resetBranchFocus(keepDetails) {
     focusedNode = null;
+    currentNodeId = null;
     dimBranches();
     initialView(lastRoot);
-    hideDetails();
+    if (!keepDetails) hideDetails();
+    // Xóa active state trên nav
+    setNavActive(null);
   }
-
 
   svg.on('click', function (event) {
     if ((event.target === svgEl || event.target.tagName.toLowerCase() === 'svg') && focusedNode) {
@@ -537,22 +548,17 @@ document.addEventListener('DOMContentLoaded', async function () {
       circle.style('stroke-width', '6px');
       circle.style('filter', 'url(#strong-glow)');
       gsap.timeline({
-        onComplete: function () {
-          circle.style('filter', null);
-          circle.style('stroke', 'none');
-        }
+        onComplete: function () { circle.style('filter', null); circle.style('stroke', 'none'); }
       })
-        .to(circle.node(), { attr: { r: r * 0.95 }, duration: 0.08, ease: 'power3.in' }) // less shrink
-        .to(circle.node(), { attr: { r: r * 1.1 }, stroke: effectColor, duration: 0.2, ease: 'expo.out' }) // expand slightly, keep it gold
+        .to(circle.node(), { attr: { r: r * 0.95 }, duration: 0.08, ease: 'power3.in' })
+        .to(circle.node(), { attr: { r: r * 1.1 }, stroke: effectColor, duration: 0.2, ease: 'expo.out' })
         .to(circle.node(), { attr: { r: r }, stroke: 'none', duration: 0.45, ease: 'elastic.out(1,0.4)' });
       return;
     }
 
     circle.style('filter', 'url(#strong-glow)');
     gsap.timeline({
-      onComplete: function () {
-        circle.style('filter', null);
-      }
+      onComplete: function () { circle.style('filter', null); }
     })
       .to(circle.node(), { attr: { r: r * 0.65 }, duration: 0.08, ease: 'power3.in' })
       .to(circle.node(), { attr: { r: r * 1.8 }, stroke: '#ffffff', duration: 0.2, ease: 'expo.out' })
@@ -579,19 +585,12 @@ document.addEventListener('DOMContentLoaded', async function () {
     document.getElementById('topic-description').textContent = data.description || '';
     document.getElementById('topic-example').textContent = data.vietnam_example || '';
 
-    // Handle Timeline visibility and state
-    var isHistoryBranch = false;
-    var current = data;
-    // Check if node or its ancestors is the "History of the Party" branch (ch1)
-    if (data.id === 'ch1' || data.id === 'ch1_1' || data.id === 'ch1_2' || data.id === 'ch1_3' || data.id === 'ch1_4' || data.id === 'ch1_2_victory' || (data.id && data.id.startsWith('ch1_1_')) || (data.id && data.id.startsWith('ch1_2_')) || (data.id && data.id.startsWith('ch1_3_'))) {
-      isHistoryBranch = true;
-    }
-
+    var isHistoryBranch = (data.id && data.id.startsWith('ch1'));
     if (isHistoryBranch) {
-      timelineContainer.classList.add('visible');
+      timelineContainer.classList.add('at-panel');
       updateTimeline(data.id);
     } else {
-      timelineContainer.classList.remove('visible');
+      timelineContainer.classList.remove('at-panel');
     }
 
     var meaningEl = document.getElementById('topic-meaning');
@@ -613,6 +612,7 @@ document.addEventListener('DOMContentLoaded', async function () {
   function hideDetails() {
     if (!detailPanel.classList.contains('open')) return;
     if (currentNodeId) stopStudyTimer(currentNodeId);
+    timelineContainer.classList.remove('at-panel');
     gsap.to(detailPanel, {
       y: '120%',
       duration: 0.5,
@@ -646,13 +646,18 @@ document.addEventListener('DOMContentLoaded', async function () {
   }
 
   timelineMarks.forEach(function (mark) {
-    mark.addEventListener('click', function () {
+    mark.addEventListener('click', function (e) {
       var id = this.getAttribute('data-id');
+      var found = false;
       g.selectAll('.node').each(function (d) {
         if (d.data.id === id) {
-          onNodeClick({ stopPropagation: function () { }, currentTarget: this }, d);
+          onNodeClick(e, d, this);
+          found = true;
         }
       });
+      if (!found) {
+        console.warn('Timeline node not found in map:', id);
+      }
     });
   });
 
@@ -660,7 +665,6 @@ document.addEventListener('DOMContentLoaded', async function () {
   function initialView(root) {
     if (root) lastRoot = root;
     var parent = svgEl.parentElement;
-    // Better default zoom to match "Ảnh 2": level 1 branches at ~520px radius
     var scale = (Math.min(parent.clientWidth, parent.clientHeight) * 0.92) / (520 * 2 + 400);
     svg.transition().duration(1000).call(zoom.transform, d3.zoomIdentity.translate(parent.clientWidth / 2, parent.clientHeight / 2 - 40).scale(scale));
   }
@@ -692,24 +696,24 @@ document.addEventListener('DOMContentLoaded', async function () {
   document.getElementById('zoom-out').addEventListener('click', function () { svg.transition().call(zoom.scaleBy, 0.5); });
   document.getElementById('reset-view').addEventListener('click', resetView);
 
-  document.getElementById('toggle-all').addEventListener('click', function () {
-    showAllNodes = !showAllNodes;
-    this.classList.toggle('active', showAllNodes);
-    var icon = this.querySelector('i');
-    if (showAllNodes) {
-      icon.classList.remove('bi-eye');
-      icon.classList.add('bi-eye-fill');
-    } else {
-      icon.classList.remove('bi-eye-fill');
-      icon.classList.add('bi-eye');
-    }
-
-    if (!focusedNode) {
-      dimBranches();
-    } else {
-      dimSiblings(focusedNode);
-    }
-  });
+  var toggleAllBtn = document.getElementById('toggle-all');
+  if (toggleAllBtn) {
+    toggleAllBtn.addEventListener('click', function () {
+      showAllNodes = !showAllNodes;
+      this.classList.toggle('active', showAllNodes);
+      var icon = this.querySelector('i');
+      if (icon) {
+        if (showAllNodes) {
+          icon.classList.remove('bi-eye');
+          icon.classList.add('bi-eye-fill');
+        } else {
+          icon.classList.remove('bi-eye-fill');
+          icon.classList.add('bi-eye');
+        }
+      }
+      if (!focusedNode) { dimBranches(); } else { dimSiblings(focusedNode); }
+    });
+  }
 
   // ── Search ────────────────────────────────────────────────────────
   var searchInput = document.getElementById('search-input');
@@ -724,35 +728,92 @@ document.addEventListener('DOMContentLoaded', async function () {
     return result;
   }
 
-  searchInput.addEventListener('input', function () {
-    var q = this.value.trim().toLowerCase();
-    if (!q || !mapData) { searchResults.classList.remove('visible'); return; }
-    var all = getAllNodes(mapData);
-    var matches = all.filter(function (n) { return n.data.name.toLowerCase().includes(q) || (n.data.description || '').toLowerCase().includes(q); }).slice(0, 6);
-    if (!matches.length) { searchResults.classList.remove('visible'); return; }
-    searchResults.innerHTML = matches.map(function (m) {
-      return '<div class="sr-item" data-name="' + m.data.name.replace(/"/g, '') + '"><div class="sri-name">' + m.data.name.replace('\n', ' ') + '</div><div class="sri-path">' + m.path + '</div></div>';
-    }).join('');
-    searchResults.classList.add('visible');
-    searchResults.querySelectorAll('.sr-item').forEach(function (item) {
-      item.addEventListener('click', function () {
-        var name = this.getAttribute('data-name');
-        g.selectAll('.node').each(function (d) {
-          if ((d.data.name || '').replace('\n', ' ') === name) {
-            onNodeClick({ stopPropagation: function () { }, currentTarget: this }, d);
-          }
+  if (searchInput) {
+    searchInput.addEventListener('input', function () {
+      var q = this.value.trim().toLowerCase();
+      if (!q || !mapData) { searchResults.classList.remove('visible'); return; }
+      var all = getAllNodes(mapData);
+      var matches = all.filter(function (n) { return n.data.name.toLowerCase().includes(q) || (n.data.description || '').toLowerCase().includes(q); }).slice(0, 6);
+      if (!matches.length) { searchResults.classList.remove('visible'); return; }
+      searchResults.innerHTML = matches.map(function (m) {
+        return '<div class="sr-item" data-name="' + m.data.name.replace(/"/g, '') + '"><div class="sri-name">' + m.data.name.replace('\n', ' ') + '</div><div class="sri-path">' + m.path + '</div></div>';
+      }).join('');
+      searchResults.classList.add('visible');
+      searchResults.querySelectorAll('.sr-item').forEach(function (item) {
+        item.addEventListener('click', function () {
+          var name = this.getAttribute('data-name');
+          g.selectAll('.node').each(function (d) {
+            if ((d.data.name || '').replace('\n', ' ') === name) {
+              onNodeClick({ stopPropagation: function () { }, currentTarget: this }, d);
+            }
+          });
+          searchResults.classList.remove('visible');
+          searchInput.value = '';
+          if (searchInputContainer) searchInputContainer.classList.remove('active');
         });
-        searchResults.classList.remove('visible');
-        searchInput.value = '';
       });
     });
-  });
+  }
 
+  // ── Search toggle ──────────────────────────────────────────────────
+  if (searchBtnToggle) {
+    searchBtnToggle.addEventListener('click', function (e) {
+      e.stopPropagation();
+      searchInputContainer.classList.toggle('active');
+      if (searchInputContainer.classList.contains('active')) {
+        searchInput.focus();
+      }
+    });
+  }
+
+  // ── Global click delegation ────────────────────────────────────────
   document.addEventListener('click', function (e) {
-    // Close search results if clicked outside
-    if (!e.target.closest('.search-box')) searchResults.classList.remove('visible');
 
-    // Determine what was clicked to handle panel close and zoom out
+    // ① Header nav branch links — FIX: stopPropagation + particles từ vị trí nav
+    var navItem = e.target.closest('.nav-item[data-branch]');
+    if (navItem) {
+      e.preventDefault();
+      e.stopPropagation();
+      var branchId = navItem.getAttribute('data-branch');
+
+      if (!lastRoot || !lastRoot.children) return;
+
+      var targetNode = lastRoot.children.find(function (c) {
+        return c.data.id === branchId;
+      });
+
+      if (targetNode) {
+        // Highlight nav
+        setNavActive(branchId);
+
+        // Particles từ vị trí nút nav trên header
+        var rect = navItem.getBoundingClientRect();
+        var containerRect = canvasEl.parentElement.getBoundingClientRect();
+        var sx = rect.left + rect.width / 2 - containerRect.left;
+        var sy = rect.bottom - containerRect.top + 10;
+        spawnParticles(sx, sy, colorOf(targetNode), 50);
+
+        zoomToBranch(targetNode);
+        showDetails(targetNode.data);
+      }
+      return;
+    }
+
+    // ② Timeline toggle button
+    if (e.target.closest('#nav-timeline-btn')) {
+      timelineContainer.classList.toggle('visible');
+      return;
+    }
+
+    // ③ Search box / Results
+    if (!e.target.closest('.search-box')) {
+      if (searchResults) searchResults.classList.remove('visible');
+      if (searchInputContainer && !searchBtnToggle.contains(e.target)) {
+        searchInputContainer.classList.remove('active');
+      }
+    }
+
+    // ④ UI element detection
     var isClickInsidePanel = e.target.closest('#detail-panel');
     var isClickOnNode = e.target.closest('.node');
     var isClickOnBranchBtn = e.target.closest('.branch-btn');
@@ -763,22 +824,20 @@ document.addEventListener('DOMContentLoaded', async function () {
     var isClickOnSidebar = e.target.closest('#sidebar');
     var isClickOnChatBtn = e.target.closest('#ai-chatbot-btn');
     var isClickOnChatWindow = e.target.closest('#ai-chat-window');
+    var isClickOnBranchNav = e.target.closest('#branch-nav');
 
-    var isClickOnAnyUIElement = isClickInsidePanel || isClickOnNode || isClickOnBranchBtn || isClickSearchItem || isClickOnControls || isClickOnBreadcrumb || isClickOnTopBar || isClickOnSidebar || isClickOnChatBtn || isClickOnChatWindow;
+    var isClickOnAnyUIElement = isClickInsidePanel || isClickOnNode || isClickOnBranchBtn || isClickSearchItem || isClickOnControls || isClickOnBreadcrumb || isClickOnTopBar || isClickOnSidebar || isClickOnChatBtn || isClickOnChatWindow || isClickOnBranchNav;
 
-    // 1. Zoom out if clicking strictly on the background (not any UI element)
     if (!isClickOnAnyUIElement && focusedNode) {
       resetBranchFocus();
     }
 
-    // 2. Hide detail panel if clicking outside panel & not opening a new node & not interacting with chat
-    var isOpeningNode = isClickOnNode || isClickOnBranchBtn || isClickSearchItem;
+    var isOpeningNode = isClickOnNode || isClickOnBranchBtn || isClickSearchItem || isClickOnBranchNav;
     var isInteractingWithChat = isClickOnChatBtn || isClickOnChatWindow;
 
     if (!isClickInsidePanel && !isOpeningNode && !isInteractingWithChat) {
       if (detailPanel.classList.contains('open')) {
-        if (currentNodeId) stopStudyTimer(currentNodeId);
-        gsap.to(detailPanel, { y: '120%', duration: 0.4, ease: 'power2.in', onComplete: function () { detailPanel.classList.remove('open'); } });
+        hideDetails();
       }
     }
   });
@@ -809,22 +868,20 @@ document.addEventListener('DOMContentLoaded', async function () {
   }
 
   function showQuizStart() {
-    quizStart.style.display = 'flex';
+    quizStart.style.display = 'block';
     quizQScreen.style.display = 'none';
     quizResultsDiv.style.display = 'none';
   }
 
-  window.startQuizByTopic = async function (topic) {
+  async function startQuizByTopic(topic) {
     let qData = [];
     try {
       if (topic === 'all') {
-        // Load all 5 chapters
         const indices = [1, 2, 3, 4, 5];
         const loads = indices.map(i => d3.json(`chapter${i}.json`));
         const results = await Promise.all(loads);
         qData = results.flat();
       } else {
-        // Load specific chapter
         qData = await d3.json(`chapter${topic}.json`);
       }
     } catch (err) {
@@ -838,7 +895,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       return;
     }
 
-    // Shuffle & pick 20
     var shuffled = qData.slice().sort(function () { return Math.random() - 0.5; });
     currentQuiz = shuffled.slice(0, 20);
     currentQIdx = 0;
@@ -857,7 +913,9 @@ document.addEventListener('DOMContentLoaded', async function () {
     }, 1000);
 
     renderQuestion();
-  };
+  }
+
+  window.startQuizByTopic = startQuizByTopic;
 
   function renderQuestion() {
     var q = currentQuiz[currentQIdx];
@@ -871,7 +929,8 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     var nextBtn = document.getElementById('quiz-next-btn');
     nextBtn.disabled = true;
-    nextBtn.textContent = currentQIdx < total - 1 ? 'Tiếp theo →' : 'Xem kết quả 🎉';
+    nextBtn.textContent = '';
+    nextBtn.innerHTML = currentQIdx < total - 1 ? 'Tiếp theo <i class="bi bi-arrow-right"></i>' : 'Xem kết quả <i class="bi bi-patch-check"></i>';
 
     var optContainer = document.getElementById('quiz-options');
     optContainer.innerHTML = '';
@@ -894,9 +953,8 @@ document.addEventListener('DOMContentLoaded', async function () {
     opts[idx].classList.add(isCorrect ? 'correct' : 'wrong');
     if (!isCorrect) opts[q.answer].classList.add('correct');
 
-    // Show explanation
     var explEl = document.getElementById('quiz-explain');
-    explEl.textContent = '💡 ' + (q.explain || '');
+    explEl.innerHTML = '<i class="bi bi-lightbulb-fill"></i> ' + (q.explain || '');
     explEl.style.display = 'block';
 
     document.getElementById('quiz-next-btn').disabled = false;
@@ -921,33 +979,27 @@ document.addEventListener('DOMContentLoaded', async function () {
     var correct = 0;
     var wrongQuestions = [];
     userAnswers.forEach(function (ans, i) {
-      if (ans === currentQuiz[i].answer) {
-        correct++;
-      } else {
-        wrongQuestions.push(currentQuiz[i]);
-      }
+      if (ans === currentQuiz[i].answer) { correct++; }
+      else { wrongQuestions.push(currentQuiz[i]); }
     });
 
     var pct = Math.round((correct / currentQuiz.length) * 100);
     if (bestScore === null || correct > bestScore) bestScore = correct;
 
     var scoreClass = pct >= 80 ? 'score-green' : pct >= 50 ? 'score-orange' : 'score-red';
-    var stars = pct >= 80 ? '⭐⭐⭐' : pct >= 60 ? '⭐⭐' : '⭐';
+    var stars = pct >= 80 ? '<i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>' : pct >= 60 ? '<i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>' : '<i class="bi bi-star-fill"></i>';
     var msg = pct >= 80 ? 'Xuất sắc! Bạn nắm vững kiến thức.' : pct >= 60 ? 'Khá tốt! Tiếp tục ôn luyện.' : 'Cần ôn tập thêm. Đừng nản!';
 
     var html = '<div style="padding:40px; text-align:center;">'
-      + '<div style="font-size:3rem;margin-bottom:12px">' + stars + '</div>'
+      + '<div style="font-size:2.5rem;margin-bottom:12px;color:var(--gold)">' + stars + '</div>'
       + '<h2>Kết quả thi</h2>'
       + '<div class="results-score ' + scoreClass + '">' + correct + '<span style="font-size:1.4rem;opacity:0.5">/' + currentQuiz.length + '</span></div>'
-      + '<div class="results-meta">' + msg + ' | Thời gian: ' + elapsed + 's | Tỉ lệ đúng: ' + pct + '%</div>';
+      + '<div class="results-meta">' + msg + ' | <i class="bi bi-stopwatch"></i> ' + elapsed + 's | Tỉ lệ đúng: ' + pct + '%</div>';
 
-    // AI Analysis Section
     html += '<div class="ai-analysis-box">'
       + '<div class="ai-analysis-header"><i class="bi bi-robot"></i> AI Phân tích & Lời khuyên</div>'
       + '<div id="ai-advice-content">Hệ thống đang phân tích kết quả của bạn...</div>'
-      + '</div>';
-
-    html += '</div>';
+      + '</div></div>';
 
     html += '<div style="padding:0 40px 40px;">'
       + '<div style="font-size:0.82rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:12px">Chi tiết câu trả lời</div>';
@@ -958,23 +1010,17 @@ document.addEventListener('DOMContentLoaded', async function () {
       html += '<div class="result-item ' + (ok ? 'correct' : 'wrong') + '">'
         + '<div class="ri-q">' + (i + 1) + '. ' + q.question + '</div>'
         + '<div class="ri-your" style="color:' + (ok ? 'var(--green)' : '#ef5350') + '">'
-        + (ok ? '✅' : '❌') + ' Bạn chọn: ' + String.fromCharCode(65 + ua) + '. ' + q.options[ua]
+        + (ok ? '<i class="bi bi-check-circle-fill"></i>' : '<i class="bi bi-x-circle-fill"></i>') + ' Bạn chọn: ' + String.fromCharCode(65 + ua) + '. ' + q.options[ua]
         + '</div>';
-      if (!ok) html += '<div class="ri-correct">✔ Đáp án đúng: ' + String.fromCharCode(65 + q.answer) + '. ' + q.options[q.answer] + '</div>';
-      if (q.explain) html += '<div class="ri-explain">💡 ' + q.explain + '</div>';
+      if (!ok) html += '<div class="ri-correct"><i class="bi bi-check-circle"></i> Đáp án đúng: ' + String.fromCharCode(65 + q.answer) + '. ' + q.options[q.answer] + '</div>';
+      if (q.explain) html += '<div class="ri-explain"><i class="bi bi-lightbulb-fill"></i> ' + q.explain + '</div>';
       html += '</div>';
     });
 
-    html += '<div class="results-actions">'
-      + '<button id="back-btn">← Quay lại menu chính</button>'
-      + '</div></div>';
+    html += '<div class="results-actions"><button id="back-btn"><i class="bi bi-arrow-left"></i> Quay lại menu chính</button></div></div>';
 
     quizResultsDiv.innerHTML = html;
-    document.getElementById('back-btn').addEventListener('click', function () {
-      showQuizStart();
-    });
-
-    // Start AI Analysis
+    document.getElementById('back-btn').addEventListener('click', function () { showQuizStart(); });
     analyzeResultsByAI(wrongQuestions, correct, currentQuiz.length);
   }
 
@@ -988,10 +1034,10 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
 
     const topics = wrongQuestions.map(q => q.question).join(", ");
-    const prompt = `Người dùng vừa làm bài thi trắc nghiệm Triết học Mác-Lênin. 
+    const prompt = `Người dùng vừa làm bài thi trắc nghiệm Triết học Mác-Lênin.
     Kết quả: đúng ${correct}/${total} câu.
     Những nội dung người dùng trả lời sai hoặc chưa vững: ${topics}.
-    Hãy đưa ra lời khuyên ngắn gọn (khoảng 3-4 câu), tập trung vào những mảng kiến thức cần ôn tập lại và động viên người dùng. 
+    Hãy đưa ra lời khuyên ngắn gọn (khoảng 3-4 câu), tập trung vào những mảng kiến thức cần ôn tập lại và động viên người dùng.
     Dùng ngôn từ của một trợ lý học tập tận tâm.`;
 
     try {
@@ -1005,7 +1051,6 @@ document.addEventListener('DOMContentLoaded', async function () {
           ]
         })
       });
-
       const data = await response.json();
       if (data.content) {
         adviceEl.innerHTML = data.content.replace(/\n/g, '<br>');
@@ -1018,23 +1063,21 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
   }
 
-  // Quiz triggers
-  document.getElementById('quiz-open-btn').addEventListener('click', openQuiz);
-  document.getElementById('quiz-cancel-btn').addEventListener('click', closeQuiz);
-  document.getElementById('quiz-close-btn2').addEventListener('click', function () {
-    clearInterval(timerInterval);
-    showQuizStart();
-  });
+  var quizOpenBtn = document.getElementById('quiz-open-btn');
+  if (quizOpenBtn) quizOpenBtn.addEventListener('click', openQuiz);
 
-  // Close on backdrop
-  quizOverlay.addEventListener('click', function (e) {
-    if (e.target === quizOverlay) closeQuiz();
-  });
+  var quizCancelBtn = document.querySelector('.quiz-close-top');
+  if (quizCancelBtn) quizCancelBtn.addEventListener('click', closeQuiz);
 
-  // ESC close
+  if (quizOverlay) {
+    quizOverlay.addEventListener('click', function (e) {
+      if (e.target === quizOverlay) closeQuiz();
+    });
+  }
+
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') {
-      if (quizOverlay.classList.contains('show')) closeQuiz();
+      if (quizOverlay && quizOverlay.classList.contains('show')) closeQuiz();
     }
   });
 
@@ -1048,73 +1091,68 @@ document.addEventListener('DOMContentLoaded', async function () {
   const sendChatBtn = document.getElementById('send-chat');
   const chatMessages = document.getElementById('chat-messages');
 
-  let chatHistory = [
-    {
-      role: 'system',
-      content: 'Bạn là một trợ lý ảo am hiểu về môn học Triết học Mác-Lênin và Lịch sử. Bạn CHỈ được phép trả lời các câu hỏi liên quan đến Triết học và Lịch sử. Đối với bất kỳ câu hỏi nào ngoài hai lĩnh vực này, hãy lịch sự từ chối và giải thích rằng bạn tập trung hỗ trợ sinh viên học tập hai bộ môn này.'
-    }
-  ];
-
-  chatBtn.addEventListener('click', () => {
-    chatWindow.classList.toggle('chat-hidden');
-  });
-
-  closeChatBtn.addEventListener('click', () => {
-    chatWindow.classList.add('chat-hidden');
-  });
-
-  async function sendMessage() {
-    const text = chatInput.value.trim();
-    if (!text) return;
-
-    // Add user message to UI
-    appendMessage('user', text);
-    chatInput.value = '';
-
-    // Add to history
-    chatHistory.push({ role: 'user', content: text });
-
-    // Show typing...
-    const typingId = 'typing-' + Date.now();
-    appendMessage('system', '...', typingId);
-
-    try {
-      const response = await fetch('/api/chat', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ messages: chatHistory })
-      });
-
-      const data = await response.json();
-
-      // Remove typing
-      document.getElementById(typingId).remove();
-
-      if (data.content) {
-        appendMessage('system', data.content);
-        chatHistory.push({ role: 'assistant', content: data.content });
-      } else {
-        appendMessage('system', 'Xin lỗi, có lỗi xảy ra. Bạn vui lòng thử lại sau.');
+  if (chatBtn && chatWindow) {
+    let chatHistory = [
+      {
+        role: 'system',
+        content: 'Bạn là một trợ lý ảo am hiểu về môn học Triết học Mác-Lênin và Lịch sử. Bạn CHỈ được phép trả lời các câu hỏi liên quan đến Triết học và Lịch sử. Đối với bất kỳ câu hỏi nào ngoài hai lĩnh vực này, hãy lịch sự từ chối và giải thích rằng bạn tập trung hỗ trợ sinh viên học tập hai bộ môn này.'
       }
-    } catch (error) {
-      console.error('Chat error:', error);
-      document.getElementById(typingId).remove();
-      appendMessage('system', 'Không thể kết nối với server. Hãy chắc chắn backend đã được chạy.');
+    ];
+
+    chatBtn.addEventListener('click', () => { chatWindow.classList.toggle('chat-hidden'); });
+
+    if (closeChatBtn) {
+      closeChatBtn.addEventListener('click', () => { chatWindow.classList.add('chat-hidden'); });
+    }
+
+    async function sendMessage() {
+      const text = chatInput.value.trim();
+      if (!text) return;
+
+      appendMessage('user', text);
+      chatInput.value = '';
+      chatHistory.push({ role: 'user', content: text });
+
+      const typingId = 'typing-' + Date.now();
+      appendMessage('system', '...', typingId);
+
+      try {
+        const response = await fetch('/api/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ messages: chatHistory })
+        });
+        const data = await response.json();
+        const typingEl = document.getElementById(typingId);
+        if (typingEl) typingEl.remove();
+
+        if (data.content) {
+          appendMessage('system', data.content);
+          chatHistory.push({ role: 'assistant', content: data.content });
+        } else {
+          appendMessage('system', 'Xin lỗi, có lỗi xảy ra. Bạn vui lòng thử lại sau.');
+        }
+      } catch (error) {
+        console.error('Chat error:', error);
+        const typingEl = document.getElementById(typingId);
+        if (typingEl) typingEl.remove();
+        appendMessage('system', 'Không thể kết nối với server. Hãy chắc chắn backend đã được chạy.');
+      }
+    }
+
+    function appendMessage(role, text, id) {
+      const msg = document.createElement('div');
+      msg.className = 'message ' + role;
+      if (id) msg.id = id;
+      msg.textContent = text;
+      chatMessages.appendChild(msg);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    if (sendChatBtn) sendChatBtn.addEventListener('click', sendMessage);
+    if (chatInput) {
+      chatInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') sendMessage(); });
     }
   }
-
-  function appendMessage(role, text, id) {
-    const msg = document.createElement('div');
-    msg.className = 'message ' + role;
-    if (id) msg.id = id;
-    msg.textContent = text;
-    chatMessages.appendChild(msg);
-    chatMessages.scrollTop = chatMessages.scrollHeight;
-  }
-
-  sendChatBtn.addEventListener('click', sendMessage);
-  chatInput.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') sendMessage();
-  });
 
 });
