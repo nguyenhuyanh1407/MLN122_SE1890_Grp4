@@ -188,7 +188,11 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     root.descendants().forEach(function (d) {
       var angle = (d.x - 90) * Math.PI / 180;
-      var radius = d.depth === 1 ? 680 : d.depth === 2 ? 1300 : d.depth === 3 ? 1950 : 0;
+      var radius = d.depth === 1 ? 680 :
+        d.depth === 2 ? 1300 :
+          d.depth === 3 ? 1950 :
+            d.depth === 4 ? 2600 :
+              d.depth === 5 ? 3200 : 0;
       d.radius = radius;
       d.x_cart = radius * Math.cos(angle);
       d.y_cart = radius * Math.sin(angle);
@@ -342,8 +346,13 @@ document.addEventListener('DOMContentLoaded', async function () {
     nodes.filter(function (d) { return d.depth > 0; }).append('text').attr('class', 'node-text')
       .attr('x', function (d) { return d.x < 180 ? nodeRadius(d.data) + 14 : -(nodeRadius(d.data) + 14); })
       .style('text-anchor', function (d) { return d.x < 180 ? 'start' : 'end'; })
-      .style('font-size', function (d) { return d.depth === 1 ? '40px' : d.depth === 2 ? '30px' : '24px'; })
-      .style('font-weight', function (d) { return d.depth <= 1 ? '700' : '600'; })
+      .style('font-size', function (d) {
+        if (d.depth === 1) return '40px';
+        if (d.depth === 2) return '32px';
+        if (d.depth === 3) return '28px';
+        return '24px';
+      })
+      .style('font-weight', function (d) { return d.depth <= 2 ? '700' : '600'; })
       .each(function (d) {
         var el = d3.select(this);
         var lines = (d.data.name || '').split('\n');
@@ -448,10 +457,13 @@ document.addEventListener('DOMContentLoaded', async function () {
     var minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
     var bw = maxX - minX + 400, bh = maxY - minY + 400;
     var midX = (minX + maxX) / 2, midY = (minY + maxY) / 2;
-    var panelW = 920, usableW = vw - panelW - 60;
+    var panelW = 600, usableW = vw - panelW - 60;
     var scale = Math.min(Math.min(usableW / bw, vh / bh) * 0.88, 2.5);
+    if (d.data.id === 'ch1') scale *= 2.5;
+    else if (d.depth === 1) scale *= 1.5;
     scale = Math.max(scale, 0.05);
     var tx = (vw - panelW) / 2 - scale * midX, ty = vh / 2 - scale * midY - 40;
+    if (d.data.id === 'ch1') tx -= 150;
     svg.transition().duration(900).ease(d3.easeCubicInOut).call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
     dimSiblings(d);
   }
@@ -459,9 +471,10 @@ document.addEventListener('DOMContentLoaded', async function () {
   function zoomToNode(d) {
     focusedNode = d;
     var vw = svgEl.parentElement.clientWidth, vh = svgEl.parentElement.clientHeight;
-    var panelW = 920, usableW = vw - panelW - 60;
+    var panelW = 600, usableW = vw - panelW - 60;
     var scale = Math.min(currentTransform.k * 1.5, 2.2);
-    var tx = usableW / 2 - scale * d.x_cart, ty = vh / 2 - scale * d.y_cart - 40;
+    var tx = (vw - panelW) / 2 - scale * d.x_cart, ty = vh / 2 - scale * d.y_cart - 40;
+    if (d.data.id === 'ch1') tx -= 150;
     svg.transition().duration(600).ease(d3.easeCubicInOut).call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
     dimSiblings(d);
   }
@@ -598,10 +611,8 @@ document.addEventListener('DOMContentLoaded', async function () {
     if (data.meaning) {
       meaningEl.textContent = data.meaning;
       colMeaning.style.display = 'block';
-      document.querySelector('.panel-grid').style.gridTemplateColumns = '1fr 1fr 1fr';
     } else {
       colMeaning.style.display = 'none';
-      document.querySelector('.panel-grid').style.gridTemplateColumns = '1fr 1fr';
     }
 
     detailPanel.classList.add('open');
@@ -629,11 +640,9 @@ document.addEventListener('DOMContentLoaded', async function () {
   // ── Timeline Logic ────────────────────────────────────────────────
   function updateTimeline(activeId) {
     var mapping = {
-      'ch1_1': 'ch1_1', 'ch1_1_1': 'ch1_1', 'ch1_1_2': 'ch1_1',
-      'ch1_2_victory': 'ch1_2_victory',
-      'ch1_2': 'ch1_2', 'ch1_2_1': 'ch1_2', 'ch1_2_2': 'ch1_2',
-      'ch1_3': 'ch1_3', 'ch1_3_1': 'ch1_3',
-      'ch1_4': 'ch1_4'
+      'ch1_1': 'ch1_1', 'ch1_1_1': 'ch1_1', 'ch1_1_2': 'ch1_1', 'ch1_1_3': 'ch1_1',
+      'ch1_2': 'ch1_2', 'ch1_2_1': 'ch1_2', 'ch1_2_2': 'ch1_2', 'ch1_2_3': 'ch1_2', 'ch1_2_4': 'ch1_2',
+      'ch1_3': 'ch1_3', 'ch1_3_1': 'ch1_3', 'ch1_3_2': 'ch1_3', 'ch1_3_3': 'ch1_3'
     };
     var targetId = mapping[activeId];
     timelineMarks.forEach(function (mark) {
@@ -688,7 +697,13 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   function nodeRadius(d) {
     var level = d && d.level !== undefined ? d.level : (d && d.data ? d.data.level : 3);
-    switch (level) { case 0: return 190; case 1: return 42; case 2: return 22; default: return 16; }
+    switch (level) {
+      case 0: return 190;
+      case 1: return 42;
+      case 2: return 24;
+      case 3: return 18;
+      default: return 14;
+    }
   }
 
   // ── Controls ──────────────────────────────────────────────────────
