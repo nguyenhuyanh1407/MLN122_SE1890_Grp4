@@ -595,24 +595,14 @@ document.addEventListener('DOMContentLoaded', async function () {
   // ── Detail panel ──────────────────────────────────────────────────
   function showDetails(data) {
     document.getElementById('topic-title').textContent = (data.name || '').replace('\n', ' ');
-    document.getElementById('topic-description').textContent = data.description || '';
-    document.getElementById('topic-example').textContent = data.vietnam_example || '';
+    let contentParts = [];
+    if (data.description) contentParts.push(data.description);
+    if (data.vietnam_example) contentParts.push(data.vietnam_example);
+    if (data.meaning) contentParts.push(data.meaning);
 
-    var isHistoryBranch = (data.id && data.id.startsWith('ch1'));
-    if (isHistoryBranch) {
-      timelineContainer.classList.add('at-panel');
-      updateTimeline(data.id);
-    } else {
-      timelineContainer.classList.remove('at-panel');
-    }
-
-    var meaningEl = document.getElementById('topic-meaning');
-    var colMeaning = document.getElementById('col-meaning');
-    if (data.meaning) {
-      meaningEl.textContent = data.meaning;
-      colMeaning.style.display = 'block';
-    } else {
-      colMeaning.style.display = 'none';
+    const contentEl = document.getElementById('topic-content');
+    if (contentEl) {
+      contentEl.innerHTML = contentParts.join('<br><br>').replace(/\n/g, '<br>');
     }
 
     detailPanel.classList.add('open');

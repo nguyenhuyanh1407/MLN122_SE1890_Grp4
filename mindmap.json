@@ -8,6 +8,335 @@
   "meaning": "MÙA XUÂN THỐNG NHẤT (1960–1982) là thời kỳ đặc biệt quan trọng trong lịch sử hiện đại Việt Nam, đánh dấu quá trình đấu tranh giải phóng dân tộc và bước đầu xây dựng nền tảng phát triển quốc gia thống nhất.",
   "children": [
     {
+      "id": "ch2",
+      "name": "CHỦ NGHĨA XÃ HỘI KHOA HỌC",
+      "shortName": "CNXH Khoa học",
+      "level": 1,
+      "color": "#22c55e",
+      "icon": "khoahoc.png",
+      "description": "Chủ nghĩa xã hội khoa học là bộ phận lý luận của Chủ nghĩa Marx–Lenin, nghiên cứu quy luật phát triển của xã hội, con đường chuyển từ chủ nghĩa tư bản sang chủ nghĩa xã hội, vai trò của giai cấp công nhân và các phong trào giải phóng dân tộc.",
+      "vietnam_example": "Ở Việt Nam, lý luận này được Đảng Cộng sản Việt Nam vận dụng để lãnh đạo đấu tranh giải phóng dân tộc và xây dựng xã hội mới sau khi đất nước thống nhất.",
+      "meaning": "CNXH khoa học cung cấp cơ sở lý luận cho con đường giải phóng dân tộc và quá độ lên CNXH tại Việt Nam.",
+      "children": [
+        {
+          "id": "ch2_1",
+          "name": "GIẢI PHÓNG DÂN TỘC",
+          "level": 2,
+          "color": "#22c55e",
+          "description": "Nhiệm vụ hàng đầu của cách mạng Việt Nam, kết hợp giữa lý luận Marx-Lenin và thực tiễn phong trào đấu tranh đánh bại chủ nghĩa đế quốc.",
+          "children": [
+            {
+              "id": "ch2_1_1",
+              "name": "Cơ sở lý luận",
+              "level": 3,
+              "color": "#ca8a04",
+              "description": "Theo chủ nghĩa Marx – Lenin, trong thời đại chủ nghĩa đế quốc, các dân tộc thuộc địa có thể trở thành lực lượng quan trọng trong phong trào cách mạng thế giới.\n\nLenin cho rằng:\n- hệ thống chủ nghĩa đế quốc tồn tại nhiều “khâu yếu”\n- các dân tộc bị áp bức có thể nổi dậy chống lại sự thống trị của đế quốc\n- phong trào giải phóng dân tộc có thể kết hợp với phong trào cách mạng vô sản.",
+              "meaning": "Giải phóng dân tộc là bước đi quan trọng để tiến tới giải phóng giai cấp và xây dựng xã hội mới."
+            },
+            {
+              "id": "ch2_1_2",
+              "name": "Thực tiễn Việt Nam",
+              "level": 3,
+              "color": "#ca8a04",
+              "description": "Nhiệm vụ giải phóng dân tộc luôn được đặt lên hàng đầu. Sau năm 1954, đất nước tạm thời bị chia cắt, nhân dân tiếp tục đấu tranh chống sự can thiệp của Hoa Kỳ để bảo vệ độc lập, thống nhất và chủ quyền.\n\nCác giai đoạn chiến tranh:\n- Chiến tranh đặc biệt (1961–1965)\n- Chiến tranh cục bộ (1965–1968)\n- Việt Nam hóa chiến tranh (1969–1973)",
+              "vietnam_example": "Đại thắng mùa Xuân 1975 kết thúc cuộc kháng chiến hơn 20 năm, mở ra kỷ nguyên mới.",
+              "meaning": "Chiến thắng giúp giải phóng hoàn toàn miền Nam và chấm dứt chiến tranh."
+            },
+            {
+              "id": "ch2_1_3",
+              "name": "Ý nghĩa",
+              "level": 3,
+              "color": "#ca8a04",
+              "description": "Chiến thắng giành lại độc lập hoàn toàn và chủ quyền quốc gia, thực hiện thống nhất đất nước.\n\nKết quả:\n- Kết thúc hơn một thế kỷ đấu tranh chống thực dân và đế quốc.\n- Tạo điều kiện để Việt Nam bước vào thời kỳ xây dựng đất nước theo con đường xã hội chủ nghĩa.",
+              "meaning": "Thắng lợi khẳng định tính đúng đắn của đường lối cách mạng dưới sự lãnh đạo của Đảng."
+            }
+          ]
+        },
+        {
+          "id": "ch2_2",
+          "name": "THỐNG NHẤT ĐẤT NƯỚC",
+          "level": 2,
+          "color": "#22c55e",
+          "description": "Bao gồm sự thống nhất về lãnh thổ, hệ thống chính trị, pháp luật và chiến lược phát triển kinh tế – xã hội trên phạm vi cả nước.",
+          "children": [
+            {
+              "id": "ch2_2_1",
+              "name": "Thống nhất về chính trị",
+              "level": 3,
+              "color": "#ca8a04",
+              "description": "Thiết lập hệ thống chính trị thống nhất từ trung ương đến địa phương.\n\nSự kiện tiêu biểu:\n- Năm 1976: Bầu ra Quốc hội khóa VI.\n- Quyết định tên nước là Cộng hòa Xã hội Chủ nghĩa Việt Nam.",
+              "meaning": "Tổ chức lại bộ máy nhà nước nhằm quản lý toàn bộ đất nước một cách thống nhất và hiệu quả."
+            },
+            {
+              "id": "ch2_2_2",
+              "name": "Thống nhất về pháp luật",
+              "level": 3,
+              "color": "#ca8a04",
+              "description": "Xây dựng hệ thống pháp luật chung cho cả nước, tạo nền tảng pháp lý vững chắc.\n\nNhiệm vụ:\n- Xây dựng Hiến pháp mới phù hợp với tình hình đất nước.\n- Thống nhất hệ thống luật pháp giữa các vùng miền.\n- Thiết lập cơ chế quản lý nhà nước thống nhất.",
+              "meaning": "Góp phần ổn định chính trị và xã hội trong giai đoạn đầu sau chiến tranh."
+            },
+            {
+              "id": "ch2_2_3",
+              "name": "Thống nhất chiến lược phát triển",
+              "level": 3,
+              "color": "#ca8a04",
+              "description": "Xây dựng chiến lược chung nhằm khôi phục và phát triển kinh tế – xã hội sau năm 1975.\n\nMục tiêu:\n- Khôi phục kinh tế sau chiến tranh và xây dựng cơ sở hạ tầng.\n- Phát triển sản xuất trong các ngành kinh tế.\n- Nâng cao đời sống của nhân dân.",
+              "meaning": "Tạo ra sự đồng bộ trong quá trình phát triển trên phạm vi cả nước."
+            }
+          ]
+        },
+        {
+          "id": "ch2_3",
+          "name": "CON ĐƯỜNG ĐI LÊN CNXH",
+          "level": 2,
+          "color": "#22c55e",
+          "description": "Giai đoạn xây dựng đất nước dựa trên nền tảng lý luận Chủ nghĩa Marx–Lenin và tư tưởng cách mạng phù hợp thực tiễn Việt Nam.",
+          "children": [
+            {
+              "id": "ch2_3_1",
+              "name": "Xuất phát điểm của Việt Nam",
+              "level": 3,
+              "color": "#ca8a04",
+              "description": "Việt Nam bước vào quá trình xây dựng với nhiều khó khăn lớn.\n\nĐặc điểm:\n- nền nông nghiệp còn lạc hậu và hạ tầng yếu kém\n- hậu quả chiến tranh nặng nề\n- năng suất lao động thấp",
+              "meaning": "Yêu cầu lựa chọn con đường phát triển phù hợp với điều kiện thực tế."
+            },
+            {
+              "id": "ch2_3_2",
+              "name": "Lựa chọn con đường phát triển",
+              "level": 3,
+              "color": "#ca8a04",
+              "description": "Việt Nam lựa chọn con đường quá độ lên chủ nghĩa xã hội, từng bước xây dựng xã hội mới.\n\nCác bước phát triển:\n- phát triển lực lượng sản xuất\n- cải tạo quan hệ sản xuất\n- xây dựng hệ thống kinh tế – xã hội mới",
+              "meaning": "Quá trình này cần thời gian dài và nhiều bước phát triển thay vì chuyển đổi ngay lập tức."
+            },
+            {
+              "id": "ch2_3_3",
+              "name": "Nội dung của quá trình quá độ",
+              "level": 3,
+              "color": "#ca8a04",
+              "description": "Nhiệm vụ quan trọng trên các lĩnh vực kinh tế và xã hội.",
+              "children": [
+                {
+                  "id": "ch2_3_3_1",
+                  "name": "Phát triển lực lượng sản xuất",
+                  "level": 4,
+                  "color": "#facc15",
+                  "description": "Xây dựng và phát triển công nghiệp, nông nghiệp và cải thiện cơ sở hạ tầng kinh tế.",
+                  "meaning": "Nâng cao năng lực sản xuất của nền kinh tế."
+                },
+                {
+                  "id": "ch2_3_3_2",
+                  "name": "Cải tạo quan hệ sản xuất",
+                  "level": 4,
+                  "color": "#facc15",
+                  "description": "Phát triển kinh tế quốc doanh, tập thể và hạn chế các yếu tố bóc lột.",
+                  "meaning": "Xây dựng quan hệ sản xuất phù hợp định hướng XHCN."
+                },
+                {
+                  "id": "ch2_3_3_3",
+                  "name": "Nâng cao đời sống nhân dân",
+                  "level": 4,
+                  "color": "#facc15",
+                  "description": "Cải thiện điều kiện sống, phát triển giáo dục, y tế và nâng cao phúc lợi xã hội.",
+                  "meaning": "Đảm bảo sự phát triển toàn diện của xã hội."
+                }
+              ]
+            },
+            {
+              "id": "ch2_3_4",
+              "name": "Khó khăn của quá trình quá độ",
+              "level": 3,
+              "color": "#ca8a04",
+              "description": "Quá trình xây dựng gặp nhiều thách thức lớn:\n- nền kinh tế xuất phát điểm thấp\n- hậu quả nặng nề của chiến tranh\n- thiếu vốn và công nghệ hiện đại\n- cơ chế quản lý kinh tế chưa phù hợp",
+              "meaning": "Đặt ra yêu cầu phải đổi mới, dẫn tới Đổi mới 1986 (Đại hội VI)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "name": "KINH TẾ CHÍNH TRỊ MÁC – LÊNIN",
+      "shortName": "Kinh tế Chính trị",
+      "level": 1,
+      "color": "#3b82f6",
+      "icon": "macimg.png",
+      "description": "Kinh tế chính trị Marx – Lenin nghiên cứu quy luật kinh tế cơ bản, cách thức tổ chức sản xuất và phân phối hàng hóa, quy luật thị trường, tiền tệ và quan hệ sản xuất.",
+      "vietnam_example": "Giai đoạn 1975–1986: Vận dụng mô hình kế hoạch hóa tập trung, Nhà nước giữ vai trò chủ đạo quyết định chỉ tiêu, phân phối nguồn lực và kiểm soát giá cả.",
+      "meaning": "Lý luận giúp giải thích cách nền kinh tế vận hành và cung cấp cơ sở cho việc xây dựng chính sách kinh tế trong thời kỳ quá độ.",
+      "children": [
+        {
+          "id": "ch3_1",
+          "name": "HÀNG HÓA",
+          "level": 2,
+          "color": "#3b82f6",
+          "description": "Nghiên cứu bản chất của sản xuất hàng hóa và sự vận động của hàng hóa trong nền kinh tế.",
+          "children": [
+            {
+              "id": "ch3_1_1",
+              "name": "Khái niệm",
+              "level": 3,
+              "color": "#06b6d4",
+              "description": "Theo Karl Marx, hàng hóa là sản phẩm lao động tạo ra để trao đổi. Hàng hóa có hai thuộc tính: Giá trị sử dụng (công dụng) và Giá trị (lượng lao động xã hội cần thiết).",
+              "meaning": "Giá trị hàng hóa thường biểu hiện qua giá cả trên thị trường."
+            },
+            {
+              "id": "ch3_1_2",
+              "name": "Hàng hóa trong bao cấp",
+              "level": 3,
+              "color": "#06b6d4",
+              "description": "Trong giai đoạn 1975–1986, lưu thông hàng hóa bị hạn chế. Nhà nước quản lý chặt chẽ sản xuất, phân phối và giá cả.",
+              "vietnam_example": "Nhiều mặt hàng thiết yếu không được mua bán tự do mà được phân phối theo kế hoạch.",
+              "meaning": "Nhà nước đóng vai trò chủ đạo trong việc điều phối nguồn cung."
+            },
+            {
+              "id": "ch3_1_3",
+              "name": "Hệ thống tem phiếu",
+              "level": 3,
+              "color": "#06b6d4",
+              "description": "Áp dụng để phân phối hàng hóa thiết yếu (gạo, đường, thịt, vải, dầu hỏa) trong điều kiện khan hiếm.",
+              "vietnam_example": "Người dân sử dụng tem phiếu do Nhà nước cấp để mua hàng theo tiêu chuẩn quy định.",
+              "meaning": "Đảm bảo phân phối tương đối công bằng trong hoàn cảnh thiếu hụt."
+            },
+            {
+              "id": "ch3_1_4",
+              "name": "Hệ quả",
+              "level": 3,
+              "color": "#06b6d4",
+              "description": "Nguồn cung hạn chế, chợ đen phát triển, động lực sản xuất giảm do đơn vị thiếu tính chủ động.",
+              "meaning": "Là một trong những nguyên nhân dẫn đến nhu cầu cải cách Đổi mới 1986."
+            }
+          ]
+        },
+        {
+          "id": "ch3_2",
+          "name": "THỊ TRƯỜNG",
+          "level": 2,
+          "color": "#3b82f6",
+          "description": "Nghiên cứu các quy luật vận hành của thị trường và sự điều tiết kinh tế thông qua trao đổi.",
+          "children": [
+            {
+              "id": "ch3_2_1",
+              "name": "Khái niệm",
+              "level": 3,
+              "color": "#06b6d4",
+              "description": "Thị trường là nơi diễn ra sự trao đổi hàng hóa và dịch vụ. Trong nền kinh tế thị trường, nó quyết định giá cả, sản lượng và phân bổ nguồn lực qua cơ chế cung - cầu.",
+              "meaning": "Là công cụ quan trọng để kích thích sản xuất và tiêu dùng."
+            },
+            {
+              "id": "ch3_2_2",
+              "name": "Lý luận Marx",
+              "level": 3,
+              "color": "#06b6d4",
+              "description": "Thị trường là nơi biểu hiện quan hệ trao đổi, giúp phân phối nguồn lực và kích thích sản xuất.",
+              "meaning": "Hàng hóa trao đổi dựa trên giá trị (lượng lao động xã hội cần thiết)."
+            },
+            {
+              "id": "ch3_2_3",
+              "name": "Thị trường trong kế hoạch hóa",
+              "level": 3,
+              "color": "#06b6d4",
+              "description": "Thị trường không giữ vai trò quyết định. Nhà nước lập kế hoạch, phân phối và kiểm soát giá cả.",
+              "vietnam_example": "Doanh nghiệp sản xuất theo chỉ tiêu giao thay vì dựa trên nhu cầu thực tế.",
+              "meaning": "Cơ chế vận hành mang tính hành chính, mệnh lệnh."
+            },
+            {
+              "id": "ch3_2_4",
+              "name": "Hạn chế",
+              "level": 3,
+              "color": "#06b6d4",
+              "description": "Thiếu linh hoạt, không phản ánh đúng nhu cầu người tiêu dùng, thiếu động lực cạnh tranh.",
+              "meaning": "Khiến nền kinh tế hoạt động kém hiệu quả, thúc đẩy nhu cầu cải cách."
+            }
+          ]
+        },
+        {
+          "id": "ch3_3",
+          "name": "TIỀN TỆ",
+          "level": 2,
+          "color": "#3b82f6",
+          "description": "Nghiên cứu vai trò của tiền tệ trong lưu thông và trao đổi hàng hóa.",
+          "children": [
+            {
+              "id": "ch3_3_1",
+              "name": "Khái niệm",
+              "level": 3,
+              "color": "#06b6d4",
+              "description": "Tiền tệ là hình thái phát triển cao của giá trị hàng hóa, thực hiện các chức năng: thước đo giá trị, phương tiện trao đổi, cất trữ và thanh toán.",
+              "meaning": "Tạo điều kiện thuận lợi cho quá trình trao đổi và lưu thông."
+            },
+            {
+              "id": "ch3_3_2",
+              "name": "Vai trò kinh tế",
+              "level": 3,
+              "color": "#06b6d4",
+              "description": "Trong kinh tế thị trường, tiền tệ giúp xác định giá cả, thúc đẩy thương mại và tạo điều kiện cho đầu tư, tích lũy vốn.",
+              "meaning": "Giúp nền kinh tế vận hành linh hoạt và hiệu quả hơn."
+            },
+            {
+              "id": "ch3_3_3",
+              "name": "Tiền tệ trong bao cấp",
+              "level": 3,
+              "color": "#06b6d4",
+              "description": "Vai trò bị hạn chế do giá cả ấn định và hàng hóa phân phối bằng tem phiếu. Tiền tệ không phản ánh đúng quan hệ cung – cầu.",
+              "vietnam_example": "Sử dụng tiền tệ chỉ mang tính thủ tục trong nhiều hoạt động kinh tế nhà nước.",
+              "meaning": "Vai trò điều tiết kinh tế của tiền tệ bị giảm sút đáng kể."
+            },
+            {
+              "id": "ch3_3_4",
+              "name": "Hệ quả",
+              "level": 3,
+              "color": "#06b6d4",
+              "description": "Thị trường kém hiệu quả, giá không phản ánh giá trị thực, mất cân đối giữa sản xuất và tiêu dùng.",
+              "meaning": "Thúc đẩy quá trình chuyển đổi sang kinh tế thị trường định hướng XHCN."
+            }
+          ]
+        },
+        {
+          "id": "ch3_4",
+          "name": "KẾ HOẠCH HÓA TẬP TRUNG",
+          "level": 2,
+          "color": "#3b82f6",
+          "description": "Mô hình Nhà nước giữ vai trò quyết định, xây dựng kế hoạch sản xuất và phân phối toàn bộ nền kinh tế.",
+          "children": [
+            {
+              "id": "ch3_4_1",
+              "name": "Khái niệm",
+              "level": 3,
+              "color": "#06b6d4",
+              "description": "Mô hình kinh tế Nhà nước giữ vai trò quyết định hoạt động sản xuất, phân phối theo định hướng xã hội chủ nghĩa (1975–1986).",
+              "meaning": "Nhà nước là trung tâm điều hành toàn bộ nền kinh tế quốc dân."
+            },
+            {
+              "id": "ch3_4_2",
+              "name": "Đặc điểm",
+              "level": 3,
+              "color": "#06b6d4",
+              "description": "Nhà nước giao chỉ tiêu (sản lượng, giá, nguyên liệu); doanh nghiệp không tự chủ và không hoạt động vì lợi nhuận.",
+              "vietnam_example": "Hoạt động phân phối hàng hóa được thực hiện theo tiêu chuẩn do Nhà nước quy định.",
+              "meaning": "Tính chất mệnh lệnh hành chính cao trong quản lý kinh tế."
+            },
+            {
+              "id": "ch3_4_3",
+              "name": "Hệ quả",
+              "level": 3,
+              "color": "#06b6d4",
+              "description": "Sản xuất kém hiệu quả, thiếu động lực sáng tạo, kinh tế phát triển chậm và không đáp ứng nhu cầu thực tế.",
+              "meaning": "Nền kinh tế rơi vào tình trạng trì trệ, xơ cứng."
+            },
+            {
+              "id": "ch3_4_4",
+              "name": "Nhu cầu đổi mới",
+              "level": 3,
+              "color": "#06b6d4",
+              "description": "Những hạn chế của mô hình cũ dẫn đến yêu cầu cải cách, mở đường cho công cuộc Đổi mới 1986.",
+              "vietnam_example": "Đại hội VI (1986) đánh dấu bước chuyển sang kinh tế thị trường định hướng XHCN.",
+              "meaning": "Tạo nền tảng cho sự phát triển mạnh mẽ của Việt Nam trong giai đoạn sau."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "ch1",
       "name": "LỊCH SỬ ĐẢNG",
       "shortName": "Lịch sử Đảng",
@@ -344,335 +673,6 @@
               "description": "Đại hội V chưa cải cách toàn diện nhưng có ý nghĩa quan trọng trong phát triển tư duy kinh tế Việt Nam.\n\n- Đặt nền móng cho việc đổi mới tư duy quản lý kinh tế.\n- Từng bước nhìn nhận lại những hạn chế của cơ chế kế hoạch hóa tập trung.\n- Tạo tiền đề cho công cuộc Đổi mới năm 1986.",
               "vietnam_example": "Sự chuẩn bị về mặt lý luận và thực tiễn để tiến tới Đại hội VI (1986).",
               "meaning": "Góp phần mở ra hướng suy nghĩ mới trong việc tổ chức và quản lý nền kinh tế quốc gia."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ch2",
-      "name": "CHỦ NGHĨA XÃ HỘI KHOA HỌC",
-      "shortName": "CNXH Khoa học",
-      "level": 1,
-      "color": "#22c55e",
-      "icon": "khoahoc.png",
-      "description": "Chủ nghĩa xã hội khoa học là bộ phận lý luận của Chủ nghĩa Marx–Lenin, nghiên cứu quy luật phát triển của xã hội, con đường chuyển từ chủ nghĩa tư bản sang chủ nghĩa xã hội, vai trò của giai cấp công nhân và các phong trào giải phóng dân tộc.",
-      "vietnam_example": "Ở Việt Nam, lý luận này được Đảng Cộng sản Việt Nam vận dụng để lãnh đạo đấu tranh giải phóng dân tộc và xây dựng xã hội mới sau khi đất nước thống nhất.",
-      "meaning": "CNXH khoa học cung cấp cơ sở lý luận cho con đường giải phóng dân tộc và quá độ lên CNXH tại Việt Nam.",
-      "children": [
-        {
-          "id": "ch2_1",
-          "name": "GIẢI PHÓNG DÂN TỘC",
-          "level": 2,
-          "color": "#22c55e",
-          "description": "Nhiệm vụ hàng đầu của cách mạng Việt Nam, kết hợp giữa lý luận Marx-Lenin và thực tiễn phong trào đấu tranh đánh bại chủ nghĩa đế quốc.",
-          "children": [
-            {
-              "id": "ch2_1_1",
-              "name": "Cơ sở lý luận",
-              "level": 3,
-              "color": "#ca8a04",
-              "description": "Theo chủ nghĩa Marx – Lenin, trong thời đại chủ nghĩa đế quốc, các dân tộc thuộc địa có thể trở thành lực lượng quan trọng trong phong trào cách mạng thế giới.\n\nLenin cho rằng:\n- hệ thống chủ nghĩa đế quốc tồn tại nhiều “khâu yếu”\n- các dân tộc bị áp bức có thể nổi dậy chống lại sự thống trị của đế quốc\n- phong trào giải phóng dân tộc có thể kết hợp với phong trào cách mạng vô sản.",
-              "meaning": "Giải phóng dân tộc là bước đi quan trọng để tiến tới giải phóng giai cấp và xây dựng xã hội mới."
-            },
-            {
-              "id": "ch2_1_2",
-              "name": "Thực tiễn Việt Nam",
-              "level": 3,
-              "color": "#ca8a04",
-              "description": "Nhiệm vụ giải phóng dân tộc luôn được đặt lên hàng đầu. Sau năm 1954, đất nước tạm thời bị chia cắt, nhân dân tiếp tục đấu tranh chống sự can thiệp của Hoa Kỳ để bảo vệ độc lập, thống nhất và chủ quyền.\n\nCác giai đoạn chiến tranh:\n- Chiến tranh đặc biệt (1961–1965)\n- Chiến tranh cục bộ (1965–1968)\n- Việt Nam hóa chiến tranh (1969–1973)",
-              "vietnam_example": "Đại thắng mùa Xuân 1975 kết thúc cuộc kháng chiến hơn 20 năm, mở ra kỷ nguyên mới.",
-              "meaning": "Chiến thắng giúp giải phóng hoàn toàn miền Nam và chấm dứt chiến tranh."
-            },
-            {
-              "id": "ch2_1_3",
-              "name": "Ý nghĩa",
-              "level": 3,
-              "color": "#ca8a04",
-              "description": "Chiến thắng giành lại độc lập hoàn toàn và chủ quyền quốc gia, thực hiện thống nhất đất nước.\n\nKết quả:\n- Kết thúc hơn một thế kỷ đấu tranh chống thực dân và đế quốc.\n- Tạo điều kiện để Việt Nam bước vào thời kỳ xây dựng đất nước theo con đường xã hội chủ nghĩa.",
-              "meaning": "Thắng lợi khẳng định tính đúng đắn của đường lối cách mạng dưới sự lãnh đạo của Đảng."
-            }
-          ]
-        },
-        {
-          "id": "ch2_2",
-          "name": "THỐNG NHẤT ĐẤT NƯỚC",
-          "level": 2,
-          "color": "#22c55e",
-          "description": "Bao gồm sự thống nhất về lãnh thổ, hệ thống chính trị, pháp luật và chiến lược phát triển kinh tế – xã hội trên phạm vi cả nước.",
-          "children": [
-            {
-              "id": "ch2_2_1",
-              "name": "Thống nhất về chính trị",
-              "level": 3,
-              "color": "#ca8a04",
-              "description": "Thiết lập hệ thống chính trị thống nhất từ trung ương đến địa phương.\n\nSự kiện tiêu biểu:\n- Năm 1976: Bầu ra Quốc hội khóa VI.\n- Quyết định tên nước là Cộng hòa Xã hội Chủ nghĩa Việt Nam.",
-              "meaning": "Tổ chức lại bộ máy nhà nước nhằm quản lý toàn bộ đất nước một cách thống nhất và hiệu quả."
-            },
-            {
-              "id": "ch2_2_2",
-              "name": "Thống nhất về pháp luật",
-              "level": 3,
-              "color": "#ca8a04",
-              "description": "Xây dựng hệ thống pháp luật chung cho cả nước, tạo nền tảng pháp lý vững chắc.\n\nNhiệm vụ:\n- Xây dựng Hiến pháp mới phù hợp với tình hình đất nước.\n- Thống nhất hệ thống luật pháp giữa các vùng miền.\n- Thiết lập cơ chế quản lý nhà nước thống nhất.",
-              "meaning": "Góp phần ổn định chính trị và xã hội trong giai đoạn đầu sau chiến tranh."
-            },
-            {
-              "id": "ch2_2_3",
-              "name": "Thống nhất chiến lược phát triển",
-              "level": 3,
-              "color": "#ca8a04",
-              "description": "Xây dựng chiến lược chung nhằm khôi phục và phát triển kinh tế – xã hội sau năm 1975.\n\nMục tiêu:\n- Khôi phục kinh tế sau chiến tranh và xây dựng cơ sở hạ tầng.\n- Phát triển sản xuất trong các ngành kinh tế.\n- Nâng cao đời sống của nhân dân.",
-              "meaning": "Tạo ra sự đồng bộ trong quá trình phát triển trên phạm vi cả nước."
-            }
-          ]
-        },
-        {
-          "id": "ch2_3",
-          "name": "CON ĐƯỜNG ĐI LÊN CNXH",
-          "level": 2,
-          "color": "#22c55e",
-          "description": "Giai đoạn xây dựng đất nước dựa trên nền tảng lý luận Chủ nghĩa Marx–Lenin và tư tưởng cách mạng phù hợp thực tiễn Việt Nam.",
-          "children": [
-            {
-              "id": "ch2_3_1",
-              "name": "Xuất phát điểm của Việt Nam",
-              "level": 3,
-              "color": "#ca8a04",
-              "description": "Việt Nam bước vào quá trình xây dựng với nhiều khó khăn lớn.\n\nĐặc điểm:\n- nền nông nghiệp còn lạc hậu và hạ tầng yếu kém\n- hậu quả chiến tranh nặng nề\n- năng suất lao động thấp",
-              "meaning": "Yêu cầu lựa chọn con đường phát triển phù hợp với điều kiện thực tế."
-            },
-            {
-              "id": "ch2_3_2",
-              "name": "Lựa chọn con đường phát triển",
-              "level": 3,
-              "color": "#ca8a04",
-              "description": "Việt Nam lựa chọn con đường quá độ lên chủ nghĩa xã hội, từng bước xây dựng xã hội mới.\n\nCác bước phát triển:\n- phát triển lực lượng sản xuất\n- cải tạo quan hệ sản xuất\n- xây dựng hệ thống kinh tế – xã hội mới",
-              "meaning": "Quá trình này cần thời gian dài và nhiều bước phát triển thay vì chuyển đổi ngay lập tức."
-            },
-            {
-              "id": "ch2_3_3",
-              "name": "Nội dung của quá trình quá độ",
-              "level": 3,
-              "color": "#ca8a04",
-              "description": "Nhiệm vụ quan trọng trên các lĩnh vực kinh tế và xã hội.",
-              "children": [
-                {
-                  "id": "ch2_3_3_1",
-                  "name": "Phát triển lực lượng sản xuất",
-                  "level": 4,
-                  "color": "#facc15",
-                  "description": "Xây dựng và phát triển công nghiệp, nông nghiệp và cải thiện cơ sở hạ tầng kinh tế.",
-                  "meaning": "Nâng cao năng lực sản xuất của nền kinh tế."
-                },
-                {
-                  "id": "ch2_3_3_2",
-                  "name": "Cải tạo quan hệ sản xuất",
-                  "level": 4,
-                  "color": "#facc15",
-                  "description": "Phát triển kinh tế quốc doanh, tập thể và hạn chế các yếu tố bóc lột.",
-                  "meaning": "Xây dựng quan hệ sản xuất phù hợp định hướng XHCN."
-                },
-                {
-                  "id": "ch2_3_3_3",
-                  "name": "Nâng cao đời sống nhân dân",
-                  "level": 4,
-                  "color": "#facc15",
-                  "description": "Cải thiện điều kiện sống, phát triển giáo dục, y tế và nâng cao phúc lợi xã hội.",
-                  "meaning": "Đảm bảo sự phát triển toàn diện của xã hội."
-                }
-              ]
-            },
-            {
-              "id": "ch2_3_4",
-              "name": "Khó khăn của quá trình quá độ",
-              "level": 3,
-              "color": "#ca8a04",
-              "description": "Quá trình xây dựng gặp nhiều thách thức lớn:\n- nền kinh tế xuất phát điểm thấp\n- hậu quả nặng nề của chiến tranh\n- thiếu vốn và công nghệ hiện đại\n- cơ chế quản lý kinh tế chưa phù hợp",
-              "meaning": "Đặt ra yêu cầu phải đổi mới, dẫn tới Đổi mới 1986 (Đại hội VI)."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ch3",
-      "name": "KINH TẾ CHÍNH TRỊ MÁC – LÊNIN",
-      "shortName": "Kinh tế Chính trị",
-      "level": 1,
-      "color": "#3b82f6",
-      "icon": "macimg.png",
-      "description": "Kinh tế chính trị Marx – Lenin nghiên cứu quy luật kinh tế cơ bản, cách thức tổ chức sản xuất và phân phối hàng hóa, quy luật thị trường, tiền tệ và quan hệ sản xuất.",
-      "vietnam_example": "Giai đoạn 1975–1986: Vận dụng mô hình kế hoạch hóa tập trung, Nhà nước giữ vai trò chủ đạo quyết định chỉ tiêu, phân phối nguồn lực và kiểm soát giá cả.",
-      "meaning": "Lý luận giúp giải thích cách nền kinh tế vận hành và cung cấp cơ sở cho việc xây dựng chính sách kinh tế trong thời kỳ quá độ.",
-      "children": [
-        {
-          "id": "ch3_1",
-          "name": "HÀNG HÓA",
-          "level": 2,
-          "color": "#3b82f6",
-          "description": "Nghiên cứu bản chất của sản xuất hàng hóa và sự vận động của hàng hóa trong nền kinh tế.",
-          "children": [
-            {
-              "id": "ch3_1_1",
-              "name": "Khái niệm",
-              "level": 3,
-              "color": "#06b6d4",
-              "description": "Theo Karl Marx, hàng hóa là sản phẩm lao động tạo ra để trao đổi. Hàng hóa có hai thuộc tính: Giá trị sử dụng (công dụng) và Giá trị (lượng lao động xã hội cần thiết).",
-              "meaning": "Giá trị hàng hóa thường biểu hiện qua giá cả trên thị trường."
-            },
-            {
-              "id": "ch3_1_2",
-              "name": "Hàng hóa trong bao cấp",
-              "level": 3,
-              "color": "#06b6d4",
-              "description": "Trong giai đoạn 1975–1986, lưu thông hàng hóa bị hạn chế. Nhà nước quản lý chặt chẽ sản xuất, phân phối và giá cả.",
-              "vietnam_example": "Nhiều mặt hàng thiết yếu không được mua bán tự do mà được phân phối theo kế hoạch.",
-              "meaning": "Nhà nước đóng vai trò chủ đạo trong việc điều phối nguồn cung."
-            },
-            {
-              "id": "ch3_1_3",
-              "name": "Hệ thống tem phiếu",
-              "level": 3,
-              "color": "#06b6d4",
-              "description": "Áp dụng để phân phối hàng hóa thiết yếu (gạo, đường, thịt, vải, dầu hỏa) trong điều kiện khan hiếm.",
-              "vietnam_example": "Người dân sử dụng tem phiếu do Nhà nước cấp để mua hàng theo tiêu chuẩn quy định.",
-              "meaning": "Đảm bảo phân phối tương đối công bằng trong hoàn cảnh thiếu hụt."
-            },
-            {
-              "id": "ch3_1_4",
-              "name": "Hệ quả",
-              "level": 3,
-              "color": "#06b6d4",
-              "description": "Nguồn cung hạn chế, chợ đen phát triển, động lực sản xuất giảm do đơn vị thiếu tính chủ động.",
-              "meaning": "Là một trong những nguyên nhân dẫn đến nhu cầu cải cách Đổi mới 1986."
-            }
-          ]
-        },
-        {
-          "id": "ch3_2",
-          "name": "THỊ TRƯỜNG",
-          "level": 2,
-          "color": "#3b82f6",
-          "description": "Nghiên cứu các quy luật vận hành của thị trường và sự điều tiết kinh tế thông qua trao đổi.",
-          "children": [
-            {
-              "id": "ch3_2_1",
-              "name": "Khái niệm",
-              "level": 3,
-              "color": "#06b6d4",
-              "description": "Thị trường là nơi diễn ra sự trao đổi hàng hóa và dịch vụ. Trong nền kinh tế thị trường, nó quyết định giá cả, sản lượng và phân bổ nguồn lực qua cơ chế cung - cầu.",
-              "meaning": "Là công cụ quan trọng để kích thích sản xuất và tiêu dùng."
-            },
-            {
-              "id": "ch3_2_2",
-              "name": "Lý luận Marx",
-              "level": 3,
-              "color": "#06b6d4",
-              "description": "Thị trường là nơi biểu hiện quan hệ trao đổi, giúp phân phối nguồn lực và kích thích sản xuất.",
-              "meaning": "Hàng hóa trao đổi dựa trên giá trị (lượng lao động xã hội cần thiết)."
-            },
-            {
-              "id": "ch3_2_3",
-              "name": "Thị trường trong kế hoạch hóa",
-              "level": 3,
-              "color": "#06b6d4",
-              "description": "Thị trường không giữ vai trò quyết định. Nhà nước lập kế hoạch, phân phối và kiểm soát giá cả.",
-              "vietnam_example": "Doanh nghiệp sản xuất theo chỉ tiêu giao thay vì dựa trên nhu cầu thực tế.",
-              "meaning": "Cơ chế vận hành mang tính hành chính, mệnh lệnh."
-            },
-            {
-              "id": "ch3_2_4",
-              "name": "Hạn chế",
-              "level": 3,
-              "color": "#06b6d4",
-              "description": "Thiếu linh hoạt, không phản ánh đúng nhu cầu người tiêu dùng, thiếu động lực cạnh tranh.",
-              "meaning": "Khiến nền kinh tế hoạt động kém hiệu quả, thúc đẩy nhu cầu cải cách."
-            }
-          ]
-        },
-        {
-          "id": "ch3_3",
-          "name": "TIỀN TỆ",
-          "level": 2,
-          "color": "#3b82f6",
-          "description": "Nghiên cứu vai trò của tiền tệ trong lưu thông và trao đổi hàng hóa.",
-          "children": [
-            {
-              "id": "ch3_3_1",
-              "name": "Khái niệm",
-              "level": 3,
-              "color": "#06b6d4",
-              "description": "Tiền tệ là hình thái phát triển cao của giá trị hàng hóa, thực hiện các chức năng: thước đo giá trị, phương tiện trao đổi, cất trữ và thanh toán.",
-              "meaning": "Tạo điều kiện thuận lợi cho quá trình trao đổi và lưu thông."
-            },
-            {
-              "id": "ch3_3_2",
-              "name": "Vai trò kinh tế",
-              "level": 3,
-              "color": "#06b6d4",
-              "description": "Trong kinh tế thị trường, tiền tệ giúp xác định giá cả, thúc đẩy thương mại và tạo điều kiện cho đầu tư, tích lũy vốn.",
-              "meaning": "Giúp nền kinh tế vận hành linh hoạt và hiệu quả hơn."
-            },
-            {
-              "id": "ch3_3_3",
-              "name": "Tiền tệ trong bao cấp",
-              "level": 3,
-              "color": "#06b6d4",
-              "description": "Vai trò bị hạn chế do giá cả ấn định và hàng hóa phân phối bằng tem phiếu. Tiền tệ không phản ánh đúng quan hệ cung – cầu.",
-              "vietnam_example": "Sử dụng tiền tệ chỉ mang tính thủ tục trong nhiều hoạt động kinh tế nhà nước.",
-              "meaning": "Vai trò điều tiết kinh tế của tiền tệ bị giảm sút đáng kể."
-            },
-            {
-              "id": "ch3_3_4",
-              "name": "Hệ quả",
-              "level": 3,
-              "color": "#06b6d4",
-              "description": "Thị trường kém hiệu quả, giá không phản ánh giá trị thực, mất cân đối giữa sản xuất và tiêu dùng.",
-              "meaning": "Thúc đẩy quá trình chuyển đổi sang kinh tế thị trường định hướng XHCN."
-            }
-          ]
-        },
-        {
-          "id": "ch3_4",
-          "name": "KẾ HOẠCH HÓA TẬP TRUNG",
-          "level": 2,
-          "color": "#3b82f6",
-          "description": "Mô hình Nhà nước giữ vai trò quyết định, xây dựng kế hoạch sản xuất và phân phối toàn bộ nền kinh tế.",
-          "children": [
-            {
-              "id": "ch3_4_1",
-              "name": "Khái niệm",
-              "level": 3,
-              "color": "#06b6d4",
-              "description": "Mô hình kinh tế Nhà nước giữ vai trò quyết định hoạt động sản xuất, phân phối theo định hướng xã hội chủ nghĩa (1975–1986).",
-              "meaning": "Nhà nước là trung tâm điều hành toàn bộ nền kinh tế quốc dân."
-            },
-            {
-              "id": "ch3_4_2",
-              "name": "Đặc điểm",
-              "level": 3,
-              "color": "#06b6d4",
-              "description": "Nhà nước giao chỉ tiêu (sản lượng, giá, nguyên liệu); doanh nghiệp không tự chủ và không hoạt động vì lợi nhuận.",
-              "vietnam_example": "Hoạt động phân phối hàng hóa được thực hiện theo tiêu chuẩn do Nhà nước quy định.",
-              "meaning": "Tính chất mệnh lệnh hành chính cao trong quản lý kinh tế."
-            },
-            {
-              "id": "ch3_4_3",
-              "name": "Hệ quả",
-              "level": 3,
-              "color": "#06b6d4",
-              "description": "Sản xuất kém hiệu quả, thiếu động lực sáng tạo, kinh tế phát triển chậm và không đáp ứng nhu cầu thực tế.",
-              "meaning": "Nền kinh tế rơi vào tình trạng trì trệ, xơ cứng."
-            },
-            {
-              "id": "ch3_4_4",
-              "name": "Nhu cầu đổi mới",
-              "level": 3,
-              "color": "#06b6d4",
-              "description": "Những hạn chế của mô hình cũ dẫn đến yêu cầu cải cách, mở đường cho công cuộc Đổi mới 1986.",
-              "vietnam_example": "Đại hội VI (1986) đánh dấu bước chuyển sang kinh tế thị trường định hướng XHCN.",
-              "meaning": "Tạo nền tảng cho sự phát triển mạnh mẽ của Việt Nam trong giai đoạn sau."
             }
           ]
         }
