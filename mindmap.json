@@ -3,9 +3,9 @@
   "name": "MÙA XUÂN THỐNG NHẤT\n(1960–1982)",
   "level": 0,
   "icon": "🇻🇳",
-  "description": "Giai đoạn 1960–1982 là thời kỳ đặc biệt quan trọng trong lịch sử hiện đại Việt Nam. Đây là giai đoạn đất nước vừa tiến hành cuộc kháng chiến chống Mỹ cứu nước, vừa từng bước xây dựng nền tảng cho sự phát triển của quốc gia sau khi thống nhất.\n\nSau Hiệp định Genève năm 1954, Việt Nam tạm thời bị chia cắt thành hai miền với hai chế độ chính trị khác nhau:\n- Miền Bắc: tiến hành xây dựng chủ nghĩa xã hội và trở thành hậu phương lớn cho cách mạng.\n- Miền Nam: tiếp tục đấu tranh chống lại chính quyền Sài Gòn và sự can thiệp của Mỹ.",
-  "vietnam_example": "Trong suốt giai đoạn này, Đảng Cộng sản Việt Nam giữ vai trò lãnh đạo toàn diện, đề ra đường lối chiến lược cho cách mạng Việt Nam.\n\nCuộc kháng chiến chống Mỹ kết thúc bằng Chiến dịch Hồ Chí Minh (30/4/1975), đánh dấu sự kiện lịch sử trọng đại: đất nước hoàn toàn thống nhất. Sau đó, Việt Nam bước vào giai đoạn mới: xây dựng đất nước và quá độ lên chủ nghĩa xã hội.",
-  "meaning": "MÙA XUÂN THỐNG NHẤT (1960–1982) là thời kỳ đặc biệt quan trọng trong lịch sử hiện đại Việt Nam, đánh dấu quá trình đấu tranh giải phóng dân tộc và bước đầu xây dựng nền tảng phát triển quốc gia thống nhất.",
+  "description": "Giai đoạn 1960–1986 là thời kỳ đặc biệt quan trọng trong lịch sử hiện đại Việt Nam. Đây là giai đoạn đất nước vừa tiến hành cuộc kháng chiến chống Mỹ cứu nước, vừa từng bước xây dựng nền tảng cho sự phát triển của quốc gia sau khi thống nhất.\nSau Hiệp định Genève năm 1954, Việt Nam tạm thời bị chia cắt thành hai miền với hai chế độ chính trị khác nhau:\nMiền Bắc: tiến hành xây dựng chủ nghĩa xã hội và trở thành hậu phương lớn cho cách mạng.\nMiền Nam: tiếp tục đấu tranh chống lại chính quyền Sài Gòn và sự can thiệp của Mỹ.\nTrong suốt giai đoạn này, Đảng Cộng sản Việt Nam giữ vai trò lãnh đạo toàn diện, đề ra đường lối chiến lược cho cách mạng Việt Nam.\nCuộc kháng chiến chống Mỹ kết thúc bằng Chiến dịch Hồ Chí Minh (30/4/1975), đánh dấu sự kiện lịch sử trọng đại: đất nước hoàn toàn thống nhất.\nSau đó, Việt Nam bước vào giai đoạn mới: xây dựng đất nước và quá độ lên chủ nghĩa xã hội.",
+  "vietnam_example": "",
+  "meaning": "",
   "children": [
     {
       "id": "ch2",
@@ -14,9 +14,9 @@
       "level": 1,
       "color": "#22c55e",
       "icon": "khoahoc.png",
-      "description": "Chủ nghĩa xã hội khoa học là bộ phận lý luận của Chủ nghĩa Marx–Lenin, nghiên cứu quy luật phát triển của xã hội, con đường chuyển từ chủ nghĩa tư bản sang chủ nghĩa xã hội, vai trò của giai cấp công nhân và các phong trào giải phóng dân tộc.",
-      "vietnam_example": "Ở Việt Nam, lý luận này được Đảng Cộng sản Việt Nam vận dụng để lãnh đạo đấu tranh giải phóng dân tộc và xây dựng xã hội mới sau khi đất nước thống nhất.",
-      "meaning": "CNXH khoa học cung cấp cơ sở lý luận cho con đường giải phóng dân tộc và quá độ lên CNXH tại Việt Nam.",
+      "description": "Chủ nghĩa xã hội khoa học là bộ phận lý luận của Chủ nghĩa Marx–Lenin, nghiên cứu:\n- quy luật phát triển của xã hội\n- con đường chuyển từ chủ nghĩa tư bản sang chủ nghĩa xã hội\n- vai trò của giai cấp công nhân và các phong trào giải phóng dân tộc\nỞ Việt Nam, lý luận này được Đảng Cộng sản Việt Nam vận dụng để lãnh đạo đấu tranh giải phóng dân tộc và xây dựng xã hội mới sau khi đất nước thống nhất.",
+      "vietnam_example": "",
+      "meaning": "",
       "children": [
         {
           "id": "ch2_1",
@@ -24,31 +24,31 @@
           "level": 2,
           "color": "#22c55e",
           "description": "Nhiệm vụ hàng đầu của cách mạng Việt Nam, kết hợp giữa lý luận Marx-Lenin và thực tiễn phong trào đấu tranh đánh bại chủ nghĩa đế quốc.",
+          "meaning": "",
           "children": [
             {
               "id": "ch2_1_1",
               "name": "Cơ sở lý luận",
               "level": 3,
               "color": "#ca8a04",
-              "description": "Theo chủ nghĩa Marx – Lenin, trong thời đại chủ nghĩa đế quốc, các dân tộc thuộc địa có thể trở thành lực lượng quan trọng trong phong trào cách mạng thế giới.\n\nLenin cho rằng:\n- hệ thống chủ nghĩa đế quốc tồn tại nhiều “khâu yếu”\n- các dân tộc bị áp bức có thể nổi dậy chống lại sự thống trị của đế quốc\n- phong trào giải phóng dân tộc có thể kết hợp với phong trào cách mạng vô sản.",
-              "meaning": "Giải phóng dân tộc là bước đi quan trọng để tiến tới giải phóng giai cấp và xây dựng xã hội mới."
+              "description": "1. Cơ sở lý luận\nTheo chủ nghĩa Marx – Lenin, trong thời đại chủ nghĩa đế quốc, các dân tộc thuộc địa có thể trở thành lực lượng quan trọng trong phong trào cách mạng thế giới.\nLenin cho rằng:\n- hệ thống chủ nghĩa đế quốc tồn tại nhiều \"khâu yếu\"\n- các dân tộc bị áp bức có thể nổi dậy chống lại sự thống trị của đế quốc\n- phong trào giải phóng dân tộc có thể kết hợp với phong trào cách mạng vô sản.\nTheo quan điểm này, giải phóng dân tộc là bước đi quan trọng để tiến tới giải phóng giai cấp và xây dựng xã hội mới.",
+              "meaning": ""
             },
             {
               "id": "ch2_1_2",
               "name": "Thực tiễn Việt Nam",
               "level": 3,
               "color": "#ca8a04",
-              "description": "Nhiệm vụ giải phóng dân tộc luôn được đặt lên hàng đầu. Sau năm 1954, đất nước tạm thời bị chia cắt, nhân dân tiếp tục đấu tranh chống sự can thiệp của Hoa Kỳ để bảo vệ độc lập, thống nhất và chủ quyền.\n\nCác giai đoạn chiến tranh:\n- Chiến tranh đặc biệt (1961–1965)\n- Chiến tranh cục bộ (1965–1968)\n- Việt Nam hóa chiến tranh (1969–1973)",
-              "vietnam_example": "Đại thắng mùa Xuân 1975 kết thúc cuộc kháng chiến hơn 20 năm, mở ra kỷ nguyên mới.",
-              "meaning": "Chiến thắng giúp giải phóng hoàn toàn miền Nam và chấm dứt chiến tranh."
+              "description": "2. Thực tiễn Việt Nam\nTrong lịch sử cách mạng Việt Nam, nhiệm vụ giải phóng dân tộc luôn được đặt lên hàng đầu. Sau năm 1954, đất nước tạm thời bị chia cắt, và nhân dân Việt Nam tiếp tục cuộc đấu tranh nhằm chống lại sự can thiệp của Hoa Kỳ để:\n- bảo vệ độc lập dân tộc\n- thực hiện thống nhất đất nước\n- bảo vệ chủ quyền quốc gia\n\nCuộc đấu tranh này được biết đến với tên gọi Chiến tranh Việt Nam, kéo dài hơn 20 năm với nhiều giai đoạn khác nhau:\n- chiến tranh đặc biệt (1961–1965)\n- chiến tranh cục bộ (1965–1968)\n- Việt Nam hóa chiến tranh (1969–1973)\n\nCuộc kháng chiến kết thúc bằng Đại thắng mùa Xuân 1975, mà đỉnh cao là Chiến dịch Hồ Chí Minh.\nChiến thắng này đã:\n- giải phóng hoàn toàn miền Nam\n- chấm dứt chiến tranh\n- mở ra kỷ nguyên mới cho dân tộc Việt Nam",
+              "meaning": ""
             },
             {
               "id": "ch2_1_3",
               "name": "Ý nghĩa",
               "level": 3,
               "color": "#ca8a04",
-              "description": "Chiến thắng giành lại độc lập hoàn toàn và chủ quyền quốc gia, thực hiện thống nhất đất nước.\n\nKết quả:\n- Kết thúc hơn một thế kỷ đấu tranh chống thực dân và đế quốc.\n- Tạo điều kiện để Việt Nam bước vào thời kỳ xây dựng đất nước theo con đường xã hội chủ nghĩa.",
-              "meaning": "Thắng lợi khẳng định tính đúng đắn của đường lối cách mạng dưới sự lãnh đạo của Đảng."
+              "description": "3. Ý nghĩa\nChiến thắng trong cuộc đấu tranh giải phóng dân tộc có ý nghĩa lịch sử to lớn đối với Việt Nam và thế giới.\nThứ nhất, Việt Nam giành lại độc lập hoàn toàn và chủ quyền quốc gia, thực hiện thống nhất đất nước.\nThứ hai, chiến thắng này đã kết thúc hơn một thế kỷ đấu tranh chống chủ nghĩa thực dân và đế quốc, bắt đầu từ thời kỳ chống Pháp cho đến cuộc kháng chiến chống Hoa Kỳ.\nThứ ba, thắng lợi này tạo điều kiện để Việt Nam bước vào thời kỳ xây dựng và phát triển đất nước theo con đường xã hội chủ nghĩa, dưới sự lãnh đạo của Đảng Cộng sản Việt Nam.",
+              "meaning": ""
             }
           ]
         },
@@ -58,30 +58,31 @@
           "level": 2,
           "color": "#22c55e",
           "description": "Bao gồm sự thống nhất về lãnh thổ, hệ thống chính trị, pháp luật và chiến lược phát triển kinh tế – xã hội trên phạm vi cả nước.",
+          "meaning": "",
           "children": [
             {
               "id": "ch2_2_1",
               "name": "Thống nhất về chính trị",
               "level": 3,
               "color": "#ca8a04",
-              "description": "Thiết lập hệ thống chính trị thống nhất từ trung ương đến địa phương.\n\nSự kiện tiêu biểu:\n- Năm 1976: Bầu ra Quốc hội khóa VI.\n- Quyết định tên nước là Cộng hòa Xã hội Chủ nghĩa Việt Nam.",
-              "meaning": "Tổ chức lại bộ máy nhà nước nhằm quản lý toàn bộ đất nước một cách thống nhất và hiệu quả."
+              "description": "🟡 B. THỐNG NHẤT ĐẤT NƯỚC\nThống nhất đất nước không chỉ đơn thuần là thống nhất lãnh thổ, mà còn bao gồm sự thống nhất về nhiều mặt quan trọng của đời sống quốc gia, như:\n- hệ thống chính trị\n- hệ thống pháp luật\n- chiến lược phát triển kinh tế – xã hội\n\nSau thắng lợi của Đại thắng mùa Xuân 1975, Việt Nam bước vào giai đoạn mới với nhiệm vụ quan trọng là tổ chức lại toàn bộ hệ thống nhà nước và quản lý xã hội trên phạm vi cả nước.\n\nThống nhất về chính trị\nSau khi chiến tranh kết thúc, Việt Nam tiến hành tổ chức lại bộ máy nhà nước nhằm thiết lập một hệ thống chính trị thống nhất.\nNăm 1976, một sự kiện quan trọng đã diễn ra:\n- bầu ra Quốc hội khóa VI\n- quyết định tên nước là Cộng hòa Xã hội Chủ nghĩa Việt Nam\nTừ đó, hệ thống chính trị được thống nhất từ trung ương đến địa phương. Các cơ quan nhà nước được tổ chức lại nhằm quản lý toàn bộ đất nước một cách thống nhất và hiệu quả.",
+              "meaning": ""
             },
             {
               "id": "ch2_2_2",
               "name": "Thống nhất về pháp luật",
               "level": 3,
               "color": "#ca8a04",
-              "description": "Xây dựng hệ thống pháp luật chung cho cả nước, tạo nền tảng pháp lý vững chắc.\n\nNhiệm vụ:\n- Xây dựng Hiến pháp mới phù hợp với tình hình đất nước.\n- Thống nhất hệ thống luật pháp giữa các vùng miền.\n- Thiết lập cơ chế quản lý nhà nước thống nhất.",
-              "meaning": "Góp phần ổn định chính trị và xã hội trong giai đoạn đầu sau chiến tranh."
+              "description": "Thống nhất về pháp luật\nSau khi đất nước thống nhất, Việt Nam tiến hành xây dựng một hệ thống pháp luật chung cho cả nước.\nNhững nhiệm vụ quan trọng bao gồm:\n- xây dựng hiến pháp mới phù hợp với tình hình đất nước\n- thống nhất hệ thống luật pháp giữa các vùng miền\n- thiết lập cơ chế quản lý nhà nước thống nhất\nNhững bước đi này giúp tạo nền tảng pháp lý vững chắc, góp phần ổn định chính trị và xã hội trong giai đoạn đầu sau chiến tranh.",
+              "meaning": ""
             },
             {
               "id": "ch2_2_3",
               "name": "Thống nhất chiến lược phát triển",
               "level": 3,
               "color": "#ca8a04",
-              "description": "Xây dựng chiến lược chung nhằm khôi phục và phát triển kinh tế – xã hội sau năm 1975.\n\nMục tiêu:\n- Khôi phục kinh tế sau chiến tranh và xây dựng cơ sở hạ tầng.\n- Phát triển sản xuất trong các ngành kinh tế.\n- Nâng cao đời sống của nhân dân.",
-              "meaning": "Tạo ra sự đồng bộ trong quá trình phát triển trên phạm vi cả nước."
+              "description": "Thống nhất chiến lược phát triển\nSau năm 1975, Việt Nam cần xây dựng một chiến lược phát triển chung cho cả nước nhằm khôi phục và phát triển kinh tế – xã hội.\nCác mục tiêu phát triển quan trọng gồm:\n- khôi phục nền kinh tế sau chiến tranh\n- xây dựng cơ sở hạ tầng\n- phát triển sản xuất trong các ngành kinh tế\n- nâng cao đời sống của nhân dân\nViệc thống nhất chiến lược phát triển đã giúp tạo ra sự đồng bộ trong quá trình phát triển kinh tế – xã hội trên phạm vi cả nước.",
+              "meaning": ""
             }
           ]
         },
@@ -91,53 +92,55 @@
           "level": 2,
           "color": "#22c55e",
           "description": "Giai đoạn xây dựng đất nước dựa trên nền tảng lý luận Chủ nghĩa Marx–Lenin và tư tưởng cách mạng phù hợp thực tiễn Việt Nam.",
+          "meaning": "",
           "children": [
             {
               "id": "ch2_3_1",
               "name": "Xuất phát điểm của Việt Nam",
               "level": 3,
               "color": "#ca8a04",
-              "description": "Việt Nam bước vào quá trình xây dựng với nhiều khó khăn lớn.\n\nĐặc điểm:\n- nền nông nghiệp còn lạc hậu và hạ tầng yếu kém\n- hậu quả chiến tranh nặng nề\n- năng suất lao động thấp",
-              "meaning": "Yêu cầu lựa chọn con đường phát triển phù hợp với điều kiện thực tế."
+              "description": "🟡 C. CON ĐƯỜNG ĐI LÊN CNXH\nSau khi đất nước được thống nhất, Việt Nam bước vào giai đoạn xây dựng và phát triển đất nước theo con đường xã hội chủ nghĩa. Con đường này được xác định và lãnh đạo bởi Đảng Cộng sản Việt Nam, dựa trên nền tảng lý luận của Chủ nghĩa Marx–Lenin và tư tưởng cách mạng phù hợp với điều kiện thực tiễn của Việt Nam.\n\n1. Xuất phát điểm của Việt Nam\nSau khi chiến tranh kết thúc, Việt Nam bước vào quá trình xây dựng đất nước với nhiều khó khăn và thách thức lớn.\nNhững đặc điểm nổi bật của nền kinh tế lúc đó gồm:\n- nền nông nghiệp còn lạc hậu\n- cơ sở hạ tầng yếu kém\n- hậu quả chiến tranh nặng nề\n- năng suất lao động thấp\nNhững yếu tố này khiến Việt Nam cần lựa chọn một con đường phát triển phù hợp với điều kiện thực tế của đất nước.",
+              "meaning": ""
             },
             {
               "id": "ch2_3_2",
               "name": "Lựa chọn con đường phát triển",
               "level": 3,
               "color": "#ca8a04",
-              "description": "Việt Nam lựa chọn con đường quá độ lên chủ nghĩa xã hội, từng bước xây dựng xã hội mới.\n\nCác bước phát triển:\n- phát triển lực lượng sản xuất\n- cải tạo quan hệ sản xuất\n- xây dựng hệ thống kinh tế – xã hội mới",
-              "meaning": "Quá trình này cần thời gian dài và nhiều bước phát triển thay vì chuyển đổi ngay lập tức."
+              "description": "2. Lựa chọn con đường phát triển\nTrong bối cảnh đó, Việt Nam lựa chọn con đường quá độ lên chủ nghĩa xã hội.\nĐiều này có nghĩa là đất nước sẽ từng bước xây dựng một xã hội mới dựa trên các nguyên tắc của chủ nghĩa xã hội, thay vì chuyển đổi ngay lập tức.\nQuá trình này cần thời gian dài và nhiều bước phát triển, bao gồm:\n- phát triển lực lượng sản xuất\n- cải tạo quan hệ sản xuất\n- xây dựng hệ thống kinh tế – xã hội mới",
+              "meaning": ""
             },
             {
               "id": "ch2_3_3",
               "name": "Nội dung của quá trình quá độ",
               "level": 3,
               "color": "#ca8a04",
-              "description": "Nhiệm vụ quan trọng trên các lĩnh vực kinh tế và xã hội.",
+              "description": "3. Nội dung của quá trình quá độ\nQuá trình quá độ lên chủ nghĩa xã hội ở Việt Nam bao gồm nhiều nhiệm vụ quan trọng trên các lĩnh vực kinh tế và xã hội.",
+              "meaning": "",
               "children": [
                 {
                   "id": "ch2_3_3_1",
                   "name": "Phát triển lực lượng sản xuất",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Xây dựng và phát triển công nghiệp, nông nghiệp và cải thiện cơ sở hạ tầng kinh tế.",
-                  "meaning": "Nâng cao năng lực sản xuất của nền kinh tế."
+                  "description": "Phát triển lực lượng sản xuất\n- xây dựng và phát triển công nghiệp\n- phát triển nông nghiệp\n- cải thiện cơ sở hạ tầng kinh tế\nMục tiêu là nâng cao năng lực sản xuất của nền kinh tế.",
+                  "meaning": ""
                 },
                 {
                   "id": "ch2_3_3_2",
                   "name": "Cải tạo quan hệ sản xuất",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Phát triển kinh tế quốc doanh, tập thể và hạn chế các yếu tố bóc lột.",
-                  "meaning": "Xây dựng quan hệ sản xuất phù hợp định hướng XHCN."
+                  "description": "Cải tạo quan hệ sản xuất\n- phát triển kinh tế quốc doanh\n- phát triển kinh tế tập thể\n- hạn chế các yếu tố bóc lột trong quan hệ sản xuất\nNhững biện pháp này nhằm xây dựng quan hệ sản xuất phù hợp với định hướng xã hội chủ nghĩa.",
+                  "meaning": ""
                 },
                 {
                   "id": "ch2_3_3_3",
                   "name": "Nâng cao đời sống nhân dân",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Cải thiện điều kiện sống, phát triển giáo dục, y tế và nâng cao phúc lợi xã hội.",
-                  "meaning": "Đảm bảo sự phát triển toàn diện của xã hội."
+                  "description": "Nâng cao đời sống nhân dân\nSong song với phát triển kinh tế, Nhà nước cũng chú trọng:\n- cải thiện điều kiện sống của người dân\n- phát triển giáo dục và y tế\n- nâng cao phúc lợi xã hội\nMục tiêu là đảm bảo sự phát triển toàn diện của xã hội.",
+                  "meaning": ""
                 }
               ]
             },
@@ -146,8 +149,8 @@
               "name": "Khó khăn của quá trình quá độ",
               "level": 3,
               "color": "#ca8a04",
-              "description": "Quá trình xây dựng gặp nhiều thách thức lớn:\n- nền kinh tế xuất phát điểm thấp\n- hậu quả nặng nề của chiến tranh\n- thiếu vốn và công nghệ hiện đại\n- cơ chế quản lý kinh tế chưa phù hợp",
-              "meaning": "Đặt ra yêu cầu phải đổi mới, dẫn tới Đổi mới 1986 (Đại hội VI)."
+              "description": "4. Khó khăn của quá trình quá độ\nQuá trình xây dựng chủ nghĩa xã hội ở Việt Nam gặp nhiều thách thức lớn, bao gồm:\n- nền kinh tế xuất phát điểm thấp\n- hậu quả nặng nề của chiến tranh\n- thiếu vốn và công nghệ hiện đại\n- cơ chế quản lý kinh tế chưa phù hợp\nNhững khó khăn này đã đặt ra yêu cầu phải đổi mới mô hình phát triển, dẫn tới sự ra đời của Đổi mới 1986, được khởi xướng tại Đại hội VI của Đảng Cộng sản Việt Nam.",
+              "meaning": ""
             }
           ]
         }
@@ -160,9 +163,9 @@
       "level": 1,
       "color": "#3b82f6",
       "icon": "macimg.png",
-      "description": "Kinh tế chính trị Marx – Lenin nghiên cứu quy luật kinh tế cơ bản, cách thức tổ chức sản xuất và phân phối hàng hóa, quy luật thị trường, tiền tệ và quan hệ sản xuất.",
-      "vietnam_example": "Giai đoạn 1975–1986: Vận dụng mô hình kế hoạch hóa tập trung, Nhà nước giữ vai trò chủ đạo quyết định chỉ tiêu, phân phối nguồn lực và kiểm soát giá cả.",
-      "meaning": "Lý luận giúp giải thích cách nền kinh tế vận hành và cung cấp cơ sở cho việc xây dựng chính sách kinh tế trong thời kỳ quá độ.",
+      "description": "Vận dụng KINH TẾ CHÍNH TRỊ MÁC – LÊNIN\nKinh tế chính trị Marx – Lenin là một bộ phận quan trọng của hệ thống lý luận Chủ nghĩa Marx–Lenin, do các nhà tư tưởng như Karl Marx, Friedrich Engels và Vladimir Ilyich Lenin phát triển.\nLý luận này nghiên cứu những quy luật kinh tế cơ bản của xã hội, đặc biệt là cách thức tổ chức sản xuất và phân phối trong các hình thái kinh tế khác nhau.\n\nNội dung nghiên cứu của kinh tế chính trị Marx – Lenin\nKinh tế chính trị Marx – Lenin tập trung nghiên cứu các vấn đề cơ bản của nền kinh tế, bao gồm:\n- bản chất của sản xuất hàng hóa và sự vận động của hàng hóa trong nền kinh tế\n- các quy luật vận hành của thị trường\n- vai trò của tiền tệ trong lưu thông và trao đổi\n- mối quan hệ giữa lực lượng sản xuất và quan hệ sản xuất\nNhững nội dung này giúp giải thích cách nền kinh tế vận hành và cung cấp cơ sở lý luận cho việc xây dựng chính sách kinh tế.\n\nVận dụng trong nền kinh tế Việt Nam (1975–1986)\nSau khi đất nước thống nhất, Việt Nam bước vào giai đoạn xây dựng và tổ chức lại nền kinh tế dưới sự lãnh đạo của Đảng Cộng sản Việt Nam.\nTrong giai đoạn 1975–1986, Việt Nam áp dụng mô hình kinh tế kế hoạch hóa tập trung, trong đó Nhà nước giữ vai trò chủ đạo trong việc quản lý và điều hành nền kinh tế.\nĐặc điểm của mô hình này gồm:\n- Nhà nước quyết định kế hoạch sản xuất của các ngành kinh tế\n- quản lý việc phân phối hàng hóa và nguồn lực\n- kiểm soát giá cả và hệ thống lưu thông\nMục tiêu của mô hình này là tổ chức nền kinh tế theo định hướng xã hội chủ nghĩa, đảm bảo sự quản lý thống nhất của Nhà nước đối với hoạt động sản xuất và phân phối.",
+      "vietnam_example": "",
+      "meaning": "",
       "children": [
         {
           "id": "ch3_1",
@@ -170,40 +173,39 @@
           "level": 2,
           "color": "#3b82f6",
           "description": "Nghiên cứu bản chất của sản xuất hàng hóa và sự vận động của hàng hóa trong nền kinh tế.",
+          "meaning": "",
           "children": [
             {
               "id": "ch3_1_1",
               "name": "Khái niệm",
               "level": 3,
               "color": "#06b6d4",
-              "description": "Theo Karl Marx, hàng hóa là sản phẩm lao động tạo ra để trao đổi. Hàng hóa có hai thuộc tính: Giá trị sử dụng (công dụng) và Giá trị (lượng lao động xã hội cần thiết).",
-              "meaning": "Giá trị hàng hóa thường biểu hiện qua giá cả trên thị trường."
+              "description": "1. Khái niệm\nTheo lý luận của Karl Marx, hàng hóa là sản phẩm của lao động được tạo ra không phải để tiêu dùng trực tiếp mà để trao đổi trên thị trường.\nTrong Chủ nghĩa Marx–Lenin, mỗi hàng hóa luôn có hai thuộc tính cơ bản:\nGiá trị sử dụng\nGiá trị sử dụng là công dụng của hàng hóa, tức là khả năng thỏa mãn nhu cầu của con người.\nVí dụ:\n- gạo dùng để ăn\n- quần áo dùng để mặc\n- xe đạp dùng để di chuyển\nGiá trị sử dụng gắn liền với tính chất vật lý và công dụng thực tế của hàng hóa.\nGiá trị\nGiá trị của hàng hóa phản ánh lượng lao động xã hội cần thiết để sản xuất ra hàng hóa đó.\nTrong thực tế, giá trị của hàng hóa thường được biểu hiện thông qua giá cả trên thị trường, thể hiện mối quan hệ trao đổi giữa các loại hàng hóa khác nhau.",
+              "meaning": ""
             },
             {
               "id": "ch3_1_2",
               "name": "Hàng hóa trong bao cấp",
               "level": 3,
               "color": "#06b6d4",
-              "description": "Trong giai đoạn 1975–1986, lưu thông hàng hóa bị hạn chế. Nhà nước quản lý chặt chẽ sản xuất, phân phối và giá cả.",
-              "vietnam_example": "Nhiều mặt hàng thiết yếu không được mua bán tự do mà được phân phối theo kế hoạch.",
-              "meaning": "Nhà nước đóng vai trò chủ đạo trong việc điều phối nguồn cung."
+              "description": "2. Hàng hóa trong nền kinh tế bao cấp\nTrong giai đoạn 1975–1986, Việt Nam áp dụng mô hình kinh tế kế hoạch hóa tập trung dưới sự lãnh đạo của Đảng Cộng sản Việt Nam.\nDo đó, việc lưu thông hàng hóa trên thị trường bị hạn chế. Nhà nước giữ vai trò chủ đạo và quản lý chặt chẽ các hoạt động kinh tế, bao gồm:\n- sản xuất hàng hóa\n- phân phối hàng hóa\n- quản lý giá cả\nNhiều mặt hàng thiết yếu không được mua bán tự do mà được phân phối theo kế hoạch của Nhà nước.",
+              "meaning": ""
             },
             {
               "id": "ch3_1_3",
               "name": "Hệ thống tem phiếu",
               "level": 3,
               "color": "#06b6d4",
-              "description": "Áp dụng để phân phối hàng hóa thiết yếu (gạo, đường, thịt, vải, dầu hỏa) trong điều kiện khan hiếm.",
-              "vietnam_example": "Người dân sử dụng tem phiếu do Nhà nước cấp để mua hàng theo tiêu chuẩn quy định.",
-              "meaning": "Đảm bảo phân phối tương đối công bằng trong hoàn cảnh thiếu hụt."
+              "description": "3. Hệ thống tem phiếu\nTrong điều kiện hàng hóa khan hiếm, Việt Nam áp dụng hệ thống tem phiếu để phân phối các mặt hàng thiết yếu cho người dân.\nNgười dân muốn mua hàng hóa phải sử dụng tem phiếu do Nhà nước cấp, và mỗi người chỉ được mua một lượng nhất định theo tiêu chuẩn quy định.\nMột số mặt hàng phổ biến được phân phối bằng tem phiếu gồm:\n- gạo\n- đường\n- thịt\n- vải\n- dầu hỏa\nHệ thống tem phiếu được áp dụng nhằm đảm bảo phân phối hàng hóa tương đối công bằng trong điều kiện nguồn cung hạn chế.",
+              "meaning": ""
             },
             {
               "id": "ch3_1_4",
               "name": "Hệ quả",
               "level": 3,
               "color": "#06b6d4",
-              "description": "Nguồn cung hạn chế, chợ đen phát triển, động lực sản xuất giảm do đơn vị thiếu tính chủ động.",
-              "meaning": "Là một trong những nguyên nhân dẫn đến nhu cầu cải cách Đổi mới 1986."
+              "description": "4. Hệ quả\nViệc kiểm soát hàng hóa quá chặt chẽ trong nền kinh tế kế hoạch hóa tập trung đã dẫn đến nhiều vấn đề trong thực tế.\nMột số hệ quả nổi bật gồm:\n- nguồn cung hàng hóa hạn chế\n- chợ đen phát triển do nhu cầu trao đổi tự do của người dân\n- động lực sản xuất giảm vì các đơn vị sản xuất thiếu tính chủ động\nNhững hạn chế này khiến nền kinh tế hoạt động kém hiệu quả, đồng thời trở thành một trong những nguyên nhân dẫn đến nhu cầu cải cách kinh tế, mở đường cho Đổi mới 1986.",
+              "meaning": ""
             }
           ]
         },
@@ -213,39 +215,39 @@
           "level": 2,
           "color": "#3b82f6",
           "description": "Nghiên cứu các quy luật vận hành của thị trường và sự điều tiết kinh tế thông qua trao đổi.",
+          "meaning": "",
           "children": [
             {
               "id": "ch3_2_1",
               "name": "Khái niệm",
               "level": 3,
               "color": "#06b6d4",
-              "description": "Thị trường là nơi diễn ra sự trao đổi hàng hóa và dịch vụ. Trong nền kinh tế thị trường, nó quyết định giá cả, sản lượng và phân bổ nguồn lực qua cơ chế cung - cầu.",
-              "meaning": "Là công cụ quan trọng để kích thích sản xuất và tiêu dùng."
+              "description": "1. Khái niệm\nTrong kinh tế học, thị trường là nơi diễn ra sự trao đổi hàng hóa và dịch vụ giữa người bán và người mua. Thông qua quá trình mua bán này, các yếu tố của nền kinh tế được điều chỉnh và phân bổ.\nTrong nền kinh tế thị trường, thị trường đóng vai trò quan trọng trong việc quyết định:\n- giá cả của hàng hóa và dịch vụ\n- sản lượng sản xuất\n- phân bổ các nguồn lực kinh tế\nNhờ cơ chế cung – cầu, thị trường giúp điều tiết hoạt động sản xuất và tiêu dùng trong xã hội.",
+              "meaning": ""
             },
             {
               "id": "ch3_2_2",
               "name": "Lý luận Marx",
               "level": 3,
               "color": "#06b6d4",
-              "description": "Thị trường là nơi biểu hiện quan hệ trao đổi, giúp phân phối nguồn lực và kích thích sản xuất.",
-              "meaning": "Hàng hóa trao đổi dựa trên giá trị (lượng lao động xã hội cần thiết)."
+              "description": "2. Thị trường theo lý luận Marx\nTheo quan điểm của Karl Marx trong Chủ nghĩa Marx–Lenin, thị trường là nơi biểu hiện của các quan hệ trao đổi hàng hóa.\nTại thị trường, các hàng hóa được trao đổi thông qua giá trị và tiền tệ, phản ánh lượng lao động xã hội cần thiết để sản xuất ra hàng hóa.\nThị trường có vai trò quan trọng trong nền kinh tế, cụ thể là:\n- phân phối các nguồn lực kinh tế\n- kích thích hoạt động sản xuất\n- góp phần điều tiết sự vận động của nền kinh tế",
+              "meaning": ""
             },
             {
               "id": "ch3_2_3",
               "name": "Thị trường trong kế hoạch hóa",
               "level": 3,
               "color": "#06b6d4",
-              "description": "Thị trường không giữ vai trò quyết định. Nhà nước lập kế hoạch, phân phối và kiểm soát giá cả.",
-              "vietnam_example": "Doanh nghiệp sản xuất theo chỉ tiêu giao thay vì dựa trên nhu cầu thực tế.",
-              "meaning": "Cơ chế vận hành mang tính hành chính, mệnh lệnh."
+              "description": "3. Thị trường trong nền kinh tế kế hoạch hóa\nTrong giai đoạn 1975–1986, Việt Nam áp dụng mô hình kinh tế kế hoạch hóa tập trung dưới sự lãnh đạo của Đảng Cộng sản Việt Nam.\nTrong mô hình này, thị trường không giữ vai trò quyết định đối với hoạt động kinh tế. Thay vào đó, Nhà nước giữ vai trò trung tâm trong việc tổ chức và điều hành nền kinh tế.\nNhà nước thực hiện:\n- lập kế hoạch sản xuất cho các ngành kinh tế\n- phân phối hàng hóa theo kế hoạch\n- kiểm soát giá cả trên thị trường\nCác doanh nghiệp sản xuất theo chỉ tiêu kế hoạch do Nhà nước giao, thay vì dựa trên nhu cầu thực tế của thị trường.",
+              "meaning": ""
             },
             {
               "id": "ch3_2_4",
               "name": "Hạn chế",
               "level": 3,
               "color": "#06b6d4",
-              "description": "Thiếu linh hoạt, không phản ánh đúng nhu cầu người tiêu dùng, thiếu động lực cạnh tranh.",
-              "meaning": "Khiến nền kinh tế hoạt động kém hiệu quả, thúc đẩy nhu cầu cải cách."
+              "description": "4. Hạn chế\nCơ chế kinh tế kế hoạch hóa tập trung đã dẫn đến một số hạn chế trong quá trình vận hành của nền kinh tế, bao gồm:\n- thiếu sự linh hoạt của thị trường\n- không phản ánh đúng nhu cầu của người tiêu dùng\n- doanh nghiệp thiếu động lực cạnh tranh và đổi mới\nNhững hạn chế này khiến nền kinh tế hoạt động kém hiệu quả, và trở thành một trong những nguyên nhân dẫn tới nhu cầu cải cách kinh tế, mở đường cho Đổi mới 1986.",
+              "meaning": ""
             }
           ]
         },
@@ -255,39 +257,39 @@
           "level": 2,
           "color": "#3b82f6",
           "description": "Nghiên cứu vai trò của tiền tệ trong lưu thông và trao đổi hàng hóa.",
+          "meaning": "",
           "children": [
             {
               "id": "ch3_3_1",
               "name": "Khái niệm",
               "level": 3,
               "color": "#06b6d4",
-              "description": "Tiền tệ là hình thái phát triển cao của giá trị hàng hóa, thực hiện các chức năng: thước đo giá trị, phương tiện trao đổi, cất trữ và thanh toán.",
-              "meaning": "Tạo điều kiện thuận lợi cho quá trình trao đổi và lưu thông."
+              "description": "1. Khái niệm\nTheo lý luận của Chủ nghĩa Marx–Lenin, đặc biệt trong các nghiên cứu của Karl Marx, tiền tệ được xem là hình thái phát triển cao của giá trị hàng hóa.\nTiền tệ ra đời nhằm tạo điều kiện thuận lợi cho quá trình trao đổi hàng hóa và trở thành một yếu tố quan trọng trong nền kinh tế.\nTrong kinh tế chính trị Marx – Lenin, tiền tệ thực hiện nhiều chức năng cơ bản, bao gồm:\n- thước đo giá trị: dùng để biểu hiện giá trị của hàng hóa thông qua giá cả\n- phương tiện trao đổi: làm trung gian trong quá trình mua bán hàng hóa\n- phương tiện cất trữ: cho phép tích lũy giá trị để sử dụng trong tương lai\n- phương tiện thanh toán: dùng để trả nợ, thanh toán các nghĩa vụ kinh tế",
+              "meaning": ""
             },
             {
               "id": "ch3_3_2",
               "name": "Vai trò kinh tế",
               "level": 3,
               "color": "#06b6d4",
-              "description": "Trong kinh tế thị trường, tiền tệ giúp xác định giá cả, thúc đẩy thương mại và tạo điều kiện cho đầu tư, tích lũy vốn.",
-              "meaning": "Giúp nền kinh tế vận hành linh hoạt và hiệu quả hơn."
+              "description": "2. Vai trò của tiền tệ trong nền kinh tế\nTrong nền kinh tế thị trường, tiền tệ giữ vai trò rất quan trọng đối với hoạt động kinh tế.\nCụ thể, tiền tệ giúp:\n- xác định giá cả hàng hóa trên thị trường\n- thúc đẩy quá trình trao đổi thương mại giữa các chủ thể kinh tế\n- tạo điều kiện cho đầu tư và tích lũy vốn\nNhờ đó, tiền tệ góp phần làm cho nền kinh tế vận hành linh hoạt và hiệu quả hơn.",
+              "meaning": ""
             },
             {
               "id": "ch3_3_3",
               "name": "Tiền tệ trong bao cấp",
               "level": 3,
               "color": "#06b6d4",
-              "description": "Vai trò bị hạn chế do giá cả ấn định và hàng hóa phân phối bằng tem phiếu. Tiền tệ không phản ánh đúng quan hệ cung – cầu.",
-              "vietnam_example": "Sử dụng tiền tệ chỉ mang tính thủ tục trong nhiều hoạt động kinh tế nhà nước.",
-              "meaning": "Vai trò điều tiết kinh tế của tiền tệ bị giảm sút đáng kể."
+              "description": "3. Tiền tệ trong nền kinh tế bao cấp\nTrong giai đoạn 1975–1986, Việt Nam áp dụng mô hình kinh tế kế hoạch hóa tập trung dưới sự lãnh đạo của Đảng Cộng sản Việt Nam.\nTrong mô hình này, vai trò của tiền tệ bị hạn chế vì:\n- giá cả hàng hóa do Nhà nước quy định\n- hàng hóa được phân phối theo kế hoạch, nhiều khi thông qua hệ thống tem phiếu\nDo đó, tiền tệ không hoàn toàn phản ánh quan hệ cung – cầu của thị trường, và vai trò điều tiết kinh tế của tiền tệ bị giảm đi đáng kể.",
+              "meaning": ""
             },
             {
               "id": "ch3_3_4",
               "name": "Hệ quả",
               "level": 3,
               "color": "#06b6d4",
-              "description": "Thị trường kém hiệu quả, giá không phản ánh giá trị thực, mất cân đối giữa sản xuất và tiêu dùng.",
-              "meaning": "Thúc đẩy quá trình chuyển đổi sang kinh tế thị trường định hướng XHCN."
+              "description": "4. Hệ quả\nViệc hạn chế vai trò của tiền tệ trong nền kinh tế đã dẫn đến nhiều vấn đề:\n- thị trường hoạt động kém hiệu quả\n- giá cả không phản ánh đúng giá trị thực của hàng hóa\n- xuất hiện sự mất cân đối giữa sản xuất và tiêu dùng\nNhững hạn chế này đã góp phần thúc đẩy nhu cầu cải cách mô hình kinh tế, dẫn đến công cuộc Đổi mới 1986, mở ra quá trình chuyển đổi sang nền kinh tế thị trường định hướng xã hội chủ nghĩa.",
+              "meaning": ""
             }
           ]
         },
@@ -297,40 +299,39 @@
           "level": 2,
           "color": "#3b82f6",
           "description": "Mô hình Nhà nước giữ vai trò quyết định, xây dựng kế hoạch sản xuất và phân phối toàn bộ nền kinh tế.",
+          "meaning": "",
           "children": [
             {
               "id": "ch3_4_1",
               "name": "Khái niệm",
               "level": 3,
               "color": "#06b6d4",
-              "description": "Mô hình kinh tế Nhà nước giữ vai trò quyết định hoạt động sản xuất, phân phối theo định hướng xã hội chủ nghĩa (1975–1986).",
-              "meaning": "Nhà nước là trung tâm điều hành toàn bộ nền kinh tế quốc dân."
+              "description": "1. Khái niệm\nKế hoạch hóa tập trung là mô hình kinh tế trong đó Nhà nước giữ vai trò quyết định đối với toàn bộ hoạt động kinh tế. Trong mô hình này, Nhà nước xây dựng các kế hoạch sản xuất và phân phối cho toàn bộ nền kinh tế.\nMô hình này được áp dụng tại Việt Nam trong giai đoạn 1975–1986 dưới sự lãnh đạo của Đảng Cộng sản Việt Nam, nhằm tổ chức nền kinh tế theo định hướng xã hội chủ nghĩa.",
+              "meaning": ""
             },
             {
               "id": "ch3_4_2",
               "name": "Đặc điểm",
               "level": 3,
               "color": "#06b6d4",
-              "description": "Nhà nước giao chỉ tiêu (sản lượng, giá, nguyên liệu); doanh nghiệp không tự chủ và không hoạt động vì lợi nhuận.",
-              "vietnam_example": "Hoạt động phân phối hàng hóa được thực hiện theo tiêu chuẩn do Nhà nước quy định.",
-              "meaning": "Tính chất mệnh lệnh hành chính cao trong quản lý kinh tế."
+              "description": "2. Đặc điểm\nCơ chế kế hoạch hóa tập trung có một số đặc điểm cơ bản sau:\nNhà nước giao chỉ tiêu sản xuất\nTrong mô hình này, Nhà nước trực tiếp giao chỉ tiêu sản xuất cho các doanh nghiệp, đặc biệt là các doanh nghiệp nhà nước.\nCác doanh nghiệp phải sản xuất theo kế hoạch được giao và không có quyền tự quyết về:\n- sản lượng sản xuất\n- giá bán sản phẩm\n- nguồn nguyên liệu sử dụng\n\nDoanh nghiệp không tự chủ\nDoanh nghiệp trong cơ chế này không hoạt động theo nguyên tắc lợi nhuận như trong nền kinh tế thị trường. Thay vào đó, nhiệm vụ chính của doanh nghiệp là hoàn thành các chỉ tiêu kế hoạch do Nhà nước giao.\n\nPhân phối theo kế hoạch\nNhà nước giữ vai trò trung tâm trong việc quản lý hệ thống kinh tế, bao gồm:\n- quản lý hệ thống phân phối hàng hóa\n- quy định giá cả\n- kiểm soát nguồn cung hàng hóa\nHoạt động phân phối hàng hóa được thực hiện theo kế hoạch và tiêu chuẩn do Nhà nước quy định.",
+              "meaning": ""
             },
             {
               "id": "ch3_4_3",
               "name": "Hệ quả",
               "level": 3,
               "color": "#06b6d4",
-              "description": "Sản xuất kém hiệu quả, thiếu động lực sáng tạo, kinh tế phát triển chậm và không đáp ứng nhu cầu thực tế.",
-              "meaning": "Nền kinh tế rơi vào tình trạng trì trệ, xơ cứng."
+              "description": "3. Hệ quả\nViệc áp dụng cơ chế kế hoạch hóa tập trung trong thời gian dài đã dẫn đến nhiều hạn chế đối với nền kinh tế.\nMột số vấn đề nổi bật gồm:\n- sản xuất kém hiệu quả\n- thiếu động lực sáng tạo và cạnh tranh\n- nền kinh tế phát triển chậm\nDo thiếu sự điều chỉnh của thị trường, nhiều ngành sản xuất không đáp ứng được nhu cầu thực tế của xã hội.",
+              "meaning": ""
             },
             {
               "id": "ch3_4_4",
               "name": "Nhu cầu đổi mới",
               "level": 3,
               "color": "#06b6d4",
-              "description": "Những hạn chế của mô hình cũ dẫn đến yêu cầu cải cách, mở đường cho công cuộc Đổi mới 1986.",
-              "vietnam_example": "Đại hội VI (1986) đánh dấu bước chuyển sang kinh tế thị trường định hướng XHCN.",
-              "meaning": "Tạo nền tảng cho sự phát triển mạnh mẽ của Việt Nam trong giai đoạn sau."
+              "description": "4. Dẫn tới nhu cầu đổi mới\nNhững hạn chế của mô hình kinh tế bao cấp đã tạo ra nhu cầu phải cải cách mô hình phát triển kinh tế.\nTrước tình hình đó, Việt Nam tiến hành một bước chuyển quan trọng với sự kiện: Công cuộc Đổi mới năm 1986\nCông cuộc Đổi mới đã mở ra quá trình chuyển đổi từ nền kinh tế kế hoạch hóa tập trung sang nền kinh tế thị trường định hướng xã hội chủ nghĩa, tạo nền tảng cho sự phát triển kinh tế – xã hội của Việt Nam trong những giai đoạn tiếp theo.",
+              "meaning": ""
             }
           ]
         }
@@ -343,9 +344,9 @@
       "level": 1,
       "color": "#ef4444",
       "icon": "vietnam.png",
-      "description": "Trong giai đoạn 1960–1982, Đảng Cộng sản Việt Nam đã lãnh đạo cách mạng Việt Nam thông qua các kỳ Đại hội Đảng, đề ra những đường lối chiến lược quan trọng nhằm: lãnh đạo cuộc kháng chiến chống Mỹ cứu nước; thực hiện mục tiêu thống nhất đất nước; xây dựng chủ nghĩa xã hội trên phạm vi cả nước sau chiến tranh.",
-      "vietnam_example": "Các quyết sách của Đảng trong thời kỳ này đã định hướng cho toàn bộ quá trình đấu tranh, giải phóng miền Nam và xây dựng đất nước trong giai đoạn mới.",
-      "meaning": "Các Đại hội tiêu biểu:\n- Đại hội III (1960): Xác định hai nhiệm vụ chiến lược.\n- Đại hội IV (1976): Đưa cả nước đi lên CNXH.\n- Đại hội V (1982): Điều chỉnh chính sách, chuẩn bị cho đổi mới.",
+      "description": "Trong giai đoạn 1960–1986, Đảng Cộng sản Việt Nam đã lãnh đạo cách mạng Việt Nam thông qua các kỳ Đại hội Đảng, đề ra những đường lối chiến lược quan trọng nhằm:\nlãnh đạo cuộc kháng chiến chống Mỹ cứu nước\n\nthực hiện mục tiêu thống nhất đất nước\n\nxây dựng chủ nghĩa xã hội trên phạm vi cả nước sau chiến tranh\nCác quyết sách của Đảng trong thời kỳ này đã định hướng cho toàn bộ quá trình đấu tranh, giải phóng miền Nam và xây dựng đất nước trong giai đoạn mới.",
+      "vietnam_example": "",
+      "meaning": "",
       "children": [
         {
           "id": "ch1_1",
@@ -353,6 +354,7 @@
           "level": 2,
           "color": "#22c55e",
           "description": "Xác định hai nhiệm vụ chiến lược của cách mạng Việt Nam: xây dựng chủ nghĩa xã hội ở miền Bắc và đấu tranh giải phóng miền Nam.",
+          "meaning": "",
           "children": [
             {
               "id": "ch1_1_1",
@@ -360,37 +362,36 @@
               "level": 3,
               "color": "#ca8a04",
               "description": "Hoàn cảnh lịch sử đặc biệt sau Hiệp định Genève 1954.",
+              "meaning": "",
               "children": [
                 {
                   "id": "ch1_1_1_1",
                   "name": "Bối cảnh trong nước",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Việt Nam tạm thời bị chia cắt thành hai miền ở vĩ tuyến 17 với hai chế độ chính trị khác nhau.",
+                  "description": "Sau Hiệp định Genève 1954, Việt Nam tạm thời bị chia cắt thành hai miền ở vĩ tuyến 17 với hai chế độ chính trị khác nhau. Điều này tạo nên một hoàn cảnh lịch sử đặc biệt, trong đó cách mạng Việt Nam phải thực hiện đồng thời hai nhiệm vụ chiến lược ở hai miền đất nước.",
+                  "meaning": "",
                   "children": [
                     {
                       "id": "ch1_1_1_1_1",
                       "name": "Miền Bắc",
                       "level": 5,
-                      "description": "Miền Bắc bước vào thời kỳ hòa bình và bắt đầu xây dựng nền kinh tế theo định hướng xã hội chủ nghĩa.\n\nNhiệm vụ chủ yếu:\n- khôi phục nền kinh tế sau chiến tranh chống Pháp\n- thực hiện cải cách ruộng đất\n- cải tạo quan hệ sản xuất\n- phát triển công nghiệp quốc doanh",
-                      "vietnam_example": "Miền Bắc được xác định là hậu phương lớn, cung cấp nhân lực và vật lực cho miền Nam.",
-                      "meaning": "Từng bước ổn định kinh tế – xã hội và đóng vai trò quyết định nhất đối với sự phát triển của cách mạng."
+                      "description": "Sau năm 1954, miền Bắc bước vào thời kỳ hòa bình và bắt đầu xây dựng nền kinh tế theo định hướng xã hội chủ nghĩa.\nNhiệm vụ chủ yếu\nkhôi phục nền kinh tế sau chiến tranh chống Pháp\n\nthực hiện cải cách ruộng đất nhằm giải quyết vấn đề đất đai cho nông dân\n\ncải tạo quan hệ sản xuất theo định hướng xã hội chủ nghĩa\n\nphát triển công nghiệp quốc doanh và các ngành kinh tế trọng điểm\n\n\nNhờ những chính sách này, miền Bắc từng bước ổn định kinh tế – xã hội và được xác định là hậu phương lớn của cách mạng cả nước, đóng vai trò cung cấp nhân lực và vật lực cho cuộc đấu tranh giải phóng miền Nam.",
+                      "meaning": ""
                     },
                     {
                       "id": "ch1_1_1_1_2",
                       "name": "Miền Nam",
                       "level": 5,
-                      "description": "Chính quyền Sài Gòn với sự hậu thuẫn của Mỹ đàn áp phong trào cách mạng.\n\nMỹ tăng cường sự can thiệp:\n- tăng cường viện trợ quân sự\n- xây dựng chính quyền thân Mỹ\n- triển khai chiến lược quân sự",
-                      "vietnam_example": "Phong trào đấu tranh của nhân dân miền Nam vẫn tiếp tục phát triển mạnh mẽ bất chấp sự đàn áp.",
-                      "meaning": "Xác định là tiền tuyến lớn, có vai trò quyết định trực tiếp đối với sự nghiệp giải phóng miền Nam."
+                      "description": "Ở miền Nam, chính quyền Sài Gòn với sự hậu thuẫn mạnh mẽ của Mỹ đã tiến hành nhiều chính sách nhằm đàn áp phong trào cách mạng.\nMỹ từng bước tăng cường sự can thiệp thông qua các biện pháp:\ntăng cường viện trợ quân sự\n\nxây dựng và củng cố chính quyền thân Mỹ\n\ntriển khai các chiến lược quân sự chống lại lực lượng cách mạng\n\n\nTuy nhiên, mặc dù bị đàn áp, phong trào đấu tranh của nhân dân miền Nam vẫn tiếp tục phát triển mạnh mẽ.",
+                      "meaning": ""
                     },
                     {
                       "id": "ch1_1_1_1_3",
                       "name": "Sự kiện tiêu biểu",
                       "level": 5,
-                      "description": "Phong trào Đồng khởi (1959–1960) bùng nổ từ Bến Tre và lan rộng.",
-                      "vietnam_example": "Làm suy yếu bộ máy Sài Gòn ở nông thôn, mở rộng vùng giải phóng.",
-                      "meaning": "Đánh dấu bước chuyển từ thế phòng ngự sang thế tiến công của cách mạng miền Nam."
+                      "description": "Phong trào Đồng khởi (1959–1960)\nPhong trào Đồng khởi bùng nổ từ nhiều địa phương ở miền Nam, tiêu biểu là tỉnh Bến Tre, sau đó lan rộng ra nhiều khu vực khác.\nPhong trào này đã:\nlàm suy yếu bộ máy chính quyền Sài Gòn ở nhiều vùng nông thôn\n\nmở rộng các vùng giải phóng do lực lượng cách mạng kiểm soát\n\nthúc đẩy phong trào cách mạng miền Nam phát triển mạnh mẽ\n\n\nSự kiện này đánh dấu bước chuyển quan trọng của cách mạng miền Nam từ thế phòng ngự sang thế tiến công.",
+                      "meaning": ""
                     }
                   ]
                 },
@@ -399,9 +400,8 @@
                   "name": "Bối cảnh quốc tế",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Phong trào giải phóng dân tộc và hệ thống XHCN phát triển mạnh.",
-                  "vietnam_example": "Sự ủng hộ của các nước XHCN và phong trào chống đế quốc trên thế giới.",
-                  "meaning": "Tạo điều kiện thuận lợi cho sự nghiệp thống nhất đất nước."
+                  "description": "Trong giai đoạn này, tình hình thế giới có nhiều biến động quan trọng.\nMột số yếu tố quốc tế thuận lợi cho cách mạng Việt Nam bao gồm:\nphong trào giải phóng dân tộc ở châu Á, châu Phi và Mỹ Latinh phát triển mạnh\n\nhệ thống các nước xã hội chủ nghĩa ngày càng mở rộng\n\nphong trào đấu tranh chống chủ nghĩa đế quốc lan rộng trên thế giới\n\n\nNhững yếu tố này đã tạo điều kiện thuận lợi cho cuộc đấu tranh của nhân dân Việt Nam trong sự nghiệp giải phóng dân tộc và thống nhất đất nước.",
+                  "meaning": ""
                 }
               ]
             },
@@ -410,25 +410,24 @@
               "name": "Nội dung đường lối",
               "level": 3,
               "color": "#ca8a04",
-              "description": "Đảng xác định hai nhiệm vụ chiến lược có mối quan hệ chặt chẽ.",
+              "description": "Tại Đại hội III của Đảng Cộng sản Việt Nam (năm 1960), Đảng đã xác định hai nhiệm vụ chiến lược của cách mạng Việt Nam, tương ứng với tình hình hai miền sau năm 1954.\nHai chiến lược này có mối quan hệ chặt chẽ với nhau và cùng hướng tới mục tiêu chung là giải phóng miền Nam và thống nhất đất nước.",
+              "meaning": "",
               "children": [
                 {
                   "id": "ch1_1_2_1",
                   "name": "Chiến lược 1 – Miền Bắc",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Cách mạng xã hội chủ nghĩa nhằm xây dựng nền tảng kinh tế và xã hội cho đất nước.",
-                  "vietnam_example": "Hợp tác hóa nông nghiệp, phát triển công nghiệp quốc doanh.",
-                  "meaning": "Hậu phương lớn cung cấp nhân lực, vật lực, vũ khí cho chiến trường miền Nam."
+                  "description": "Miền Bắc tiến hành cách mạng xã hội chủ nghĩa, nhằm xây dựng nền tảng kinh tế và xã hội cho đất nước.\nNhiệm vụ chủ yếu\nxây dựng nền kinh tế xã hội chủ nghĩa\n\nphát triển công nghiệp, đặc biệt là công nghiệp quốc doanh\n\nthực hiện hợp tác hóa trong nông nghiệp\n\ncải tạo quan hệ sản xuất theo định hướng xã hội chủ nghĩa\n\n\nVai trò của miền Bắc\nMiền Bắc được xác định là hậu phương lớn của cách mạng cả nước.\nMiền Bắc có nhiệm vụ cung cấp cho chiến trường miền Nam:\nnhân lực\n\nvật lực\n\nlương thực\n\nvũ khí và trang thiết bị\nNhờ đó, miền Bắc trở thành nguồn lực quan trọng bảo đảm cho cuộc kháng chiến chống Mỹ lâu dài.",
+                  "meaning": ""
                 },
                 {
                   "id": "ch1_1_2_2",
                   "name": "Chiến lược 2 – Miền Nam",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Cách mạng dân tộc dân chủ nhân dân nhằm giải phóng miền Nam, thống nhất đất nước.",
-                  "vietnam_example": "Kết hợp đấu tranh chính trị, vũ trang và ngoại giao.",
-                  "meaning": "Nhằm đánh bại sự can thiệp của đế quốc Mỹ và lật đổ chính quyền Sài Gòn."
+                  "description": "Ở miền Nam, cách mạng tiếp tục thực hiện cách mạng dân tộc dân chủ nhân dân.\nMục tiêu đấu tranh\nđánh bại sự can thiệp của đế quốc Mỹ\n\nlật đổ chính quyền Sài Gòn\n\ngiải phóng miền Nam\n\ntiến tới thống nhất đất nước\n\n\nHình thức đấu tranh\nCuộc đấu tranh của nhân dân miền Nam được tiến hành dưới nhiều hình thức khác nhau:\nđấu tranh chính trị của quần chúng\n\nđấu tranh vũ trang của lực lượng cách mạng\n\nđấu tranh ngoại giao trên trường quốc tế\n\n\nSự kết hợp giữa các hình thức đấu tranh này đã tạo nên sức mạnh tổng hợp của cách mạng miền Nam.",
+                  "meaning": ""
                 }
               ]
             },
@@ -437,9 +436,8 @@
               "name": "Ý nghĩa lịch sử",
               "level": 3,
               "color": "#ca8a04",
-              "description": "Đề ra đường lối cách mạng phù hợp với tình hình đất nước bị chia cắt.",
-              "vietnam_example": "Hoàn thiện lý luận về cách mạng dân tộc dân chủ và cách mạng XHCN.",
-              "meaning": "Cơ sở quan trọng để lãnh đạo kháng chiến chống Mỹ đi đến thắng lợi cuối cùng."
+              "description": "Đại hội III (1960) của Đảng Cộng sản Việt Nam có ý nghĩa đặc biệt quan trọng đối với sự phát triển của cách mạng Việt Nam trong giai đoạn kháng chiến chống Mỹ cứu nước.\nĐại hội đã đề ra đường lối cách mạng phù hợp với tình hình đất nước khi Việt Nam đang tạm thời bị chia cắt thành hai miền với hai nhiệm vụ khác nhau. Việc xác định đúng hai nhiệm vụ chiến lược đã tạo cơ sở lý luận và thực tiễn cho việc lãnh đạo cách mạng trên phạm vi cả nước.\nNhững ý nghĩa nổi bật\nxác định chiến lược cách mạng phù hợp với hoàn cảnh đất nước\n\nkết hợp giữa nhiệm vụ xây dựng chủ nghĩa xã hội ở miền Bắc và đấu tranh giải phóng miền Nam\n\n\ntạo sự phối hợp chặt chẽ giữa hậu phương lớn (miền Bắc) và tiền tuyến lớn (miền Nam)\nĐường lối chiến lược được xác định tại Đại hội III đã trở thành cơ sở quan trọng để tổ chức và lãnh đạo cuộc kháng chiến chống Mỹ, góp phần dẫn tới thắng lợi của sự nghiệp giải phóng miền Nam và thống nhất đất nước.",
+              "meaning": ""
             }
           ]
         },
@@ -448,7 +446,8 @@
           "name": "Đại hội IV (1976)",
           "level": 2,
           "color": "#22c55e",
-          "description": "Đại hội xác định nhiệm vụ đưa cả nước tiến lên chủ nghĩa xã hội sau khi đất nước thống nhất.",
+          "description": "Sau khi đất nước thống nhất, Đại hội xác định nhiệm vụ đưa cả nước đi lên chủ nghĩa xã hội.",
+          "meaning": "",
           "children": [
             {
               "id": "ch1_2_1",
@@ -456,40 +455,44 @@
               "level": 3,
               "color": "#ca8a04",
               "description": "Đất nước độc lập, thống nhất và đối mặt với hậu quả chiến tranh.",
+              "meaning": "",
               "children": [
                 {
                   "id": "ch1_2_1_1",
                   "name": "Bối cảnh chung",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Thắng lợi 30/4/1975 kết thúc kháng chiến chống Mỹ.",
-                  "vietnam_example": "Năm 1976, đổi tên nước thành Cộng hòa Xã hội Chủ nghĩa Việt Nam.",
-                  "meaning": "Đánh dấu bước ngoặt thống nhất đất nước về mặt nhà nước và chính trị."
+                  "description": "Sau thắng lợi của Sự kiện 30 tháng 4 năm 1975, cuộc kháng chiến chống Mỹ cứu nước của nhân dân Việt Nam đã kết thúc thắng lợi. Đất nước bước sang một giai đoạn lịch sử mới: độc lập, thống nhất và cùng tiến lên xây dựng chủ nghĩa xã hội.\nNăm 1976, Quốc hội khóa VI quyết định đổi tên nước thành Cộng hòa Xã hội Chủ nghĩa Việt Nam, đánh dấu bước ngoặt quan trọng trong quá trình thống nhất đất nước về mặt nhà nước và chính trị.",
+                  "meaning": ""
                 },
                 {
                   "id": "ch1_2_1_2",
                   "name": "Tình hình đất nước sau chiến tranh",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Hậu quả chiến tranh nặng nề trên nhiều phương diện.",
+                  "description": "Mặc dù chiến tranh kết thúc, Việt Nam phải đối mặt với nhiều khó khăn lớn do hậu quả nặng nề của chiến tranh kéo dài hơn hai thập kỷ.",
+                  "meaning": "",
                   "children": [
                     {
                       "id": "ch1_2_1_2_1",
                       "name": "Cơ sở hạ tầng",
                       "level": 5,
-                      "description": "Thành phố, khu công nghiệp, hệ thống giao thông bị tàn phá; bom mìn và chất độc hóa học còn tồn tại."
+                      "description": "Cơ sở hạ tầng\nNhiều công trình kinh tế và hạ tầng bị tàn phá nghiêm trọng:\n- nhiều thành phố và khu công nghiệp bị phá hủy\n- hệ thống giao thông đường bộ, đường sắt và cầu cống bị hư hại\n- nhiều vùng đất còn tồn tại bom mìn và chất độc hóa học\nNhững yếu tố này gây khó khăn lớn cho việc khôi phục và phát triển kinh tế.",
+                      "meaning": ""
                     },
                     {
                       "id": "ch1_2_1_2_2",
                       "name": "Nền kinh tế",
                       "level": 5,
-                      "description": "Sản xuất đình trệ, năng suất thấp, thiếu vốn và công nghệ."
+                      "description": "Nền kinh tế\nSau chiến tranh, nền kinh tế của đất nước ở trong tình trạng rất khó khăn:\n- hoạt động sản xuất bị đình trệ\n- năng suất lao động thấp\n- thiếu vốn đầu tư và công nghệ sản xuất\n- nhiều ngành kinh tế chưa được khôi phục hoàn toàn\nNhững khó khăn này đặt ra yêu cầu cấp bách phải nhanh chóng khôi phục và phát triển nền kinh tế quốc dân.",
+                      "meaning": ""
                     },
                     {
                       "id": "ch1_2_1_2_3",
                       "name": "Đời sống nhân dân",
                       "level": 5,
-                      "description": "Thiếu lương thực, hàng tiêu dùng khan hiếm."
+                      "description": "Đời sống nhân dân\nĐời sống của người dân sau chiến tranh còn nhiều thiếu thốn:\n- nhiều gia đình chịu hậu quả nặng nề của chiến tranh\n- tình trạng thiếu lương thực xảy ra ở nhiều nơi\n- hàng hóa tiêu dùng khan hiếm\nDo đó, nhiệm vụ khôi phục kinh tế, cải thiện đời sống nhân dân và xây dựng đất nước trở thành yêu cầu cấp thiết của giai đoạn mới.",
+                      "meaning": ""
                     }
                   ]
                 }
@@ -500,34 +503,32 @@
               "name": "Nội dung đường lối",
               "level": 3,
               "color": "#ca8a04",
-              "description": "Nhiệm vụ trung tâm: Đưa cả nước tiến lên chủ nghĩa xã hội.",
+              "description": "2. Nội dung đường lối\nTại Đại hội IV (1976) của Đảng Cộng sản Việt Nam, Đảng đã xác định nhiệm vụ trung tâm của cách mạng Việt Nam trong giai đoạn mới là:\n➡ Đưa cả nước tiến lên chủ nghĩa xã hội.\nSau khi đất nước thống nhất, mục tiêu quan trọng là khôi phục và phát triển kinh tế, đồng thời xây dựng cơ sở vật chất cho chủ nghĩa xã hội trên phạm vi cả nước.",
+              "meaning": "",
               "children": [
                 {
                   "id": "ch1_2_2_1",
                   "name": "Phát triển công nghiệp",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Ưu tiên phát triển công nghiệp nặng làm nền tảng kỹ thuật.",
-                  "vietnam_example": "Xây dựng các khu công nghiệp và nhà máy lớn.",
-                  "meaning": "Tạo nền tảng công nghiệp vững chắc cho sự phát triển lâu dài."
+                  "description": "Phát triển công nghiệp\nĐại hội IV chủ trương ưu tiên phát triển công nghiệp nặng, coi đây là nền tảng để xây dựng cơ sở vật chất – kỹ thuật của chủ nghĩa xã hội.\nCác định hướng chính gồm:\n- phát triển các ngành công nghiệp cơ bản\n- xây dựng các khu công nghiệp và nhà máy lớn\n- từng bước hiện đại hóa nền sản xuất\nMục tiêu là tạo ra nền tảng công nghiệp vững chắc cho sự phát triển lâu dài của nền kinh tế.",
+                  "meaning": ""
                 },
                 {
                   "id": "ch1_2_2_2",
                   "name": "Phát triển kinh tế quốc doanh",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Mở rộng hệ thống doanh nghiệp nhà nước và kinh tế tập thể.",
-                  "vietnam_example": "Nhà nước giữ vai trò chủ đạo trong quản lý và điều hành.",
-                  "meaning": "Khu vực quốc doanh là nền tảng của nền kinh tế XHCN."
+                  "description": "Phát triển kinh tế quốc doanh\nĐại hội IV nhấn mạnh vai trò của khu vực kinh tế nhà nước trong nền kinh tế quốc dân.\nNhà nước tiến hành:\n- mở rộng hệ thống doanh nghiệp nhà nước\n- phát triển các hình thức kinh tế tập thể\n- tăng cường quản lý và điều hành nền kinh tế thông qua khu vực quốc doanh\nKhu vực kinh tế quốc doanh được xác định là nền tảng của nền kinh tế xã hội chủ nghĩa.",
+                  "meaning": ""
                 },
                 {
                   "id": "ch1_2_3_1",
                   "name": "Cơ chế kế hoạch hóa tập trung",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Nhà nước quản lý toàn bộ thông qua chỉ tiêu, giá cả và phân phối.",
-                  "vietnam_example": "Nhà nước giao chỉ tiêu sản xuất cho các cơ sở kinh tế.",
-                  "meaning": "Bảo đảm sự quản lý thống nhất của Nhà nước đối với nền kinh tế."
+                  "description": "Cơ chế kế hoạch hóa tập trung\nTrong giai đoạn này, nền kinh tế Việt Nam được tổ chức theo cơ chế kế hoạch hóa tập trung.\nNhà nước giữ vai trò chủ đạo trong quản lý và điều hành nền kinh tế thông qua các biện pháp như:\n- giao chỉ tiêu sản xuất cho các cơ sở kinh tế\n- quy định giá cả hàng hóa\n- quyết định việc phân phối sản phẩm và nguồn lực\nCơ chế này nhằm bảo đảm sự quản lý thống nhất của Nhà nước đối với toàn bộ nền kinh tế.",
+                  "meaning": ""
                 }
               ]
             },
@@ -536,28 +537,32 @@
               "name": "Thực tiễn triển khai",
               "level": 3,
               "color": "#ca8a04",
-              "description": "Cải tạo và tổ chức lại nền kinh tế theo mô hình XHCN.",
+              "description": "3. Thực tiễn triển khai\nSau Đại hội IV (1976) của Đảng Cộng sản Việt Nam, đường lối xây dựng chủ nghĩa xã hội được triển khai trên nhiều lĩnh vực của đời sống kinh tế – xã hội. Nhà nước tiến hành nhiều chính sách nhằm cải tạo và tổ chức lại nền kinh tế theo mô hình kế hoạch hóa tập trung.",
+              "meaning": "",
               "children": [
                 {
                   "id": "ch1_2_3_1_1",
                   "name": "Công nghiệp",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Quốc hữu hóa doanh nghiệp tư nhân, mở rộng doanh nghiệp nhà nước."
+                  "description": "Công nghiệp\nTrong lĩnh vực công nghiệp, Nhà nước thực hiện việc mở rộng khu vực kinh tế quốc doanh và tăng cường vai trò quản lý của Nhà nước đối với các cơ sở sản xuất.\nCác biện pháp chủ yếu gồm:\n- quốc hữu hóa nhiều doanh nghiệp tư nhân\n- phát triển và mở rộng hệ thống doanh nghiệp nhà nước\n- tăng cường quản lý sản xuất theo kế hoạch của Nhà nước\nNhững chính sách này nhằm xây dựng nền công nghiệp theo định hướng xã hội chủ nghĩa.",
+                  "meaning": ""
                 },
                 {
                   "id": "ch1_2_3_2",
                   "name": "Nông nghiệp",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Đẩy mạnh hợp tác hóa, tổ chức sản xuất tập thể."
+                  "description": "Nông nghiệp\nTrong lĩnh vực nông nghiệp, Nhà nước đẩy mạnh việc tổ chức sản xuất theo hình thức tập thể.\nCác biện pháp chính:\n- mở rộng hệ thống hợp tác xã nông nghiệp\n- khuyến khích nông dân tham gia sản xuất tập thể\n- tổ chức sản xuất và phân phối theo kế hoạch\nMục tiêu của chính sách này là nâng cao hiệu quả sản xuất và từng bước cải tạo quan hệ sản xuất trong nông nghiệp.",
+                  "meaning": ""
                 },
                 {
                   "id": "ch1_2_3_3",
                   "name": "Thương mại",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Nhà nước kiểm soát lưu thông, hàng hóa bán qua cửa hàng quốc doanh và tem phiếu."
+                  "description": "Thương mại và phân phối\nTrong lĩnh vực thương mại, Nhà nước giữ vai trò chủ đạo trong việc quản lý và phân phối hàng hóa.\nCác chính sách được áp dụng:\n- Nhà nước kiểm soát hệ thống lưu thông và phân phối hàng hóa\n- nhiều mặt hàng thiết yếu được bán thông qua hệ thống cửa hàng quốc doanh\n- hàng hóa được phân phối cho người dân thông qua hệ thống tem phiếu\nHệ thống tem phiếu được áp dụng nhằm bảo đảm việc phân phối các mặt hàng thiết yếu trong điều kiện nền kinh tế còn nhiều khó khăn sau chiến tranh.",
+                  "meaning": ""
                 }
               ]
             },
@@ -566,21 +571,24 @@
               "name": "Hạn chế",
               "level": 3,
               "color": "#ca8a04",
-              "description": "Mô hình kế hoạch hóa tập trung dần bộc lộ nhiều nhược điểm.",
+              "description": "4. Hạn chế\nTrong quá trình thực hiện đường lối kinh tế sau Đại hội IV (1976) của Đảng Cộng sản Việt Nam, mô hình kinh tế kế hoạch hóa tập trung dần bộc lộ nhiều hạn chế. Những khó khăn của nền kinh tế sau chiến tranh cùng với cơ chế quản lý cứng nhắc đã làm cho quá trình phát triển gặp nhiều trở ngại.",
+              "meaning": "",
               "children": [
                 {
                   "id": "ch1_2_4_1",
                   "name": "Nguyên nhân",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Thiếu vốn, công nghệ; bộ máy quản lý quan liêu, bao cấp làm giảm tính chủ động."
+                  "description": "Nguyên nhân\nTrong thực tế triển khai, nền kinh tế phải đối mặt với nhiều khó khăn:\n- thiếu vốn đầu tư cho sản xuất và phát triển kinh tế\n- thiếu công nghệ và trang thiết bị hiện đại\n- bộ máy quản lý còn quan liêu, bao cấp, làm giảm tính chủ động của các cơ sở sản xuất\nNhững hạn chế này ảnh hưởng trực tiếp đến hiệu quả của nền kinh tế.",
+                  "meaning": ""
                 },
                 {
                   "id": "ch1_2_4_2",
                   "name": "Kết quả",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Sản xuất kém hiệu quả, hàng hóa khan hiếm, lạm phát tăng cao."
+                  "description": "Kết quả\nDo những khó khăn và hạn chế của cơ chế quản lý, nền kinh tế trong giai đoạn này gặp nhiều vấn đề:\n- sản xuất kém hiệu quả\n- hàng hóa khan hiếm trên thị trường\n- lạm phát tăng cao, đời sống của người dân gặp nhiều khó khăn\nNhững vấn đề này trở thành một trong những nguyên nhân quan trọng dẫn đến nhu cầu đổi mới tư duy kinh tế trong những năm sau đó.",
+                  "meaning": ""
                 }
               ]
             }
@@ -591,7 +599,8 @@
           "name": "Đại hội V (1982)",
           "level": 2,
           "color": "#22c55e",
-          "description": "Đầu những năm 1980, nền kinh tế Việt Nam rơi vào tình trạng khó khăn nghiêm trọng. Sau một thời gian thực hiện mô hình kinh tế kế hoạch hóa tập trung, nhiều hạn chế bắt đầu bộc lộ rõ, khiến sản xuất và lưu thông hàng hóa gặp nhiều trở ngại.\n\nĐại hội V (1982) của Đảng Cộng sản Việt Nam được tổ chức nhằm đánh giá tình hình kinh tế – xã hội và tìm giải pháp tháo gỡ những khó khăn đang tồn tại.",
+          "description": "Đánh giá những khó khăn của nền kinh tế và từng bước điều chỉnh chính sách, chuẩn bị cho những đổi mới sau này.",
+          "meaning": "",
           "children": [
             {
               "id": "ch1_3_1",
@@ -599,33 +608,31 @@
               "level": 3,
               "color": "#ca8a04",
               "description": "Nền kinh tế rơi vào tình trạng khó khăn nghiêm trọng, bộc lộ nhiều hạn chế của cơ chế kế hoạch hóa tập trung.",
+              "meaning": "",
               "children": [
                 {
                   "id": "ch1_3_1_1",
                   "name": "Những vấn đề nổi bật của nền kinh tế",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Trong giai đoạn này, nền kinh tế Việt Nam phải đối mặt với nhiều vấn đề lớn:\n- lạm phát tăng cao\n- hàng hóa khan hiếm trên thị trường\n- sản xuất kém hiệu quả, nhiều ngành kinh tế hoạt động trì trệ",
-                  "vietnam_example": "Các doanh nghiệp hoạt động dựa trên chỉ tiêu bao cấp nên thiếu động lực cải tiến và hiệu quả thấp.",
-                  "meaning": "Những khó khăn này ảnh hưởng trực tiếp đến đời sống và sinh hoạt của người dân."
+                  "description": "Đầu những năm 1980, nền kinh tế Việt Nam rơi vào tình trạng khó khăn nghiêm trọng. Sau một thời gian thực hiện mô hình kinh tế kế hoạch hóa tập trung, nhiều hạn chế bắt đầu bộc lộ rõ, khiến sản xuất và lưu thông hàng hóa gặp nhiều trở ngại.\nTrong bối cảnh đó, Đại hội V (1982) của Đảng Cộng sản Việt Nam được tổ chức nhằm đánh giá tình hình kinh tế – xã hội và tìm giải pháp tháo gỡ những khó khăn đang tồn tại.\n\nNhững vấn đề nổi bật của nền kinh tế\nTrong giai đoạn này, nền kinh tế Việt Nam phải đối mặt với nhiều vấn đề lớn:\n- lạm phát tăng cao\n- hàng hóa khan hiếm trên thị trường\n- sản xuất kém hiệu quả, nhiều ngành kinh tế hoạt động trì trệ\nNhững khó khăn này ảnh hưởng trực tiếp đến đời sống và sinh hoạt của người dân.",
+                  "meaning": ""
                 },
                 {
                   "id": "ch1_3_1_2",
                   "name": "Hệ thống phân phối theo tem phiếu",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Do nguồn hàng hóa hạn chế, nhiều mặt hàng thiết yếu (gạo, vải, đường, thịt...) được Nhà nước phân phối thông qua hệ thống tem phiếu.",
-                  "vietnam_example": "Cơ chế tem phiếu nhằm bảo đảm phân phối hàng hóa công bằng trong điều kiện nền kinh tế còn rất thiếu thốn.",
-                  "meaning": "Duy trì sự ổn định tương đối trong bối cảnh khan hiếm hàng hóa cực độ."
+                  "description": "Hệ thống phân phối theo tem phiếu\nDo nguồn hàng hóa hạn chế, nhiều mặt hàng thiết yếu được Nhà nước phân phối thông qua hệ thống tem phiếu.\nMột số mặt hàng phổ biến được phân phối theo tem phiếu gồm:\n- gạo\n- vải\n- đường\n- thịt\nCơ chế này nhằm bảo đảm phân phối hàng hóa công bằng trong điều kiện nền kinh tế còn thiếu thốn.",
+                  "meaning": ""
                 },
                 {
                   "id": "ch1_3_1_3",
                   "name": "Đời sống xã hội",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Thu nhập thấp, hàng hóa khan hiếm và lạm phát cao đã tạo ra nhiều áp lực đối với sinh hoạt hằng ngày của xã hội.",
-                  "vietnam_example": "Người dân phải xếp hàng dài từ sáng sớm để mua lương thực, thực phẩm theo định mức.",
-                  "meaning": "Những khó khăn này trở thành một trong những yếu tố quan trọng thúc đẩy việc tìm kiếm những giải pháp cải cách kinh tế."
+                  "description": "Đời sống xã hội\nTrong hoàn cảnh kinh tế khó khăn, đời sống của người dân gặp nhiều trở ngại. Thu nhập thấp, hàng hóa khan hiếm và lạm phát cao đã tạo ra nhiều áp lực đối với sinh hoạt hằng ngày của xã hội.\nNhững khó khăn này trở thành một trong những yếu tố quan trọng thúc đẩy việc tìm kiếm những giải pháp cải cách kinh tế trong những năm sau đó.",
+                  "meaning": ""
                 }
               ]
             },
@@ -634,34 +641,32 @@
               "name": "Nội dung điều chỉnh",
               "level": 3,
               "color": "#ca8a04",
-              "description": "Đại hội V bắt đầu nhìn nhận lại mô hình quản lý kinh tế và đề ra một số biện pháp điều chỉnh nhằm khắc phục các hạn chế của cơ chế kế hoạch hóa tập trung.",
+              "description": "2. Nội dung điều chỉnh\nTrước những khó khăn nghiêm trọng của nền kinh tế đầu những năm 1980, Đại hội V (1982) của Đảng Cộng sản Việt Nam đã bắt đầu nhìn nhận lại mô hình quản lý kinh tế và đề ra một số biện pháp điều chỉnh nhằm khắc phục các hạn chế của cơ chế kế hoạch hóa tập trung.\nNhững điều chỉnh này được xem là bước chuyển quan trọng trong tư duy quản lý kinh tế, tạo tiền đề cho những cải cách sâu rộng hơn trong thời gian sau.",
+              "meaning": "",
               "children": [
                 {
                   "id": "ch1_3_2_1",
                   "name": "Cải tiến cơ chế quản lý",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Nhằm nâng cao hiệu quả hoạt động: giảm bớt cơ chế bao cấp, tăng tính chủ động cho các đơn vị sản xuất, nâng cao quản lý.",
-                  "vietnam_example": "Thử nghiệm giao quyền tự chủ sản xuất kinh doanh cho một số xí nghiệp quốc doanh.",
-                  "meaning": "Nhằm khắc phục tình trạng trì trệ của nền kinh tế trong giai đoạn trước."
+                  "description": "Cải tiến cơ chế quản lý\nMột trong những nội dung quan trọng của Đại hội V là cải tiến cơ chế quản lý kinh tế nhằm nâng cao hiệu quả hoạt động của các cơ sở sản xuất.\nĐảng bắt đầu xem xét:\n- giảm bớt cơ chế bao cấp trong quản lý kinh tế\n- tăng tính chủ động cho các đơn vị sản xuất\n- nâng cao hiệu quả sản xuất và quản lý\nNhững điều chỉnh này nhằm khắc phục tình trạng trì trệ của nền kinh tế trong giai đoạn trước.",
+                  "meaning": ""
                 },
                 {
                   "id": "ch1_3_2_2",
                   "name": "Khoán sản phẩm trong nông nghiệp",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Chính sách Khoán 100: giao sản lượng khoán cho từng hộ nông dân, tạo điều kiện để nông dân chủ động hơn trong sản xuất.",
-                  "vietnam_example": "Nông dân được giữ lại phần sản phẩm vượt mức khoán, tạo động lực làm việc mạnh mẽ.",
-                  "meaning": "Sản xuất nông nghiệp bắt đầu có những chuyển biến tích cực, năng suất lao động tăng lên."
+                  "description": "Khoán sản phẩm trong nông nghiệp\nMột chính sách quan trọng được thực hiện trong lĩnh vực nông nghiệp là chính sách khoán sản phẩm, thường được gọi là:\n➡ Khoán 100\nChính sách này cho phép:\n- giao sản lượng khoán cho từng hộ nông dân\n- tạo điều kiện để nông dân chủ động hơn trong sản xuất\n- khuyến khích người dân tăng năng suất lao động\nNhờ đó, sản xuất nông nghiệp bắt đầu có những chuyển biến tích cực.",
+                  "meaning": ""
                 },
                 {
                   "id": "ch1_3_2_3",
                   "name": "Khuyến khích sản xuất",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Chú trọng nâng cao hiệu quả kinh tế, tăng năng suất lao động và cải thiện đời sống nhân dân.",
-                  "vietnam_example": "Các địa phương bắt đầu tìm tòi những cách làm mới để 'xé rào' cơ chế cũ, tập trung vào sản xuất thực tế.",
-                  "meaning": "Đánh dấu bước chuyển ban đầu trong tư duy đổi mới kinh tế, tạo tiền tảng cho công cuộc Đổi mới."
+                  "description": "Khuyến khích sản xuất\nBên cạnh việc điều chỉnh cơ chế quản lý, Nhà nước cũng bắt đầu chú trọng khuyến khích phát triển sản xuất nhằm cải thiện tình hình kinh tế.\nCác định hướng chính gồm:\n- nâng cao hiệu quả kinh tế\n- tăng năng suất lao động\n- cải thiện đời sống của nhân dân\nNhững chính sách này đánh dấu bước chuyển ban đầu trong tư duy đổi mới kinh tế, tạo nền tảng cho công cuộc cải cách toàn diện sau này.",
+                  "meaning": ""
                 }
               ]
             },
@@ -670,9 +675,8 @@
               "name": "Ý nghĩa",
               "level": 3,
               "color": "#ca8a04",
-              "description": "Đại hội V chưa cải cách toàn diện nhưng có ý nghĩa quan trọng trong phát triển tư duy kinh tế Việt Nam.\n\n- Đặt nền móng cho việc đổi mới tư duy quản lý kinh tế.\n- Từng bước nhìn nhận lại những hạn chế của cơ chế kế hoạch hóa tập trung.\n- Tạo tiền đề cho công cuộc Đổi mới năm 1986.",
-              "vietnam_example": "Sự chuẩn bị về mặt lý luận và thực tiễn để tiến tới Đại hội VI (1986).",
-              "meaning": "Góp phần mở ra hướng suy nghĩ mới trong việc tổ chức và quản lý nền kinh tế quốc gia."
+              "description": "3. Ý nghĩa\nMặc dù Đại hội V (1982) của Đảng Cộng sản Việt Nam chưa đưa ra những cải cách toàn diện về mô hình kinh tế, nhưng đại hội đã có ý nghĩa quan trọng trong quá trình phát triển tư duy kinh tế của Việt Nam.\nTrong bối cảnh nền kinh tế đang gặp nhiều khó khăn, những điều chỉnh về cơ chế quản lý và chính sách sản xuất đã góp phần mở ra hướng suy nghĩ mới trong việc tổ chức và quản lý nền kinh tế.\n\nVai trò và ý nghĩa\nĐại hội V được xem là bước chuyển ban đầu trong quá trình đổi mới tư duy kinh tế, với những ý nghĩa nổi bật:\n- đặt nền móng cho việc đổi mới tư duy quản lý kinh tế\n- từng bước nhìn nhận lại những hạn chế của cơ chế kế hoạch hóa tập trung\n- tạo tiền đề cho công cuộc Đổi mới năm 1986\nNhững định hướng và chính sách điều chỉnh tại Đại hội V đã góp phần chuẩn bị cơ sở lý luận và thực tiễn cho những cải cách sâu rộng sau này.",
+              "meaning": ""
             }
           ]
         }
