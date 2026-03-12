@@ -1564,8 +1564,12 @@
             transition: transform 0.2s;
         }
 
-        .chat-input-area button:hover {
+        #send-chat:hover {
             transform: scale(1.05);
+        }
+
+        #topic-content b {
+            color: var(--gold);
         }
     </style>
 </head>
@@ -1647,7 +1651,6 @@
             <div class="horiz-divider"></div>
             <div class="panel-grid">
                 <div class="panel-col">
-                    <h3>Nội Dung</h3>
                     <p id="topic-content">Nội dung chi tiết sẽ hiển thị ở đây.</p>
                 </div>
             </div>
