@@ -344,7 +344,7 @@
       "level": 1,
       "color": "#ef4444",
       "icon": "vietnam.png",
-      "description": "<b>Trong giai đoạn 1960–1986, Đảng Cộng sản Việt Nam đã lãnh đạo cách mạng Việt Nam thông qua các kỳ Đại hội Đảng, đề ra những đường lối chiến lược quan trọng nhằm:</b>\n- Lãnh đạo cuộc kháng chiến chống Mỹ cứu nước\n- Thực hiện mục tiêu thống nhất đất nước\n- Xây dựng chủ nghĩa xã hội trên phạm vi cả nước sau chiến tranh\nCác quyết sách của Đảng trong thời kỳ này đã định hướng cho toàn bộ quá trình đấu tranh, giải phóng miền Nam và xây dựng đất nước trong giai đoạn mới.",
+      "description": "Trong giai đoạn 1960–1986, Đảng Cộng sản Việt Nam đã lãnh đạo cách mạng Việt Nam thông qua các kỳ Đại hội Đảng, đề ra những đường lối chiến lược quan trọng nhằm:\n- Lãnh đạo cuộc kháng chiến chống Mỹ cứu nước\n- Thực hiện mục tiêu thống nhất đất nước\n- Xây dựng chủ nghĩa xã hội trên phạm vi cả nước sau chiến tranh\nCác quyết sách của Đảng trong thời kỳ này đã định hướng cho toàn bộ quá trình đấu tranh, giải phóng miền Nam và xây dựng đất nước trong giai đoạn mới.",
       "vietnam_example": "",
       "meaning": "",
       "children": [
@@ -418,7 +418,7 @@
                   "name": "Chiến lược 1 – Miền Bắc",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Miền Bắc tiến hành cách mạng xã hội chủ nghĩa, nhằm xây dựng nền tảng kinh tế và xã hội cho đất nước.\n\n<b>Nhiệm vụ chủ yếu</b>\n- Xây dựng nền kinh tế xã hội chủ nghĩa\n- Phát triển công nghiệp, đặc biệt là công nghiệp quốc doanh\n- Thực hiện hợp tác hóa trong nông nghiệp\n- Cải tạo quan hệ sản xuất theo định hướng xã hội chủ nghĩa\n\nVai trò của miền Bắc\nMiền Bắc được xác định là hậu phương lớn của cách mạng cả nước.\n\n<b>Miền Bắc có nhiệm vụ cung cấp cho chiến trường miền Nam:</b>\n- Nhân lực\n- Vật lực\n- Lương thực\n- Vũ khí và trang thiết bị\n\nNhờ đó, miền Bắc trở thành nguồn lực quan trọng bảo đảm cho cuộc kháng chiến chống Mỹ lâu dài.",
+                  "description": "Miền Bắc tiến hành cách mạng xã hội chủ nghĩa, nhằm xây dựng nền tảng kinh tế và xã hội cho đất nước.\n\n<b>Nhiệm vụ chủ yếu</b>\n- Xây dựng nền kinh tế xã hội chủ nghĩa\n- Phát triển công nghiệp, đặc biệt là công nghiệp quốc doanh\n- Thực hiện hợp tác hóa trong nông nghiệp\n- Cải tạo quan hệ sản xuất theo định hướng xã hội chủ nghĩa\n\n<b>Vai trò của miền Bắc</b>\nMiền Bắc được xác định là hậu phương lớn của cách mạng cả nước.\n\nMiền Bắc có nhiệm vụ cung cấp cho chiến trường miền Nam:\n- Nhân lực\n- Vật lực\n- Lương thực\n- Vũ khí và trang thiết bị\n\nNhờ đó, miền Bắc trở thành nguồn lực quan trọng bảo đảm cho cuộc kháng chiến chống Mỹ lâu dài.",
                   "meaning": ""
                 },
                 {
@@ -426,7 +426,7 @@
                   "name": "Chiến lược 2 – Miền Nam",
                   "level": 4,
                   "color": "#facc15",
-                  "description": "Ở miền Nam, cách mạng tiếp tục thực hiện cách mạng dân tộc dân chủ nhân dân.\n\n<b>Mục tiêu đấu tranh</b>\n- Đánh bại sự can thiệp của đế quốc Mỹ\n- Lật đổ chính quyền Sài Gòn\n- Giải phóng miền Nam\n- Tiến tới thống nhất đất nước\n\nHình thức đấu tranh\n<b>Cuộc đấu tranh của nhân dân miền Nam được tiến hành dưới nhiều hình thức khác nhau:</b>\n- Đấu tranh chính trị của quần chúng\n- Đấu tranh vũ trang của lực lượng cách mạng\n- Đấu tranh ngoại giao trên trường quốc tế\n\nSự kết hợp giữa các hình thức đấu tranh này đã tạo nên sức mạnh tổng hợp của cách mạng miền Nam.",
+                  "description": "Ở miền Nam, cách mạng tiếp tục thực hiện cách mạng dân tộc dân chủ nhân dân.\n\n<b>Mục tiêu đấu tranh</b>\n- Đánh bại sự can thiệp của đế quốc Mỹ\n- Lật đổ chính quyền Sài Gòn\n- Giải phóng miền Nam\n- Tiến tới thống nhất đất nước\n\n<b>Hình thức đấu tranh</b>\nCuộc đấu tranh của nhân dân miền Nam được tiến hành dưới nhiều hình thức khác nhau:\n- Đấu tranh chính trị của quần chúng\n- Đấu tranh vũ trang của lực lượng cách mạng\n- Đấu tranh ngoại giao trên trường quốc tế\n\nSự kết hợp giữa các hình thức đấu tranh này đã tạo nên sức mạnh tổng hợp của cách mạng miền Nam.",
                   "meaning": ""
                 }
               ]
