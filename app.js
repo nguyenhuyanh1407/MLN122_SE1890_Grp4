@@ -1164,7 +1164,22 @@ document.addEventListener('DOMContentLoaded', async function () {
       const msg = document.createElement('div');
       msg.className = 'message ' + role;
       if (id) msg.id = id;
-      msg.textContent = text;
+      
+      if (role === 'system') {
+        // Clean and format AI response
+        let formatted = text.trim();
+        // Remove leading *** markers
+        formatted = formatted.replace(/^\*+\s*/, '');
+        // Convert **bold** to strong
+        formatted = formatted.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        // Convert newlines to br
+        formatted = formatted.replace(/\n/g, '<br>');
+        
+        msg.innerHTML = formatted;
+      } else {
+        msg.textContent = text;
+      }
+      
       chatMessages.appendChild(msg);
       chatMessages.scrollTop = chatMessages.scrollHeight;
     }
