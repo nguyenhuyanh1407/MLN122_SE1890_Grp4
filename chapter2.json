@@ -1,1302 +1,1302 @@
 [
-    {
-        "id": 201,
-        "chapter": 2,
-        "question": "Hàng hóa sức lao động có gì đặc biệt so với các hàng hóa thông thường?",
-        "options": [
-            "Nó có giá trị cao hơn",
-            "Giá trị sử dụng của nó có khả năng tạo ra giá trị mới lớn hơn giá trị của bản thân nó",
-            "Nó không có giá trị",
-            "Nó chỉ do nhà nước quản lý"
-        ],
-        "answer": 1,
-        "explain": "Đây là đặc điểm cốt yếu để tiền chuyển hóa thành tư bản."
-    },
-    {
-        "id": 202,
-        "chapter": 2,
-        "question": "Giá trị thặng dư là gì?",
-        "options": [
-            "Lợi nhuận của doanh nghiệp",
-            "Phần giá trị mới dôi ra ngoài giá trị sức lao động do công nhân tạo ra và bị chủ tư bản chiếm không",
-            "Tiền lãi ngân hàng",
-            "Giá trị của máy móc"
-        ],
-        "answer": 1,
-        "explain": "GTTD là nguồn gốc của sự giàu có trong CNTB."
-    },
-    {
-        "id": 203,
-        "chapter": 2,
-        "question": "Tư bản bất biến (c) là bộ phận tư bản dùng để mua gì?",
-        "options": [
-            "Sức lao động",
-            "Máy móc, thiết bị, nguyên vật liệu",
-            "Quảng cáo",
-            "Bảo hiểm"
-        ],
-        "answer": 1,
-        "explain": "Giá trị của nó được bảo tồn và chuyển nguyên vẹn vào sản phẩm."
-    },
-    {
-        "id": 204,
-        "chapter": 2,
-        "question": "Tư bản khả biến (v) là bộ phận tư bản dùng để mua gì?",
-        "options": [
-            "Máy móc",
-            "Sức lao động",
-            "Nguyên liệu",
-            "Nhà xưởng"
-        ],
-        "answer": 1,
-        "explain": "Bộ phận này biến đổi về lượng trong quá trình sản xuất (tạo ra GTTD)."
-    },
-    {
-        "id": 205,
-        "chapter": 2,
-        "question": "Tỷ suất giá trị thặng dư (m') phản ánh điều gì?",
-        "options": [
-            "Mức độ bóc lột của tư bản đối với công nhân",
-            "Quy mô sản xuất",
-            "Tốc độ chu chuyển vốn",
-            "Năng suất lao động"
-        ],
-        "answer": 0,
-        "explain": "m' = (m/v) * 100%."
-    },
-    {
-        "id": 206,
-        "chapter": 2,
-        "question": "Khối lượng giá trị thặng dư (M) được tính bằng công thức nào?",
-        "options": [
-            "M = m' * v",
-            "M = m' * V",
-            "M = m + v",
-            "M = c + v"
-        ],
-        "answer": 1,
-        "explain": "M phản ánh quy mô bóc lột bằng tiền hoặc hiện vật."
-    },
-    {
-        "id": 207,
-        "chapter": 2,
-        "question": "Có mấy phương pháp sản xuất giá trị thặng dư chính?",
-        "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-        ],
-        "answer": 1,
-        "explain": "Hai phương pháp: GTTD tuyệt đối và GTTD tương đối."
-    },
-    {
-        "id": 208,
-        "chapter": 2,
-        "question": "Giá trị thặng dư tuyệt đối thu được bằng cách nào?",
-        "options": [
-            "Tăng năng suất lao động",
-            "Kéo dài ngày lao động vượt quá thời gian lao động tất yếu",
-            "Giảm giá thành",
-            "Cải tiến công nghệ"
-        ],
-        "answer": 1,
-        "explain": "Dựa trên việc kéo dài thời gian lao động thặng dư."
-    },
-    {
-        "id": 209,
-        "chapter": 2,
-        "question": "Giá trị thặng dư tương đối thu được nhờ?",
-        "options": [
-            "Kéo dài ngày lao động",
-            "Rút ngắn thời gian lao động tất yếu bằng cách tăng NSLĐ xã hội",
-            "Giảm lương công nhân",
-            "Tăng cường độ lao động"
-        ],
-        "answer": 1,
-        "explain": "Ngày lao động không đổi nhưng m tăng lên do v giảm."
-    },
-    {
-        "id": 210,
-        "chapter": 2,
-        "question": "Giá trị thặng dư siêu ngạch là gì?",
-        "options": [
-            "GTTD thu được do NSLĐ cá biệt cao hơn NSLĐ xã hội",
-            "GTTD thu được do kéo dài ngày lao động",
-            "Lợi nhuận của nhà nước",
-            "Sự may mắn"
-        ],
-        "answer": 0,
-        "explain": "Đây là hình thức biến tướng của GTTD tương đối."
-    },
-    {
-        "id": 211,
-        "chapter": 2,
-        "question": "Tiền công trong CNTB là gì?",
-        "options": [
-            "Giá trị của lao động",
-            "Giá cả của hàng hóa sức lao động",
-            "Sự ban ơn của chủ",
-            "Phần thưởng"
-        ],
-        "answer": 1,
-        "explain": "Tiền công biểu hiện bề ngoài là giá trị của lao động, nhưng bản chất là giá cả sức lao động."
-    },
-    {
-        "id": 212,
-        "chapter": 2,
-        "question": "Tích lũy tư bản là gì?",
-        "options": [
-            "Để dành tiền trong két",
-            "Sự chuyển hóa một phần giá trị thặng dư thành tư bản",
-            "Vay vốn ngân hàng",
-            "Mua vàng tích trữ"
-        ],
-        "answer": 1,
-        "explain": "GTTD là nguồn gốc duy nhất của tích lũy tư bản."
-    },
-    {
-        "id": 213,
-        "chapter": 2,
-        "question": "Nhân tố nào quan trọng nhất quyết định quy mô tích lũy tư bản?",
-        "options": [
-            "Trình độ bóc lột sức lao động",
-            "Năng suất lao động xã hội",
-            "Sự chênh lệch giữa tư bản sử dụng và tư bản tiêu dùng",
-            "Tất cả các ý trên"
-        ],
-        "answer": 3,
-        "explain": "Cả 4 nhân tố này đều tác động đến quy mô tích lũy."
-    },
-    {
-        "id": 214,
-        "chapter": 2,
-        "question": "Cấu tạo hữu cơ của tư bản (c/v) có xu hướng như thế nào?",
-        "options": [
-            "Luôn giảm",
-            "Luôn tăng",
-            "Không đổi",
-            "Biến đổi ngẫu nhiên"
-        ],
-        "answer": 1,
-        "explain": "Do kỹ thuật phát triển, máy móc tăng nhanh hơn lao động sống."
-    },
-    {
-        "id": 215,
-        "chapter": 2,
-        "question": "Tập trung tư bản là gì?",
-        "options": [
-            "Tự mình làm giàu",
-            "Sự hợp nhất nhiều tư bản nhỏ thành tư bản lớn",
-            "Mở rộng xưởng của mình",
-            "Tiết kiệm chi phí"
-        ],
-        "answer": 1,
-        "explain": "Thông qua sáp nhập hoặc tín dụng."
-    },
-    {
-        "id": 216,
-        "chapter": 2,
-        "question": "Tích tụ tư bản dẫn đến kết quả gì?",
-        "options": [
-            "Làm tăng quy mô tư bản cá biệt",
-            "Làm tăng quy mô tư bản xã hội",
-            "Cả A và B",
-            "Chỉ làm tăng vốn vay"
-        ],
-        "answer": 2,
-        "explain": "Tích tụ dựa trên tích lũy GTTD."
-    },
-    {
-        "id": 217,
-        "chapter": 2,
-        "question": "Hệ quả của tích lũy tư bản đối với giai cấp công nhân là gì?",
-        "options": [
-            "Thu nhập cao lên nhanh chóng",
-            "Cấu tạo hữu cơ tăng dẫn đến thất nghiệp (thành phần dư thừa)",
-            "Hết bóc lột",
-            "Được làm chủ hoàn toàn"
-        ],
-        "answer": 1,
-        "explain": "Sự bần cùng hóa giai cấp vô sản (về tương đối và tuyệt đối)."
-    },
-    {
-        "id": 218,
-        "chapter": 2,
-        "question": "Giá trị của hàng hóa sức lao động bao gồm?",
-        "options": [
-            "Tư liệu sinh hoạt cho công nhân",
-            "Phí tổn đào tạo",
-            "Tư liệu sinh hoạt cho gia đình công nhân",
-            "Tất cả các ý trên"
-        ],
-        "answer": 3,
-        "explain": "Đảm bảo tái sản xuất sức lao động."
-    },
-    {
-        "id": 219,
-        "chapter": 2,
-        "question": "Sự khác biệt giữa GTTD tuyệt đối và GTTD tương đối là?",
-        "options": [
-            "Một cái tăng ngày lao động, một cái tăng NSLĐ",
-            "Giống nhau hoàn toàn",
-            "Chỉ là cách gọi",
-            "Một cái cho nhà nước, một cái cho cá nhân"
-        ],
-        "answer": 0,
-        "explain": "Dựa trên cách thức biến đổi các thành phần của ngày lao động."
-    },
-    {
-        "id": 220,
-        "chapter": 2,
-        "question": "Tư bản là gì theo định nghĩa của Mác?",
-        "options": [
-            "Là tiền",
-            "Là giá trị mang lại giá trị thặng dư bằng cách bóc lột lao động làm thuê",
-            "Là máy móc",
-            "Là bất động sản"
-        ],
-        "answer": 1,
-        "explain": "Tư bản là một quan hệ xã hội được thể hiện qua vật chất."
-    },
-    {
-        "id": 221,
-        "chapter": 2,
-        "question": "Quá trình sản xuất GTTD là sự thống nhất giữa?",
-        "options": [
-            "Sản xuất ra GTSD và sản xuất ra giá trị thặng dư",
-            "Mua và bán",
-            "Trí óc và chân tay",
-            "Tự nhiên và xã hội"
-        ],
-        "answer": 0,
-        "explain": "Sản xuất hàng hóa trong CNTB đồng thời tạo ra m."
-    },
-    {
-        "id": 222,
-        "chapter": 2,
-        "question": "Ngày lao động gồm hai phần là?",
-        "options": [
-            "Lao động chân tay và trí óc",
-            "Thời gian lao động tất yếu và thời gian lao động thặng dư",
-            "Làm việc và nghỉ ngơi",
-            "Sản xuất và lưu thông"
-        ],
-        "answer": 1,
-        "explain": "Trong TGLĐ thặng dư, công nhân tạo ra m cho chủ."
-    },
-    {
-        "id": 223,
-        "chapter": 2,
-        "question": "Tỷ suất lợi nhuận (p') phản ánh điều gì?",
-        "options": [
-            "Mức độ bóc lột",
-            "Hiệu quả đầu tư của toàn bộ tư bản ứng trước",
-            "Tốc độ máy phát điện",
-            "Mức lương công nhân"
-        ],
-        "answer": 1,
-        "explain": "p' = m / (c+v)."
-    },
-    {
-        "id": 224,
-        "chapter": 2,
-        "question": "Nhân tố nào làm tăng tỷ suất lợi nhuận?",
-        "options": [
-            "Tăng tỷ suất GTTD",
-            "Tiết kiệm tư bản bất biến",
-            "Tăng tốc độ chu chuyển vốn",
-            "Tất cả các ý trên"
-        ],
-        "answer": 3,
-        "explain": "Các biện pháp này đều giúp p' tăng."
-    },
-    {
-        "id": 225,
-        "chapter": 2,
-        "question": "Lợi nhuận bình quân được hình thành do?",
-        "options": [
-            "Sự cạnh tranh trong nội bộ ngành",
-            "Sự cạnh tranh giữa các ngành dẫn đến di chuyển tư bản",
-            "Lệnh của chính phủ",
-            "Sự thỏa thuận giữa các tập đoàn"
-        ],
-        "answer": 1,
-        "explain": "Vốn đổ về nơi có p' cao, làm p' giữa các ngành xấp xỉ nhau."
-    },
-    {
-        "id": 226,
-        "chapter": 2,
-        "question": "Giá cả sản xuất bằng?",
-        "options": [
-            "c + v + m",
-            "Chi phí sản xuất + Lợi nhuận bình quân",
-            "Giá trị hàng hóa",
-            "Giá bán trên chợ"
-        ],
-        "answer": 1,
-        "explain": "Trong giai đoạn tự do cạnh tranh, giá cả xoay quanh giá cả sản xuất."
-    },
-    {
-        "id": 227,
-        "chapter": 2,
-        "question": "Tư bản cho vay là?",
-        "options": [
-            "Tiền của người dân gửi tiết kiệm",
-            "Tư bản tiền tệ nhàn rỗi mà người sở hữu cho người khác sử dụng để lấy lợi tức",
-            "Tiền đóng thuế",
-            "Tiền làm từ thiện"
-        ],
-        "answer": 1,
-        "explain": "Vận động theo công thức T - T'."
-    },
-    {
-        "id": 228,
-        "chapter": 2,
-        "question": "Lợi tức (z) là gì?",
-        "options": [
-            "Số tiền lãi ngân hàng trả cho dân",
-            "Phần giá trị thặng dư mà nhà tư bản đi vay trả cho nhà tư bản cho vay",
-            "Tiền phạt chậm trả",
-            "Tiền hoa hồng"
-        ],
-        "answer": 1,
-        "explain": "z là một phần của m."
-    },
-    {
-        "id": 229,
-        "chapter": 2,
-        "question": "Địa tô tư bản chủ nghĩa là?",
-        "options": [
-            "Tiền thuê nhà",
-            "Phần GTTD còn lại sau khi trừ lợi nhuận bình quân mà nhà tư bản kinh doanh nông nghiệp trả cho địa chủ",
-            "Tiền mua đất",
-            "Thuế đất"
-        ],
-        "answer": 1,
-        "explain": "Gồm địa tô chênh lệch và địa tô tuyệt đối."
-    },
-    {
-        "id": 230,
-        "chapter": 2,
-        "question": "Sự chuyển hóa của tiền thành tư bản đòi hỏi?",
-        "options": [
-            "T - H - T'",
-            "T - T'",
-            "H - T - H",
-            "Bán rẻ mua đắt"
-        ],
-        "answer": 0,
-        "explain": "Công thức chung của tư bản."
-    },
-    {
-        "id": 231,
-        "chapter": 2,
-        "question": "Mâu thuẫn trong công thức chung của tư bản là gì?",
-        "options": [
-            "Giá trị thặng dư không sinh ra từ lưu thông nhưng lại phải thông qua lưu thông",
-            "Mua cao bán thấp",
-            "Tối và sáng",
-            "Người giàu và người nghèo"
-        ],
-        "answer": 0,
-        "explain": "GTTD vừa sinh ra trong lưu thông, vừa không sinh ra trong lưu thông."
-    },
-    {
-        "id": 232,
-        "chapter": 2,
-        "question": "GTSD của hàng hóa sức lao động có thuộc tính gì?",
-        "options": [
-            "Nó biến mất khi dùng",
-            "Nó tạo ra giá trị mới",
-            "Nó không đổi",
-            "Nó làm hỏng máy móc"
-        ],
-        "answer": 1,
-        "explain": "Được tiêu dùng sẽ tạo ra giá trị mới."
-    },
-    {
-        "id": 233,
-        "chapter": 2,
-        "question": "Tư bản cố định là bộ phận?",
-        "options": [
-            "c1 (máy móc, nhà xưởng)",
-            "c2 (nguyên liệu, nhiên liệu)",
-            "v (tiền lương)",
-            "m (lợi nhuận)"
-        ],
-        "answer": 0,
-        "explain": "Tham gia nhiều chu kỳ sản xuất, giá trị chuyển dần vào sản phẩm."
-    },
-    {
-        "id": 234,
-        "chapter": 2,
-        "question": "Tư bản lưu động là bộ phận?",
-        "options": [
-            "c1",
-            "c2 + v",
-            "v + m",
-            "Máy móc"
-        ],
-        "answer": 1,
-        "explain": "Giá trị chuyển hết vào sản phẩm sau 1 chu kỳ."
-    },
-    {
-        "id": 235,
-        "chapter": 2,
-        "question": "Hao mòn hữu hình của tư bản cố định là?",
-        "options": [
-            "Do mất giá khi công nghệ mới ra đời",
-            "Do sử dụng hoặc tác động của tự nhiên làm hư hỏng vật chất",
-            "Do chủ ghét",
-            "Do bão"
-        ],
-        "answer": 1,
-        "explain": "Hư hỏng vật lý."
-    },
-    {
-        "id": 236,
-        "chapter": 2,
-        "question": "Hao mòn vô hình của tư bản cố định là?",
-        "options": [
-            "Máy bị gỉ",
-            "Giá trị máy giảm do NSLĐ tăng hoặc công nghệ mới xuất hiện",
-            "Máy bị trộm",
-            "Nhà xưởng bị sập"
-        ],
-        "answer": 1,
-        "explain": "Mất giá về kinh tế."
-    },
-    {
-        "id": 237,
-        "chapter": 2,
-        "question": "Tốc độ chu chuyển của tư bản tỉ lệ thuận với?",
-        "options": [
-            "Thời gian sản xuất",
-            "Số vòng chu chuyển trong 1 năm",
-            "Quy mô vốn",
-            "Số lượng công nhân"
-        ],
-        "answer": 1,
-        "explain": "Càng nhiều vòng chu chuyển thì tư bản vận động càng nhanh."
-    },
-    {
-        "id": 238,
-        "chapter": 2,
-        "question": "Muốn tăng p', nhà tư bản phải làm gì?",
-        "options": [
-            "Tăng m'",
-            "Giảm c",
-            "Tăng v",
-            "Cả A và B"
-        ],
-        "answer": 3,
-        "explain": "p' = m / (c+v)."
-    },
-    {
-        "id": 239,
-        "chapter": 2,
-        "question": "Chi phí sản xuất tư bản chủ nghĩa (k) bằng?",
-        "options": [
-            "c + v + m",
-            "c + v",
-            "v + m",
-            "c + m"
-        ],
-        "answer": 1,
-        "explain": "Phần giá trị bù đắp hao phí tư bản."
-    },
-    {
-        "id": 240,
-        "chapter": 2,
-        "question": "Lợi nhuận (p) khác giá trị thặng dư (m) ở điểm nào?",
-        "options": [
-            "Chúng là một",
-            "m là nguồn gốc, p là hình thức biểu hiện ra ngoài",
-            "p lớn hơn m",
-            "p do nhà nước quản lý"
-        ],
-        "answer": 1,
-        "explain": "m được nhìn nhận là con đẻ của tư bản ứng trước."
-    },
-    {
-        "id": 241,
-        "chapter": 2,
-        "question": "Công thức của giá trị hàng hóa khi có lợi nhuận là?",
-        "options": [
-            "G = k + p",
-            "G = c + v",
-            "G = k + m",
-            "G = m + p"
-        ],
-        "answer": 0,
-        "explain": "Giá trị = Chi phí + Lợi nhuận."
-    },
-    {
-        "id": 242,
-        "chapter": 2,
-        "question": "Lợi nhuận bình quân là gì?",
-        "options": [
-            "Lợi nhuận chia đều cho mọi người",
-            "Lợi nhuận bằng nhau của những tư bản bằng nhau đầu tư vào các ngành khác nhau",
-            "Số dư tài khoản",
-            "Mức lương tối thiểu"
-        ],
-        "answer": 1,
-        "explain": "Kết quả của cạnh tranh tự do giữa các ngành."
-    },
-    {
-        "id": 243,
-        "chapter": 2,
-        "question": "Địa tô chênh lệch I thu được trên?",
-        "options": [
-            "Ruộng đất có vị trí thuận lợi hoặc độ màu mỡ trung bình/tốt",
-            "Ruộng đất xấu nhất",
-            "Ruộng đất do thâm canh",
-            "Đất sa mạc"
-        ],
-        "answer": 0,
-        "explain": "Do điều kiện tự nhiên thuận lợi."
-    },
-    {
-        "id": 244,
-        "chapter": 2,
-        "question": "Địa tô chênh lệch II thu được do?",
-        "options": [
-            "Độ màu mỡ tự nhiên",
-            "Đầu tư thêm tư bản để thâm canh tăng năng suất",
-            "Giá đất tăng",
-            "Giao thông thuận tiện"
-        ],
-        "answer": 1,
-        "explain": "Kết quả của đầu tư thâm canh."
-    },
-    {
-        "id": 245,
-        "chapter": 2,
-        "question": "Địa tô tuyệt đối là gì?",
-        "options": [
-            "Chỉ ruộng tốt mới có",
-            "Loại địa tô mà bất kỳ nhà tư bản thuê đất nào cũng phải nộp cho địa chủ",
-            "Tiền phạt chiếm đất",
-            "Lợi nhuận của nông dân"
-        ],
-        "answer": 1,
-        "explain": "Dựa trên độc quyền sở hữu ruộng đất."
-    },
-    {
-        "id": 246,
-        "chapter": 2,
-        "question": "Giá cả ruộng đất được tính bằng?",
-        "options": [
-            "Địa tô / Lãi suất ngân hàng",
-            "Diện tích x đơn giá",
-            "Nhà nước quy định",
-            "Mặc cả thị trường"
-        ],
-        "answer": 0,
-        "explain": "Giá cả đất đai là địa tô đã được tư bản hóa."
-    },
-    {
-        "id": 247,
-        "chapter": 2,
-        "question": "Tư bản giả là gì?",
-        "options": [
-            "Tiền giả",
-            "Các loại chứng khoán (cổ phiếu, trái phiếu) mang lại thu nhập",
-            "Vàng giả",
-            "Bitcoin"
-        ],
-        "answer": 1,
-        "explain": "Nó có giá trị trao đổi nhưng không có giá trị thực."
-    },
-    {
-        "id": 248,
-        "chapter": 2,
-        "question": "Công ty cổ phần là?",
-        "options": [
-            "Công ty của 1 người",
-            "Loại hình doanh nghiệp mà vốn được hình thành từ việc phát hành cổ phiếu",
-            "Doanh nghiệp nhà nước",
-            "Cửa hàng gia đình"
-        ],
-        "answer": 1,
-        "explain": "Hình thức phổ biến của tư bản hiện đại."
-    },
-    {
-        "id": 249,
-        "chapter": 2,
-        "question": "Cổ tức là?",
-        "options": [
-            "Tiền phạt cổ đông",
-            "Phần lợi nhuận chia cho người sở hữu cổ phiếu",
-            "Giá cổ phiếu tăng",
-            "Thuế cổ phiếu"
-        ],
-        "answer": 1,
-        "explain": "Thu nhập từ sở hữu cổ phần."
-    },
-    {
-        "id": 250,
-        "chapter": 2,
-        "question": "Thị trường chứng khoán là nơi?",
-        "options": [
-            "Mua bán rau củ",
-            "Mua bán các loại chứng khoán",
-            "Mua bán đồ cũ",
-            "Nơi làm từ thiện"
-        ],
-        "answer": 1,
-        "explain": "Thành phần quan trọng của thị trường tài chính."
-    },
-    {
-        "id": 251,
-        "chapter": 2,
-        "question": "Chu chuyển của tư bản phản ánh?",
-        "options": [
-            "Sự di chuyển tiền",
-            "Vận động tuần hoàn của tư bản có tính định kỳ và lặp lại",
-            "Tư bản bị mất",
-            "Nhân viên chuyển việc"
-        ],
-        "answer": 1,
-        "explain": "Xét phương diện thời gian vận động."
-    },
-    {
-        "id": 252,
-        "chapter": 2,
-        "question": "Tuần hoàn của tư bản trải qua mấy giai đoạn?",
-        "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-        ],
-        "answer": 2,
-        "explain": "Lưu thông (mua) -> Sản xuất -> Lưu thông (bán)."
-    },
-    {
-        "id": 253,
-        "chapter": 2,
-        "question": "Giai đoạn 1 của tuần hoàn tư bản (Lưu thông) là?",
-        "options": [
-            "T - H",
-            "SX",
-            "H' - T'",
-            "T - T'"
-        ],
-        "answer": 0,
-        "explain": "Chuẩn bị các yếu tố sản xuất."
-    },
-    {
-        "id": 254,
-        "chapter": 2,
-        "question": "Giai đoạn 2 của tuần hoàn tư bản (Sản xuất) là?",
-        "options": [
-            "Mua sắm",
-            "Quá trình lao động kết hợp TLSX và SLĐ",
-            "Bán hàng",
-            "Quảng cáo"
-        ],
-        "answer": 1,
-        "explain": "Nơi thực sự tạo ra GTTD."
-    },
-    {
-        "id": 255,
-        "chapter": 2,
-        "question": "Giai đoạn 3 của tuần hoàn tư bản là?",
-        "options": [
-            "Mua nguyên liệu",
-            "Bán hàng hóa đã sản xuất (H' - T')",
-            "Đang sản xuất",
-            "Gửi tiền bank"
-        ],
-        "answer": 1,
-        "explain": "Thực hiện giá trị và GTTD."
-    },
-    {
-        "id": 256,
-        "chapter": 2,
-        "question": "Sự thống nhất giữa 3 hình thái tư bản (tiền tệ, sản xuất, hàng hóa) là?",
-        "options": [
-            "Tuần hoàn của tư bản",
-            "Chu chuyển tư bản",
-            "Tích lũy tư bản",
-            "Đầu tư"
-        ],
-        "answer": 0,
-        "explain": "Tư bản phải luân chuyển qua 3 hình thái liên tục."
-    },
-    {
-        "id": 257,
-        "chapter": 2,
-        "question": "Điều kiện để tuần hoàn tư bản diễn ra bình thường?",
-        "options": [
-            "Các giai đoạn nối tiếp nhau",
-            "Các hình thái cùng tồn tại",
-            "Cả A và B",
-            "Chỉ cần giai đoạn 2"
-        ],
-        "answer": 2,
-        "explain": "Phải liên tục cả về không gian và thời gian."
-    },
-    {
-        "id": 258,
-        "chapter": 2,
-        "question": "Cấu tạo hữu cơ tăng dẫn đến?",
-        "options": [
-            "Cần ít lao động hơn trên cùng lượng máy móc",
-            "Cần nhiều công nhân hơn",
-            "Lương công nhân tăng",
-            "Mọi người đều giàu"
-        ],
-        "answer": 0,
-        "explain": "Nguyên nhân gây ra thất nghiệp trong CNTB."
-    },
-    {
-        "id": 259,
-        "chapter": 2,
-        "question": "Tư bản thương nghiệp là?",
-        "options": [
-            "Tư bản đầu tư vào nông nghiệp",
-            "Bộ phận tư bản tiền tệ tách ra phục vụ lưu thông hàng hóa",
-            "Tư bản của nhà nước",
-            "Vàng cất giữ"
-        ],
-        "answer": 1,
-        "explain": "Hoạt động trong khâu lưu thông để lấy lợi nhuận thương nghiệp."
-    },
-    {
-        "id": 260,
-        "chapter": 2,
-        "question": "Nguồn gốc lợi nhuận thương nghiệp là?",
-        "options": [
-            "Do bán đắt",
-            "Một phần giá trị thặng dư tạo ra trong sản xuất",
-            "Do may mắn",
-            "Do phí vận chuyển"
-        ],
-        "answer": 1,
-        "explain": "Chủ sản xuất nhường lại một phần m cho chủ thương nghiệp."
-    },
-    {
-        "id": 261,
-        "chapter": 2,
-        "question": "Tư bản ngân hàng thực hiện?",
-        "options": [
-            "Sản xuất hàng hóa",
-            "Trung gian tín dụng",
-            "Làm nông nghiệp",
-            "Quản lý nhà nước"
-        ],
-        "answer": 1,
-        "explain": "Huy động vốn tạm thời nhàn rỗi để cho vay."
-    },
-    {
-        "id": 262,
-        "chapter": 2,
-        "question": "Lợi nhuận ngân hàng bằng?",
-        "options": [
-            "Tổng lợi tức cho vay - Tổng lợi tức trả cho người gửi",
-            "Số tiền mặt đang có",
-            "Vốn điều lệ",
-            "Do nhà nước cấp"
-        ],
-        "answer": 0,
-        "explain": "Chênh lệch giữa lãi suất huy động và cho vay."
-    },
-    {
-        "id": 263,
-        "chapter": 2,
-        "question": "Sự bần cùng hóa giai cấp công nhân là?",
-        "options": [
-            "Họ sướng hơn",
-            "Tỷ trọng thu nhập của họ trong tổng thu nhập quốc dân giảm",
-            "Họ hết tiền mua đồ",
-            "Họ không có việc làm"
-        ],
-        "answer": 1,
-        "explain": "Phản ánh mâu thuẫn đối kháng trong phân phối."
-    },
-    {
-        "id": 264,
-        "chapter": 2,
-        "question": "Kinh tế nông nghiệp trong CNTB dẫn đến?",
-        "options": [
-            "Đuổi nông dân khỏi đất",
-            "Tạo ra tầng lớp công nhân nông nghiệp",
-            "Cả A và B",
-            "Không có thay đổi gì"
-        ],
-        "answer": 2,
-        "explain": "Quá trình tích tụ đất đai."
-    },
-    {
-        "id": 265,
-        "chapter": 2,
-        "question": "Tích lũy tư bản gây ra biến đổi gì trong cơ cấu xã hội?",
-        "options": [
-            "Mất đi giai cấp công nhân",
-            "Phân hóa mạnh mẽ giàu - nghèo",
-            "Xóa bỏ mâu thuẫn giai cấp",
-            "Tất cả mọi người là trung lưu"
-        ],
-        "answer": 1,
-        "explain": "Đào sâu thêm khoảng cách xã hội."
-    },
-    {
-        "id": 266,
-        "chapter": 2,
-        "question": "Sản xuất hàng hóa sức lao động có tốn chi phí?",
-        "options": [
-            "Không",
-            "Có, chính là giá trị các tư liệu sinh hoạt",
-            "Chỉ tốn công sinh",
-            "Do thiên nhiên ban tặng"
-        ],
-        "answer": 1,
-        "explain": "Duy trì sức khỏe, kỹ năng cho người lao động."
-    },
-    {
-        "id": 267,
-        "chapter": 2,
-        "question": "Giá trị thặng dư tuyệt đối thường được áp dụng ở giai đoạn?",
-        "options": [
-            "Sắp sụp đổ",
-            "Giai đoạn đầu phát triển CNTB khi công nghệ còn thấp",
-            "Giai đoạn 4.0",
-            "Không bao giờ"
-        ],
-        "answer": 1,
-        "explain": "Khi NSLĐ chưa cao, họ tập trung vắt kiệt thời gian."
-    },
-    {
-        "id": 268,
-        "chapter": 2,
-        "question": "Tại sao có GTTD siêu ngạch?",
-        "options": [
-            "Do độc quyền",
-            "Do đi đầu trong cải tiến kỹ thuật làm giá trị cá biệt thấp hơn giá trị thị trường",
-            "Do bóc lột gấp đôi",
-            "Do may mắn"
-        ],
-        "answer": 1,
-        "explain": "Phần thưởng cho sự sáng tạo kỹ thuật cá biệt."
-    },
-    {
-        "id": 269,
-        "chapter": 2,
-        "question": "Sự khác biệt giữa SLĐ và Lao động?",
-        "options": [
-            "Lao động là quá trình tiêu dùng SLĐ",
-            "SLĐ là năng lực, lao động là hoạt động",
-            "Cả A và B",
-            "Giống nhau"
-        ],
-        "answer": 2,
-        "explain": "Chủ mua SLĐ, không phải mua Lao động."
-    },
-    {
-        "id": 270,
-        "chapter": 2,
-        "question": "Giá trị hàng hóa sức lao động tính cho một ngày bằng?",
-        "options": [
-            "Tổng giá trị tư liệu sinh hoạt cả đời / số ngày sống",
-            "Tổng chi phí duy trì SLĐ trong 1 ngày",
-            "Mức lương tối thiểu",
-            "Chủ thích bao nhiêu thì trả"
-        ],
-        "answer": 1,
-        "explain": "Định mức tiêu dùng trung bình."
-    },
-    {
-        "id": 271,
-        "chapter": 2,
-        "question": "Tích lũy tư bản là nhân tố thúc đẩy?",
-        "options": [
-            "Dân số",
-            "Khoa học kỹ thuật",
-            "Lười biếng",
-            "Chỉ có GTTD"
-        ],
-        "answer": 1,
-        "explain": "Tích lũy vốn đòi hỏi đổi mới công nghệ để cạnh tranh."
-    },
-    {
-        "id": 272,
-        "chapter": 2,
-        "question": "Tư bản tiền tệ là hình thái?",
-        "options": [
-            "Bắt đầu của tuần hoàn",
-            "Kết thúc của tuần hoàn",
-            "Đang sản xuất",
-            "Không có thật"
-        ],
-        "answer": 0,
-        "explain": "Dùng để mua các yếu tố sản xuất."
-    },
-    {
-        "id": 273,
-        "chapter": 2,
-        "question": "Tư bản sản xuất là hình thái?",
-        "options": [
-            "Đang mua đồ",
-            "Đang tạo ra giá trị mới và GTTD",
-            "Đang bán hàng",
-            "Sắp phá sản"
-        ],
-        "answer": 1,
-        "explain": "Hình thái trực tiếp nhào nặn ra sản phẩm."
-    },
-    {
-        "id": 274,
-        "chapter": 2,
-        "question": "Tư bản hàng hóa là hình thái?",
-        "options": [
-            "Máy móc cũ",
-            "Sản phẩm chứa đựng giá trị và GTTD chờ được thực hiện",
-            "Đang quảng cáo",
-            "Nguyên liệu thừa"
-        ],
-        "answer": 1,
-        "explain": "Giai đoạn chuyển hóa về tiền."
-    },
-    {
-        "id": 275,
-        "chapter": 2,
-        "question": "Chu chuyển thực tế của tư bản đo bằng?",
-        "options": [
-            "Thời gian vận chuyển",
-            "Thời gian sản xuất + Thời gian lưu thông",
-            "Thời gian làm việc 1 ngày",
-            "Thời gian nhân viên ngủ"
-        ],
-        "answer": 1,
-        "explain": "Tổng thời gian từ lúc ứng vốn đến lúc thu hồi."
-    },
-    {
-        "id": 276,
-        "chapter": 2,
-        "question": "Thời gian sản xuất bao gồm?",
-        "options": [
-            "TGLĐ, TG gián đoạn lao động, TG dự trữ sản xuất",
-            "Chỉ TGLĐ",
-            "Chỉ TG bán lẻ",
-            "TG vận chuyển"
-        ],
-        "answer": 0,
-        "explain": "Nó dài hơn thời gian lao động thực tế."
-    },
-    {
-        "id": 277,
-        "chapter": 2,
-        "question": "Thời gian lưu thông bao gồm?",
-        "options": [
-            "TG sản xuất",
-            "TG mua và TG bán",
-            "TG nghỉ ngơi",
-            "TG sửa máy"
-        ],
-        "answer": 1,
-        "explain": "Hoạt động ở thị trường đầu vào và đầu ra."
-    },
-    {
-        "id": 278,
-        "chapter": 2,
-        "question": "Hiệu quả chu chuyển tư bản được biểu hiện qua?",
-        "options": [
-            "NSLĐ",
-            "Lợi nhuận thu được trong năm và p' năm",
-            "Số lượng nhân viên",
-            "Số lượng nhà thầu"
-        ],
-        "answer": 1,
-        "explain": "Vốn quay vòng càng nhanh, lợi nhuận càng nhiều."
-    },
-    {
-        "id": 279,
-        "chapter": 2,
-        "question": "Tư bản cố định thường bị hao mòn do?",
-        "options": [
-            "Vật liệu tốt",
-            "Sử dụng và thời gian",
-            "Không dùng cũng bị",
-            "Cả B và C"
-        ],
-        "answer": 3,
-        "explain": "Lực tự nhiên tác động kể cả khi không vận hành."
-    },
-    {
-        "id": 280,
-        "chapter": 2,
-        "question": "Để giảm hao mòn vô hình, nhà tư bản cần?",
-        "options": [
-            "Kéo dài thời gian dùng máy",
-            "Tăng tốc độ khai thác máy để nhanh thu hồi vốn",
-            "Không dùng máy nữa",
-            "Bán máy cũ ngay"
-        ],
-        "answer": 1,
-        "explain": "Vắt kiệt hiệu quả máy trước khi nó lỗi thời."
-    },
-    {
-        "id": 281,
-        "chapter": 2,
-        "question": "Tỷ suất lợi nhuận bình quân được tính bằng?",
-        "options": [
-            "Lãi suất bank",
-            "Tổng GTTD / Tổng tư bản xã hội",
-            "Chủ xưởng tự đặt",
-            "Do thợ làm thuê quyết định"
-        ],
-        "answer": 1,
-        "explain": "Mức lời chung cho toàn xã hội."
-    },
-    {
-        "id": 282,
-        "chapter": 2,
-        "question": "Xu hướng giảm sút tỷ suất lợi nhuận là do?",
-        "options": [
-            "Chủ lười",
-            "Cấu tạo hữu cơ của tư bản tăng",
-            "Giá hàng giảm",
-            "Thuế tăng"
-        ],
-        "answer": 1,
-        "explain": "Tỷ lệ máy móc tăng làm v giảm tương đối, kéo p' xuống."
-    },
-    {
-        "id": 283,
-        "chapter": 2,
-        "question": "Công thức của lợi nhuận bình quân là?",
-        "options": [
-            "p_bar = r' * K",
-            "p_bar = k + m",
-            "p_bar = c + v",
-            "p_bar = s * p'"
-        ],
-        "answer": 0,
-        "explain": "Lợi nhuận = tỷ suất chung x vốn ứng trước."
-    },
-    {
-        "id": 284,
-        "chapter": 2,
-        "question": "Đặc điểm của tư bản thương nghiệp là?",
-        "options": [
-            "Chỉ hoạt động trong lưu thông",
-            "Vừa lưu thông vừa sản xuất",
-            "Chỉ làm nông",
-            "Làm từ thiện"
-        ],
-        "answer": 0,
-        "explain": "Nó tách rời khỏi khâu sản xuất."
-    },
-    {
-        "id": 285,
-        "chapter": 2,
-        "question": "Nhà tư bản thương nghiệp kiếm lời bằng cách?",
-        "options": [
-            "Bán đắt hơn giá trị",
-            "Mua hàng theo giá thấp hơn giá trị và bán theo giá trị",
-            "Ăn cắp",
-            "In tiền"
-        ],
-        "answer": 1,
-        "explain": "Họ được chiết khấu từ nhà sản xuất."
-    },
-    {
-        "id": 286,
-        "chapter": 2,
-        "question": "Điểm giống nhau giữa địa tô chênh lệch I và II?",
-        "options": [
-            "Đều dựa trên thâm canh",
-            "Đều là phần GTTD dôi ra ngoài lợi nhuận bình quân",
-            "Đều trả cho nhà nước",
-            "Đều là do thiên nhiên"
-        ],
-        "answer": 1,
-        "explain": "Bản chất kinh tế của địa tô."
-    },
-    {
-        "id": 287,
-        "chapter": 2,
-        "question": "Người trả địa tô là?",
-        "options": [
-            "Địa chủ",
-            "Nhà tư bản thuê đất kinh doanh nông nghiệp",
-            "Nông dân nghèo",
-            "Người mua rau"
-        ],
-        "answer": 1,
-        "explain": "Chủ sở hữu ruộng đất chỉ việc thu tô."
-    },
-    {
-        "id": 288,
-        "chapter": 2,
-        "question": "Địa tô tuyệt đối có nguồn gốc từ đâu?",
-        "options": [
-            "Do đất quá tốt",
-            "Do cấu tạo hữu cơ trong nông nghiệp thấp hơn trong công nghiệp",
-            "Do nhà nước ban cho",
-            "Do giá rau đắt"
-        ],
-        "answer": 1,
-        "explain": "Phần m thừa ra so với p_bar trong nông nghiệp."
-    },
-    {
-        "id": 289,
-        "chapter": 2,
-        "question": "Giá trị của hàng hóa nông phẩm trên thị trường do?",
-        "options": [
-            "Ruộng tốt quyết định",
-            "Điều kiện sản xuất trên ruộng xấu nhất quyết định",
-            "Điều kiện trung bình",
-            "Nhà nước quy định"
-        ],
-        "answer": 1,
-        "explain": "Để đảm bảo ruộng xấu cũng có thể sản xuất."
-    },
-    {
-        "id": 290,
-        "chapter": 2,
-        "question": "Quốc hữu hóa ruộng đất trong CNTB dẫn đến?",
-        "options": [
-            "Xóa bỏ địa tô tuyệt đối",
-            "Xóa bỏ địa tô chênh lệch",
-            "Nông dân sung sướng",
-            "Giá nông sản tăng vọt"
-        ],
-        "answer": 0,
-        "explain": "Vì không còn độc quyền tư nhân về sở hữu đất."
-    },
-    {
-        "id": 291,
-        "chapter": 2,
-        "question": "Lợi tức (z) luôn nhỏ hơn lợi nhuận bình quân vì?",
-        "options": [
-            "Ngân hàng nghèo",
-            "Người đi vay phải giữ lại một phần lợi nhuận để kinh doanh",
-            "Nhà nước thu thuế cao",
-            "Khách hàng không cho"
-        ],
-        "answer": 1,
-        "explain": "p_bar được chia thành z và lợi nhuận doanh nghiệp."
-    },
-    {
-        "id": 292,
-        "chapter": 2,
-        "question": "Tín dụng thương mại là?",
-        "options": [
-            "Ngân hàng cho dân vay",
-            "Các nhà tư bản sản xuất kinh doanh cho nhau vay hàng hóa",
-            "Vay tiền mua quà",
-            "Vay tiền trả lương"
-        ],
-        "answer": 1,
-        "explain": "Vay mượn trực tiếp bằng hàng hóa (trả chậm)."
-    },
-    {
-        "id": 293,
-        "chapter": 2,
-        "question": "Tín dụng ngân hàng là?",
-        "options": [
-            "Vay rau ở chợ",
-            "Vay vốn qua trung gian ngân hàng",
-            "Mượn xe bạn",
-            "Lấy lương sớm"
-        ],
-        "answer": 1,
-        "explain": "Phổ biến và quy mô lớn nhất."
-    },
-    {
-        "id": 294,
-        "chapter": 2,
-        "question": "Chứng khoán có giá trị?",
-        "options": [
-            "Thực",
-            "Giả (ảo)",
-            "Không có giá trị",
-            "Bằng vàng"
-        ],
-        "answer": 1,
-        "explain": "Nó chỉ là đại diện cho quyền thu nhập."
-    },
-    {
-        "id": 295,
-        "chapter": 2,
-        "question": "Cổ phiếu là gì?",
-        "options": [
-            "Giấy nhận nợ",
-            "Chứng chỉ xác nhận quyền sở hữu một phần vốn của công ty",
-            "Lời hứa",
-            "Hợp đồng lao động"
-        ],
-        "answer": 1,
-        "explain": "Cổ đông là người đồng sở hữu."
-    },
-    {
-        "id": 296,
-        "chapter": 2,
-        "question": "Trái phiếu là gì?",
-        "options": [
-            "Giấy sở hữu",
-            "Chứng thư xác nhận nghĩa vụ nợ của người phát hành",
-            "Thẻ thành viên",
-            "Tiền mặt"
-        ],
-        "answer": 1,
-        "explain": "Người mua trái phiếu là chủ nợ."
-    },
-    {
-        "id": 297,
-        "chapter": 2,
-        "question": "GTSD của hàng hóa sức lao động được tiêu dùng trong?",
-        "options": [
-            "Lưu thông",
-            "Sản xuất",
-            "Lúc ngủ",
-            "Lúc đi chơi"
-        ],
-        "answer": 1,
-        "explain": "Dùng sức lực để tạo ra sản phẩm."
-    },
-    {
-        "id": 298,
-        "chapter": 2,
-        "question": "Tư bản ứng trước (K) bao gồm?",
-        "options": [
-            "c + v",
-            "v + m",
-            "c + m",
-            "Chỉ có tiền mặt"
-        ],
-        "answer": 0,
-        "explain": "Số vốn bỏ ra ban đầu."
-    },
-    {
-        "id": 299,
-        "chapter": 2,
-        "question": "Mối quan hệ giữa p' và m'?",
-        "options": [
-            "Giống nhau",
-            "p' luôn nhỏ hơn m'",
-            "p' luôn lớn hơn m'",
-            "Không liên quan"
-        ],
-        "answer": 1,
-        "explain": "m' = m/v, p' = m/(c+v)."
-    },
-    {
-        "id": 300,
-        "chapter": 2,
-        "question": "Sự ra đời của CNTB dựa trên?",
-        "options": [
-            "Tích lũy nguyên thủy tư bản",
-            "Sự chăm chỉ",
-            "Thượng đế ban cho",
-            "Sự công bằng"
-        ],
-        "answer": 0,
-        "explain": "Quá trình dùng bạo lực và tước đoạt đất đai của nông dân."
-    }
+  {
+    "id": 201,
+    "chapter": 2,
+    "question": "Hàng hóa sức lao động có gì đặc biệt so với các hàng hóa thông thường?",
+    "options": [
+      "Nó có giá trị cao hơn",
+      "Giá trị sử dụng của nó có khả năng tạo ra giá trị mới lớn hơn giá trị của bản thân nó",
+      "Nó không có giá trị",
+      "Nó chỉ do nhà nước quản lý"
+    ],
+    "answer": 1,
+    "explain": "Giá trị sử dụng của nó có khả năng tạo ra giá trị mới lớn hơn giá trị của bản thân nó"
+  },
+  {
+    "id": 202,
+    "chapter": 2,
+    "question": "Giá trị thặng dư là gì?",
+    "options": [
+      "Lợi nhuận của doanh nghiệp",
+      "Phần giá trị mới dôi ra ngoài giá trị sức lao động do công nhân tạo ra và bị chủ tư bản chiếm không",
+      "Tiền lãi ngân hàng",
+      "Giá trị của máy móc"
+    ],
+    "answer": 1,
+    "explain": "Phần giá trị mới dôi ra ngoài giá trị sức lao động do công nhân tạo ra và bị chủ tư bản chiếm không"
+  },
+  {
+    "id": 203,
+    "chapter": 2,
+    "question": "Tư bản bất biến (c) là bộ phận tư bản dùng để mua gì?",
+    "options": [
+      "Sức lao động",
+      "Máy móc, thiết bị, nguyên vật liệu",
+      "Quảng cáo",
+      "Bảo hiểm"
+    ],
+    "answer": 1,
+    "explain": "Máy móc, thiết bị, nguyên vật liệu"
+  },
+  {
+    "id": 204,
+    "chapter": 2,
+    "question": "Tư bản khả biến (v) là bộ phận tư bản dùng để mua gì?",
+    "options": [
+      "Máy móc",
+      "Sức lao động",
+      "Nguyên liệu",
+      "Nhà xưởng"
+    ],
+    "answer": 1,
+    "explain": "Sức lao động"
+  },
+  {
+    "id": 205,
+    "chapter": 2,
+    "question": "Tỷ suất giá trị thặng dư (m') phản ánh điều gì?",
+    "options": [
+      "Mức độ bóc lột của tư bản đối với công nhân",
+      "Quy mô sản xuất",
+      "Tốc độ chu chuyển vốn",
+      "Năng suất lao động"
+    ],
+    "answer": 0,
+    "explain": "Mức độ bóc lột của tư bản đối với công nhân"
+  },
+  {
+    "id": 206,
+    "chapter": 2,
+    "question": "Khối lượng giá trị thặng dư (M) được tính bằng công thức nào?",
+    "options": [
+      "M = m' * v",
+      "M = m' * V",
+      "M = m + v",
+      "M = c + v"
+    ],
+    "answer": 1,
+    "explain": "M = m' * V"
+  },
+  {
+    "id": 207,
+    "chapter": 2,
+    "question": "Có mấy phương pháp sản xuất giá trị thặng dư chính?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "explain": "2"
+  },
+  {
+    "id": 208,
+    "chapter": 2,
+    "question": "Giá trị thặng dư tuyệt đối thu được bằng cách nào?",
+    "options": [
+      "Tăng năng suất lao động",
+      "Kéo dài ngày lao động vượt quá thời gian lao động tất yếu",
+      "Giảm giá thành",
+      "Cải tiến công nghệ"
+    ],
+    "answer": 1,
+    "explain": "Kéo dài ngày lao động vượt quá thời gian lao động tất yếu"
+  },
+  {
+    "id": 209,
+    "chapter": 2,
+    "question": "Giá trị thặng dư tương đối thu được nhờ?",
+    "options": [
+      "Kéo dài ngày lao động",
+      "Rút ngắn thời gian lao động tất yếu bằng cách tăng NSLĐ xã hội",
+      "Giảm lương công nhân",
+      "Tăng cường độ lao động"
+    ],
+    "answer": 1,
+    "explain": "Rút ngắn thời gian lao động tất yếu bằng cách tăng NSLĐ xã hội"
+  },
+  {
+    "id": 210,
+    "chapter": 2,
+    "question": "Giá trị thặng dư siêu ngạch là gì?",
+    "options": [
+      "GTTD thu được do NSLĐ cá biệt cao hơn NSLĐ xã hội",
+      "GTTD thu được do kéo dài ngày lao động",
+      "Lợi nhuận của nhà nước",
+      "Sự may mắn"
+    ],
+    "answer": 0,
+    "explain": "GTTD thu được do NSLĐ cá biệt cao hơn NSLĐ xã hội"
+  },
+  {
+    "id": 211,
+    "chapter": 2,
+    "question": "Tiền công trong CNTB là gì?",
+    "options": [
+      "Giá trị của lao động",
+      "Giá cả của hàng hóa sức lao động",
+      "Sự ban ơn của chủ",
+      "Phần thưởng"
+    ],
+    "answer": 1,
+    "explain": "Giá cả của hàng hóa sức lao động"
+  },
+  {
+    "id": 212,
+    "chapter": 2,
+    "question": "Tích lũy tư bản là gì?",
+    "options": [
+      "Để dành tiền trong két",
+      "Sự chuyển hóa một phần giá trị thặng dư thành tư bản",
+      "Vay vốn ngân hàng",
+      "Mua vàng tích trữ"
+    ],
+    "answer": 1,
+    "explain": "Sự chuyển hóa một phần giá trị thặng dư thành tư bản"
+  },
+  {
+    "id": 213,
+    "chapter": 2,
+    "question": "Nhân tố nào quan trọng nhất quyết định quy mô tích lũy tư bản?",
+    "options": [
+      "Trình độ bóc lột sức lao động",
+      "Năng suất lao động xã hội",
+      "Sự chênh lệch giữa tư bản sử dụng và tư bản tiêu dùng",
+      "Tất cả các ý trên"
+    ],
+    "answer": 3,
+    "explain": "Tất cả các ý trên"
+  },
+  {
+    "id": 214,
+    "chapter": 2,
+    "question": "Cấu tạo hữu cơ của tư bản (c/v) có xu hướng như thế nào?",
+    "options": [
+      "Luôn giảm",
+      "Luôn tăng",
+      "Không đổi",
+      "Biến đổi ngẫu nhiên"
+    ],
+    "answer": 1,
+    "explain": "Luôn tăng"
+  },
+  {
+    "id": 215,
+    "chapter": 2,
+    "question": "Tập trung tư bản là gì?",
+    "options": [
+      "Tự mình làm giàu",
+      "Sự hợp nhất nhiều tư bản nhỏ thành tư bản lớn",
+      "Mở rộng xưởng của mình",
+      "Tiết kiệm chi phí"
+    ],
+    "answer": 1,
+    "explain": "Sự hợp nhất nhiều tư bản nhỏ thành tư bản lớn"
+  },
+  {
+    "id": 216,
+    "chapter": 2,
+    "question": "Tích tụ tư bản dẫn đến kết quả gì?",
+    "options": [
+      "Làm tăng quy mô tư bản cá biệt",
+      "Làm tăng quy mô tư bản xã hội",
+      "Cả A và B",
+      "Chỉ làm tăng vốn vay"
+    ],
+    "answer": 2,
+    "explain": "Cả A và B"
+  },
+  {
+    "id": 217,
+    "chapter": 2,
+    "question": "Hệ quả của tích lũy tư bản đối với giai cấp công nhân là gì?",
+    "options": [
+      "Thu nhập cao lên nhanh chóng",
+      "Cấu tạo hữu cơ tăng dẫn đến thất nghiệp (thành phần dư thừa)",
+      "Hết bóc lột",
+      "Được làm chủ hoàn toàn"
+    ],
+    "answer": 1,
+    "explain": "Cấu tạo hữu cơ tăng dẫn đến thất nghiệp (thành phần dư thừa)"
+  },
+  {
+    "id": 218,
+    "chapter": 2,
+    "question": "Giá trị của hàng hóa sức lao động bao gồm?",
+    "options": [
+      "Tư liệu sinh hoạt cho công nhân",
+      "Phí tổn đào tạo",
+      "Tư liệu sinh hoạt cho gia đình công nhân",
+      "Tất cả các ý trên"
+    ],
+    "answer": 3,
+    "explain": "Tất cả các ý trên"
+  },
+  {
+    "id": 219,
+    "chapter": 2,
+    "question": "Sự khác biệt giữa GTTD tuyệt đối và GTTD tương đối là?",
+    "options": [
+      "Một cái tăng ngày lao động, một cái tăng NSLĐ",
+      "Giống nhau hoàn toàn",
+      "Chỉ là cách gọi",
+      "Một cái cho nhà nước, một cái cho cá nhân"
+    ],
+    "answer": 0,
+    "explain": "Một cái tăng ngày lao động, một cái tăng NSLĐ"
+  },
+  {
+    "id": 220,
+    "chapter": 2,
+    "question": "Tư bản là gì theo định nghĩa của Mác?",
+    "options": [
+      "Là tiền",
+      "Là giá trị mang lại giá trị thặng dư bằng cách bóc lột lao động làm thuê",
+      "Là máy móc",
+      "Là bất động sản"
+    ],
+    "answer": 1,
+    "explain": "Là giá trị mang lại giá trị thặng dư bằng cách bóc lột lao động làm thuê"
+  },
+  {
+    "id": 221,
+    "chapter": 2,
+    "question": "Quá trình sản xuất GTTD là sự thống nhất giữa?",
+    "options": [
+      "Sản xuất ra GTSD và sản xuất ra giá trị thặng dư",
+      "Mua và bán",
+      "Trí óc và chân tay",
+      "Tự nhiên và xã hội"
+    ],
+    "answer": 0,
+    "explain": "Sản xuất ra GTSD và sản xuất ra giá trị thặng dư"
+  },
+  {
+    "id": 222,
+    "chapter": 2,
+    "question": "Ngày lao động gồm hai phần là?",
+    "options": [
+      "Lao động chân tay và trí óc",
+      "Thời gian lao động tất yếu và thời gian lao động thặng dư",
+      "Làm việc và nghỉ ngơi",
+      "Sản xuất và lưu thông"
+    ],
+    "answer": 1,
+    "explain": "Thời gian lao động tất yếu và thời gian lao động thặng dư"
+  },
+  {
+    "id": 223,
+    "chapter": 2,
+    "question": "Tỷ suất lợi nhuận (p') phản ánh điều gì?",
+    "options": [
+      "Mức độ bóc lột",
+      "Hiệu quả đầu tư của toàn bộ tư bản ứng trước",
+      "Tốc độ máy phát điện",
+      "Mức lương công nhân"
+    ],
+    "answer": 1,
+    "explain": "Hiệu quả đầu tư của toàn bộ tư bản ứng trước"
+  },
+  {
+    "id": 224,
+    "chapter": 2,
+    "question": "Nhân tố nào làm tăng tỷ suất lợi nhuận?",
+    "options": [
+      "Tăng tỷ suất GTTD",
+      "Tiết kiệm tư bản bất biến",
+      "Tăng tốc độ chu chuyển vốn",
+      "Tất cả các ý trên"
+    ],
+    "answer": 3,
+    "explain": "Tất cả các ý trên"
+  },
+  {
+    "id": 225,
+    "chapter": 2,
+    "question": "Lợi nhuận bình quân được hình thành do?",
+    "options": [
+      "Sự cạnh tranh trong nội bộ ngành",
+      "Sự cạnh tranh giữa các ngành dẫn đến di chuyển tư bản",
+      "Lệnh của chính phủ",
+      "Sự thỏa thuận giữa các tập đoàn"
+    ],
+    "answer": 1,
+    "explain": "Sự cạnh tranh giữa các ngành dẫn đến di chuyển tư bản"
+  },
+  {
+    "id": 226,
+    "chapter": 2,
+    "question": "Giá cả sản xuất bằng?",
+    "options": [
+      "c + v + m",
+      "Chi phí sản xuất + Lợi nhuận bình quân",
+      "Giá trị hàng hóa",
+      "Giá bán trên chợ"
+    ],
+    "answer": 1,
+    "explain": "Chi phí sản xuất + Lợi nhuận bình quân"
+  },
+  {
+    "id": 227,
+    "chapter": 2,
+    "question": "Tư bản cho vay là?",
+    "options": [
+      "Tiền của người dân gửi tiết kiệm",
+      "Tư bản tiền tệ nhàn rỗi mà người sở hữu cho người khác sử dụng để lấy lợi tức",
+      "Tiền đóng thuế",
+      "Tiền làm từ thiện"
+    ],
+    "answer": 1,
+    "explain": "Tư bản tiền tệ nhàn rỗi mà người sở hữu cho người khác sử dụng để lấy lợi tức"
+  },
+  {
+    "id": 228,
+    "chapter": 2,
+    "question": "Lợi tức (z) là gì?",
+    "options": [
+      "Số tiền lãi ngân hàng trả cho dân",
+      "Phần giá trị thặng dư mà nhà tư bản đi vay trả cho nhà tư bản cho vay",
+      "Tiền phạt chậm trả",
+      "Tiền hoa hồng"
+    ],
+    "answer": 1,
+    "explain": "Phần giá trị thặng dư mà nhà tư bản đi vay trả cho nhà tư bản cho vay"
+  },
+  {
+    "id": 229,
+    "chapter": 2,
+    "question": "Địa tô tư bản chủ nghĩa là?",
+    "options": [
+      "Tiền thuê nhà",
+      "Phần GTTD còn lại sau khi trừ lợi nhuận bình quân mà nhà tư bản kinh doanh nông nghiệp trả cho địa chủ",
+      "Tiền mua đất",
+      "Thuế đất"
+    ],
+    "answer": 1,
+    "explain": "Phần GTTD còn lại sau khi trừ lợi nhuận bình quân mà nhà tư bản kinh doanh nông nghiệp trả cho địa chủ"
+  },
+  {
+    "id": 230,
+    "chapter": 2,
+    "question": "Sự chuyển hóa của tiền thành tư bản đòi hỏi?",
+    "options": [
+      "T - H - T'",
+      "T - T'",
+      "H - T - H",
+      "Bán rẻ mua đắt"
+    ],
+    "answer": 0,
+    "explain": "T - H - T'"
+  },
+  {
+    "id": 231,
+    "chapter": 2,
+    "question": "Mâu thuẫn trong công thức chung của tư bản là gì?",
+    "options": [
+      "Giá trị thặng dư không sinh ra từ lưu thông nhưng lại phải thông qua lưu thông",
+      "Mua cao bán thấp",
+      "Tối và sáng",
+      "Người giàu và người nghèo"
+    ],
+    "answer": 0,
+    "explain": "Giá trị thặng dư không sinh ra từ lưu thông nhưng lại phải thông qua lưu thông"
+  },
+  {
+    "id": 232,
+    "chapter": 2,
+    "question": "GTSD của hàng hóa sức lao động có thuộc tính gì?",
+    "options": [
+      "Nó biến mất khi dùng",
+      "Nó tạo ra giá trị mới",
+      "Nó không đổi",
+      "Nó làm hỏng máy móc"
+    ],
+    "answer": 1,
+    "explain": "Nó tạo ra giá trị mới"
+  },
+  {
+    "id": 233,
+    "chapter": 2,
+    "question": "Tư bản cố định là bộ phận?",
+    "options": [
+      "c1 (máy móc, nhà xưởng)",
+      "c2 (nguyên liệu, nhiên liệu)",
+      "v (tiền lương)",
+      "m (lợi nhuận)"
+    ],
+    "answer": 0,
+    "explain": "c1 (máy móc, nhà xưởng)"
+  },
+  {
+    "id": 234,
+    "chapter": 2,
+    "question": "Tư bản lưu động là bộ phận?",
+    "options": [
+      "c1",
+      "c2 + v",
+      "v + m",
+      "Máy móc"
+    ],
+    "answer": 1,
+    "explain": "c2 + v"
+  },
+  {
+    "id": 235,
+    "chapter": 2,
+    "question": "Hao mòn hữu hình của tư bản cố định là?",
+    "options": [
+      "Do mất giá khi công nghệ mới ra đời",
+      "Do sử dụng hoặc tác động của tự nhiên làm hư hỏng vật chất",
+      "Do chủ ghét",
+      "Do bão"
+    ],
+    "answer": 1,
+    "explain": "Do sử dụng hoặc tác động của tự nhiên làm hư hỏng vật chất"
+  },
+  {
+    "id": 236,
+    "chapter": 2,
+    "question": "Hao mòn vô hình của tư bản cố định là?",
+    "options": [
+      "Máy bị gỉ",
+      "Giá trị máy giảm do NSLĐ tăng hoặc công nghệ mới xuất hiện",
+      "Máy bị trộm",
+      "Nhà xưởng bị sập"
+    ],
+    "answer": 1,
+    "explain": "Giá trị máy giảm do NSLĐ tăng hoặc công nghệ mới xuất hiện"
+  },
+  {
+    "id": 237,
+    "chapter": 2,
+    "question": "Tốc độ chu chuyển của tư bản tỉ lệ thuận với?",
+    "options": [
+      "Thời gian sản xuất",
+      "Số vòng chu chuyển trong 1 năm",
+      "Quy mô vốn",
+      "Số lượng công nhân"
+    ],
+    "answer": 1,
+    "explain": "Số vòng chu chuyển trong 1 năm"
+  },
+  {
+    "id": 238,
+    "chapter": 2,
+    "question": "Muốn tăng p', nhà tư bản phải làm gì?",
+    "options": [
+      "Tăng m'",
+      "Giảm c",
+      "Tăng v",
+      "Cả A và B"
+    ],
+    "answer": 3,
+    "explain": "Cả A và B"
+  },
+  {
+    "id": 239,
+    "chapter": 2,
+    "question": "Chi phí sản xuất tư bản chủ nghĩa (k) bằng?",
+    "options": [
+      "c + v + m",
+      "c + v",
+      "v + m",
+      "c + m"
+    ],
+    "answer": 1,
+    "explain": "c + v"
+  },
+  {
+    "id": 240,
+    "chapter": 2,
+    "question": "Lợi nhuận (p) khác giá trị thặng dư (m) ở điểm nào?",
+    "options": [
+      "Chúng là một",
+      "m là nguồn gốc, p là hình thức biểu hiện ra ngoài",
+      "p lớn hơn m",
+      "p do nhà nước quản lý"
+    ],
+    "answer": 1,
+    "explain": "m là nguồn gốc, p là hình thức biểu hiện ra ngoài"
+  },
+  {
+    "id": 241,
+    "chapter": 2,
+    "question": "Công thức của giá trị hàng hóa khi có lợi nhuận là?",
+    "options": [
+      "G = k + p",
+      "G = c + v",
+      "G = k + m",
+      "G = m + p"
+    ],
+    "answer": 0,
+    "explain": "G = k + p"
+  },
+  {
+    "id": 242,
+    "chapter": 2,
+    "question": "Lợi nhuận bình quân là gì?",
+    "options": [
+      "Lợi nhuận chia đều cho mọi người",
+      "Lợi nhuận bằng nhau của những tư bản bằng nhau đầu tư vào các ngành khác nhau",
+      "Số dư tài khoản",
+      "Mức lương tối thiểu"
+    ],
+    "answer": 1,
+    "explain": "Lợi nhuận bằng nhau của những tư bản bằng nhau đầu tư vào các ngành khác nhau"
+  },
+  {
+    "id": 243,
+    "chapter": 2,
+    "question": "Địa tô chênh lệch I thu được trên?",
+    "options": [
+      "Ruộng đất có vị trí thuận lợi hoặc độ màu mỡ trung bình/tốt",
+      "Ruộng đất xấu nhất",
+      "Ruộng đất do thâm canh",
+      "Đất sa mạc"
+    ],
+    "answer": 0,
+    "explain": "Ruộng đất có vị trí thuận lợi hoặc độ màu mỡ trung bình/tốt"
+  },
+  {
+    "id": 244,
+    "chapter": 2,
+    "question": "Địa tô chênh lệch II thu được do?",
+    "options": [
+      "Độ màu mỡ tự nhiên",
+      "Đầu tư thêm tư bản để thâm canh tăng năng suất",
+      "Giá đất tăng",
+      "Giao thông thuận tiện"
+    ],
+    "answer": 1,
+    "explain": "Đầu tư thêm tư bản để thâm canh tăng năng suất"
+  },
+  {
+    "id": 245,
+    "chapter": 2,
+    "question": "Địa tô tuyệt đối là gì?",
+    "options": [
+      "Chỉ ruộng tốt mới có",
+      "Loại địa tô mà bất kỳ nhà tư bản thuê đất nào cũng phải nộp cho địa chủ",
+      "Tiền phạt chiếm đất",
+      "Lợi nhuận của nông dân"
+    ],
+    "answer": 1,
+    "explain": "Loại địa tô mà bất kỳ nhà tư bản thuê đất nào cũng phải nộp cho địa chủ"
+  },
+  {
+    "id": 246,
+    "chapter": 2,
+    "question": "Giá cả ruộng đất được tính bằng?",
+    "options": [
+      "Địa tô / Lãi suất ngân hàng",
+      "Diện tích x đơn giá",
+      "Nhà nước quy định",
+      "Mặc cả thị trường"
+    ],
+    "answer": 0,
+    "explain": "Địa tô / Lãi suất ngân hàng"
+  },
+  {
+    "id": 247,
+    "chapter": 2,
+    "question": "Tư bản giả là gì?",
+    "options": [
+      "Tiền giả",
+      "Các loại chứng khoán (cổ phiếu, trái phiếu) mang lại thu nhập",
+      "Vàng giả",
+      "Bitcoin"
+    ],
+    "answer": 1,
+    "explain": "Các loại chứng khoán (cổ phiếu, trái phiếu) mang lại thu nhập"
+  },
+  {
+    "id": 248,
+    "chapter": 2,
+    "question": "Công ty cổ phần là?",
+    "options": [
+      "Công ty của 1 người",
+      "Loại hình doanh nghiệp mà vốn được hình thành từ việc phát hành cổ phiếu",
+      "Doanh nghiệp nhà nước",
+      "Cửa hàng gia đình"
+    ],
+    "answer": 1,
+    "explain": "Loại hình doanh nghiệp mà vốn được hình thành từ việc phát hành cổ phiếu"
+  },
+  {
+    "id": 249,
+    "chapter": 2,
+    "question": "Cổ tức là?",
+    "options": [
+      "Tiền phạt cổ đông",
+      "Phần lợi nhuận chia cho người sở hữu cổ phiếu",
+      "Giá cổ phiếu tăng",
+      "Thuế cổ phiếu"
+    ],
+    "answer": 1,
+    "explain": "Phần lợi nhuận chia cho người sở hữu cổ phiếu"
+  },
+  {
+    "id": 250,
+    "chapter": 2,
+    "question": "Thị trường chứng khoán là nơi?",
+    "options": [
+      "Mua bán rau củ",
+      "Mua bán các loại chứng khoán",
+      "Mua bán đồ cũ",
+      "Nơi làm từ thiện"
+    ],
+    "answer": 1,
+    "explain": "Mua bán các loại chứng khoán"
+  },
+  {
+    "id": 251,
+    "chapter": 2,
+    "question": "Chu chuyển của tư bản phản ánh?",
+    "options": [
+      "Sự di chuyển tiền",
+      "Vận động tuần hoàn của tư bản có tính định kỳ và lặp lại",
+      "Tư bản bị mất",
+      "Nhân viên chuyển việc"
+    ],
+    "answer": 1,
+    "explain": "Vận động tuần hoàn của tư bản có tính định kỳ và lặp lại"
+  },
+  {
+    "id": 252,
+    "chapter": 2,
+    "question": "Tuần hoàn của tư bản trải qua mấy giai đoạn?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 2,
+    "explain": "3"
+  },
+  {
+    "id": 253,
+    "chapter": 2,
+    "question": "Giai đoạn 1 của tuần hoàn tư bản (Lưu thông) là?",
+    "options": [
+      "T - H",
+      "SX",
+      "H' - T'",
+      "T - T'"
+    ],
+    "answer": 0,
+    "explain": "T - H"
+  },
+  {
+    "id": 254,
+    "chapter": 2,
+    "question": "Giai đoạn 2 của tuần hoàn tư bản (Sản xuất) là?",
+    "options": [
+      "Mua sắm",
+      "Quá trình lao động kết hợp TLSX và SLĐ",
+      "Bán hàng",
+      "Quảng cáo"
+    ],
+    "answer": 1,
+    "explain": "Quá trình lao động kết hợp TLSX và SLĐ"
+  },
+  {
+    "id": 255,
+    "chapter": 2,
+    "question": "Giai đoạn 3 của tuần hoàn tư bản là?",
+    "options": [
+      "Mua nguyên liệu",
+      "Bán hàng hóa đã sản xuất (H' - T')",
+      "Đang sản xuất",
+      "Gửi tiền bank"
+    ],
+    "answer": 1,
+    "explain": "Bán hàng hóa đã sản xuất (H' - T')"
+  },
+  {
+    "id": 256,
+    "chapter": 2,
+    "question": "Sự thống nhất giữa 3 hình thái tư bản (tiền tệ, sản xuất, hàng hóa) là?",
+    "options": [
+      "Tuần hoàn của tư bản",
+      "Chu chuyển tư bản",
+      "Tích lũy tư bản",
+      "Đầu tư"
+    ],
+    "answer": 0,
+    "explain": "Tuần hoàn của tư bản"
+  },
+  {
+    "id": 257,
+    "chapter": 2,
+    "question": "Điều kiện để tuần hoàn tư bản diễn ra bình thường?",
+    "options": [
+      "Các giai đoạn nối tiếp nhau",
+      "Các hình thái cùng tồn tại",
+      "Cả A và B",
+      "Chỉ cần giai đoạn 2"
+    ],
+    "answer": 2,
+    "explain": "Cả A và B"
+  },
+  {
+    "id": 258,
+    "chapter": 2,
+    "question": "Cấu tạo hữu cơ tăng dẫn đến?",
+    "options": [
+      "Cần ít lao động hơn trên cùng lượng máy móc",
+      "Cần nhiều công nhân hơn",
+      "Lương công nhân tăng",
+      "Mọi người đều giàu"
+    ],
+    "answer": 0,
+    "explain": "Cần ít lao động hơn trên cùng lượng máy móc"
+  },
+  {
+    "id": 259,
+    "chapter": 2,
+    "question": "Tư bản thương nghiệp là?",
+    "options": [
+      "Tư bản đầu tư vào nông nghiệp",
+      "Bộ phận tư bản tiền tệ tách ra phục vụ lưu thông hàng hóa",
+      "Tư bản của nhà nước",
+      "Vàng cất giữ"
+    ],
+    "answer": 1,
+    "explain": "Bộ phận tư bản tiền tệ tách ra phục vụ lưu thông hàng hóa"
+  },
+  {
+    "id": 260,
+    "chapter": 2,
+    "question": "Nguồn gốc lợi nhuận thương nghiệp là?",
+    "options": [
+      "Do bán đắt",
+      "Một phần giá trị thặng dư tạo ra trong sản xuất",
+      "Do may mắn",
+      "Do phí vận chuyển"
+    ],
+    "answer": 1,
+    "explain": "Một phần giá trị thặng dư tạo ra trong sản xuất"
+  },
+  {
+    "id": 261,
+    "chapter": 2,
+    "question": "Tư bản ngân hàng thực hiện?",
+    "options": [
+      "Sản xuất hàng hóa",
+      "Trung gian tín dụng",
+      "Làm nông nghiệp",
+      "Quản lý nhà nước"
+    ],
+    "answer": 1,
+    "explain": "Trung gian tín dụng"
+  },
+  {
+    "id": 262,
+    "chapter": 2,
+    "question": "Lợi nhuận ngân hàng bằng?",
+    "options": [
+      "Tổng lợi tức cho vay - Tổng lợi tức trả cho người gửi",
+      "Số tiền mặt đang có",
+      "Vốn điều lệ",
+      "Do nhà nước cấp"
+    ],
+    "answer": 0,
+    "explain": "Tổng lợi tức cho vay - Tổng lợi tức trả cho người gửi"
+  },
+  {
+    "id": 263,
+    "chapter": 2,
+    "question": "Sự bần cùng hóa giai cấp công nhân là?",
+    "options": [
+      "Họ sướng hơn",
+      "Tỷ trọng thu nhập của họ trong tổng thu nhập quốc dân giảm",
+      "Họ hết tiền mua đồ",
+      "Họ không có việc làm"
+    ],
+    "answer": 1,
+    "explain": "Tỷ trọng thu nhập của họ trong tổng thu nhập quốc dân giảm"
+  },
+  {
+    "id": 264,
+    "chapter": 2,
+    "question": "Kinh tế nông nghiệp trong CNTB dẫn đến?",
+    "options": [
+      "Đuổi nông dân khỏi đất",
+      "Tạo ra tầng lớp công nhân nông nghiệp",
+      "Cả A và B",
+      "Không có thay đổi gì"
+    ],
+    "answer": 2,
+    "explain": "Cả A và B"
+  },
+  {
+    "id": 265,
+    "chapter": 2,
+    "question": "Tích lũy tư bản gây ra biến đổi gì trong cơ cấu xã hội?",
+    "options": [
+      "Mất đi giai cấp công nhân",
+      "Phân hóa mạnh mẽ giàu - nghèo",
+      "Xóa bỏ mâu thuẫn giai cấp",
+      "Tất cả mọi người là trung lưu"
+    ],
+    "answer": 1,
+    "explain": "Phân hóa mạnh mẽ giàu - nghèo"
+  },
+  {
+    "id": 266,
+    "chapter": 2,
+    "question": "Sản xuất hàng hóa sức lao động có tốn chi phí?",
+    "options": [
+      "Không",
+      "Có, chính là giá trị các tư liệu sinh hoạt",
+      "Chỉ tốn công sinh",
+      "Do thiên nhiên ban tặng"
+    ],
+    "answer": 1,
+    "explain": "Có, chính là giá trị các tư liệu sinh hoạt"
+  },
+  {
+    "id": 267,
+    "chapter": 2,
+    "question": "Giá trị thặng dư tuyệt đối thường được áp dụng ở giai đoạn?",
+    "options": [
+      "Sắp sụp đổ",
+      "Giai đoạn đầu phát triển CNTB khi công nghệ còn thấp",
+      "Giai đoạn 4.0",
+      "Không bao giờ"
+    ],
+    "answer": 1,
+    "explain": "Giai đoạn đầu phát triển CNTB khi công nghệ còn thấp"
+  },
+  {
+    "id": 268,
+    "chapter": 2,
+    "question": "Tại sao có GTTD siêu ngạch?",
+    "options": [
+      "Do độc quyền",
+      "Do đi đầu trong cải tiến kỹ thuật làm giá trị cá biệt thấp hơn giá trị thị trường",
+      "Do bóc lột gấp đôi",
+      "Do may mắn"
+    ],
+    "answer": 1,
+    "explain": "Do đi đầu trong cải tiến kỹ thuật làm giá trị cá biệt thấp hơn giá trị thị trường"
+  },
+  {
+    "id": 269,
+    "chapter": 2,
+    "question": "Sự khác biệt giữa SLĐ và Lao động?",
+    "options": [
+      "Lao động là quá trình tiêu dùng SLĐ",
+      "SLĐ là năng lực, lao động là hoạt động",
+      "Cả A và B",
+      "Giống nhau"
+    ],
+    "answer": 2,
+    "explain": "Cả A và B"
+  },
+  {
+    "id": 270,
+    "chapter": 2,
+    "question": "Giá trị hàng hóa sức lao động tính cho một ngày bằng?",
+    "options": [
+      "Tổng giá trị tư liệu sinh hoạt cả đời / số ngày sống",
+      "Tổng chi phí duy trì SLĐ trong 1 ngày",
+      "Mức lương tối thiểu",
+      "Chủ thích bao nhiêu thì trả"
+    ],
+    "answer": 1,
+    "explain": "Tổng chi phí duy trì SLĐ trong 1 ngày"
+  },
+  {
+    "id": 271,
+    "chapter": 2,
+    "question": "Tích lũy tư bản là nhân tố thúc đẩy?",
+    "options": [
+      "Dân số",
+      "Khoa học kỹ thuật",
+      "Lười biếng",
+      "Chỉ có GTTD"
+    ],
+    "answer": 1,
+    "explain": "Khoa học kỹ thuật"
+  },
+  {
+    "id": 272,
+    "chapter": 2,
+    "question": "Tư bản tiền tệ là hình thái?",
+    "options": [
+      "Bắt đầu của tuần hoàn",
+      "Kết thúc của tuần hoàn",
+      "Đang sản xuất",
+      "Không có thật"
+    ],
+    "answer": 0,
+    "explain": "Bắt đầu của tuần hoàn"
+  },
+  {
+    "id": 273,
+    "chapter": 2,
+    "question": "Tư bản sản xuất là hình thái?",
+    "options": [
+      "Đang mua đồ",
+      "Đang tạo ra giá trị mới và GTTD",
+      "Đang bán hàng",
+      "Sắp phá sản"
+    ],
+    "answer": 1,
+    "explain": "Đang tạo ra giá trị mới và GTTD"
+  },
+  {
+    "id": 274,
+    "chapter": 2,
+    "question": "Tư bản hàng hóa là hình thái?",
+    "options": [
+      "Máy móc cũ",
+      "Sản phẩm chứa đựng giá trị và GTTD chờ được thực hiện",
+      "Đang quảng cáo",
+      "Nguyên liệu thừa"
+    ],
+    "answer": 1,
+    "explain": "Sản phẩm chứa đựng giá trị và GTTD chờ được thực hiện"
+  },
+  {
+    "id": 275,
+    "chapter": 2,
+    "question": "Chu chuyển thực tế của tư bản đo bằng?",
+    "options": [
+      "Thời gian vận chuyển",
+      "Thời gian sản xuất + Thời gian lưu thông",
+      "Thời gian làm việc 1 ngày",
+      "Thời gian nhân viên ngủ"
+    ],
+    "answer": 1,
+    "explain": "Thời gian sản xuất + Thời gian lưu thông"
+  },
+  {
+    "id": 276,
+    "chapter": 2,
+    "question": "Thời gian sản xuất bao gồm?",
+    "options": [
+      "TGLĐ, TG gián đoạn lao động, TG dự trữ sản xuất",
+      "Chỉ TGLĐ",
+      "Chỉ TG bán lẻ",
+      "TG vận chuyển"
+    ],
+    "answer": 0,
+    "explain": "TGLĐ, TG gián đoạn lao động, TG dự trữ sản xuất"
+  },
+  {
+    "id": 277,
+    "chapter": 2,
+    "question": "Thời gian lưu thông bao gồm?",
+    "options": [
+      "TG sản xuất",
+      "TG mua và TG bán",
+      "TG nghỉ ngơi",
+      "TG sửa máy"
+    ],
+    "answer": 1,
+    "explain": "TG mua và TG bán"
+  },
+  {
+    "id": 278,
+    "chapter": 2,
+    "question": "Hiệu quả chu chuyển tư bản được biểu hiện qua?",
+    "options": [
+      "NSLĐ",
+      "Lợi nhuận thu được trong năm và p' năm",
+      "Số lượng nhân viên",
+      "Số lượng nhà thầu"
+    ],
+    "answer": 1,
+    "explain": "Lợi nhuận thu được trong năm và p' năm"
+  },
+  {
+    "id": 279,
+    "chapter": 2,
+    "question": "Tư bản cố định thường bị hao mòn do?",
+    "options": [
+      "Vật liệu tốt",
+      "Sử dụng và thời gian",
+      "Không dùng cũng bị",
+      "Cả B và C"
+    ],
+    "answer": 3,
+    "explain": "Cả B và C"
+  },
+  {
+    "id": 280,
+    "chapter": 2,
+    "question": "Để giảm hao mòn vô hình, nhà tư bản cần?",
+    "options": [
+      "Kéo dài thời gian dùng máy",
+      "Tăng tốc độ khai thác máy để nhanh thu hồi vốn",
+      "Không dùng máy nữa",
+      "Bán máy cũ ngay"
+    ],
+    "answer": 1,
+    "explain": "Tăng tốc độ khai thác máy để nhanh thu hồi vốn"
+  },
+  {
+    "id": 281,
+    "chapter": 2,
+    "question": "Tỷ suất lợi nhuận bình quân được tính bằng?",
+    "options": [
+      "Lãi suất bank",
+      "Tổng GTTD / Tổng tư bản xã hội",
+      "Chủ xưởng tự đặt",
+      "Do thợ làm thuê quyết định"
+    ],
+    "answer": 1,
+    "explain": "Tổng GTTD / Tổng tư bản xã hội"
+  },
+  {
+    "id": 282,
+    "chapter": 2,
+    "question": "Xu hướng giảm sút tỷ suất lợi nhuận là do?",
+    "options": [
+      "Chủ lười",
+      "Cấu tạo hữu cơ của tư bản tăng",
+      "Giá hàng giảm",
+      "Thuế tăng"
+    ],
+    "answer": 1,
+    "explain": "Cấu tạo hữu cơ của tư bản tăng"
+  },
+  {
+    "id": 283,
+    "chapter": 2,
+    "question": "Công thức của lợi nhuận bình quân là?",
+    "options": [
+      "p_bar = r' * K",
+      "p_bar = k + m",
+      "p_bar = c + v",
+      "p_bar = s * p'"
+    ],
+    "answer": 0,
+    "explain": "p_bar = r' * K"
+  },
+  {
+    "id": 284,
+    "chapter": 2,
+    "question": "Đặc điểm của tư bản thương nghiệp là?",
+    "options": [
+      "Chỉ hoạt động trong lưu thông",
+      "Vừa lưu thông vừa sản xuất",
+      "Chỉ làm nông",
+      "Làm từ thiện"
+    ],
+    "answer": 0,
+    "explain": "Chỉ hoạt động trong lưu thông"
+  },
+  {
+    "id": 285,
+    "chapter": 2,
+    "question": "Nhà tư bản thương nghiệp kiếm lời bằng cách?",
+    "options": [
+      "Bán đắt hơn giá trị",
+      "Mua hàng theo giá thấp hơn giá trị và bán theo giá trị",
+      "Ăn cắp",
+      "In tiền"
+    ],
+    "answer": 1,
+    "explain": "Mua hàng theo giá thấp hơn giá trị và bán theo giá trị"
+  },
+  {
+    "id": 286,
+    "chapter": 2,
+    "question": "Điểm giống nhau giữa địa tô chênh lệch I và II?",
+    "options": [
+      "Đều dựa trên thâm canh",
+      "Đều là phần GTTD dôi ra ngoài lợi nhuận bình quân",
+      "Đều trả cho nhà nước",
+      "Đều là do thiên nhiên"
+    ],
+    "answer": 1,
+    "explain": "Đều là phần GTTD dôi ra ngoài lợi nhuận bình quân"
+  },
+  {
+    "id": 287,
+    "chapter": 2,
+    "question": "Người trả địa tô là?",
+    "options": [
+      "Địa chủ",
+      "Nhà tư bản thuê đất kinh doanh nông nghiệp",
+      "Nông dân nghèo",
+      "Người mua rau"
+    ],
+    "answer": 1,
+    "explain": "Nhà tư bản thuê đất kinh doanh nông nghiệp"
+  },
+  {
+    "id": 288,
+    "chapter": 2,
+    "question": "Địa tô tuyệt đối có nguồn gốc từ đâu?",
+    "options": [
+      "Do đất quá tốt",
+      "Do cấu tạo hữu cơ trong nông nghiệp thấp hơn trong công nghiệp",
+      "Do nhà nước ban cho",
+      "Do giá rau đắt"
+    ],
+    "answer": 1,
+    "explain": "Do cấu tạo hữu cơ trong nông nghiệp thấp hơn trong công nghiệp"
+  },
+  {
+    "id": 289,
+    "chapter": 2,
+    "question": "Giá trị của hàng hóa nông phẩm trên thị trường do?",
+    "options": [
+      "Ruộng tốt quyết định",
+      "Điều kiện sản xuất trên ruộng xấu nhất quyết định",
+      "Điều kiện trung bình",
+      "Nhà nước quy định"
+    ],
+    "answer": 1,
+    "explain": "Điều kiện sản xuất trên ruộng xấu nhất quyết định"
+  },
+  {
+    "id": 290,
+    "chapter": 2,
+    "question": "Quốc hữu hóa ruộng đất trong CNTB dẫn đến?",
+    "options": [
+      "Xóa bỏ địa tô tuyệt đối",
+      "Xóa bỏ địa tô chênh lệch",
+      "Nông dân sung sướng",
+      "Giá nông sản tăng vọt"
+    ],
+    "answer": 0,
+    "explain": "Xóa bỏ địa tô tuyệt đối"
+  },
+  {
+    "id": 291,
+    "chapter": 2,
+    "question": "Lợi tức (z) luôn nhỏ hơn lợi nhuận bình quân vì?",
+    "options": [
+      "Ngân hàng nghèo",
+      "Người đi vay phải giữ lại một phần lợi nhuận để kinh doanh",
+      "Nhà nước thu thuế cao",
+      "Khách hàng không cho"
+    ],
+    "answer": 1,
+    "explain": "Người đi vay phải giữ lại một phần lợi nhuận để kinh doanh"
+  },
+  {
+    "id": 292,
+    "chapter": 2,
+    "question": "Tín dụng thương mại là?",
+    "options": [
+      "Ngân hàng cho dân vay",
+      "Các nhà tư bản sản xuất kinh doanh cho nhau vay hàng hóa",
+      "Vay tiền mua quà",
+      "Vay tiền trả lương"
+    ],
+    "answer": 1,
+    "explain": "Các nhà tư bản sản xuất kinh doanh cho nhau vay hàng hóa"
+  },
+  {
+    "id": 293,
+    "chapter": 2,
+    "question": "Tín dụng ngân hàng là?",
+    "options": [
+      "Vay rau ở chợ",
+      "Vay vốn qua trung gian ngân hàng",
+      "Mượn xe bạn",
+      "Lấy lương sớm"
+    ],
+    "answer": 1,
+    "explain": "Vay vốn qua trung gian ngân hàng"
+  },
+  {
+    "id": 294,
+    "chapter": 2,
+    "question": "Chứng khoán có giá trị?",
+    "options": [
+      "Thực",
+      "Giả (ảo)",
+      "Không có giá trị",
+      "Bằng vàng"
+    ],
+    "answer": 1,
+    "explain": "Giả (ảo)"
+  },
+  {
+    "id": 295,
+    "chapter": 2,
+    "question": "Cổ phiếu là gì?",
+    "options": [
+      "Giấy nhận nợ",
+      "Chứng chỉ xác nhận quyền sở hữu một phần vốn của công ty",
+      "Lời hứa",
+      "Hợp đồng lao động"
+    ],
+    "answer": 1,
+    "explain": "Chứng chỉ xác nhận quyền sở hữu một phần vốn của công ty"
+  },
+  {
+    "id": 296,
+    "chapter": 2,
+    "question": "Trái phiếu là gì?",
+    "options": [
+      "Giấy sở hữu",
+      "Chứng thư xác nhận nghĩa vụ nợ của người phát hành",
+      "Thẻ thành viên",
+      "Tiền mặt"
+    ],
+    "answer": 1,
+    "explain": "Chứng thư xác nhận nghĩa vụ nợ của người phát hành"
+  },
+  {
+    "id": 297,
+    "chapter": 2,
+    "question": "GTSD của hàng hóa sức lao động được tiêu dùng trong?",
+    "options": [
+      "Lưu thông",
+      "Sản xuất",
+      "Lúc ngủ",
+      "Lúc đi chơi"
+    ],
+    "answer": 1,
+    "explain": "Sản xuất"
+  },
+  {
+    "id": 298,
+    "chapter": 2,
+    "question": "Tư bản ứng trước (K) bao gồm?",
+    "options": [
+      "c + v",
+      "v + m",
+      "c + m",
+      "Chỉ có tiền mặt"
+    ],
+    "answer": 0,
+    "explain": "c + v"
+  },
+  {
+    "id": 299,
+    "chapter": 2,
+    "question": "Mối quan hệ giữa p' và m'?",
+    "options": [
+      "Giống nhau",
+      "p' luôn nhỏ hơn m'",
+      "p' luôn lớn hơn m'",
+      "Không liên quan"
+    ],
+    "answer": 1,
+    "explain": "p' luôn nhỏ hơn m'"
+  },
+  {
+    "id": 300,
+    "chapter": 2,
+    "question": "Sự ra đời của CNTB dựa trên?",
+    "options": [
+      "Tích lũy nguyên thủy tư bản",
+      "Sự chăm chỉ",
+      "Thượng đế ban cho",
+      "Sự công bằng"
+    ],
+    "answer": 0,
+    "explain": "Tích lũy nguyên thủy tư bản"
+  }
 ]

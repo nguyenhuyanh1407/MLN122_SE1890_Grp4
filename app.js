@@ -608,6 +608,21 @@ document.addEventListener('DOMContentLoaded', async function () {
     detailPanel.classList.add('open');
     document.body.classList.add('detail-open');
     gsap.fromTo(detailPanel, { y: '120%', x: '0%' }, { y: '0%', x: '0%', duration: 0.6, ease: 'expo.out' });
+
+    // Position timeline next to the open detail panel and update active mark
+    try {
+      if (timelineContainer) timelineContainer.classList.add('at-panel');
+      if (data && data.id) updateTimeline(data.id);
+      // ensure the active timeline mark is visible
+      setTimeout(function () {
+        var active = document.querySelector('.timeline-mark.active');
+        if (active && active.scrollIntoView) {
+          active.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' });
+        }
+      }, 250);
+    } catch (e) {
+      console.warn('Timeline positioning/update failed', e);
+    }
   }
 
   function hideDetails() {
